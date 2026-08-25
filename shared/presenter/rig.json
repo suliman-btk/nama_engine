@@ -1,0 +1,104 @@
+{
+  "$comment": [
+    "Presenter rig contract. This file is the ONLY place that knows how a given",
+    "character asset is put together. Swapping in a different Lottie presenter",
+    "should mean editing this file - not the renderer and not any lesson data.",
+    "",
+    "production/scripts/build_presenter_lottie.py reads this to decide how to bake",
+    "per-scene animation. src/presenter/Presenter.tsx reads nothing from here at",
+    "render time: lip-sync is resolved at BUILD time by design (deterministic, and",
+    "far cheaper than solving visemes per frame)."
+  ],
+
+  "active": "act-presenter-v1",
+
+  "presenters": {
+    "act-presenter-v1": {
+      "label": "ACT presenter (current, approved in Lesson 1)",
+      "source": "shared/presenter/character-source.json",
+      "kind": "single-file",
+
+      "$comment_kind": [
+        "single-file  = one Lottie holding the whole character; actions are",
+        "               expressed by re-timing its own layers (what we do today).",
+        "action-clips = a folder of one Lottie per action (idle/talking/point-left",
+        "               ...). Set kind to this and fill `clips` when a professional",
+        "               asset arrives. The builder picks the clip named by the",
+        "               scene's presenter.action and injects visemes into it."
+      ],
+
+      "clips": {},
+
+      "mouth": {
+        "supported": true,
+        "mode": "derived-shapes",
+        "$comment_mode": [
+          "viseme-layers  = the asset already contains one drawn mouth per viseme.",
+          "                 Preferred. Map them in `viseme_layers` and the builder",
+          "                 toggles opacity per Rhubarb cue.",
+          "derived-shapes = the asset has too few mouths (ours has 3), so we derive",
+          "                 a full set by scaling its widest mouth. Current approach.",
+          "none           = no usable mouth. Builder falls back to the asset's own",
+          "                 talking loop. NEVER fall back to volume-based faking."
+        ],
+        "layer_ind": 4,
+        "viseme_layers": {},
+        "closed_visemes": ["X", "A"],
+        "derived_scale": {
+          "B": [0.86, 0.30],
+          "C": [0.92, 0.74],
+          "D": [0.96, 1.28],
+          "E": [0.60, 1.06],
+          "F": [0.42, 0.86],
+          "G": [0.82, 0.22],
+          "H": [0.74, 0.60]
+        },
+        "jaw_drop_factor": 2.6,
+        "snap_frames": 1
+      },
+
+      "eyes": {
+        "layer_inds": [18, 19],
+        "$comment": "Source blink is a DOUBLE blink (~0.48s, two closures) which flickers when re-timed. Re-authored as one human blink.",
+        "blink_cycle": [[0, "open"], [4, "closed"], [6, "closed"], [11, "open"]],
+        "blink_intervals": [138, 174, 150, 204, 162, 186]
+      },
+
+      "brows": {
+        "layer_ind": 7,
+        "$comment": "Source twitch is 0.6s with an overshoot - reads as nervous. Slowed and softened.",
+        "cycle": [[0, 0.0], [18, 2.4], [38, -0.8], [58, 0.0]],
+        "intervals": [312, 396, 348, 432]
+      },
+
+      "recolor": {
+        "#58556C": "#E9E1CE",
+        "#383546": "#C9BEA4",
+        "#67627E": "#F6F1E4"
+      },
+
+      "layout": {
+        "size": 660,
+        "bottom": -46,
+        "edge_inset": 0,
+        "shadow_width": 330,
+        "faces_into_content": true
+      },
+
+      "actions": {
+        "$comment": "Vocabulary a scene may request. This character has no arms, so gestures resolve to a head lean; a rigged asset can map these to real clips.",
+        "idle":        { "lean": 0,  "nod": false },
+        "talking":     { "lean": 0,  "nod": false },
+        "explain":     { "lean": 0,  "nod": false },
+        "welcome":     { "lean": -3, "nod": false },
+        "point-left":  { "lean": -4, "nod": false },
+        "point-right": { "lean": 4,  "nod": false },
+        "thinking":    { "lean": 5,  "nod": false },
+        "nod":         { "lean": 0,  "nod": true  },
+        "encouraging": { "lean": -2, "nod": false },
+        "concerned":   { "lean": 3,  "nod": false },
+        "closing":     { "lean": -3, "nod": false }
+      }
+    }
+  }
+}

@@ -41,3 +41,8 @@ Thumbs.db
 # (kept on disk until the new engine reproduces Lesson 1)
 lessons/*/assets/scene-renders/
 _golden/*/assets/scene-renders/
+
+# engine render staging (rebuilt by render_lesson.py)
+production/remotion-engine/public/lessons/
+production/remotion-engine/src/data/render-manifest.json
+lessons/*/presenter/
