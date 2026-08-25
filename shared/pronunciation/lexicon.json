@@ -1,0 +1,34 @@
+[
+  {
+    "key": "basmala",
+    "display": "Bismillah ar-Rahman ar-Raheem",
+    "language": "ar",
+    "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "spoken_as": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    "notes": "The full Basmala. At the curriculum owner's request this is now the ONLY Arabic phrase in the lesson opening — 'Alhamdulillah' and the salawat were removed from scene-003 (see review-notes.md). The other entries are kept because they are still referenced elsewhere in the lexicon/history."
+  },
+  {
+    "key": "bismillah",
+    "display": "Bismillah",
+    "language": "ar",
+    "arabic": "بِسْمِ اللَّهِ",
+    "spoken_as": "بِسْمِ اللَّهِ",
+    "notes": "Standard, universally-known Islamic phrase ('In the name of Allah'). Source: ACT Trainer Manual p.30 names it explicitly as '(Bismallah)'. Used in Lesson 1 narration."
+  },
+  {
+    "key": "alhamdulillah",
+    "display": "Alhamdulillah",
+    "language": "ar",
+    "arabic": "الْحَمْدُ لِلَّهِ",
+    "spoken_as": "الْحَمْدُ لِلَّهِ",
+    "notes": "Standard, universally-known Islamic phrase ('All praise is due to Allah'). Source: ACT Trainer Manual p.30 names it explicitly as '(Al Hamdu Li Allah)'. Used in Lesson 1 narration."
+  },
+  {
+    "key": "salawat-on-the-prophet",
+    "display": "Peace and blessings be upon him",
+    "language": "ar",
+    "arabic": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+    "spoken_as": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+    "notes": "Standard, universally-known Islamic salutation said after mentioning the Prophet Muhammad, same category of standard phrase as 'bismillah' and 'alhamdulillah'. The Trainer Manual (p.30) instructs the trainer to pray upon the Prophet and only gives the English gloss 'Peace be Upon Him', without supplying Arabic text itself — this entry supplies the standard, unambiguous Arabic form of that same standard salutation (not an invented phrase). Used in Lesson 1 narration in place of the English-only gloss."
+  }
+]

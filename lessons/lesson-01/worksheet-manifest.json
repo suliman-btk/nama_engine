@@ -1,0 +1,46 @@
+[
+  {
+    "id": "icebreaker-three-things",
+    "name": "Three Things About Me (Icebreaker cut-outs)",
+    "source": "ACT Trainer Manual p.28-29 / ACT Curriculum Slide 19",
+    "source_location": "manual page 28-29 / slide 19",
+    "purpose": "Help participants identify and share one hobby, one skill, and one personal trait each, as a getting-to-know-you warm-up before the self-awareness journey begins.",
+    "video_instruction": "Pause the video and write three things about yourself (one hobby, one skill, one trait) on paper, one per line or one per small cut-out.",
+    "estimated_activity_minutes": 5,
+    "status": "adapted-no-extraction-needed",
+    "notes": "Not a formal printed worksheet in the source — just a simple written prompt. No dedicated fillable graphic exists beyond the decorative blank sticky-note on slide 19."
+  },
+  {
+    "id": "safe-space-ground-rules",
+    "name": "My Safe Space Commitments",
+    "source": "ACT Trainer Manual p.33-34",
+    "source_location": "manual page 33-34 / slide 21",
+    "purpose": "Establish shared ground rules for respectful, open participation; in the original delivery this is a live group vote written on a flipchart and signed by everyone.",
+    "video_instruction": "If watching in a group: discuss and agree on ground rules together, write them down, and have everyone sign. If watching alone: pause and write down the two or three commitments you personally agree to.",
+    "estimated_activity_minutes": 3,
+    "status": "adapted-no-extraction-needed",
+    "notes": "No pre-printed worksheet exists in the source — the flipchart is filled in live during the session. The video adaptation substitutes a personal reflection prompt for solo viewers."
+  },
+  {
+    "id": "pre-workshop-survey",
+    "name": "Pre-Workshop Survey",
+    "source": "ACT Trainer Manual p.35 / ACT Curriculum Slide 22 (activity description only — questions drafted separately, see notes)",
+    "source_location": "manual page 35 (activity description only, no questions) / slide 22 ('2 - Questionnaire', title only)",
+    "purpose": "Evaluate participants' existing knowledge of the program before it begins, for later before/after comparison. Explicitly ungraded.",
+    "video_instruction": "Pause the video and rate yourself 1-5 on five statements: 'I understand what ACT is and what it's for.' / 'I could name at least one of the four units in this program.' / 'I know what the challenge zone means.' / 'I feel confident stepping outside my comfort zone.' / 'I'm excited to start this program.'",
+    "estimated_activity_minutes": 3,
+    "status": "resolved-drafted",
+    "notes": "The original survey questions were never found in either source. These five statements were drafted as a reasonable, generic, ungraded stand-in that fulfills the activity's stated purpose (a before/after knowledge check). They are NOT the original curriculum's survey content — please swap in the real survey if one exists, or approve these as final. See review-notes.md."
+  },
+  {
+    "id": "zones-scenario-decisions",
+    "name": "Which Zone Would You Choose?",
+    "source": "ACT Trainer Manual p.37",
+    "source_location": "manual page 37 / slides 23-29",
+    "purpose": "Walk participants through five real-life-style scenarios, deciding for each whether it falls in their Comfort, Challenge, or Pain zone, to make the zones framework concrete before discussing it.",
+    "video_instruction": "Pause the video after all five scenarios are presented, and decide (mentally or on paper) which zone you'd be in for each one.",
+    "estimated_activity_minutes": 5,
+    "status": "needs-extraction",
+    "notes": "The five scenario photos exist in the PowerPoint (slides 24-29) but need to be extracted and their scenario-to-slide order confirmed — see asset-manifest.json and review-notes.md."
+  }
+]

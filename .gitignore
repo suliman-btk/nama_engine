@@ -1,0 +1,43 @@
+# ── dependencies ───────────────────────────────────────────────
+node_modules/
+.npm/
+*.log
+
+# ── rendered video / audio (regenerable, large) ────────────────
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.aiff
+lessons/*/output/
+production/*-render-out/
+_golden/*/APPROVED-OUTPUT/
+
+# ── generated intermediates (rebuilt by production/scripts) ────
+lessons/*/audio/edge-raw/
+lessons/*/audio/_tmp/
+production/remotion-*/public/audio/
+production/remotion-*/public/lottie/scenes/
+production/remotion-*/public/visemes/
+production/remotion-*/src/data/visemes-all.json
+
+# ── remotion / build caches ────────────────────────────────────
+.remotion/
+out/
+build/
+dist/
+.cache/
+
+# ── large binary tooling (rebuild per production-guidelines) ───
+production/tools/rhubarb/rhubarb
+production/tools/rhubarb/res/
+
+# ── OS noise ───────────────────────────────────────────────────
+.DS_Store
+._*
+Thumbs.db
+
+# superseded PNG frame dumps from the pre-Remotion ffmpeg pipeline
+# (kept on disk until the new engine reproduces Lesson 1)
+lessons/*/assets/scene-renders/
+_golden/*/assets/scene-renders/
