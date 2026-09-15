@@ -95,6 +95,7 @@ export const GraphicComponent = z.enum([
   "QuestionSlide",
   "VideoLinkSlide",
   "OutroSlide",
+  "PhotoGridSlide",
 ]);
 export type GraphicComponent = z.infer<typeof GraphicComponent>;
 

@@ -16,6 +16,6 @@
     "src/edl/resolveAnchors.ts",
     "src/edl/enforceLayoutRules.ts",
     "src/presenter/layoutConfig.ts",
-    "src/data/lesson-08-edl.ts"
+    "src/data/lesson-*-edl.ts"
   ]
 }
