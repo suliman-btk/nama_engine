@@ -31,10 +31,10 @@ export function PhotoGridSlide({
     <div style={{ opacity }}>
       <SlideFrame kicker={kicker} lessonLabel={lessonLabel}>
         <div style={{ position: "absolute", left: edges.left, right: edges.right, top: 118, bottom: 70 }}>
-          <div style={{ ...fadeUp(local, 0, 12), color: theme.colors.cream, fontFamily: theme.headingFamily, fontWeight: theme.headingWeight, fontSize: 38, lineHeight: 1.1, marginBottom: 22 }}>
+          <div style={{ ...fadeUp(local, 0, 12), color: theme.colors.cream, fontFamily: theme.headingFamily, fontWeight: theme.headingWeight, fontSize: 38, lineHeight: 1.1, marginBottom: 60, paddingRight: 230 }}>
             {title}
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, height: 690 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, height: 650 }}>
             {images.slice(0, 4).map((image, index) => {
               const arrive = fadeUp(local, 8 + index * 7, 12);
               const scale = interpolate(local, [0, Math.max(1, window.durationInFrames)], [1.02, 1.075], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
