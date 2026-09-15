@@ -85,13 +85,23 @@ const lesson09EdlInput: EdlInput = {
       avatar: { layout: "PresenterLeft", camera: "medium" },
       transitionIn: "soft-push-right",
       events: [{
-        id: "four-cases-official-placeholder",
+        id: "four-cases-official-photos",
         anchor: { atPhrase: "Think about four very different cases" },
         action: "show",
-        component: "StatementSlide",
-        props: { kicker: "Four different situations", headline: "Tree · Student · Horse · Carpenter", emphasize: ["Tree", "Student", "Horse", "Carpenter"], variant: "bar", lessonLabel: LABEL },
+        component: "PhotoGridSlide",
+        position: "right",
+        props: {
+          kicker: "Four different situations",
+          title: "What does each one need?",
+          lessonLabel: LABEL,
+          images: [
+            { src: "lesson-assets/lesson-09/official-slide-146/tree.jpeg", label: "Tree" },
+            { src: "lesson-assets/lesson-09/official-slide-146/student.jpeg", label: "Student" },
+            { src: "lesson-assets/lesson-09/official-slide-146/horse.jpeg", label: "Horse" },
+            { src: "lesson-assets/lesson-09/official-slide-146/carpenter.jpeg", label: "Carpenter" },
+          ],
+        },
       }],
-      reviewRequired: "Replace this temporary typography card with the four official slide-146 photos after the reusable PhotoGridSlide component is added on main.",
     },
     {
       sceneId: "s2-beat",
@@ -246,16 +256,8 @@ const lesson09EdlInput: EdlInput = {
     },
 
     {
-      sceneId: "s5-open",
-      start: { atSeconds: 170.948 },
-      end: { atPhrase: "Imagine the people you want" },
-      avatar: { layout: "PresenterClose", camera: "close" },
-      transitionIn: "section-reveal",
-      events: [],
-    },
-    {
       sceneId: "s5-mismatch",
-      start: { atPhrase: "Imagine the people you want" },
+      start: { atSeconds: 170.948 },
       end: { atSeconds: 185.108 },
       avatar: { layout: "PresenterRight", camera: "medium" },
       transitionIn: "soft-push-left",
@@ -287,7 +289,7 @@ const lesson09EdlInput: EdlInput = {
         action: "show",
         component: "KeyStatement",
         position: "left",
-        props: { statement: "Support should fit the barrier people face", emphasis: "fit the barrier" },
+        props: { text: "Support should fit the barrier people face", emphasize: ["fit", "barrier"] },
       }],
     },
     {
@@ -363,7 +365,7 @@ const lesson09EdlInput: EdlInput = {
         action: "show",
         component: "KeyStatement",
         position: "right",
-        props: { statement: "A clear need opens more than one possible answer", emphasis: "more than one" },
+        props: { text: "A clear need opens more than one possible answer", emphasize: ["more", "than", "one"] },
       }],
     },
 
@@ -409,7 +411,7 @@ const lesson09EdlInput: EdlInput = {
         action: "show",
         component: "KeyStatement",
         position: "left",
-        props: { statement: "Taking time now can prevent building the wrong thing later", emphasis: "prevent building the wrong thing" },
+        props: { text: "Taking time now can prevent building the wrong thing later", emphasize: ["prevent", "wrong"] },
       }],
     },
     {
@@ -422,16 +424,8 @@ const lesson09EdlInput: EdlInput = {
     },
 
     {
-      sceneId: "s8-open",
-      start: { atSeconds: 300.916 },
-      end: { atPhrase: "keep three things together" },
-      avatar: { layout: "PresenterFull", camera: "wide" },
-      transitionIn: "section-reveal",
-      events: [],
-    },
-    {
       sceneId: "s8-three-things",
-      start: { atPhrase: "keep three things together" },
+      start: { atSeconds: 300.916 },
       end: { atPhrase: "You may still improve them" },
       avatar: { layout: "PresenterLeft", camera: "medium" },
       transitionIn: "soft-push-right",
@@ -463,7 +457,7 @@ const lesson09EdlInput: EdlInput = {
         action: "show",
         component: "KeyStatement",
         position: "right",
-        props: { statement: "The right tool works when it matches the real need", emphasis: "matches the real need" },
+        props: { text: "The right tool works when it matches the real need", emphasize: ["matches", "real", "need"] },
       }],
     },
     {
