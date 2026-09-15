@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { AbsoluteFill, Freeze, OffthreadVideo, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, OffthreadVideo, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { EdlScene } from "../edl/schema";
 import { LAYOUTS, type LayoutBox } from "./layoutConfig";
 import { Stage } from "./Stage";
@@ -35,12 +35,7 @@ export function PresenterLayer({
 
   const box = useCurrentLayoutBox(scenes, t, fps);
   const transitionMotion = usePresenterTransition(scenes, t, fps);
-  const sourceWipe = getSourceCutWipe(sourceCutSeconds, t, fps);
-  const outgoingBox = useCurrentLayoutBox(
-    scenes,
-    sourceWipe ? Math.max(0, sourceWipe.cut - 1 / fps) : t,
-    fps,
-  );
+  const sourceBlur = getSourceCutBlur(sourceCutSeconds, t);
 
   return (
     <AbsoluteFill>
@@ -48,22 +43,16 @@ export function PresenterLayer({
       {/* Outer wrapper carries the transition move, inner carries the layout box — kept
           apart so the two transforms compose instead of overwriting each other. */}
       <AbsoluteFill style={{ ...transitionMotion, willChange: "transform, opacity" }}>
-        <PresenterVideoBox box={box} videoSrc={videoSrc} />
-      </AbsoluteFill>
-
-      {sourceWipe ? (
         <AbsoluteFill
           style={{
-            pointerEvents: "none",
-            maskImage: sourceWipe.mask,
-            WebkitMaskImage: sourceWipe.mask,
+            transform: `scale(${sourceBlur.scale})`,
+            filter: `blur(${sourceBlur.blurPx}px)`,
+            willChange: "transform, filter",
           }}
         >
-          <Freeze frame={sourceWipe.outgoingFrame}>
-            <PresenterVideoBox box={outgoingBox} videoSrc={videoSrc} />
-          </Freeze>
+          <PresenterVideoBox box={box} videoSrc={videoSrc} />
         </AbsoluteFill>
-      ) : null}
+      </AbsoluteFill>
     </AbsoluteFill>
   );
 }
@@ -285,26 +274,19 @@ function useCurrentLayoutBox(scenes: EdlScene[], t: number, fps: number): Animat
   }, [scenes, t, fps]);
 }
 
-/** A clean post-cut picture wipe. The last outgoing frame covers the new shot, then a soft
- * vertical boundary travels left to right to reveal it. There is no tint, decoration, or
- * double-image blend, and the separately mounted narration audio remains continuous. */
-function getSourceCutWipe(
-  cuts: number[],
-  t: number,
-  fps: number,
-): { cut: number; outgoingFrame: number; mask: string } | null {
-  const DUR = 0.9;
+/** Hides an avatar-generation seam without combining two mismatched faces. The outgoing shot
+ * softens and gently enlarges into the cut; the incoming shot resolves symmetrically. */
+function getSourceCutBlur(cuts: number[], t: number): { scale: number; blurPx: number } {
+  const DUR = 0.6;
   for (const cut of cuts) {
-    const d = t - cut;
-    if (d >= 0 && d < DUR) {
-      const p = d / DUR;
-      const eased = p * p * (3 - 2 * p);
-      const edge = eased * 108 - 4;
-      const mask = `linear-gradient(to right, transparent 0%, transparent ${edge - 2}%, rgba(0,0,0,0.45) ${edge}%, black ${edge + 2}%, black 100%)`;
-      return { cut, outgoingFrame: Math.max(0, Math.floor(cut * fps) - 1), mask };
+    const distance = Math.abs(t - cut);
+    if (distance <= DUR / 2) {
+      const linear = 1 - distance / (DUR / 2);
+      const eased = linear * linear * (3 - 2 * linear);
+      return { scale: 1 + eased * 0.045, blurPx: eased * 14 };
     }
   }
-  return null;
+  return { scale: 1, blurPx: 0 };
 }
 
 /** Feathers the inner edge of a split layout. Without this the video ends on a hard vertical
