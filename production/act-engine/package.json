@@ -1,0 +1,26 @@
+{
+  "name": "act-video-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Provider-independent ACT lesson video editing engine: locked script + real timing + avatar footage -> EDL -> deterministic Remotion render.",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "still": "remotion still src/index.ts",
+    "check": "tsc -p tsconfig.check.json && node .check/scripts/check-lesson.js",
+    "word-timing": "node scripts/build-word-timing.mjs",
+    "stills": "node render-all-stills.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.521",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.521",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.1",
+    "typescript": "5.5.4"
+  }
+}

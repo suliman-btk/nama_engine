@@ -1,0 +1,470 @@
+{
+  "scene-001": {
+    "section": "Opening",
+    "avatar": {
+      "layout": "full",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "takeover",
+        "component": "QuestionCard",
+        "atPhrase": "Think about a problem you see around you",
+        "durationSeconds": 7,
+        "props": {
+          "text": "WHAT PROBLEM DO YOU SEE AROUND YOU?",
+          "kicker": "UNIT 3 — SOCIAL PROBLEMS"
+        }
+      },
+      {
+        "kind": "takeover",
+        "component": "StatementCard",
+        "atPhrase": "A social issue is simply a problem",
+        "durationSeconds": 6,
+        "props": {
+          "headline": "A problem affecting a community, large or small.",
+          "kicker": "SOCIAL ISSUE",
+          "variant": 0
+        }
+      },
+      {
+        "kind": "list",
+        "atPhrase": "jump straight to a solution",
+        "durationSeconds": 6,
+        "kicker": "WRONG ORDER",
+        "title": "Solution first ✕",
+        "items": [
+          "Understand issue",
+          "Define it",
+          "Research it",
+          "Later: design solution"
+        ]
+      },
+      {
+        "kind": "list",
+        "atPhrase": "what is happening, who is affected",
+        "durationSeconds": 6,
+        "kicker": "ASK YOURSELF",
+        "title": "Four questions",
+        "items": [
+          "What?",
+          "Who?",
+          "Where?",
+          "How is it changing?"
+        ]
+      }
+    ],
+    "transitionOut": {
+      "kind": "section-reveal",
+      "scope": "full-frame",
+      "durationFrames": 18
+    }
+  },
+  "scene-002": {
+    "section": "Case Example",
+    "avatar": {
+      "layout": "corner",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "takeover",
+        "component": "StatementCard",
+        "atPhrase": "lions were attacking livestock",
+        "durationSeconds": 6,
+        "props": {
+          "headline": "A REAL COMMUNITY ISSUE",
+          "kicker": "CASE EXAMPLE",
+          "variant": 1
+        }
+      },
+      {
+        "kind": "takeover",
+        "component": "VideoLinkCard",
+        "atPhrase": "Pause here and watch",
+        "durationSeconds": 7,
+        "props": {
+          "caption": "My Invention That Made Peace With Lions",
+          "kicker": "PAUSE HERE",
+          "url": "https://www.youtube.com/watch?v=RAoo--SeUIk"
+        }
+      },
+      {
+        "kind": "list",
+        "atPhrase": "notice what changed",
+        "durationSeconds": 7,
+        "kicker": "NOTICE",
+        "items": [
+          "What was the actual issue?",
+          "Why were early attempts not enough?",
+          "What changed after deeper understanding?"
+        ]
+      },
+      {
+        "kind": "takeover",
+        "component": "QuoteCard",
+        "atPhrase": "is not enough by itself",
+        "durationSeconds": 6,
+        "props": {
+          "text": "EFFORT + UNDERSTANDING + ADAPTATION",
+          "kicker": "KEY TAKEAWAY"
+        }
+      }
+    ],
+    "transitionOut": {
+      "kind": "soft-push-left",
+      "scope": "coordinated",
+      "durationFrames": 14
+    }
+  },
+  "scene-003": {
+    "section": "Choose Your Issue",
+    "avatar": {
+      "layout": "corner",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "list",
+        "atPhrase": "Look at the problems you noticed before",
+        "durationSeconds": 6,
+        "kicker": "FROM YOUR LESSON 7 SOCIETY MAP",
+        "items": [
+          "Strengths / opportunities",
+          "Problems",
+          "Possible reasons"
+        ]
+      },
+      {
+        "kind": "list",
+        "atPhrase": "Pick one issue and write it down",
+        "durationSeconds": 6,
+        "kicker": "MAKE YOUR SHORTLIST",
+        "items": [
+          "Issue 1",
+          "Issue 2",
+          "Issue 3",
+          "Issue 4"
+        ]
+      },
+      {
+        "kind": "list",
+        "atPhrase": "Ask yourself",
+        "durationSeconds": 6,
+        "kicker": "CHOOSE WISELY",
+        "items": [
+          "Meaningful?",
+          "Researchable?",
+          "Willing to keep working on it?"
+        ]
+      }
+    ],
+    "transitionOut": {
+      "kind": "scale-through",
+      "scope": "coordinated",
+      "durationFrames": 14
+    }
+  },
+  "scene-004": {
+    "section": "Issue Statement Formula",
+    "avatar": {
+      "layout": "corner",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "takeover",
+        "component": "StatementCard",
+        "atPhrase": "answers five simple things",
+        "durationSeconds": 2.5,
+        "props": {
+          "headline": "CHANGE + SUBJECT + WHO + WHERE + WHEN",
+          "kicker": "THE FORMULA",
+          "variant": 1
+        }
+      },
+      {
+        "kind": "card",
+        "atPhrase": "First: what is changing",
+        "durationSeconds": 3.5,
+        "kicker": "1 · CHANGE",
+        "title": "What is changing?",
+        "body": "increase / decrease / spread / peak / etc."
+      },
+      {
+        "kind": "card",
+        "atPhrase": "Second: what exactly is the problem",
+        "durationSeconds": 3.5,
+        "kicker": "2 · SUBJECT",
+        "title": "What exactly is the issue?"
+      },
+      {
+        "kind": "card",
+        "atPhrase": "Third: who is affected",
+        "durationSeconds": 3.5,
+        "kicker": "3 · WHO",
+        "title": "Who is affected?"
+      },
+      {
+        "kind": "card",
+        "atPhrase": "Fourth: where is it happening",
+        "durationSeconds": 3.5,
+        "kicker": "4 · WHERE",
+        "title": "Where is it happening?"
+      },
+      {
+        "kind": "card",
+        "atPhrase": "Fifth: when is it happening",
+        "durationSeconds": 3.5,
+        "kicker": "5 · WHEN",
+        "title": "When is it happening?",
+        "body": "only when relevant"
+      }
+    ],
+    "transitionOut": {
+      "kind": "mask-wipe",
+      "scope": "main-canvas",
+      "durationFrames": 14
+    }
+  },
+  "scene-005": {
+    "section": "Issue Statement Formula",
+    "avatar": {
+      "layout": "corner",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "takeover",
+        "component": "StatementCard",
+        "atPhrase": "The increase in the number of high school dropouts",
+        "durationSeconds": 8,
+        "props": {
+          "headline": "The increase in the number of high school dropouts in Jeddah in 2015",
+          "kicker": "WORKED EXAMPLE",
+          "variant": 1
+        }
+      },
+      {
+        "kind": "takeover",
+        "component": "QuoteCard",
+        "atPhrase": "A clear sentence makes the next steps easier",
+        "durationSeconds": 6,
+        "props": {
+          "text": "PRECISE ISSUE → BETTER QUESTIONS → BETTER RESEARCH → BETTER SOLUTION LATER",
+          "kicker": "WHY PRECISION MATTERS"
+        }
+      }
+    ],
+    "transitionOut": {
+      "kind": "crossfade",
+      "scope": "coordinated",
+      "durationFrames": 14
+    },
+    "whisperVocabHint": "Jeddah"
+  },
+  "scene-006": {
+    "section": "Issue Statement Formula",
+    "avatar": {
+      "layout": "corner",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "card",
+        "atPhrase": "Now try it with your own issue",
+        "durationSeconds": 6,
+        "kicker": "SENTENCE BUILDER",
+        "title": "Write your own issue statement",
+        "body": "[Change] + [Subject] + [Who] + [Where] + [When, if relevant]"
+      },
+      {
+        "kind": "takeover",
+        "component": "ActivityPauseCard",
+        "atPhrase": "when it happens if that matters",
+        "durationSeconds": 7,
+        "props": {
+          "caption": "PAUSE HERE",
+          "sub": "Write one clear issue statement.",
+          "kicker": "YOUR TURN"
+        }
+      },
+      {
+        "kind": "list",
+        "atPhrase": "read it again as if someone else wrote it",
+        "durationSeconds": 6,
+        "kicker": "SELF-CHECK",
+        "items": [
+          "Would you understand the problem from that one sentence?",
+          "Is anything too broad?",
+          "Is anything missing?"
+        ]
+      },
+      {
+        "kind": "takeover",
+        "component": "QuoteCard",
+        "atPhrase": "A good issue statement gives your research a direction",
+        "durationSeconds": 6,
+        "props": {
+          "text": "CLEAR ISSUE = CLEARER DIRECTION",
+          "kicker": "KEY TAKEAWAY"
+        }
+      }
+    ],
+    "transitionOut": {
+      "kind": "dip-to-brand",
+      "scope": "full-frame",
+      "durationFrames": 18
+    }
+  },
+  "scene-007": {
+    "section": "Research",
+    "avatar": {
+      "layout": "corner",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "card",
+        "atPhrase": "spend some time learning more about the issue",
+        "durationSeconds": 5,
+        "kicker": "STEP 1",
+        "title": "Describe the issue"
+      },
+      {
+        "kind": "card",
+        "atPhrase": "how it affects people",
+        "durationSeconds": 5,
+        "kicker": "STEP 2",
+        "title": "Understand its effect"
+      },
+      {
+        "kind": "card",
+        "atPhrase": "what may happen if nothing changes",
+        "durationSeconds": 5,
+        "kicker": "STEP 3",
+        "title": "Consider what happens if it continues"
+      },
+      {
+        "kind": "card",
+        "atPhrase": "reliable websites, reports, local information",
+        "durationSeconds": 5,
+        "kicker": "STEP 4",
+        "title": "Use relevant information"
+      },
+      {
+        "kind": "lower",
+        "atPhrase": "you want to take photos, be respectful",
+        "durationSeconds": 6,
+        "title": "Responsible documentation",
+        "body": "Ask permission before photographing or sharing identifiable people."
+      },
+      {
+        "kind": "takeover",
+        "component": "QuoteCard",
+        "atPhrase": "Change your understanding instead of forcing the facts to fit it",
+        "durationSeconds": 6,
+        "props": {
+          "text": "RESEARCH SHOULD CHALLENGE YOUR ASSUMPTIONS",
+          "kicker": "KEY TAKEAWAY"
+        }
+      }
+    ],
+    "transitionOut": {
+      "kind": "soft-push-right",
+      "scope": "presenter-card",
+      "durationFrames": 14
+    }
+  },
+  "scene-008": {
+    "section": "Research",
+    "avatar": {
+      "layout": "corner",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "card",
+        "atPhrase": "your original issue statement is too wide or not quite right",
+        "durationSeconds": 6,
+        "kicker": "REVISE IF NEEDED",
+        "title": "Version 1 → New evidence → Improved version"
+      },
+      {
+        "kind": "takeover",
+        "component": "WorksheetCard",
+        "atPhrase": "keep your notes simple",
+        "durationSeconds": 7,
+        "props": {
+          "caption": "One-page research summary",
+          "kicker": "SUMMARIZE YOUR FINDINGS",
+          "items": [
+            "Issue",
+            "Who it affects",
+            "How it affects them",
+            "Strongest information found"
+          ]
+        }
+      },
+      {
+        "kind": "takeover",
+        "component": "QuoteCard",
+        "atPhrase": "Good research should make your thinking clearer",
+        "durationSeconds": 6,
+        "props": {
+          "text": "GOOD RESEARCH SHOULD MAKE YOUR THINKING CLEARER",
+          "kicker": "KEY TAKEAWAY"
+        }
+      }
+    ],
+    "transitionOut": {
+      "kind": "clean-cut",
+      "scope": "coordinated",
+      "durationFrames": 8
+    }
+  },
+  "scene-009": {
+    "section": "Closing",
+    "avatar": {
+      "layout": "full",
+      "position": "right"
+    },
+    "visualEvents": [
+      {
+        "kind": "takeover",
+        "component": "SummaryCard",
+        "atPhrase": "one issue you want to work on",
+        "durationSeconds": 7,
+        "props": {
+          "caption": "What you should have now",
+          "kicker": "LESSON RECAP",
+          "points": [
+            "One chosen issue",
+            "One precise issue statement",
+            "One research summary/plan"
+          ]
+        }
+      },
+      {
+        "kind": "card",
+        "atPhrase": "A problem tells you what is going wrong",
+        "durationSeconds": 6,
+        "kicker": "PROBLEM → NEED",
+        "title": "A problem tells you what is going wrong.",
+        "body": "A need tells you what would help."
+      },
+      {
+        "kind": "takeover",
+        "component": "OutroCard",
+        "atPhrase": "In the next part",
+        "durationSeconds": 6,
+        "props": {
+          "caption": "NEXT: UNDERSTANDING THE REAL NEED",
+          "kicker": "COMING UP",
+          "next": "Lesson 9"
+        }
+      }
+    ],
+    "transitionOut": null
+  }
+}

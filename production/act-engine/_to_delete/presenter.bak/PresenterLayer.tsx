@@ -1,0 +1,275 @@
+import React, { useMemo } from "react";
+import { AbsoluteFill, OffthreadVideo, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import type { EdlScene } from "../edl/schema";
+import { LAYOUTS, type LayoutBox } from "./layoutConfig";
+import { Stage } from "./Stage";
+import { theme } from "../components/theme";
+
+/**
+ * The avatar footage as ONE continuous video layer spanning the whole lesson — never re-cut
+ * into per-scene clips — moving between layouts with a spring, per rule 3 ("transitions
+ * between these states must feel smooth and intentional").
+ *
+ * A single <OffthreadVideo> for the entire composition, transformed with CSS rather than
+ * re-encoded per scene, is a deliberate departure from the old ffmpeg zoompan+overlay
+ * pipeline (see video-editing-engine-spec.md "A/V drift"): there is no second pass, no
+ * frame-rate reconciliation and no dropped frames to audit, so picture cannot drift from
+ * audio.
+ *
+ * Behind it sits the <Stage> — the blurred, brand-washed copy of the same footage that
+ * fills whatever the presenter vacates, so the frame is never empty black.
+ */
+export function PresenterLayer({
+  scenes,
+  videoSrc,
+  sourceCutSeconds = [],
+}: {
+  scenes: EdlScene[]; // resolved (atSeconds) start/end + avatar.layout
+  videoSrc: string;
+  /** Hard cuts inside the footage itself, where the presenter's pose jumps mid-sentence. */
+  sourceCutSeconds?: number[];
+}) {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+
+  const box = useCurrentLayoutBox(scenes, t, fps);
+  const transitionMotion = usePresenterTransition(scenes, t, fps);
+  const cutCover = useSourceCutCover(sourceCutSeconds, t);
+
+  return (
+    <AbsoluteFill>
+
+      {/* Outer wrapper carries the transition move, inner carries the layout box — kept
+          apart so the two transforms compose instead of overwriting each other. */}
+      <AbsoluteFill style={{ ...transitionMotion, willChange: "transform, opacity" }}>
+      <div
+        style={{
+          position: "absolute",
+          left: `${box.xPct}%`,
+          top: `${box.yPct}%`,
+          width: `${box.wPct}%`,
+          height: `${box.hPct}%`,
+          borderRadius: box.radiusPx,
+          overflow: "hidden",
+          boxShadow: box.shadow ? "0 26px 70px rgba(0,0,0,0.55)" : undefined,
+          // A hairline edge so a corner/split card reads as a deliberate frame rather than
+          // a video that got cut off.
+          outline: box.radiusPx > 0 ? `2px solid ${theme.colors.panelEdge}` : undefined,
+          outlineOffset: -2,
+          transform: [box.mirror ? "scaleX(-1)" : "", cutCover.transform].filter(Boolean).join(" ") || undefined,
+          opacity: box.opacity * cutCover.opacity,
+          ...featherMask(box),
+        }}
+      >
+        <OffthreadVideo
+          src={videoSrc}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: `50% ${box.objectPosY}%`,
+            transform: `scale(${box.objectScale})`,
+          }}
+        />
+      </div>
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+}
+
+/** The stage renders BELOW the slides, the presenter ABOVE them — so a corner presenter sits
+ * on top of a full-frame slide, which is the look this course uses for most of its runtime.
+ * They share one layout calculation, hence two exports rather than one component. */
+/** True while the presenter occupies the bottom-right corner, so slides can inset their
+ * content out of its way. Published rather than assumed: a slide has no other way to know
+ * what the presenter is doing on the frame above it, and guessing is what put a headline
+ * underneath the avatar. */
+export function useCornerPresenterActive(scenes: EdlScene[]): boolean {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const box = useCurrentLayoutBox(scenes, frame / fps, fps);
+  // wide enough to matter, small enough to be a corner, and actually visible
+  return box.opacity > 0.05 && box.wPct < 60 && box.xPct > 40;
+}
+
+export function StageLayer({
+  scenes,
+  videoSrc,
+  coveredBySlide,
+}: {
+  scenes: EdlScene[];
+  videoSrc: string;
+  /** True while an opaque full-frame slide is covering the stage completely. */
+  coveredBySlide?: boolean;
+}) {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const box = useCurrentLayoutBox(scenes, frame / fps, fps);
+  // Now that slides are opaque and full-frame, the stage is invisible for most of the lesson
+  // — but it would still decode and blur a second copy of the 1080p video on every one of
+  // those frames. Skipping it while it is covered is the single biggest saving in the render.
+  const intensity = coveredBySlide ? 0 : box.stageIntensity;
+  return <Stage videoSrc={videoSrc} intensity={intensity} />;
+}
+
+/**
+ * The presenter's share of the transition.
+ *
+ * A transition that moves only the slide reads as two unrelated things happening: the
+ * graphic changes, the avatar sits there untouched. So the presenter card takes the same
+ * move as the slide it sits on — travelling with a push, opening with a section-reveal,
+ * settling with a dip.
+ *
+ * Deliberately smaller in amplitude than the slide's move, and never fading below a floor:
+ * the presenter is continuous footage of a person talking, and dropping it out entirely is
+ * how the old veil-based transitions ended up blanking the frame. It should feel like the
+ * whole composition re-seats, not like the presenter disappears and comes back.
+ */
+function usePresenterTransition(scenes: EdlScene[], t: number, fps: number): React.CSSProperties {
+  const idx = findSceneIndex(scenes, t);
+  const scene = scenes[idx];
+  if (idx === 0) return {};
+
+  const preset = scene.transitionIn;
+  if (preset === "clean-cut") return {};
+
+  const durations: Record<string, number> = {
+    "section-reveal": 0.62,
+    "soft-push-left": 0.48,
+    "soft-push-right": 0.48,
+    crossfade: 0.42,
+    "dip-to-brand": 0.42,
+    "scale-through": 0.45,
+    "mask-wipe": 0.55,
+  };
+  const dur = durations[preset] ?? 0.45;
+
+  // Starts fractionally before the cut, matching the slide's lead-in, so the presenter is
+  // already moving when the new slide arrives rather than reacting to it.
+  const lead = 0.36;
+  const since = t - (scene.start.atSeconds ?? 0) + lead;
+  if (since < 0 || since > dur + lead) return {};
+
+  const p = 1 - Math.pow(1 - Math.min(1, Math.max(0, since / (dur + lead))), 3);
+  const fade = 0.4 + p * 0.6; // never below 0.4 — the presenter stays legible throughout
+
+  switch (preset) {
+    case "soft-push-left":
+      return { transform: `translateX(${(1 - p) * 14}%)`, opacity: fade };
+    case "soft-push-right":
+      return { transform: `translateX(${(1 - p) * -14}%)`, opacity: fade };
+    case "section-reveal":
+      // matches the slide's centre-band open
+      return {
+        clipPath: `inset(${(1 - p) * 50}% 0% ${(1 - p) * 50}% 0%)`,
+        transform: `scale(${0.96 + p * 0.04})`,
+      };
+    case "mask-wipe":
+      return { clipPath: `inset(0% ${(1 - p) * 100}% 0% 0%)` };
+    case "scale-through":
+      return { transform: `scale(${1.06 - p * 0.06})`, opacity: fade };
+    case "dip-to-brand":
+      return { transform: `scale(${0.94 + p * 0.06})`, opacity: fade };
+    case "crossfade":
+      return { opacity: fade };
+    default:
+      return { opacity: fade };
+  }
+}
+
+type AnimatedBox = LayoutBox & { opacity: number; mirror: boolean };
+
+/** How long the presenter takes to travel between two layouts. Long enough to read as a
+ * move rather than a jump; short enough not to hold up the narration. */
+const TRANSITION_SECONDS = 0.85;
+
+function useCurrentLayoutBox(scenes: EdlScene[], t: number, fps: number): AnimatedBox {
+  return useMemo(() => {
+    const idx = findSceneIndex(scenes, t);
+    const scene = scenes[idx];
+    const prevScene = idx > 0 ? scenes[idx - 1] : undefined;
+
+    const target = LAYOUTS[scene.avatar.layout];
+    const targetMirror = !!scene.avatar.mirror;
+
+    const sceneStart = scene.start.atSeconds ?? 0;
+    const timeIntoScene = t - sceneStart;
+
+    if (!prevScene || timeIntoScene > TRANSITION_SECONDS || prevScene.avatar.layout === scene.avatar.layout) {
+      return { ...target, opacity: target.hidden ? 0 : 1, mirror: targetMirror };
+    }
+
+    const prev = LAYOUTS[prevScene.avatar.layout];
+    const progress = spring({
+      frame: Math.round(timeIntoScene * fps),
+      fps,
+      config: { damping: 200, mass: 0.9 },
+      durationInFrames: Math.round(TRANSITION_SECONDS * fps),
+    });
+
+    const lerp = (a: number, b: number) => interpolate(progress, [0, 1], [a, b]);
+
+    return {
+      xPct: lerp(prev.xPct, target.xPct),
+      yPct: lerp(prev.yPct, target.yPct),
+      wPct: lerp(prev.wPct, target.wPct),
+      hPct: lerp(prev.hPct, target.hPct),
+      objectScale: lerp(prev.objectScale, target.objectScale),
+      objectPosY: lerp(prev.objectPosY, target.objectPosY),
+      radiusPx: lerp(prev.radiusPx, target.radiusPx),
+      featherLeft: lerp(prev.featherLeft, target.featherLeft),
+      featherRight: lerp(prev.featherRight, target.featherRight),
+      stageIntensity: lerp(prev.stageIntensity, target.stageIntensity),
+      shadow: target.shadow || prev.shadow,
+      opacity: lerp(prev.hidden ? 0 : 1, target.hidden ? 0 : 1),
+      hidden: false,
+      fullBleed: target.fullBleed && prev.fullBleed,
+      mirror: targetMirror,
+    };
+  }, [scenes, t, fps]);
+}
+
+/**
+ * Covers a hard cut inside the SOURCE footage — the moments where the avatar tool joined two
+ * generated clips and the presenter's pose visibly jumps mid-sentence.
+ *
+ * This used to be a navy veil drawn over the ENTIRE frame, which dimmed the slide, the text
+ * and the branding along with it — the picture looked like it was browning out for no reason
+ * the viewer could see. The jump is only ever in the presenter's own picture, so the cover
+ * belongs on the presenter card alone: a fast scale-through, a quarter of a second, with the
+ * card never dropping below 70% opacity. The slide behind it is untouched.
+ */
+function useSourceCutCover(cuts: number[], t: number): { transform: string; opacity: number } {
+  const DUR = 0.26;
+  for (const cut of cuts) {
+    const d = t - (cut - DUR / 2);
+    if (d >= 0 && d <= DUR) {
+      const p = d / DUR;
+      const bell = Math.sin(p * Math.PI); // 0 -> 1 -> 0, peaking on the cut
+      return { transform: `scale(${1 + bell * 0.05})`, opacity: 1 - bell * 0.3 };
+    }
+  }
+  return { transform: "", opacity: 1 };
+}
+
+/** Feathers the inner edge of a split layout. Without this the video ends on a hard vertical
+ * line against the stage, which reads as a crop rather than a composition. */
+function featherMask(box: AnimatedBox): React.CSSProperties {
+  const l = box.featherLeft;
+  const r = box.featherRight;
+  if (l < 0.02 && r < 0.02) return {};
+  const stops = [
+    l > 0.02 ? `rgba(0,0,0,0) 0%, rgba(0,0,0,1) ${(l * 9).toFixed(2)}%` : "rgba(0,0,0,1) 0%",
+    r > 0.02 ? `rgba(0,0,0,1) ${(100 - r * 9).toFixed(2)}%, rgba(0,0,0,0) 100%` : "rgba(0,0,0,1) 100%",
+  ].join(", ");
+  const mask = `linear-gradient(to right, ${stops})`;
+  return { maskImage: mask, WebkitMaskImage: mask };
+}
+
+function findSceneIndex(scenes: EdlScene[], t: number): number {
+  for (let i = scenes.length - 1; i >= 0; i--) {
+    if ((scenes[i].start.atSeconds ?? 0) <= t) return i;
+  }
+  return 0;
+}

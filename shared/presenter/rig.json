@@ -9,15 +9,12 @@
     "render time: lip-sync is resolved at BUILD time by design (deterministic, and",
     "far cheaper than solving visemes per frame)."
   ],
-
   "active": "act-presenter-v1",
-
   "presenters": {
     "act-presenter-v1": {
       "label": "ACT presenter (current, approved in Lesson 1)",
       "source": "shared/presenter/character-source.json",
       "kind": "single-file",
-
       "$comment_kind": [
         "single-file  = one Lottie holding the whole character; actions are",
         "               expressed by re-timing its own layers (what we do today).",
@@ -26,9 +23,7 @@
         "               asset arrives. The builder picks the clip named by the",
         "               scene's presenter.action and injects visemes into it."
       ],
-
       "clips": {},
-
       "mouth": {
         "supported": true,
         "mode": "derived-shapes",
@@ -43,40 +38,123 @@
         ],
         "layer_ind": 4,
         "viseme_layers": {},
-        "closed_visemes": ["X", "A"],
+        "closed_visemes": [
+          "X",
+          "A"
+        ],
         "derived_scale": {
-          "B": [0.86, 0.30],
-          "C": [0.92, 0.74],
-          "D": [0.96, 1.28],
-          "E": [0.60, 1.06],
-          "F": [0.42, 0.86],
-          "G": [0.82, 0.22],
-          "H": [0.74, 0.60]
+          "B": [
+            0.86,
+            0.3
+          ],
+          "C": [
+            0.92,
+            0.74
+          ],
+          "D": [
+            0.96,
+            1.28
+          ],
+          "E": [
+            0.6,
+            1.06
+          ],
+          "F": [
+            0.42,
+            0.86
+          ],
+          "G": [
+            0.82,
+            0.22
+          ],
+          "H": [
+            0.74,
+            0.6
+          ]
         },
         "jaw_drop_factor": 2.6,
-        "snap_frames": 1
+        "jaw_bias": 0.28,
+        "corner_pull": 0.2,
+        "snap_frames": 1,
+        "$comment_jaw": [
+          "jaw_drop_factor: how much extra vertical drop a taller viseme gets, on",
+          "top of its own scale - a taller mouth drops the jaw rather than just",
+          "growing symmetrically.",
+          "jaw_bias (0-1): how much of that vertical change/offset an UPPER-lip",
+          "vertex receives relative to a lower one. Low = upper lip stays almost",
+          "fixed and the lower lip/jaw does the opening, like a real mouth.",
+          "corner_pull (0-1+): extra horizontal scale at the mouth's corners",
+          "versus its centreline, so a wide viseme visibly pulls the corners and a",
+          "round one visibly pinches them, instead of every viseme looking like",
+          "the same shape at a different size."
+        ]
       },
-
       "eyes": {
-        "layer_inds": [18, 19],
+        "layer_inds": [
+          18,
+          19
+        ],
         "$comment": "Source blink is a DOUBLE blink (~0.48s, two closures) which flickers when re-timed. Re-authored as one human blink.",
-        "blink_cycle": [[0, "open"], [4, "closed"], [6, "closed"], [11, "open"]],
-        "blink_intervals": [138, 174, 150, 204, 162, 186]
+        "blink_cycle": [
+          [
+            0,
+            "open"
+          ],
+          [
+            4,
+            "closed"
+          ],
+          [
+            6,
+            "closed"
+          ],
+          [
+            11,
+            "open"
+          ]
+        ],
+        "blink_intervals": [
+          138,
+          174,
+          150,
+          204,
+          162,
+          186
+        ]
       },
-
       "brows": {
         "layer_ind": 7,
         "$comment": "Source twitch is 0.6s with an overshoot - reads as nervous. Slowed and softened.",
-        "cycle": [[0, 0.0], [18, 2.4], [38, -0.8], [58, 0.0]],
-        "intervals": [312, 396, 348, 432]
+        "cycle": [
+          [
+            0,
+            0.0
+          ],
+          [
+            18,
+            2.4
+          ],
+          [
+            38,
+            -0.8
+          ],
+          [
+            58,
+            0.0
+          ]
+        ],
+        "intervals": [
+          312,
+          396,
+          348,
+          432
+        ]
       },
-
       "recolor": {
         "#58556C": "#E9E1CE",
         "#383546": "#C9BEA4",
         "#67627E": "#F6F1E4"
       },
-
       "layout": {
         "size": 660,
         "bottom": -46,
@@ -84,20 +162,52 @@
         "shadow_width": 330,
         "faces_into_content": true
       },
-
       "actions": {
         "$comment": "Vocabulary a scene may request. This character has no arms, so gestures resolve to a head lean; a rigged asset can map these to real clips.",
-        "idle":        { "lean": 0,  "nod": false },
-        "talking":     { "lean": 0,  "nod": false },
-        "explain":     { "lean": 0,  "nod": false },
-        "welcome":     { "lean": -3, "nod": false },
-        "point-left":  { "lean": -4, "nod": false },
-        "point-right": { "lean": 4,  "nod": false },
-        "thinking":    { "lean": 5,  "nod": false },
-        "nod":         { "lean": 0,  "nod": true  },
-        "encouraging": { "lean": -2, "nod": false },
-        "concerned":   { "lean": 3,  "nod": false },
-        "closing":     { "lean": -3, "nod": false }
+        "idle": {
+          "lean": 0,
+          "nod": false
+        },
+        "talking": {
+          "lean": 0,
+          "nod": false
+        },
+        "explain": {
+          "lean": 0,
+          "nod": false
+        },
+        "welcome": {
+          "lean": -3,
+          "nod": false
+        },
+        "point-left": {
+          "lean": -4,
+          "nod": false
+        },
+        "point-right": {
+          "lean": 4,
+          "nod": false
+        },
+        "thinking": {
+          "lean": 5,
+          "nod": false
+        },
+        "nod": {
+          "lean": 0,
+          "nod": true
+        },
+        "encouraging": {
+          "lean": -2,
+          "nod": false
+        },
+        "concerned": {
+          "lean": 3,
+          "nod": false
+        },
+        "closing": {
+          "lean": -3,
+          "nod": false
+        }
       }
     }
   }

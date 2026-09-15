@@ -1,0 +1,5660 @@
+{
+  "schemaVersion": 1,
+  "lesson": "lesson-08",
+  "mode": "avatar-scenes",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalSeconds": 371.216327,
+  "warnings": [
+    "scene-001 preserves unknown performance cue [curiosity]",
+    "scene-002 preserves unknown performance cue [interest]",
+    "scene-002 preserves unknown performance cue [medium pause]",
+    "scene-003 preserves unknown performance cue [thoughtful]",
+    "scene-004 preserves unknown performance cue [interest]",
+    "scene-005 preserves unknown performance cue [curiosity]",
+    "scene-005 preserves unknown performance cue [medium pause]",
+    "scene-006 preserves unknown performance cue [positive]",
+    "scene-006 preserves unknown performance cue [medium pause]",
+    "scene-008 preserves unknown performance cue [thoughtful]",
+    "scene-009 preserves unknown performance cue [slow pace]"
+  ],
+  "scenes": [
+    {
+      "id": "scene-001",
+      "section": "Opening",
+      "pureText": "Hi, and welcome back to Act. Think about a problem you see around you. Maybe it happens in your neighborhood, your university, your workplace, or somewhere else in your community. Before trying to fix it, there is one important step: make sure you understand what the problem really is. A social issue is simply a problem that affects a group of people or a community. It is easy to jump straight to a solution because that feels active. But if the problem is not clear, the solution can miss the point. So start with a few simple questions: what is happening, who is affected, where is it happening, and is it getting better, worse, or staying the same?",
+      "performanceText": "[natural pace] [curiosity] [natural] Hi, and welcome back to Act. Think about a problem you see around you. Maybe it happens in your neighborhood, your university, your workplace, or somewhere else in your community. Before trying to fix it, there is one important step: make sure you understand what the problem really is. A social issue is simply a problem that affects a group of people or a community. [short pause] It is easy to jump straight to a solution because that feels active. But if the problem is not clear, the solution can miss the point. So start with a few simple questions: what is happening, who is affected, where is it happening, and is it getting better, worse, or staying the same?",
+      "durationSeconds": 39.9,
+      "avatar": {
+        "src": "avatar/scene-001.mp4",
+        "layout": "full",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "takeover",
+          "component": "QuestionCard",
+          "atPhrase": "Think about a problem you see around you",
+          "durationSeconds": 7,
+          "props": {
+            "text": "WHAT PROBLEM DO YOU SEE AROUND YOU?",
+            "kicker": "UNIT 3 — SOCIAL PROBLEMS"
+          },
+          "startFrame": 87,
+          "endFrame": 297
+        },
+        {
+          "kind": "takeover",
+          "component": "StatementCard",
+          "atPhrase": "A social issue is simply a problem",
+          "durationSeconds": 6,
+          "props": {
+            "headline": "A problem affecting a community, large or small.",
+            "kicker": "SOCIAL ISSUE",
+            "variant": 0
+          },
+          "startFrame": 535,
+          "endFrame": 715
+        },
+        {
+          "kind": "list",
+          "atPhrase": "jump straight to a solution",
+          "durationSeconds": 6,
+          "kicker": "WRONG ORDER",
+          "title": "Solution first ✕",
+          "items": [
+            "Understand issue",
+            "Define it",
+            "Research it",
+            "Later: design solution"
+          ],
+          "startFrame": 704,
+          "endFrame": 884
+        },
+        {
+          "kind": "list",
+          "atPhrase": "what is happening, who is affected",
+          "durationSeconds": 6,
+          "kicker": "ASK YOURSELF",
+          "title": "Four questions",
+          "items": [
+            "What?",
+            "Who?",
+            "Where?",
+            "How is it changing?"
+          ],
+          "startFrame": 988,
+          "endFrame": 1168
+        }
+      ],
+      "words": [
+        {
+          "w": "Hi,",
+          "t": 0.0,
+          "d": 0.6
+        },
+        {
+          "w": "and",
+          "t": 0.82,
+          "d": 0.20000000000000007
+        },
+        {
+          "w": "welcome",
+          "t": 1.02,
+          "d": 0.26
+        },
+        {
+          "w": "back",
+          "t": 1.28,
+          "d": 0.32000000000000006
+        },
+        {
+          "w": "to",
+          "t": 1.6,
+          "d": 0.24
+        },
+        {
+          "w": "Act.",
+          "t": 1.84,
+          "d": 0.3400000000000001
+        },
+        {
+          "w": "Think",
+          "t": 2.9,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "about",
+          "t": 3.06,
+          "d": 0.21999999999999975
+        },
+        {
+          "w": "a",
+          "t": 3.28,
+          "d": 0.1200000000000001
+        },
+        {
+          "w": "problem",
+          "t": 3.4,
+          "d": 0.3599999999999999
+        },
+        {
+          "w": "you",
+          "t": 3.76,
+          "d": 0.2200000000000002
+        },
+        {
+          "w": "see",
+          "t": 3.98,
+          "d": 0.19999999999999973
+        },
+        {
+          "w": "around",
+          "t": 4.18,
+          "d": 0.28000000000000025
+        },
+        {
+          "w": "you.",
+          "t": 4.46,
+          "d": 0.21999999999999975
+        },
+        {
+          "w": "Maybe",
+          "t": 5.06,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "it",
+          "t": 5.3,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "happens",
+          "t": 5.44,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "in",
+          "t": 5.72,
+          "d": 0.1800000000000006
+        },
+        {
+          "w": "your",
+          "t": 5.9,
+          "d": 0.09999999999999964
+        },
+        {
+          "w": "neighborhood,",
+          "t": 6.0,
+          "d": 0.40000000000000036
+        },
+        {
+          "w": "your",
+          "t": 6.86,
+          "d": 0.1200000000000001
+        },
+        {
+          "w": "university,",
+          "t": 6.98,
+          "d": 0.5399999999999991
+        },
+        {
+          "w": "your",
+          "t": 7.86,
+          "d": 0.13999999999999968
+        },
+        {
+          "w": "workplace,",
+          "t": 8.0,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "or",
+          "t": 8.72,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "somewhere",
+          "t": 8.88,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "else",
+          "t": 9.24,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "in",
+          "t": 9.48,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "your",
+          "t": 9.6,
+          "d": 0.09999999999999964
+        },
+        {
+          "w": "community.",
+          "t": 9.7,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "Before",
+          "t": 10.74,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "trying",
+          "t": 11.16,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "to",
+          "t": 11.58,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "fix",
+          "t": 11.7,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "it,",
+          "t": 11.92,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "there",
+          "t": 12.22,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "is",
+          "t": 12.44,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "one",
+          "t": 12.58,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "important",
+          "t": 12.9,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "step:",
+          "t": 13.38,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "make",
+          "t": 14.2,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "sure",
+          "t": 14.48,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "you",
+          "t": 14.72,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "understand",
+          "t": 14.84,
+          "d": 0.620000000000001
+        },
+        {
+          "w": "what",
+          "t": 15.46,
+          "d": 0.3199999999999985
+        },
+        {
+          "w": "the",
+          "t": 15.78,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "problem",
+          "t": 15.9,
+          "d": 0.3399999999999981
+        },
+        {
+          "w": "really",
+          "t": 16.24,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "is.",
+          "t": 16.66,
+          "d": 0.5
+        },
+        {
+          "w": "A",
+          "t": 17.82,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "social",
+          "t": 17.96,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "issue",
+          "t": 18.26,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "is",
+          "t": 18.64,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "simply",
+          "t": 18.86,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "a",
+          "t": 19.16,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "problem",
+          "t": 19.34,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "that",
+          "t": 19.6,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "affects",
+          "t": 19.8,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "a",
+          "t": 20.06,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "group",
+          "t": 20.3,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "of",
+          "t": 20.52,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "people",
+          "t": 20.68,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "or",
+          "t": 21.0,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "a",
+          "t": 21.28,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "community.",
+          "t": 21.46,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "It",
+          "t": 22.34,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "is",
+          "t": 22.76,
+          "d": 0.13999999999999702
+        },
+        {
+          "w": "easy",
+          "t": 22.9,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "to",
+          "t": 23.28,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "jump",
+          "t": 23.46,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "straight",
+          "t": 23.66,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "to",
+          "t": 24.06,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "a",
+          "t": 24.24,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "solution",
+          "t": 24.38,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "because",
+          "t": 24.72,
+          "d": 0.40000000000000213
+        },
+        {
+          "w": "that",
+          "t": 25.12,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "feels",
+          "t": 25.44,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "active.",
+          "t": 25.7,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "But",
+          "t": 26.16,
+          "d": 0.41999999999999815
+        },
+        {
+          "w": "if",
+          "t": 26.58,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "the",
+          "t": 27.04,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "problem",
+          "t": 27.16,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "is",
+          "t": 27.5,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "not",
+          "t": 27.68,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "clear,",
+          "t": 27.82,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "the",
+          "t": 28.5,
+          "d": 0.0799999999999983
+        },
+        {
+          "w": "solution",
+          "t": 28.58,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "can",
+          "t": 28.96,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "miss",
+          "t": 29.22,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "the",
+          "t": 29.5,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "point.",
+          "t": 29.64,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "So",
+          "t": 30.46,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "start",
+          "t": 30.66,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "with",
+          "t": 31.02,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "a",
+          "t": 31.22,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "few",
+          "t": 31.32,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "simple",
+          "t": 31.52,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "questions:",
+          "t": 31.84,
+          "d": 0.41999999999999815
+        },
+        {
+          "w": "what",
+          "t": 32.94,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "is",
+          "t": 33.3,
+          "d": 0.1600000000000037
+        },
+        {
+          "w": "happening,",
+          "t": 33.46,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "who",
+          "t": 34.34,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "is",
+          "t": 34.5,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "affected,",
+          "t": 34.64,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "where",
+          "t": 35.58,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "is",
+          "t": 35.82,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "it",
+          "t": 36.04,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "happening,",
+          "t": 36.14,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "and",
+          "t": 36.82,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "is",
+          "t": 36.92,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "it",
+          "t": 37.1,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "getting",
+          "t": 37.2,
+          "d": 0.19999999999999574
+        },
+        {
+          "w": "better,",
+          "t": 37.4,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "worse,",
+          "t": 37.98,
+          "d": 0.3400000000000034
+        },
+        {
+          "w": "or",
+          "t": 38.68,
+          "d": 0.060000000000002274
+        },
+        {
+          "w": "staying",
+          "t": 38.74,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "the",
+          "t": 39.02,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "same?",
+          "t": 39.2,
+          "d": 0.17999999999999972
+        }
+      ],
+      "transitionOut": {
+        "kind": "section-reveal",
+        "scope": "full-frame",
+        "durationFrames": 18
+      },
+      "media": {
+        "durationSeconds": 39.9,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-002",
+      "section": "Case Example",
+      "pureText": "Here’s a real example. A young man lived in a place where lions were attacking livestock. He wanted to protect the animals, but his first ideas did not work. Instead of giving up, he kept watching, learning, and trying again until he understood the problem better. Pause here and watch the linked video about how he made peace with lions. While you watch, notice what changed between his first attempts and the solution that finally worked. The big lesson is simple: wanting to help is not enough by itself. You also need to understand the problem, learn from what is not working, and be ready to change your approach.",
+      "performanceText": "[natural pace] [interest] [natural] Here’s a real example. A young man lived in a place where lions were attacking livestock. He wanted to protect the animals, but his first ideas did not work. Instead of giving up, he kept watching, learning, and trying again until he understood the problem better. Pause here and watch the linked video about how he made peace with lions. [medium pause] While you watch, notice what changed between his first attempts and the solution that finally worked. The big lesson is simple: wanting to help is not enough by itself. You also need to understand the problem, learn from what is not working, and be ready to change your approach.",
+      "durationSeconds": 41.6,
+      "avatar": {
+        "src": "avatar/scene-002.mp4",
+        "layout": "corner",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "takeover",
+          "component": "StatementCard",
+          "atPhrase": "lions were attacking livestock",
+          "durationSeconds": 6,
+          "props": {
+            "headline": "A REAL COMMUNITY ISSUE",
+            "kicker": "CASE EXAMPLE",
+            "variant": 1
+          },
+          "startFrame": 111,
+          "endFrame": 291
+        },
+        {
+          "kind": "takeover",
+          "component": "VideoLinkCard",
+          "atPhrase": "Pause here and watch",
+          "durationSeconds": 7,
+          "props": {
+            "caption": "My Invention That Made Peace With Lions",
+            "kicker": "PAUSE HERE",
+            "url": "https://www.youtube.com/watch?v=RAoo--SeUIk"
+          },
+          "startFrame": 544,
+          "endFrame": 754
+        },
+        {
+          "kind": "list",
+          "atPhrase": "notice what changed",
+          "durationSeconds": 7,
+          "kicker": "NOTICE",
+          "items": [
+            "What was the actual issue?",
+            "Why were early attempts not enough?",
+            "What changed after deeper understanding?"
+          ],
+          "startFrame": 728,
+          "endFrame": 938
+        },
+        {
+          "kind": "takeover",
+          "component": "QuoteCard",
+          "atPhrase": "is not enough by itself",
+          "durationSeconds": 6,
+          "props": {
+            "text": "EFFORT + UNDERSTANDING + ADAPTATION",
+            "kicker": "KEY TAKEAWAY"
+          },
+          "startFrame": 977,
+          "endFrame": 1157
+        }
+      ],
+      "words": [
+        {
+          "w": "Here’s",
+          "t": 0.0,
+          "d": 0.56
+        },
+        {
+          "w": "a",
+          "t": 0.56,
+          "d": 0.12
+        },
+        {
+          "w": "real",
+          "t": 0.68,
+          "d": 0.2799999999999999
+        },
+        {
+          "w": "example.",
+          "t": 0.96,
+          "d": 0.43999999999999995
+        },
+        {
+          "w": "A",
+          "t": 2.02,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "young",
+          "t": 2.18,
+          "d": 0.21999999999999975
+        },
+        {
+          "w": "man",
+          "t": 2.4,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "lived",
+          "t": 2.64,
+          "d": 0.2799999999999998
+        },
+        {
+          "w": "in",
+          "t": 2.92,
+          "d": 0.18000000000000016
+        },
+        {
+          "w": "a",
+          "t": 3.1,
+          "d": 0.10000000000000009
+        },
+        {
+          "w": "place",
+          "t": 3.2,
+          "d": 0.23999999999999977
+        },
+        {
+          "w": "where",
+          "t": 3.44,
+          "d": 0.26000000000000023
+        },
+        {
+          "w": "lions",
+          "t": 3.7,
+          "d": 0.5
+        },
+        {
+          "w": "were",
+          "t": 4.2,
+          "d": 0.28000000000000025
+        },
+        {
+          "w": "attacking",
+          "t": 4.48,
+          "d": 0.39999999999999947
+        },
+        {
+          "w": "livestock.",
+          "t": 4.88,
+          "d": 0.5200000000000005
+        },
+        {
+          "w": "He",
+          "t": 5.94,
+          "d": 0.21999999999999975
+        },
+        {
+          "w": "wanted",
+          "t": 6.16,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "to",
+          "t": 6.42,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "protect",
+          "t": 6.6,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "the",
+          "t": 6.92,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "animals,",
+          "t": 7.24,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "but",
+          "t": 7.72,
+          "d": 0.2999999999999998
+        },
+        {
+          "w": "his",
+          "t": 8.02,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "first",
+          "t": 8.16,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "ideas",
+          "t": 8.48,
+          "d": 0.5
+        },
+        {
+          "w": "did",
+          "t": 8.98,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "not",
+          "t": 9.26,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "work.",
+          "t": 9.54,
+          "d": 0.3600000000000012
+        },
+        {
+          "w": "Instead",
+          "t": 10.46,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "of",
+          "t": 10.82,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "giving",
+          "t": 10.98,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "up,",
+          "t": 11.14,
+          "d": 0.29999999999999893
+        },
+        {
+          "w": "he",
+          "t": 11.76,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "kept",
+          "t": 11.88,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "watching,",
+          "t": 12.14,
+          "d": 0.4599999999999991
+        },
+        {
+          "w": "learning,",
+          "t": 13.04,
+          "d": 0.40000000000000036
+        },
+        {
+          "w": "and",
+          "t": 13.8,
+          "d": 0.05999999999999872
+        },
+        {
+          "w": "trying",
+          "t": 13.86,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "again",
+          "t": 14.18,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "until",
+          "t": 14.64,
+          "d": 0.5999999999999996
+        },
+        {
+          "w": "he",
+          "t": 15.24,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "understood",
+          "t": 15.42,
+          "d": 0.5199999999999996
+        },
+        {
+          "w": "the",
+          "t": 15.94,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "problem",
+          "t": 16.36,
+          "d": 0.5
+        },
+        {
+          "w": "better.",
+          "t": 16.86,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "Pause",
+          "t": 18.12,
+          "d": 0.4599999999999973
+        },
+        {
+          "w": "here",
+          "t": 18.58,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "and",
+          "t": 18.9,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "watch",
+          "t": 19.16,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "the",
+          "t": 19.44,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "linked",
+          "t": 19.64,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "video",
+          "t": 19.9,
+          "d": 0.40000000000000213
+        },
+        {
+          "w": "about",
+          "t": 20.3,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "how",
+          "t": 20.54,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "he",
+          "t": 20.84,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "made",
+          "t": 21.04,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "peace",
+          "t": 21.22,
+          "d": 0.40000000000000213
+        },
+        {
+          "w": "with",
+          "t": 21.62,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "lions.",
+          "t": 21.9,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "While",
+          "t": 23.04,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "you",
+          "t": 23.42,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "watch,",
+          "t": 23.62,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "notice",
+          "t": 24.26,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "what",
+          "t": 24.56,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "changed",
+          "t": 24.84,
+          "d": 0.6000000000000014
+        },
+        {
+          "w": "between",
+          "t": 25.44,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "his",
+          "t": 25.84,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "first",
+          "t": 26.06,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "attempts",
+          "t": 26.36,
+          "d": 0.40000000000000213
+        },
+        {
+          "w": "and",
+          "t": 26.76,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "the",
+          "t": 27.14,
+          "d": 0.09999999999999787
+        },
+        {
+          "w": "solution",
+          "t": 27.24,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "that",
+          "t": 27.7,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "finally",
+          "t": 27.96,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "worked.",
+          "t": 28.44,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "The",
+          "t": 29.48,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "big",
+          "t": 29.78,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "lesson",
+          "t": 30.0,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "is",
+          "t": 30.4,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "simple:",
+          "t": 30.64,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "wanting",
+          "t": 31.78,
+          "d": 0.37999999999999545
+        },
+        {
+          "w": "to",
+          "t": 32.16,
+          "d": 0.1600000000000037
+        },
+        {
+          "w": "help",
+          "t": 32.32,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "is",
+          "t": 32.58,
+          "d": 0.44000000000000483
+        },
+        {
+          "w": "not",
+          "t": 33.02,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "enough",
+          "t": 33.24,
+          "d": 0.3399999999999963
+        },
+        {
+          "w": "by",
+          "t": 33.58,
+          "d": 0.2600000000000051
+        },
+        {
+          "w": "itself.",
+          "t": 33.84,
+          "d": 0.3399999999999963
+        },
+        {
+          "w": "You",
+          "t": 34.76,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "also",
+          "t": 34.96,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "need",
+          "t": 35.34,
+          "d": 0.19999999999999574
+        },
+        {
+          "w": "to",
+          "t": 35.54,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "understand",
+          "t": 35.68,
+          "d": 0.6000000000000014
+        },
+        {
+          "w": "the",
+          "t": 36.28,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "problem,",
+          "t": 36.52,
+          "d": 0.519999999999996
+        },
+        {
+          "w": "learn",
+          "t": 37.4,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "from",
+          "t": 37.78,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "what",
+          "t": 38.06,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "is",
+          "t": 38.22,
+          "d": 0.12000000000000455
+        },
+        {
+          "w": "not",
+          "t": 38.34,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "working,",
+          "t": 38.64,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "and",
+          "t": 39.28,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "be",
+          "t": 39.46,
+          "d": 0.11999999999999744
+        },
+        {
+          "w": "ready",
+          "t": 39.58,
+          "d": 0.30000000000000426
+        },
+        {
+          "w": "to",
+          "t": 39.88,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "change",
+          "t": 40.06,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "your",
+          "t": 40.52,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "approach.",
+          "t": 40.78,
+          "d": 0.3399999999999963
+        }
+      ],
+      "transitionOut": {
+        "kind": "soft-push-left",
+        "scope": "coordinated",
+        "durationFrames": 14
+      },
+      "media": {
+        "durationSeconds": 41.6,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-003",
+      "section": "Choose Your Issue",
+      "pureText": "Now bring this back to your own community. Look at the problems you noticed before and choose one that you really want to understand better. It does not have to be the biggest problem around you. It just needs to be real, clear enough to study, and important enough that you care about it. Try not to choose something only because it sounds serious. Choose something you can actually look into. Ask yourself: who is affected by this, can I find useful information about it, and do I want to stay with this issue for the next few lessons? Pick one issue and write it down. That will be the problem you work with from here.",
+      "performanceText": "[natural pace] [thoughtful] [natural] Now bring this back to your own community. Look at the problems you noticed before and choose one that you really want to understand better. It does not have to be the biggest problem around you. It just needs to be real, clear enough to study, and important enough that you care about it. [short pause] Try not to choose something only because it sounds serious. Choose something you can actually look into. Ask yourself: who is affected by this, can I find useful information about it, and do I want to stay with this issue for the next few lessons? Pick one issue and write it down. That will be the problem you work with from here.",
+      "durationSeconds": 38.966667,
+      "avatar": {
+        "src": "avatar/scene-003.mp4",
+        "layout": "corner",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "list",
+          "atPhrase": "Look at the problems you noticed before",
+          "durationSeconds": 6,
+          "kicker": "FROM YOUR LESSON 7 SOCIETY MAP",
+          "items": [
+            "Strengths / opportunities",
+            "Problems",
+            "Possible reasons"
+          ],
+          "startFrame": 96,
+          "endFrame": 276
+        },
+        {
+          "kind": "list",
+          "atPhrase": "Pick one issue and write it down",
+          "durationSeconds": 6,
+          "kicker": "MAKE YOUR SHORTLIST",
+          "items": [
+            "Issue 1",
+            "Issue 2",
+            "Issue 3",
+            "Issue 4"
+          ],
+          "startFrame": 1022,
+          "endFrame": 1169
+        },
+        {
+          "kind": "list",
+          "atPhrase": "Ask yourself",
+          "durationSeconds": 6,
+          "kicker": "CHOOSE WISELY",
+          "items": [
+            "Meaningful?",
+            "Researchable?",
+            "Willing to keep working on it?"
+          ],
+          "startFrame": 748,
+          "endFrame": 928
+        }
+      ],
+      "words": [
+        {
+          "w": "Now",
+          "t": 0.0,
+          "d": 0.64
+        },
+        {
+          "w": "bring",
+          "t": 0.7,
+          "d": 0.3600000000000001
+        },
+        {
+          "w": "this",
+          "t": 1.06,
+          "d": 0.21999999999999997
+        },
+        {
+          "w": "back",
+          "t": 1.28,
+          "d": 0.21999999999999997
+        },
+        {
+          "w": "to",
+          "t": 1.5,
+          "d": 0.1399999999999999
+        },
+        {
+          "w": "your",
+          "t": 1.64,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "own",
+          "t": 1.8,
+          "d": 0.3600000000000001
+        },
+        {
+          "w": "community.",
+          "t": 2.16,
+          "d": 0.5
+        },
+        {
+          "w": "Look",
+          "t": 3.2,
+          "d": 0.3799999999999999
+        },
+        {
+          "w": "at",
+          "t": 3.58,
+          "d": 0.14000000000000012
+        },
+        {
+          "w": "the",
+          "t": 3.72,
+          "d": 0.07999999999999963
+        },
+        {
+          "w": "problems",
+          "t": 3.8,
+          "d": 0.3600000000000003
+        },
+        {
+          "w": "you",
+          "t": 4.16,
+          "d": 0.21999999999999975
+        },
+        {
+          "w": "noticed",
+          "t": 4.38,
+          "d": 0.28000000000000025
+        },
+        {
+          "w": "before",
+          "t": 4.66,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "and",
+          "t": 5.08,
+          "d": 0.5
+        },
+        {
+          "w": "choose",
+          "t": 5.58,
+          "d": 0.3600000000000003
+        },
+        {
+          "w": "one",
+          "t": 5.94,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "that",
+          "t": 6.2,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "you",
+          "t": 6.38,
+          "d": 0.1200000000000001
+        },
+        {
+          "w": "really",
+          "t": 6.5,
+          "d": 0.5
+        },
+        {
+          "w": "want",
+          "t": 7.0,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "to",
+          "t": 7.26,
+          "d": 0.1200000000000001
+        },
+        {
+          "w": "understand",
+          "t": 7.38,
+          "d": 0.45999999999999996
+        },
+        {
+          "w": "better.",
+          "t": 7.84,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "It",
+          "t": 8.7,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "does",
+          "t": 9.04,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "not",
+          "t": 9.3,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "have",
+          "t": 9.5,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "to",
+          "t": 9.72,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "be",
+          "t": 9.84,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "the",
+          "t": 9.98,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "biggest",
+          "t": 10.1,
+          "d": 0.40000000000000036
+        },
+        {
+          "w": "problem",
+          "t": 10.5,
+          "d": 0.5199999999999996
+        },
+        {
+          "w": "around",
+          "t": 11.02,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "you.",
+          "t": 11.32,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "It",
+          "t": 11.78,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "just",
+          "t": 12.08,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "needs",
+          "t": 12.26,
+          "d": 0.20000000000000107
+        },
+        {
+          "w": "to",
+          "t": 12.46,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "be",
+          "t": 12.68,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "real,",
+          "t": 12.8,
+          "d": 0.5
+        },
+        {
+          "w": "clear",
+          "t": 13.5,
+          "d": 0.5199999999999996
+        },
+        {
+          "w": "enough",
+          "t": 14.02,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "to",
+          "t": 14.24,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "study,",
+          "t": 14.42,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "and",
+          "t": 15.06,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "important",
+          "t": 15.3,
+          "d": 0.6199999999999992
+        },
+        {
+          "w": "enough",
+          "t": 15.92,
+          "d": 0.3199999999999985
+        },
+        {
+          "w": "that",
+          "t": 16.24,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "you",
+          "t": 16.48,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "care",
+          "t": 16.78,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "about",
+          "t": 17.16,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "it.",
+          "t": 17.4,
+          "d": 0.22000000000000242
+        },
+        {
+          "w": "Try",
+          "t": 18.24,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "not",
+          "t": 18.66,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "to",
+          "t": 18.82,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "choose",
+          "t": 18.98,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "something",
+          "t": 19.16,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "only",
+          "t": 19.5,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "because",
+          "t": 19.98,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "it",
+          "t": 20.3,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "sounds",
+          "t": 20.44,
+          "d": 0.41999999999999815
+        },
+        {
+          "w": "serious.",
+          "t": 20.86,
+          "d": 0.5600000000000023
+        },
+        {
+          "w": "Choose",
+          "t": 21.96,
+          "d": 0.41999999999999815
+        },
+        {
+          "w": "something",
+          "t": 22.38,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "you",
+          "t": 22.68,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "can",
+          "t": 22.9,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "actually",
+          "t": 23.04,
+          "d": 0.620000000000001
+        },
+        {
+          "w": "look",
+          "t": 23.66,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "into.",
+          "t": 23.92,
+          "d": 0.31999999999999673
+        },
+        {
+          "w": "Ask",
+          "t": 24.94,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "yourself:",
+          "t": 25.26,
+          "d": 0.31999999999999673
+        },
+        {
+          "w": "who",
+          "t": 26.0,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "is",
+          "t": 26.38,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "affected",
+          "t": 26.54,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "by",
+          "t": 26.9,
+          "d": 0.22000000000000242
+        },
+        {
+          "w": "this,",
+          "t": 27.12,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "can",
+          "t": 27.36,
+          "d": 0.620000000000001
+        },
+        {
+          "w": "I",
+          "t": 27.98,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "find",
+          "t": 28.14,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "useful",
+          "t": 28.42,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "information",
+          "t": 28.76,
+          "d": 0.5
+        },
+        {
+          "w": "about",
+          "t": 29.26,
+          "d": 0.31999999999999673
+        },
+        {
+          "w": "it,",
+          "t": 29.58,
+          "d": 0.18000000000000327
+        },
+        {
+          "w": "and",
+          "t": 30.18,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "do",
+          "t": 30.3,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "I",
+          "t": 30.62,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "want",
+          "t": 30.76,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "to",
+          "t": 31.0,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "stay",
+          "t": 31.12,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "with",
+          "t": 31.4,
+          "d": 0.22000000000000242
+        },
+        {
+          "w": "this",
+          "t": 31.62,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "issue",
+          "t": 31.82,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "for",
+          "t": 32.1,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "the",
+          "t": 32.28,
+          "d": 0.11999999999999744
+        },
+        {
+          "w": "next",
+          "t": 32.4,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "few",
+          "t": 32.64,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "lessons?",
+          "t": 32.88,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "Pick",
+          "t": 34.06,
+          "d": 0.19999999999999574
+        },
+        {
+          "w": "one",
+          "t": 34.26,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "issue",
+          "t": 34.68,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "and",
+          "t": 34.98,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "write",
+          "t": 35.36,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "it",
+          "t": 35.66,
+          "d": 0.12000000000000455
+        },
+        {
+          "w": "down.",
+          "t": 35.78,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "That",
+          "t": 36.56,
+          "d": 0.23999999999999488
+        },
+        {
+          "w": "will",
+          "t": 36.8,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "be",
+          "t": 36.94,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "the",
+          "t": 37.08,
+          "d": 0.12000000000000455
+        },
+        {
+          "w": "problem",
+          "t": 37.2,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "you",
+          "t": 37.5,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "work",
+          "t": 37.68,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "with",
+          "t": 37.9,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "from",
+          "t": 38.08,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "here.",
+          "t": 38.32,
+          "d": 0.259999999999998
+        }
+      ],
+      "transitionOut": {
+        "kind": "scale-through",
+        "scope": "coordinated",
+        "durationFrames": 14
+      },
+      "media": {
+        "durationSeconds": 38.966667,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-004",
+      "section": "Issue Statement Formula",
+      "pureText": "Next, make the issue more specific. A strong issue statement answers five simple things. First: what is changing? Is the problem increasing, decreasing, spreading, or staying the same? Second: what exactly is the problem? Third: who is affected? Fourth: where is it happening? Fifth: when is it happening, if time matters. You do not need fancy words. You just need a sentence that helps another person understand the problem quickly. Compare these two: “Smoking is a problem” and “Smoking is increasing among teenagers in this area.” The second one gives you much more direction for research and later for choosing a useful response.",
+      "performanceText": "[natural pace] [interest] [natural] Next, make the issue more specific. A strong issue statement answers five simple things. First: what is changing? Is the problem increasing, decreasing, spreading, or staying the same? Second: what exactly is the problem? Third: who is affected? Fourth: where is it happening? Fifth: when is it happening, if time matters. [short pause] You do not need fancy words. You just need a sentence that helps another person understand the problem quickly. Compare these two: “Smoking is a problem” and “Smoking is increasing among teenagers in this area.” The second one gives you much more direction for research and later for choosing a useful response.",
+      "durationSeconds": 43.733333,
+      "avatar": {
+        "src": "avatar/scene-004.mp4",
+        "layout": "corner",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "takeover",
+          "component": "StatementCard",
+          "atPhrase": "answers five simple things",
+          "durationSeconds": 6,
+          "props": {
+            "headline": "CHANGE + SUBJECT + WHO + WHERE + WHEN",
+            "kicker": "THE FORMULA",
+            "variant": 1
+          },
+          "startFrame": 137,
+          "endFrame": 317
+        },
+        {
+          "kind": "card",
+          "atPhrase": "First: what is changing",
+          "durationSeconds": 5,
+          "kicker": "1 · CHANGE",
+          "title": "What is changing?",
+          "body": "increase / decrease / spread / peak / etc.",
+          "startFrame": 206,
+          "endFrame": 356
+        },
+        {
+          "kind": "card",
+          "atPhrase": "Second: what exactly is the problem",
+          "durationSeconds": 5,
+          "kicker": "2 · SUBJECT",
+          "title": "What exactly is the issue?",
+          "startFrame": 407,
+          "endFrame": 557
+        },
+        {
+          "kind": "card",
+          "atPhrase": "Third: who is affected",
+          "durationSeconds": 5,
+          "kicker": "3 · WHO",
+          "title": "Who is affected?",
+          "startFrame": 494,
+          "endFrame": 644
+        },
+        {
+          "kind": "card",
+          "atPhrase": "Fourth: where is it happening",
+          "durationSeconds": 5,
+          "kicker": "4 · WHERE",
+          "title": "Where is it happening?",
+          "startFrame": 557,
+          "endFrame": 707
+        },
+        {
+          "kind": "card",
+          "atPhrase": "Fifth: when is it happening",
+          "durationSeconds": 5,
+          "kicker": "5 · WHEN",
+          "title": "When is it happening?",
+          "body": "only when relevant",
+          "startFrame": 626,
+          "endFrame": 776
+        }
+      ],
+      "words": [
+        {
+          "w": "Next,",
+          "t": 0.0,
+          "d": 0.8
+        },
+        {
+          "w": "make",
+          "t": 1.1,
+          "d": 0.19999999999999996
+        },
+        {
+          "w": "the",
+          "t": 1.3,
+          "d": 0.19999999999999996
+        },
+        {
+          "w": "issue",
+          "t": 1.5,
+          "d": 0.26
+        },
+        {
+          "w": "more",
+          "t": 1.76,
+          "d": 0.32000000000000006
+        },
+        {
+          "w": "specific.",
+          "t": 2.08,
+          "d": 0.56
+        },
+        {
+          "w": "A",
+          "t": 3.22,
+          "d": 0.1599999999999997
+        },
+        {
+          "w": "strong",
+          "t": 3.38,
+          "d": 0.3799999999999999
+        },
+        {
+          "w": "issue",
+          "t": 3.76,
+          "d": 0.3799999999999999
+        },
+        {
+          "w": "statement",
+          "t": 4.14,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "answers",
+          "t": 4.56,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "five",
+          "t": 5.04,
+          "d": 0.47999999999999954
+        },
+        {
+          "w": "simple",
+          "t": 5.52,
+          "d": 0.4200000000000008
+        },
+        {
+          "w": "things.",
+          "t": 5.94,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "First:",
+          "t": 6.88,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "what",
+          "t": 7.54,
+          "d": 0.3799999999999999
+        },
+        {
+          "w": "is",
+          "t": 7.92,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "changing?",
+          "t": 8.16,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "Is",
+          "t": 9.04,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "the",
+          "t": 9.2,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "problem",
+          "t": 9.32,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "increasing,",
+          "t": 9.6,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "decreasing,",
+          "t": 10.66,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "spreading,",
+          "t": 11.54,
+          "d": 0.3600000000000012
+        },
+        {
+          "w": "or",
+          "t": 12.24,
+          "d": 0.0600000000000005
+        },
+        {
+          "w": "staying",
+          "t": 12.3,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "the",
+          "t": 12.64,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "same?",
+          "t": 12.82,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "Second:",
+          "t": 13.58,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "what",
+          "t": 14.44,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "exactly",
+          "t": 14.58,
+          "d": 0.4599999999999991
+        },
+        {
+          "w": "is",
+          "t": 15.04,
+          "d": 0.40000000000000036
+        },
+        {
+          "w": "the",
+          "t": 15.44,
+          "d": 0.09999999999999964
+        },
+        {
+          "w": "problem?",
+          "t": 15.54,
+          "d": 0.3600000000000012
+        },
+        {
+          "w": "Third:",
+          "t": 16.48,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "who",
+          "t": 17.3,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "is",
+          "t": 17.42,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "affected?",
+          "t": 17.58,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "Fourth:",
+          "t": 18.56,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "where",
+          "t": 19.38,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "is",
+          "t": 19.54,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "it",
+          "t": 19.82,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "happening?",
+          "t": 19.92,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "Fifth:",
+          "t": 20.88,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "when",
+          "t": 21.7,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "is",
+          "t": 21.84,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "it",
+          "t": 22.06,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "happening,",
+          "t": 22.18,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "if",
+          "t": 22.74,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "time",
+          "t": 22.9,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "matters.",
+          "t": 23.14,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "You",
+          "t": 24.04,
+          "d": 0.40000000000000213
+        },
+        {
+          "w": "do",
+          "t": 24.44,
+          "d": 0.13999999999999702
+        },
+        {
+          "w": "not",
+          "t": 24.58,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "need",
+          "t": 24.88,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "fancy",
+          "t": 25.2,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "words.",
+          "t": 25.54,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "You",
+          "t": 25.88,
+          "d": 0.620000000000001
+        },
+        {
+          "w": "just",
+          "t": 26.5,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "need",
+          "t": 26.7,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "a",
+          "t": 26.86,
+          "d": 0.08000000000000185
+        },
+        {
+          "w": "sentence",
+          "t": 26.94,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "that",
+          "t": 27.26,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "helps",
+          "t": 27.54,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "another",
+          "t": 27.78,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "person",
+          "t": 28.08,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "understand",
+          "t": 28.54,
+          "d": 0.5199999999999996
+        },
+        {
+          "w": "the",
+          "t": 29.06,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "problem",
+          "t": 29.34,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "quickly.",
+          "t": 29.66,
+          "d": 0.4400000000000013
+        },
+        {
+          "w": "Compare",
+          "t": 30.58,
+          "d": 0.5200000000000031
+        },
+        {
+          "w": "these",
+          "t": 31.1,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "two:",
+          "t": 31.4,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "“Smoking",
+          "t": 32.22,
+          "d": 0.5
+        },
+        {
+          "w": "is",
+          "t": 32.72,
+          "d": 0.30000000000000426
+        },
+        {
+          "w": "a",
+          "t": 33.02,
+          "d": 0.0799999999999983
+        },
+        {
+          "w": "problem”",
+          "t": 33.1,
+          "d": 0.3399999999999963
+        },
+        {
+          "w": "and",
+          "t": 34.0,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "“Smoking",
+          "t": 34.16,
+          "d": 0.7800000000000011
+        },
+        {
+          "w": "is",
+          "t": 34.94,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "increasing",
+          "t": 35.3,
+          "d": 0.5200000000000031
+        },
+        {
+          "w": "among",
+          "t": 35.82,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "teenagers",
+          "t": 36.2,
+          "d": 0.5
+        },
+        {
+          "w": "in",
+          "t": 36.7,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "this",
+          "t": 37.0,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "area.”",
+          "t": 37.14,
+          "d": 0.3399999999999963
+        },
+        {
+          "w": "The",
+          "t": 38.2,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "second",
+          "t": 38.38,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "one",
+          "t": 38.68,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "gives",
+          "t": 38.92,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "you",
+          "t": 39.14,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "much",
+          "t": 39.3,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "more",
+          "t": 39.68,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "direction",
+          "t": 39.9,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "for",
+          "t": 40.26,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "research",
+          "t": 40.5,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "and",
+          "t": 41.26,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "later",
+          "t": 41.48,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "for",
+          "t": 41.8,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "choosing",
+          "t": 42.08,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "a",
+          "t": 42.36,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "useful",
+          "t": 42.54,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "response.",
+          "t": 42.78,
+          "d": 0.35999999999999943
+        }
+      ],
+      "transitionOut": {
+        "kind": "mask-wipe",
+        "scope": "main-canvas",
+        "durationFrames": 14
+      },
+      "media": {
+        "durationSeconds": 43.733333,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-005",
+      "section": "Issue Statement Formula",
+      "pureText": "Let’s look at one example: “The increase in the number of high school dropouts in Jeddah in 2015.” Can you spot the five parts? “Increase” tells us how the problem is changing. “High school dropouts” tells us what the issue is. “High school students” tells us who is affected. “Jeddah” tells us where. “2015” tells us when. That is much clearer than simply saying, “Students are leaving school.” A clear sentence makes the next steps easier because you know what information to search for, who you should learn from, and what part of the problem you are actually trying to understand.",
+      "performanceText": "[natural pace] [curiosity] [natural] Let’s look at one example: “The increase in the number of high school dropouts in Jeddah in 2015.” Can you spot the five parts? [short pause] “Increase” tells us how the problem is changing. “High school dropouts” tells us what the issue is. “High school students” tells us who is affected. “Jeddah” tells us where. “2015” tells us when. [medium pause] That is much clearer than simply saying, “Students are leaving school.” A clear sentence makes the next steps easier because you know what information to search for, who you should learn from, and what part of the problem you are actually trying to understand.",
+      "durationSeconds": 40.4,
+      "avatar": {
+        "src": "avatar/scene-005.mp4",
+        "layout": "corner",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "takeover",
+          "component": "StatementCard",
+          "atPhrase": "The increase in the number of high school dropouts",
+          "durationSeconds": 8,
+          "props": {
+            "headline": "The increase in the number of high school dropouts in Jeddah in 2015",
+            "kicker": "WORKED EXAMPLE",
+            "variant": 1
+          },
+          "startFrame": 79,
+          "endFrame": 319
+        },
+        {
+          "kind": "takeover",
+          "component": "QuoteCard",
+          "atPhrase": "A clear sentence makes the next steps easier",
+          "durationSeconds": 6,
+          "props": {
+            "text": "PRECISE ISSUE → BETTER QUESTIONS → BETTER RESEARCH → BETTER SOLUTION LATER",
+            "kicker": "WHY PRECISION MATTERS"
+          },
+          "startFrame": 866,
+          "endFrame": 1046
+        }
+      ],
+      "words": [
+        {
+          "w": "Let’s",
+          "t": 0.0,
+          "d": 0.68
+        },
+        {
+          "w": "look",
+          "t": 0.68,
+          "d": 0.15999999999999992
+        },
+        {
+          "w": "at",
+          "t": 0.84,
+          "d": 0.12
+        },
+        {
+          "w": "one",
+          "t": 0.96,
+          "d": 0.28
+        },
+        {
+          "w": "example:",
+          "t": 1.24,
+          "d": 0.3800000000000001
+        },
+        {
+          "w": "“The",
+          "t": 2.64,
+          "d": 0.08000000000000007
+        },
+        {
+          "w": "increase",
+          "t": 2.72,
+          "d": 0.5
+        },
+        {
+          "w": "in",
+          "t": 3.22,
+          "d": 0.3999999999999999
+        },
+        {
+          "w": "the",
+          "t": 3.62,
+          "d": 0.08000000000000007
+        },
+        {
+          "w": "number",
+          "t": 3.7,
+          "d": 0.2799999999999998
+        },
+        {
+          "w": "of",
+          "t": 3.98,
+          "d": 0.19999999999999973
+        },
+        {
+          "w": "high",
+          "t": 4.18,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "school",
+          "t": 4.4,
+          "d": 0.21999999999999975
+        },
+        {
+          "w": "dropouts",
+          "t": 4.62,
+          "d": 0.6399999999999997
+        },
+        {
+          "w": "in",
+          "t": 5.26,
+          "d": 0.28000000000000025
+        },
+        {
+          "w": "Jeddah",
+          "t": 5.54,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "in",
+          "t": 5.96,
+          "d": 0.2999999999999998
+        },
+        {
+          "w": "2015.”",
+          "t": 6.26,
+          "d": 0.6000000000000005
+        },
+        {
+          "w": "Can",
+          "t": 7.7,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "you",
+          "t": 7.96,
+          "d": 0.10000000000000053
+        },
+        {
+          "w": "spot",
+          "t": 8.06,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "the",
+          "t": 8.26,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "five",
+          "t": 8.44,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "parts?",
+          "t": 8.58,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "“Increase”",
+          "t": 10.28,
+          "d": 0.6400000000000006
+        },
+        {
+          "w": "tells",
+          "t": 10.92,
+          "d": 0.3800000000000008
+        },
+        {
+          "w": "us",
+          "t": 11.3,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "how",
+          "t": 11.52,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "the",
+          "t": 11.84,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "problem",
+          "t": 12.0,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "is",
+          "t": 12.3,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "changing.",
+          "t": 12.48,
+          "d": 0.29999999999999893
+        },
+        {
+          "w": "“High",
+          "t": 13.52,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "school",
+          "t": 13.86,
+          "d": 0.20000000000000107
+        },
+        {
+          "w": "dropouts”",
+          "t": 14.06,
+          "d": 0.6600000000000001
+        },
+        {
+          "w": "tells",
+          "t": 14.72,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "us",
+          "t": 15.08,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "what",
+          "t": 15.3,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "the",
+          "t": 15.54,
+          "d": 0.20000000000000107
+        },
+        {
+          "w": "issue",
+          "t": 15.74,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "is.",
+          "t": 15.98,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "“High",
+          "t": 16.94,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "school",
+          "t": 17.24,
+          "d": 0.22000000000000242
+        },
+        {
+          "w": "students”",
+          "t": 17.46,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "tells",
+          "t": 17.84,
+          "d": 0.5800000000000018
+        },
+        {
+          "w": "us",
+          "t": 18.42,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "who",
+          "t": 18.6,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "is",
+          "t": 18.84,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "affected.",
+          "t": 19.0,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "“Jeddah”",
+          "t": 20.04,
+          "d": 0.6400000000000006
+        },
+        {
+          "w": "tells",
+          "t": 20.68,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "us",
+          "t": 21.06,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "where.",
+          "t": 21.26,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "“2015”",
+          "t": 22.4,
+          "d": 0.6400000000000006
+        },
+        {
+          "w": "tells",
+          "t": 23.04,
+          "d": 0.6400000000000006
+        },
+        {
+          "w": "us",
+          "t": 23.68,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "when.",
+          "t": 23.88,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "That",
+          "t": 24.92,
+          "d": 0.5199999999999996
+        },
+        {
+          "w": "is",
+          "t": 25.44,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "much",
+          "t": 25.66,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "clearer",
+          "t": 26.06,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "than",
+          "t": 26.48,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "simply",
+          "t": 26.72,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "saying,",
+          "t": 27.06,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "“Students",
+          "t": 27.4,
+          "d": 0.620000000000001
+        },
+        {
+          "w": "are",
+          "t": 28.02,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "leaving",
+          "t": 28.26,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "school.”",
+          "t": 28.46,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "A",
+          "t": 28.86,
+          "d": 1.0600000000000023
+        },
+        {
+          "w": "clear",
+          "t": 29.92,
+          "d": 0.4399999999999977
+        },
+        {
+          "w": "sentence",
+          "t": 30.36,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "makes",
+          "t": 30.82,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "the",
+          "t": 31.28,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "next",
+          "t": 31.44,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "steps",
+          "t": 31.74,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "easier",
+          "t": 32.04,
+          "d": 0.5
+        },
+        {
+          "w": "because",
+          "t": 32.54,
+          "d": 0.6000000000000014
+        },
+        {
+          "w": "you",
+          "t": 33.14,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "know",
+          "t": 33.32,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "what",
+          "t": 33.46,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "information",
+          "t": 33.76,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "to",
+          "t": 34.22,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "search",
+          "t": 34.5,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "for,",
+          "t": 34.74,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "who",
+          "t": 35.4,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "you",
+          "t": 35.66,
+          "d": 0.18000000000000682
+        },
+        {
+          "w": "should",
+          "t": 35.84,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "learn",
+          "t": 36.0,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "from,",
+          "t": 36.22,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "and",
+          "t": 36.82,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "what",
+          "t": 37.04,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "part",
+          "t": 37.32,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "of",
+          "t": 37.56,
+          "d": 0.11999999999999744
+        },
+        {
+          "w": "the",
+          "t": 37.68,
+          "d": 0.0799999999999983
+        },
+        {
+          "w": "problem",
+          "t": 37.76,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "you",
+          "t": 38.08,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "are",
+          "t": 38.32,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "actually",
+          "t": 38.42,
+          "d": 0.519999999999996
+        },
+        {
+          "w": "trying",
+          "t": 38.94,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "to",
+          "t": 39.26,
+          "d": 0.12000000000000455
+        },
+        {
+          "w": "understand.",
+          "t": 39.38,
+          "d": 0.46000000000000085
+        }
+      ],
+      "transitionOut": {
+        "kind": "crossfade",
+        "scope": "coordinated",
+        "durationFrames": 14
+      },
+      "media": {
+        "durationSeconds": 40.4,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-006",
+      "section": "Issue Statement Formula",
+      "pureText": "Now try it with your own issue. Write one sentence that includes: what is changing, what the problem is, who is affected, where it happens, and when it happens if that matters. Once you finish, read it again as if someone else wrote it. Would you understand the problem from that one sentence? Is anything too broad? Is anything missing? If yes, fix it. Do not worry about making it perfect on the first try. The goal is to make it clearer than before. A good issue statement gives your research a direction. A weak one leaves you searching everywhere and still not knowing what you are really trying to solve.",
+      "performanceText": "[natural pace] [positive] [natural] Now try it with your own issue. Write one sentence that includes: what is changing, what the problem is, who is affected, where it happens, and when it happens if that matters. [medium pause] Once you finish, read it again as if someone else wrote it. Would you understand the problem from that one sentence? Is anything too broad? Is anything missing? If yes, fix it. Do not worry about making it perfect on the first try. The goal is to make it clearer than before. A good issue statement gives your research a direction. A weak one leaves you searching everywhere and still not knowing what you are really trying to solve.",
+      "durationSeconds": 38.366667,
+      "avatar": {
+        "src": "avatar/scene-006.mp4",
+        "layout": "corner",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "card",
+          "atPhrase": "Now try it with your own issue",
+          "durationSeconds": 6,
+          "kicker": "SENTENCE BUILDER",
+          "title": "Write your own issue statement",
+          "body": "[Change] + [Subject] + [Who] + [Where] + [When, if relevant]",
+          "startFrame": 0,
+          "endFrame": 180
+        },
+        {
+          "kind": "takeover",
+          "component": "ActivityPauseCard",
+          "atPhrase": "when it happens if that matters",
+          "durationSeconds": 7,
+          "props": {
+            "caption": "PAUSE HERE",
+            "sub": "Write one clear issue statement.",
+            "kicker": "YOUR TURN"
+          },
+          "startFrame": 300,
+          "endFrame": 510
+        },
+        {
+          "kind": "list",
+          "atPhrase": "read it again as if someone else wrote it",
+          "durationSeconds": 6,
+          "kicker": "SELF-CHECK",
+          "items": [
+            "Would you understand the problem from that one sentence?",
+            "Is anything too broad?",
+            "Is anything missing?"
+          ],
+          "startFrame": 404,
+          "endFrame": 584
+        },
+        {
+          "kind": "takeover",
+          "component": "QuoteCard",
+          "atPhrase": "A good issue statement gives your research a direction",
+          "durationSeconds": 6,
+          "props": {
+            "text": "CLEAR ISSUE = CLEARER DIRECTION",
+            "kicker": "KEY TAKEAWAY"
+          },
+          "startFrame": 898,
+          "endFrame": 1078
+        }
+      ],
+      "words": [
+        {
+          "w": "Now",
+          "t": 0.0,
+          "d": 0.46
+        },
+        {
+          "w": "try",
+          "t": 0.46,
+          "d": 0.27999999999999997
+        },
+        {
+          "w": "it",
+          "t": 0.74,
+          "d": 0.12
+        },
+        {
+          "w": "with",
+          "t": 0.86,
+          "d": 0.16000000000000003
+        },
+        {
+          "w": "your",
+          "t": 1.02,
+          "d": 0.15999999999999992
+        },
+        {
+          "w": "own",
+          "t": 1.18,
+          "d": 0.26
+        },
+        {
+          "w": "issue.",
+          "t": 1.44,
+          "d": 0.3800000000000001
+        },
+        {
+          "w": "Write",
+          "t": 2.32,
+          "d": 0.30000000000000027
+        },
+        {
+          "w": "one",
+          "t": 2.62,
+          "d": 0.3599999999999999
+        },
+        {
+          "w": "sentence",
+          "t": 2.98,
+          "d": 0.3599999999999999
+        },
+        {
+          "w": "that",
+          "t": 3.34,
+          "d": 0.3600000000000003
+        },
+        {
+          "w": "includes:",
+          "t": 3.7,
+          "d": 0.39999999999999947
+        },
+        {
+          "w": "what",
+          "t": 4.1,
+          "d": 0.6600000000000001
+        },
+        {
+          "w": "is",
+          "t": 4.76,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "changing,",
+          "t": 4.92,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "what",
+          "t": 5.78,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "the",
+          "t": 5.94,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "problem",
+          "t": 6.06,
+          "d": 0.34000000000000075
+        },
+        {
+          "w": "is,",
+          "t": 6.4,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "who",
+          "t": 7.18,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "is",
+          "t": 7.4,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "affected,",
+          "t": 7.6,
+          "d": 0.3800000000000008
+        },
+        {
+          "w": "where",
+          "t": 8.58,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "it",
+          "t": 8.8,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "happens,",
+          "t": 8.98,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "and",
+          "t": 9.64,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "when",
+          "t": 10.0,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "it",
+          "t": 10.26,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "happens",
+          "t": 10.4,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "if",
+          "t": 10.86,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "that",
+          "t": 10.96,
+          "d": 0.1399999999999988
+        },
+        {
+          "w": "matters.",
+          "t": 11.1,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "Once",
+          "t": 12.12,
+          "d": 0.4400000000000013
+        },
+        {
+          "w": "you",
+          "t": 12.56,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "finish,",
+          "t": 12.72,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "read",
+          "t": 13.46,
+          "d": 0.15999999999999837
+        },
+        {
+          "w": "it",
+          "t": 13.62,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "again",
+          "t": 13.76,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "as",
+          "t": 14.04,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "if",
+          "t": 14.32,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "someone",
+          "t": 14.44,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "else",
+          "t": 14.78,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "wrote",
+          "t": 15.1,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "it.",
+          "t": 15.38,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "Would",
+          "t": 16.12,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "you",
+          "t": 16.3,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "understand",
+          "t": 16.46,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "the",
+          "t": 16.94,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "problem",
+          "t": 17.16,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "from",
+          "t": 17.48,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "that",
+          "t": 17.7,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "one",
+          "t": 17.84,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "sentence?",
+          "t": 18.02,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "Is",
+          "t": 18.9,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "anything",
+          "t": 19.14,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "too",
+          "t": 19.48,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "broad?",
+          "t": 19.74,
+          "d": 0.4400000000000013
+        },
+        {
+          "w": "Is",
+          "t": 20.56,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "anything",
+          "t": 20.86,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "missing?",
+          "t": 21.22,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "If",
+          "t": 22.26,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "yes,",
+          "t": 22.42,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "fix",
+          "t": 22.98,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "it.",
+          "t": 23.22,
+          "d": 0.22000000000000242
+        },
+        {
+          "w": "Do",
+          "t": 24.0,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "not",
+          "t": 24.28,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "worry",
+          "t": 24.56,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "about",
+          "t": 24.9,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "making",
+          "t": 25.1,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "it",
+          "t": 25.34,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "perfect",
+          "t": 25.5,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "on",
+          "t": 25.84,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "the",
+          "t": 26.06,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "first",
+          "t": 26.16,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "try.",
+          "t": 26.36,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "The",
+          "t": 26.96,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "goal",
+          "t": 27.24,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "is",
+          "t": 27.52,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "to",
+          "t": 27.8,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "make",
+          "t": 27.94,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "it",
+          "t": 28.12,
+          "d": 0.0799999999999983
+        },
+        {
+          "w": "clearer",
+          "t": 28.2,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "than",
+          "t": 28.62,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "before.",
+          "t": 28.9,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "A",
+          "t": 29.92,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "good",
+          "t": 30.12,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "issue",
+          "t": 30.38,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "statement",
+          "t": 30.66,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "gives",
+          "t": 31.04,
+          "d": 0.40000000000000213
+        },
+        {
+          "w": "your",
+          "t": 31.44,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "research",
+          "t": 31.62,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "a",
+          "t": 32.0,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "direction.",
+          "t": 32.18,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "A",
+          "t": 33.16,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "weak",
+          "t": 33.3,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "one",
+          "t": 33.5,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "leaves",
+          "t": 33.76,
+          "d": 0.2600000000000051
+        },
+        {
+          "w": "you",
+          "t": 34.02,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "searching",
+          "t": 34.2,
+          "d": 0.27999999999999403
+        },
+        {
+          "w": "everywhere",
+          "t": 34.48,
+          "d": 0.6600000000000037
+        },
+        {
+          "w": "and",
+          "t": 35.14,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "still",
+          "t": 35.5,
+          "d": 0.3400000000000034
+        },
+        {
+          "w": "not",
+          "t": 35.84,
+          "d": 0.23999999999999488
+        },
+        {
+          "w": "knowing",
+          "t": 36.08,
+          "d": 0.2600000000000051
+        },
+        {
+          "w": "what",
+          "t": 36.34,
+          "d": 0.27999999999999403
+        },
+        {
+          "w": "you",
+          "t": 36.62,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "are",
+          "t": 36.82,
+          "d": 0.0799999999999983
+        },
+        {
+          "w": "really",
+          "t": 36.9,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "trying",
+          "t": 37.28,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "to",
+          "t": 37.56,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "solve.",
+          "t": 37.72,
+          "d": 0.240000000000002
+        }
+      ],
+      "transitionOut": {
+        "kind": "dip-to-brand",
+        "scope": "full-frame",
+        "durationFrames": 18
+      },
+      "media": {
+        "durationSeconds": 38.366667,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-007",
+      "section": "Research",
+      "pureText": "After that, spend some time learning more about the issue. Find out what it looks like in real life, how it affects people, and what may happen if nothing changes. You can use reliable websites, reports, local information, or conversations with people who understand the situation. If the issue is visible and you want to take photos, be respectful. Ask permission before taking or sharing photos of identifiable people. Most importantly, do not collect information just to fill a page. Use it to check your own thinking. If what you find shows that your first idea about the problem was wrong, that is useful. Change your understanding instead of forcing the facts to fit it.",
+      "performanceText": "[natural pace] [serious] [natural] After that, spend some time learning more about the issue. Find out what it looks like in real life, how it affects people, and what may happen if nothing changes. You can use reliable websites, reports, local information, or conversations with people who understand the situation. If the issue is visible and you want to take photos, be respectful. Ask permission before taking or sharing photos of identifiable people. [short pause] Most importantly, do not collect information just to fill a page. Use it to check your own thinking. If what you find shows that your first idea about the problem was wrong, that is useful. Change your understanding instead of forcing the facts to fit it.",
+      "durationSeconds": 43.9,
+      "avatar": {
+        "src": "avatar/scene-007.mp4",
+        "layout": "corner",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "card",
+          "atPhrase": "spend some time learning more about the issue",
+          "durationSeconds": 5,
+          "kicker": "STEP 1",
+          "title": "Describe the issue",
+          "startFrame": 34,
+          "endFrame": 184
+        },
+        {
+          "kind": "card",
+          "atPhrase": "how it affects people",
+          "durationSeconds": 5,
+          "kicker": "STEP 2",
+          "title": "Understand its effect",
+          "startFrame": 190,
+          "endFrame": 340
+        },
+        {
+          "kind": "card",
+          "atPhrase": "what may happen if nothing changes",
+          "durationSeconds": 5,
+          "kicker": "STEP 3",
+          "title": "Consider what happens if it continues",
+          "startFrame": 235,
+          "endFrame": 385
+        },
+        {
+          "kind": "card",
+          "atPhrase": "reliable websites, reports, local information",
+          "durationSeconds": 5,
+          "kicker": "STEP 4",
+          "title": "Use relevant information",
+          "startFrame": 334,
+          "endFrame": 484
+        },
+        {
+          "kind": "lower",
+          "atPhrase": "you want to take photos, be respectful",
+          "durationSeconds": 6,
+          "title": "Responsible documentation",
+          "body": "Ask permission before photographing or sharing identifiable people.",
+          "startFrame": 606,
+          "endFrame": 786
+        },
+        {
+          "kind": "takeover",
+          "component": "QuoteCard",
+          "atPhrase": "Change your understanding instead of forcing the facts to fit it",
+          "durationSeconds": 6,
+          "props": {
+            "text": "RESEARCH SHOULD CHALLENGE YOUR ASSUMPTIONS",
+            "kicker": "KEY TAKEAWAY"
+          },
+          "startFrame": 1196,
+          "endFrame": 1317
+        }
+      ],
+      "words": [
+        {
+          "w": "After",
+          "t": 0.0,
+          "d": 0.64
+        },
+        {
+          "w": "that,",
+          "t": 0.64,
+          "d": 0.24
+        },
+        {
+          "w": "spend",
+          "t": 1.12,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "some",
+          "t": 1.38,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "time",
+          "t": 1.62,
+          "d": 0.2799999999999998
+        },
+        {
+          "w": "learning",
+          "t": 1.9,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "more",
+          "t": 2.22,
+          "d": 0.3999999999999999
+        },
+        {
+          "w": "about",
+          "t": 2.62,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "the",
+          "t": 2.88,
+          "d": 0.18000000000000016
+        },
+        {
+          "w": "issue.",
+          "t": 3.06,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "Find",
+          "t": 4.08,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "out",
+          "t": 4.24,
+          "d": 0.20000000000000018
+        },
+        {
+          "w": "what",
+          "t": 4.44,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "it",
+          "t": 4.62,
+          "d": 0.09999999999999964
+        },
+        {
+          "w": "looks",
+          "t": 4.72,
+          "d": 0.1800000000000006
+        },
+        {
+          "w": "like",
+          "t": 4.9,
+          "d": 0.2999999999999998
+        },
+        {
+          "w": "in",
+          "t": 5.2,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "real",
+          "t": 5.36,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "life,",
+          "t": 5.56,
+          "d": 0.40000000000000036
+        },
+        {
+          "w": "how",
+          "t": 6.32,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "it",
+          "t": 6.52,
+          "d": 0.10000000000000053
+        },
+        {
+          "w": "affects",
+          "t": 6.62,
+          "d": 0.21999999999999975
+        },
+        {
+          "w": "people,",
+          "t": 6.84,
+          "d": 0.3799999999999999
+        },
+        {
+          "w": "and",
+          "t": 7.58,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "what",
+          "t": 7.84,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "may",
+          "t": 8.04,
+          "d": 0.20000000000000107
+        },
+        {
+          "w": "happen",
+          "t": 8.24,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "if",
+          "t": 8.66,
+          "d": 0.22000000000000064
+        },
+        {
+          "w": "nothing",
+          "t": 8.88,
+          "d": 0.3199999999999985
+        },
+        {
+          "w": "changes.",
+          "t": 9.2,
+          "d": 0.5600000000000005
+        },
+        {
+          "w": "You",
+          "t": 10.52,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "can",
+          "t": 10.78,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "use",
+          "t": 10.94,
+          "d": 0.20000000000000107
+        },
+        {
+          "w": "reliable",
+          "t": 11.14,
+          "d": 0.4599999999999991
+        },
+        {
+          "w": "websites,",
+          "t": 11.6,
+          "d": 0.5
+        },
+        {
+          "w": "reports,",
+          "t": 12.76,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "local",
+          "t": 13.62,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "information,",
+          "t": 13.92,
+          "d": 0.5600000000000005
+        },
+        {
+          "w": "or",
+          "t": 14.88,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "conversations",
+          "t": 15.12,
+          "d": 0.4400000000000013
+        },
+        {
+          "w": "with",
+          "t": 15.56,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "people",
+          "t": 15.98,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "who",
+          "t": 16.28,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "understand",
+          "t": 16.46,
+          "d": 0.5599999999999987
+        },
+        {
+          "w": "the",
+          "t": 17.02,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "situation.",
+          "t": 17.24,
+          "d": 0.4400000000000013
+        },
+        {
+          "w": "If",
+          "t": 18.7,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "the",
+          "t": 18.86,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "issue",
+          "t": 18.98,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "is",
+          "t": 19.24,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "visible",
+          "t": 19.4,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "and",
+          "t": 19.74,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "you",
+          "t": 20.2,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "want",
+          "t": 20.36,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "to",
+          "t": 20.52,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "take",
+          "t": 20.62,
+          "d": 0.11999999999999744
+        },
+        {
+          "w": "photos,",
+          "t": 20.74,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "be",
+          "t": 21.64,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "respectful.",
+          "t": 21.82,
+          "d": 0.5
+        },
+        {
+          "w": "Ask",
+          "t": 23.0,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "permission",
+          "t": 23.28,
+          "d": 0.4399999999999977
+        },
+        {
+          "w": "before",
+          "t": 23.72,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "taking",
+          "t": 23.98,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "or",
+          "t": 24.38,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "sharing",
+          "t": 24.66,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "photos",
+          "t": 24.98,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "of",
+          "t": 25.34,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "identifiable",
+          "t": 25.56,
+          "d": 0.5800000000000018
+        },
+        {
+          "w": "people.",
+          "t": 26.14,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "Most",
+          "t": 27.520000000000003,
+          "d": 0.5399999999999991
+        },
+        {
+          "w": "importantly,",
+          "t": 28.060000000000002,
+          "d": 0.5399999999999991
+        },
+        {
+          "w": "do",
+          "t": 29.3,
+          "d": 0.0799999999999983
+        },
+        {
+          "w": "not",
+          "t": 29.38,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "collect",
+          "t": 29.62,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "information",
+          "t": 29.98,
+          "d": 0.5
+        },
+        {
+          "w": "just",
+          "t": 30.48,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "to",
+          "t": 30.84,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "fill",
+          "t": 31.02,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "a",
+          "t": 31.2,
+          "d": 0.08000000000000185
+        },
+        {
+          "w": "page.",
+          "t": 31.28,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "Use",
+          "t": 32.2,
+          "d": 0.23999999999999488
+        },
+        {
+          "w": "it",
+          "t": 32.44,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "to",
+          "t": 32.58,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "check",
+          "t": 32.72,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "your",
+          "t": 33.0,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "own",
+          "t": 33.2,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "thinking.",
+          "t": 33.42,
+          "d": 0.3399999999999963
+        },
+        {
+          "w": "If",
+          "t": 34.62,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "what",
+          "t": 34.82,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "you",
+          "t": 34.96,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "find",
+          "t": 35.1,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "shows",
+          "t": 35.4,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "that",
+          "t": 35.68,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "your",
+          "t": 35.88,
+          "d": 0.11999999999999744
+        },
+        {
+          "w": "first",
+          "t": 36.0,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "idea",
+          "t": 36.28,
+          "d": 0.37999999999999545
+        },
+        {
+          "w": "about",
+          "t": 36.66,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "the",
+          "t": 36.9,
+          "d": 0.1600000000000037
+        },
+        {
+          "w": "problem",
+          "t": 37.06,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "was",
+          "t": 37.36,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "wrong,",
+          "t": 37.54,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "that",
+          "t": 38.34,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "is",
+          "t": 38.6,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "useful.",
+          "t": 38.76,
+          "d": 0.3400000000000034
+        },
+        {
+          "w": "Change",
+          "t": 39.86,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "your",
+          "t": 40.16,
+          "d": 0.2600000000000051
+        },
+        {
+          "w": "understanding",
+          "t": 40.42,
+          "d": 0.6599999999999966
+        },
+        {
+          "w": "instead",
+          "t": 41.08,
+          "d": 0.5399999999999991
+        },
+        {
+          "w": "of",
+          "t": 41.62,
+          "d": 0.1600000000000037
+        },
+        {
+          "w": "forcing",
+          "t": 41.78,
+          "d": 0.37999999999999545
+        },
+        {
+          "w": "the",
+          "t": 42.16,
+          "d": 0.20000000000000284
+        },
+        {
+          "w": "facts",
+          "t": 42.36,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "to",
+          "t": 42.64,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "fit",
+          "t": 42.86,
+          "d": 0.1600000000000037
+        },
+        {
+          "w": "it.",
+          "t": 43.02,
+          "d": 0.1599999999999966
+        }
+      ],
+      "transitionOut": {
+        "kind": "soft-push-right",
+        "scope": "presenter-card",
+        "durationFrames": 14
+      },
+      "media": {
+        "durationSeconds": 43.9,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-008",
+      "section": "Research",
+      "pureText": "When you finish your research, keep your notes simple. Write down: what the issue is, who it affects, how it affects them, and the strongest information you found. If you notice that your original issue statement is too wide or not quite right, improve it. That is completely normal. Good research should make your thinking clearer, not just longer. You are not trying to sound like an expert. You are trying to understand the problem well enough that the next step makes sense. The more clearly you understand the issue now, the less likely you are to waste time later on a solution that does not match what people actually need.",
+      "performanceText": "[natural pace] [thoughtful] [natural] When you finish your research, keep your notes simple. Write down: what the issue is, who it affects, how it affects them, and the strongest information you found. [short pause] If you notice that your original issue statement is too wide or not quite right, improve it. That is completely normal. Good research should make your thinking clearer, not just longer. You are not trying to sound like an expert. You are trying to understand the problem well enough that the next step makes sense. The more clearly you understand the issue now, the less likely you are to waste time later on a solution that does not match what people actually need.",
+      "durationSeconds": 41.566667,
+      "avatar": {
+        "src": "avatar/scene-008.mp4",
+        "layout": "corner",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "card",
+          "atPhrase": "your original issue statement is too wide or not quite right",
+          "durationSeconds": 6,
+          "kicker": "REVISE IF NEEDED",
+          "title": "Version 1 → New evidence → Improved version",
+          "startFrame": 382,
+          "endFrame": 562
+        },
+        {
+          "kind": "takeover",
+          "component": "WorksheetCard",
+          "atPhrase": "keep your notes simple",
+          "durationSeconds": 7,
+          "props": {
+            "caption": "One-page research summary",
+            "kicker": "SUMMARIZE YOUR FINDINGS",
+            "items": [
+              "Issue",
+              "Who it affects",
+              "How it affects them",
+              "Strongest information found"
+            ]
+          },
+          "startFrame": 65,
+          "endFrame": 275
+        },
+        {
+          "kind": "takeover",
+          "component": "QuoteCard",
+          "atPhrase": "Good research should make your thinking clearer",
+          "durationSeconds": 6,
+          "props": {
+            "text": "GOOD RESEARCH SHOULD MAKE YOUR THINKING CLEARER",
+            "kicker": "KEY TAKEAWAY"
+          },
+          "startFrame": 598,
+          "endFrame": 778
+        }
+      ],
+      "words": [
+        {
+          "w": "When",
+          "t": 0.0,
+          "d": 0.7
+        },
+        {
+          "w": "you",
+          "t": 0.7,
+          "d": 0.16000000000000003
+        },
+        {
+          "w": "finish",
+          "t": 0.86,
+          "d": 0.2600000000000001
+        },
+        {
+          "w": "your",
+          "t": 1.12,
+          "d": 0.24
+        },
+        {
+          "w": "research,",
+          "t": 1.36,
+          "d": 0.43999999999999995
+        },
+        {
+          "w": "keep",
+          "t": 2.16,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "your",
+          "t": 2.42,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "notes",
+          "t": 2.58,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "simple.",
+          "t": 2.84,
+          "d": 0.48
+        },
+        {
+          "w": "Write",
+          "t": 4.06,
+          "d": 0.1800000000000006
+        },
+        {
+          "w": "down:",
+          "t": 4.24,
+          "d": 0.3199999999999994
+        },
+        {
+          "w": "what",
+          "t": 4.56,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "the",
+          "t": 5.04,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "issue",
+          "t": 5.2,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "is,",
+          "t": 5.54,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "who",
+          "t": 6.26,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "it",
+          "t": 6.52,
+          "d": 0.10000000000000053
+        },
+        {
+          "w": "affects,",
+          "t": 6.62,
+          "d": 0.28000000000000025
+        },
+        {
+          "w": "how",
+          "t": 7.54,
+          "d": 0.3600000000000003
+        },
+        {
+          "w": "it",
+          "t": 7.9,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "affects",
+          "t": 8.02,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "them,",
+          "t": 8.3,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "and",
+          "t": 8.86,
+          "d": 0.3800000000000008
+        },
+        {
+          "w": "the",
+          "t": 9.24,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "strongest",
+          "t": 9.36,
+          "d": 0.5200000000000014
+        },
+        {
+          "w": "information",
+          "t": 9.88,
+          "d": 0.5399999999999991
+        },
+        {
+          "w": "you",
+          "t": 10.42,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "found.",
+          "t": 10.74,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "If",
+          "t": 11.76,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "you",
+          "t": 12.1,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "notice",
+          "t": 12.22,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "that",
+          "t": 12.48,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "your",
+          "t": 12.72,
+          "d": 0.11999999999999922
+        },
+        {
+          "w": "original",
+          "t": 12.84,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "issue",
+          "t": 13.3,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "statement",
+          "t": 13.68,
+          "d": 0.3800000000000008
+        },
+        {
+          "w": "is",
+          "t": 14.06,
+          "d": 0.40000000000000036
+        },
+        {
+          "w": "too",
+          "t": 14.46,
+          "d": 0.27999999999999936
+        },
+        {
+          "w": "wide",
+          "t": 14.74,
+          "d": 0.5
+        },
+        {
+          "w": "or",
+          "t": 15.24,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "not",
+          "t": 15.6,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "quite",
+          "t": 15.94,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "right,",
+          "t": 16.18,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "improve",
+          "t": 16.94,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "it.",
+          "t": 17.32,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "That",
+          "t": 17.94,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "is",
+          "t": 18.12,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "completely",
+          "t": 18.26,
+          "d": 0.4799999999999969
+        },
+        {
+          "w": "normal.",
+          "t": 18.74,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "Good",
+          "t": 19.94,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "research",
+          "t": 20.24,
+          "d": 0.5200000000000031
+        },
+        {
+          "w": "should",
+          "t": 20.76,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "make",
+          "t": 21.16,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "your",
+          "t": 21.34,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "thinking",
+          "t": 21.52,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "clearer,",
+          "t": 21.82,
+          "d": 0.620000000000001
+        },
+        {
+          "w": "not",
+          "t": 22.76,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "just",
+          "t": 22.96,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "longer.",
+          "t": 23.16,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "You",
+          "t": 24.22,
+          "d": 0.4400000000000013
+        },
+        {
+          "w": "are",
+          "t": 24.66,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "not",
+          "t": 24.76,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "trying",
+          "t": 25.04,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "to",
+          "t": 25.36,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "sound",
+          "t": 25.5,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "like",
+          "t": 25.72,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "an",
+          "t": 25.9,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "expert.",
+          "t": 26.0,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "You",
+          "t": 26.73,
+          "d": 0.3099999999999987
+        },
+        {
+          "w": "are",
+          "t": 27.04,
+          "d": 0.120000000000001
+        },
+        {
+          "w": "trying",
+          "t": 27.16,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "to",
+          "t": 27.44,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "understand",
+          "t": 27.6,
+          "d": 0.5199999999999996
+        },
+        {
+          "w": "the",
+          "t": 28.12,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "problem",
+          "t": 28.48,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "well",
+          "t": 28.8,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "enough",
+          "t": 29.06,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "that",
+          "t": 29.3,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "the",
+          "t": 29.78,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "next",
+          "t": 29.96,
+          "d": 0.23999999999999844
+        },
+        {
+          "w": "step",
+          "t": 30.2,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "makes",
+          "t": 30.48,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "sense.",
+          "t": 30.84,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "The",
+          "t": 31.74,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "more",
+          "t": 32.22,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "clearly",
+          "t": 32.5,
+          "d": 0.4399999999999977
+        },
+        {
+          "w": "you",
+          "t": 32.94,
+          "d": 0.3400000000000034
+        },
+        {
+          "w": "understand",
+          "t": 33.28,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "the",
+          "t": 33.74,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "issue",
+          "t": 33.96,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "now,",
+          "t": 34.22,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "the",
+          "t": 35.26,
+          "d": 0.060000000000002274
+        },
+        {
+          "w": "less",
+          "t": 35.32,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "likely",
+          "t": 35.64,
+          "d": 0.29999999999999716
+        },
+        {
+          "w": "you",
+          "t": 35.94,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "are",
+          "t": 36.18,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "to",
+          "t": 36.32,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "waste",
+          "t": 36.46,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "time",
+          "t": 36.74,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "later",
+          "t": 37.02,
+          "d": 0.37999999999999545
+        },
+        {
+          "w": "on",
+          "t": 37.4,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "a",
+          "t": 37.78,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "solution",
+          "t": 37.96,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "that",
+          "t": 38.38,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "does",
+          "t": 38.74,
+          "d": 0.23999999999999488
+        },
+        {
+          "w": "not",
+          "t": 38.98,
+          "d": 0.3400000000000034
+        },
+        {
+          "w": "match",
+          "t": 39.32,
+          "d": 0.38000000000000256
+        },
+        {
+          "w": "what",
+          "t": 39.7,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "people",
+          "t": 39.84,
+          "d": 0.27999999999999403
+        },
+        {
+          "w": "actually",
+          "t": 40.12,
+          "d": 0.5200000000000031
+        },
+        {
+          "w": "need.",
+          "t": 40.64,
+          "d": 0.4399999999999977
+        }
+      ],
+      "transitionOut": {
+        "kind": "clean-cut",
+        "scope": "coordinated",
+        "durationFrames": 8
+      },
+      "media": {
+        "durationSeconds": 41.566667,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    },
+    {
+      "id": "scene-009",
+      "section": "Closing",
+      "pureText": "By this point, you should have three things: one issue you want to work on, one clear sentence that describes it, and some useful information that helps you understand it better. That is enough for now. The next question is even more important: what do the people affected by this issue actually need? A problem tells you what is going wrong. A need tells you what would help. Those two things are connected, but they are not the same. In the next part, we will focus on that difference so you do not jump too quickly from “there is a problem” to “I already know the solution.”",
+      "performanceText": "[slow pace] [hope] [natural] By this point, you should have three things: one issue you want to work on, one clear sentence that describes it, and some useful information that helps you understand it better. That is enough for now. [short pause] The next question is even more important: what do the people affected by this issue actually need? A problem tells you what is going wrong. A need tells you what would help. Those two things are connected, but they are not the same. In the next part, we will focus on that difference so you do not jump too quickly from “there is a problem” to “I already know the solution.”",
+      "durationSeconds": 42.782993,
+      "avatar": {
+        "src": "avatar/scene-009.mp4",
+        "layout": "full",
+        "position": "right"
+      },
+      "visualEvents": [
+        {
+          "kind": "takeover",
+          "component": "SummaryCard",
+          "atPhrase": "one issue you want to work on",
+          "durationSeconds": 7,
+          "props": {
+            "caption": "What you should have now",
+            "kicker": "LESSON RECAP",
+            "points": [
+              "One chosen issue",
+              "One precise issue statement",
+              "One research summary/plan"
+            ]
+          },
+          "startFrame": 118,
+          "endFrame": 328
+        },
+        {
+          "kind": "card",
+          "atPhrase": "A problem tells you what is going wrong",
+          "durationSeconds": 6,
+          "kicker": "PROBLEM → NEED",
+          "title": "A problem tells you what is going wrong.",
+          "body": "A need tells you what would help.",
+          "startFrame": 701,
+          "endFrame": 881
+        },
+        {
+          "kind": "takeover",
+          "component": "OutroCard",
+          "atPhrase": "In the next part",
+          "durationSeconds": 6,
+          "props": {
+            "caption": "NEXT: UNDERSTANDING THE REAL NEED",
+            "kicker": "COMING UP",
+            "next": "Lesson 9"
+          },
+          "startFrame": 995,
+          "endFrame": 1175
+        }
+      ],
+      "words": [
+        {
+          "w": "By",
+          "t": 0.0,
+          "d": 0.54
+        },
+        {
+          "w": "this",
+          "t": 0.54,
+          "d": 0.2799999999999999
+        },
+        {
+          "w": "point,",
+          "t": 0.82,
+          "d": 0.33999999999999997
+        },
+        {
+          "w": "you",
+          "t": 1.58,
+          "d": 0.26
+        },
+        {
+          "w": "should",
+          "t": 1.84,
+          "d": 0.21999999999999997
+        },
+        {
+          "w": "have",
+          "t": 2.06,
+          "d": 0.2999999999999998
+        },
+        {
+          "w": "three",
+          "t": 2.36,
+          "d": 0.43999999999999995
+        },
+        {
+          "w": "things:",
+          "t": 2.8,
+          "d": 0.52
+        },
+        {
+          "w": "one",
+          "t": 3.92,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "issue",
+          "t": 4.24,
+          "d": 0.45999999999999996
+        },
+        {
+          "w": "you",
+          "t": 4.7,
+          "d": 0.2999999999999998
+        },
+        {
+          "w": "want",
+          "t": 5.0,
+          "d": 0.20000000000000018
+        },
+        {
+          "w": "to",
+          "t": 5.2,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "work",
+          "t": 5.36,
+          "d": 0.15999999999999925
+        },
+        {
+          "w": "on,",
+          "t": 5.52,
+          "d": 0.28000000000000025
+        },
+        {
+          "w": "one",
+          "t": 6.32,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "clear",
+          "t": 6.66,
+          "d": 0.5
+        },
+        {
+          "w": "sentence",
+          "t": 7.16,
+          "d": 0.47999999999999954
+        },
+        {
+          "w": "that",
+          "t": 7.64,
+          "d": 0.34000000000000075
+        },
+        {
+          "w": "describes",
+          "t": 7.98,
+          "d": 0.40000000000000036
+        },
+        {
+          "w": "it,",
+          "t": 8.38,
+          "d": 0.33999999999999986
+        },
+        {
+          "w": "and",
+          "t": 9.16,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "some",
+          "t": 9.48,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "useful",
+          "t": 9.7,
+          "d": 0.5200000000000014
+        },
+        {
+          "w": "information",
+          "t": 10.22,
+          "d": 0.47999999999999865
+        },
+        {
+          "w": "that",
+          "t": 10.7,
+          "d": 0.41999999999999993
+        },
+        {
+          "w": "helps",
+          "t": 11.12,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "you",
+          "t": 11.44,
+          "d": 0.20000000000000107
+        },
+        {
+          "w": "understand",
+          "t": 11.64,
+          "d": 0.5800000000000001
+        },
+        {
+          "w": "it",
+          "t": 12.22,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "better.",
+          "t": 12.46,
+          "d": 0.2599999999999998
+        },
+        {
+          "w": "That",
+          "t": 13.28,
+          "d": 0.3600000000000012
+        },
+        {
+          "w": "is",
+          "t": 13.64,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "enough",
+          "t": 13.82,
+          "d": 0.29999999999999893
+        },
+        {
+          "w": "for",
+          "t": 14.12,
+          "d": 0.2400000000000002
+        },
+        {
+          "w": "now.",
+          "t": 14.36,
+          "d": 0.20000000000000107
+        },
+        {
+          "w": "The",
+          "t": 15.28,
+          "d": 0.5800000000000001
+        },
+        {
+          "w": "next",
+          "t": 15.86,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "question",
+          "t": 16.14,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "is",
+          "t": 16.62,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "even",
+          "t": 16.98,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "more",
+          "t": 17.3,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "important:",
+          "t": 17.66,
+          "d": 0.5
+        },
+        {
+          "w": "what",
+          "t": 18.98,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "do",
+          "t": 19.26,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "the",
+          "t": 19.46,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "people",
+          "t": 19.6,
+          "d": 0.2799999999999976
+        },
+        {
+          "w": "affected",
+          "t": 19.88,
+          "d": 0.620000000000001
+        },
+        {
+          "w": "by",
+          "t": 20.5,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "this",
+          "t": 20.78,
+          "d": 0.1999999999999993
+        },
+        {
+          "w": "issue",
+          "t": 20.98,
+          "d": 0.41999999999999815
+        },
+        {
+          "w": "actually",
+          "t": 21.4,
+          "d": 0.6799999999999997
+        },
+        {
+          "w": "need?",
+          "t": 22.08,
+          "d": 0.5200000000000031
+        },
+        {
+          "w": "A",
+          "t": 23.38,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "problem",
+          "t": 23.7,
+          "d": 0.4400000000000013
+        },
+        {
+          "w": "tells",
+          "t": 24.14,
+          "d": 0.41999999999999815
+        },
+        {
+          "w": "you",
+          "t": 24.56,
+          "d": 0.22000000000000242
+        },
+        {
+          "w": "what",
+          "t": 24.78,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "is",
+          "t": 24.96,
+          "d": 0.11999999999999744
+        },
+        {
+          "w": "going",
+          "t": 25.08,
+          "d": 0.18000000000000327
+        },
+        {
+          "w": "wrong.",
+          "t": 25.26,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "A",
+          "t": 26.32,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "need",
+          "t": 26.48,
+          "d": 0.379999999999999
+        },
+        {
+          "w": "tells",
+          "t": 26.86,
+          "d": 0.6600000000000001
+        },
+        {
+          "w": "you",
+          "t": 27.52,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "what",
+          "t": 27.74,
+          "d": 0.22000000000000242
+        },
+        {
+          "w": "would",
+          "t": 27.96,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "help.",
+          "t": 28.12,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "Those",
+          "t": 28.44,
+          "d": 1.0999999999999979
+        },
+        {
+          "w": "two",
+          "t": 29.54,
+          "d": 0.26000000000000156
+        },
+        {
+          "w": "things",
+          "t": 29.8,
+          "d": 0.259999999999998
+        },
+        {
+          "w": "are",
+          "t": 30.06,
+          "d": 0.3000000000000007
+        },
+        {
+          "w": "connected,",
+          "t": 30.36,
+          "d": 0.4800000000000004
+        },
+        {
+          "w": "but",
+          "t": 31.2,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "they",
+          "t": 31.44,
+          "d": 0.16000000000000014
+        },
+        {
+          "w": "are",
+          "t": 31.6,
+          "d": 0.11999999999999744
+        },
+        {
+          "w": "not",
+          "t": 31.72,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "the",
+          "t": 32.0,
+          "d": 0.240000000000002
+        },
+        {
+          "w": "same.",
+          "t": 32.24,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "In",
+          "t": 33.18,
+          "d": 0.4200000000000017
+        },
+        {
+          "w": "the",
+          "t": 33.6,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "next",
+          "t": 33.7,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "part,",
+          "t": 33.92,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "we",
+          "t": 34.56,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "will",
+          "t": 34.74,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "focus",
+          "t": 34.9,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "on",
+          "t": 35.22,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "that",
+          "t": 35.54,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "difference",
+          "t": 35.82,
+          "d": 0.46000000000000085
+        },
+        {
+          "w": "so",
+          "t": 36.62,
+          "d": 0.3200000000000003
+        },
+        {
+          "w": "you",
+          "t": 36.94,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "do",
+          "t": 37.12,
+          "d": 0.10000000000000142
+        },
+        {
+          "w": "not",
+          "t": 37.22,
+          "d": 0.17999999999999972
+        },
+        {
+          "w": "jump",
+          "t": 37.4,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "too",
+          "t": 37.68,
+          "d": 0.28000000000000114
+        },
+        {
+          "w": "quickly",
+          "t": 37.96,
+          "d": 0.3399999999999963
+        },
+        {
+          "w": "from",
+          "t": 38.3,
+          "d": 0.4000000000000057
+        },
+        {
+          "w": "“there",
+          "t": 39.1,
+          "d": 0.19999999999999574
+        },
+        {
+          "w": "is",
+          "t": 39.3,
+          "d": 0.1600000000000037
+        },
+        {
+          "w": "a",
+          "t": 39.46,
+          "d": 0.060000000000002274
+        },
+        {
+          "w": "problem”",
+          "t": 39.52,
+          "d": 0.3999999999999986
+        },
+        {
+          "w": "to",
+          "t": 40.28,
+          "d": 0.21999999999999886
+        },
+        {
+          "w": "“I",
+          "t": 40.96,
+          "d": 0.1599999999999966
+        },
+        {
+          "w": "already",
+          "t": 41.12,
+          "d": 0.35999999999999943
+        },
+        {
+          "w": "know",
+          "t": 41.48,
+          "d": 0.2600000000000051
+        },
+        {
+          "w": "the",
+          "t": 41.74,
+          "d": 0.14000000000000057
+        },
+        {
+          "w": "solution.”",
+          "t": 41.88,
+          "d": 0.37999999999999545
+        }
+      ],
+      "transitionOut": null,
+      "media": {
+        "durationSeconds": 42.782993,
+        "sourceWidth": 1920,
+        "sourceHeight": 1080,
+        "sourceFps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "upscaled": false
+      }
+    }
+  ]
+}

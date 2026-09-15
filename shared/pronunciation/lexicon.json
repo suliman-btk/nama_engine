@@ -1,6 +1,7 @@
 [
   {
     "key": "basmala",
+    "type": "arabic-phrase",
     "display": "Bismillah ar-Rahman ar-Raheem",
     "language": "ar",
     "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
@@ -9,6 +10,7 @@
   },
   {
     "key": "bismillah",
+    "type": "arabic-phrase",
     "display": "Bismillah",
     "language": "ar",
     "arabic": "بِسْمِ اللَّهِ",
@@ -17,6 +19,7 @@
   },
   {
     "key": "alhamdulillah",
+    "type": "arabic-phrase",
     "display": "Alhamdulillah",
     "language": "ar",
     "arabic": "الْحَمْدُ لِلَّهِ",
@@ -25,10 +28,29 @@
   },
   {
     "key": "salawat-on-the-prophet",
+    "type": "arabic-phrase",
     "display": "Peace and blessings be upon him",
     "language": "ar",
     "arabic": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
     "spoken_as": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
     "notes": "Standard, universally-known Islamic salutation said after mentioning the Prophet Muhammad, same category of standard phrase as 'bismillah' and 'alhamdulillah'. The Trainer Manual (p.30) instructs the trainer to pray upon the Prophet and only gives the English gloss 'Peace be Upon Him', without supplying Arabic text itself — this entry supplies the standard, unambiguous Arabic form of that same standard salutation (not an invented phrase). Used in Lesson 1 narration in place of the English-only gloss."
+  },
+
+  {
+    "key": "act-program-name",
+    "type": "spoken-form",
+    "written": "ACT",
+    "spoken_as": "Act",
+    "match": "whole-word",
+    "case_sensitive": true,
+    "applies_to": "tts-only",
+    "notes": "ACT is a word, not an initialism — it is said 'act', the way you'd say the verb, never 'A-C-T'. Edge's neural voices spell out short all-caps tokens by default: measured on en-US-AndrewMultilingualNeural, 'something called ACT.' runs 3.288s against 2.688s for 'something called Act.', and the 0.6s gap is exactly the three spelled letters. Feeding the voice the title-case spelling gets the single-syllable word (2.688s against 2.616s for a one-syllable control word). TTS-ONLY: scenes.json, on-screen text and subtitles all keep the written form 'ACT', which is the correct brand spelling on screen."
+  },
+  {
+    "key": "dna-acronym",
+    "type": "spelled-acronym",
+    "written": "DNA",
+    "applies_to": "documentation-only",
+    "notes": "Deliberately has NO spoken-form entry. DNA genuinely is an initialism, so letter-by-letter is the correct reading and Edge's default behaviour is already right. Recorded here so a future pass doesn't 'fix' it by mistake — spelled-acronym entries are documentation and are never substituted by the TTS layer."
   }
 ]

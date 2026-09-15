@@ -1,0 +1,14 @@
+{
+  "scene-001": {
+    "section": "Opening",
+    "avatar": {"layout": "full", "position": "right"},
+    "visualEvents": [],
+    "transitionOut": {"kind": "soft-push-left", "scope": "coordinated", "durationFrames": 14}
+  },
+  "scene-002": {
+    "section": "Closing",
+    "avatar": {"layout": "full", "position": "right"},
+    "visualEvents": [],
+    "transitionOut": null
+  }
+}

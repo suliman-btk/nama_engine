@@ -1,0 +1,223 @@
+{
+  "lesson": "lesson-08",
+  "resolution": "1920x1080",
+  "stillsPerScene": 3,
+  "stills": [
+    {
+      "sceneId": "scene-001",
+      "position": "opening",
+      "localFrame": 144,
+      "frame": 144,
+      "timeSeconds": 4.8,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-001-opening.png"
+    },
+    {
+      "sceneId": "scene-001",
+      "position": "middle",
+      "localFrame": 192,
+      "frame": 192,
+      "timeSeconds": 6.4,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-001-middle.png"
+    },
+    {
+      "sceneId": "scene-001",
+      "position": "ending",
+      "localFrame": 982,
+      "frame": 982,
+      "timeSeconds": 32.733333333333334,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-001-ending.png"
+    },
+    {
+      "sceneId": "scene-002",
+      "position": "opening",
+      "localFrame": 150,
+      "frame": 1347,
+      "timeSeconds": 44.9,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-002-opening.png"
+    },
+    {
+      "sceneId": "scene-002",
+      "position": "middle",
+      "localFrame": 201,
+      "frame": 1398,
+      "timeSeconds": 46.6,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-002-middle.png"
+    },
+    {
+      "sceneId": "scene-002",
+      "position": "ending",
+      "localFrame": 1023,
+      "frame": 2220,
+      "timeSeconds": 74.0,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-002-ending.png"
+    },
+    {
+      "sceneId": "scene-003",
+      "position": "opening",
+      "localFrame": 140,
+      "frame": 2585,
+      "timeSeconds": 86.16666666666667,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-003-opening.png"
+    },
+    {
+      "sceneId": "scene-003",
+      "position": "middle",
+      "localFrame": 186,
+      "frame": 2631,
+      "timeSeconds": 87.7,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-003-middle.png"
+    },
+    {
+      "sceneId": "scene-003",
+      "position": "ending",
+      "localFrame": 959,
+      "frame": 3404,
+      "timeSeconds": 113.46666666666667,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-003-ending.png"
+    },
+    {
+      "sceneId": "scene-004",
+      "position": "opening",
+      "localFrame": 157,
+      "frame": 3771,
+      "timeSeconds": 125.7,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-004-opening.png"
+    },
+    {
+      "sceneId": "scene-004",
+      "position": "middle",
+      "localFrame": 227,
+      "frame": 3841,
+      "timeSeconds": 128.03333333333333,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-004-middle.png"
+    },
+    {
+      "sceneId": "scene-004",
+      "position": "ending",
+      "localFrame": 1076,
+      "frame": 4690,
+      "timeSeconds": 156.33333333333334,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-004-ending.png"
+    },
+    {
+      "sceneId": "scene-005",
+      "position": "opening",
+      "localFrame": 145,
+      "frame": 5071,
+      "timeSeconds": 169.03333333333333,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-005-opening.png"
+    },
+    {
+      "sceneId": "scene-005",
+      "position": "middle",
+      "localFrame": 199,
+      "frame": 5125,
+      "timeSeconds": 170.83333333333334,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-005-middle.png"
+    },
+    {
+      "sceneId": "scene-005",
+      "position": "ending",
+      "localFrame": 994,
+      "frame": 5920,
+      "timeSeconds": 197.33333333333334,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-005-ending.png"
+    },
+    {
+      "sceneId": "scene-006",
+      "position": "opening",
+      "localFrame": 138,
+      "frame": 6276,
+      "timeSeconds": 209.2,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-006-opening.png"
+    },
+    {
+      "sceneId": "scene-006",
+      "position": "middle",
+      "localFrame": 90,
+      "frame": 6228,
+      "timeSeconds": 207.6,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-006-middle.png"
+    },
+    {
+      "sceneId": "scene-006",
+      "position": "ending",
+      "localFrame": 944,
+      "frame": 7082,
+      "timeSeconds": 236.06666666666666,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-006-ending.png"
+    },
+    {
+      "sceneId": "scene-007",
+      "position": "opening",
+      "localFrame": 158,
+      "frame": 7447,
+      "timeSeconds": 248.23333333333332,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-007-opening.png"
+    },
+    {
+      "sceneId": "scene-007",
+      "position": "middle",
+      "localFrame": 109,
+      "frame": 7398,
+      "timeSeconds": 246.6,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-007-middle.png"
+    },
+    {
+      "sceneId": "scene-007",
+      "position": "ending",
+      "localFrame": 1080,
+      "frame": 8369,
+      "timeSeconds": 278.96666666666664,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-007-ending.png"
+    },
+    {
+      "sceneId": "scene-008",
+      "position": "opening",
+      "localFrame": 150,
+      "frame": 8756,
+      "timeSeconds": 291.8666666666667,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-008-opening.png"
+    },
+    {
+      "sceneId": "scene-008",
+      "position": "middle",
+      "localFrame": 472,
+      "frame": 9078,
+      "timeSeconds": 302.6,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-008-middle.png"
+    },
+    {
+      "sceneId": "scene-008",
+      "position": "ending",
+      "localFrame": 1023,
+      "frame": 9629,
+      "timeSeconds": 320.96666666666664,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-008-ending.png"
+    },
+    {
+      "sceneId": "scene-009",
+      "position": "opening",
+      "localFrame": 154,
+      "frame": 10007,
+      "timeSeconds": 333.56666666666666,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-009-opening.png"
+    },
+    {
+      "sceneId": "scene-009",
+      "position": "middle",
+      "localFrame": 223,
+      "frame": 10076,
+      "timeSeconds": 335.8666666666667,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-009-middle.png"
+    },
+    {
+      "sceneId": "scene-009",
+      "position": "ending",
+      "localFrame": 1052,
+      "frame": 10905,
+      "timeSeconds": 363.5,
+      "output": "/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-08/qa/scene-stills/scene-009-ending.png"
+    }
+  ]
+}

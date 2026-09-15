@@ -126,18 +126,62 @@ def recolor(node):
 
 
 def scale_shape(shape, sx, sy):
-    """Scale a Lottie bezier about its own centre. Vertices move; tangents (which
-    are relative offsets, and which create this mouth's curvature) scale directly,
-    so sy genuinely opens the mouth rather than just moving the corners."""
+    """Derive one viseme's mouth from the artist's widest drawn mouth.
+
+    A uniform scale-about-centre reads as exactly what it is - one shape
+    stretched - because a real mouth doesn't open that way: the upper lip
+    stays close to the nose and barely moves; almost all of the opening is
+    the jaw and lower lip dropping. Corners also behave differently from the
+    centre of the lips - a wide vowel pulls the corners out while the centre
+    barely shifts sideways, where a pucker pulls the corners IN. Modelling
+    both asymmetries out of one drawn shape is what makes seven derived
+    visemes actually read as seven different mouths instead of one mouth at
+    seven sizes.
+
+    `jaw_bias` (rig.json, default ~0.3) is how much of the vertical change an
+    upper-half vertex gets relative to a lower-half one - i.e. small = upper
+    lip nearly fixed, lower lip does the work.
+    """
     out = copy.deepcopy(shape)
     xs = [v[0] for v in out["v"]]
     ys = [v[1] for v in out["v"]]
     cx = (min(xs) + max(xs)) / 2
     cy = (min(ys) + max(ys)) / 2
-    dy = (sy - 1.0) * ACTIVE["mouth"]["jaw_drop_factor"]          # a taller mouth drops the jaw rather than growing symmetrically
-    out["v"] = [[cx + (x - cx) * sx, cy + (y - cy) * sy + dy] for x, y in out["v"]]
-    out["i"] = [[x * sx, y * sy] for x, y in out["i"]]
-    out["o"] = [[x * sx, y * sy] for x, y in out["o"]]
+    half_w = max(max(xs) - cx, cx - min(xs)) or 1
+    jaw_bias = ACTIVE["mouth"].get("jaw_bias", 0.3)
+    corner_pull = ACTIVE["mouth"].get("corner_pull", 0.18)
+    base_dy = (sy - 1.0) * ACTIVE["mouth"]["jaw_drop_factor"]
+
+    def deform(x, y):
+        # 0 at the lip centreline, 1 at the very top/bottom of the shape -
+        # governs how much of the vertical scale/offset this point receives
+        upper = y < cy
+        vy_scale = sy if not upper else (1.0 + (sy - 1.0) * jaw_bias)
+        vy_offset = base_dy if not upper else base_dy * jaw_bias
+
+        # widen/narrow more at the corners than along the centreline, so a
+        # "wide" viseme visibly pulls the corners while a "round" one visibly
+        # pinches them, rather than both just looking like flat scale
+        edge = min(1.0, abs(x - cx) / half_w)
+        vx_scale = sx + (sx - 1.0) * corner_pull * edge
+
+        return [cx + (x - cx) * vx_scale, cy + (y - cy) * vy_scale + vy_offset]
+
+    original_v = out["v"]  # tan_scale must key off the ORIGINAL geometry -
+    # out["v"] gets overwritten with deformed points on the next line, and
+    # computing corner/upper-lower from already-deformed points would feed
+    # each point's own transform back into itself
+    tan_scale = [
+        (sx + (sx - 1.0) * corner_pull * min(1.0, abs(x - cx) / half_w),
+         sy if y < cy else (1.0 + (sy - 1.0) * jaw_bias))
+        for x, y in original_v
+    ]
+    out["v"] = [deform(x, y) for x, y in original_v]
+    # tangent handles are relative offsets, not points - scale them by the
+    # same local factor so curvature stays consistent with the moved vertex,
+    # but they carry no independent offset (an offset would skew the curve)
+    out["i"] = [[ix * s[0], iy * s[1]] for (ix, iy), s in zip(out["i"], tan_scale)]
+    out["o"] = [[ox * s[0], oy * s[1]] for (ox, oy), s in zip(out["o"], tan_scale)]
     return out
 
 

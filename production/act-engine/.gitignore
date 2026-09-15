@@ -1,0 +1,9 @@
+node_modules/
+public/*.mp4
+public/*.mov
+.remotion/
+out/
+
+.check/
+previews*/
+out/

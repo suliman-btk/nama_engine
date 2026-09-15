@@ -39,6 +39,7 @@ def stage(lesson, only):
     (dest / "audio").mkdir(parents=True)
     (dest / "presenter").mkdir(parents=True)
     (dest / "assets").mkdir(parents=True)
+    (dest / "word-timing").mkdir(parents=True)
 
     scenes = json.load(open(ldir / "scenes.json"))
     durations = json.load(open(ldir / "durations.json"))
@@ -64,6 +65,31 @@ def stage(lesson, only):
         pres = ldir / "presenter" / f"{sid}.json"
         if pres.exists():
             shutil.copy(pres, dest / "presenter" / f"{sid}.json")
+        # per-word timings for the burned-in karaoke captions; absent for a
+        # lesson synthesised before word capture existed, and the caption layer
+        # simply renders nothing for that scene rather than guessing.
+        wt = ldir / "audio" / "word-timing" / f"{sid}.json"
+        if wt.exists():
+            shutil.copy(wt, dest / "word-timing" / f"{sid}.json")
+
+    # shared, course-wide background music - the seven role tracks (see
+    # shared/music/music-manifest.json), staged once, used by every lesson
+    # (not duplicated into each lesson's own folder)
+    roles_dir = ROOT / "shared" / "music" / "roles"
+    if roles_dir.exists():
+        shared_dest = ENGINE / "public" / "shared" / "music" / "roles"
+        shared_dest.mkdir(parents=True, exist_ok=True)
+        for f in roles_dir.glob("*.mp3"):
+            shutil.copy(f, shared_dest / f.name)
+
+    # shared, course-wide branding (currently: the NAMA Foundation mark that
+    # BrandFooter renders on every scene) - same staging pattern as music
+    branding_dir = ROOT / "shared" / "branding"
+    if branding_dir.exists():
+        branding_dest = ENGINE / "public" / "shared" / "branding"
+        branding_dest.mkdir(parents=True, exist_ok=True)
+        for f in branding_dir.glob("*.png"):
+            shutil.copy(f, branding_dest / f.name)
 
     if (ldir / "assets").exists():
         for f in (ldir / "assets").iterdir():

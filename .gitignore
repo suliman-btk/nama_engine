@@ -44,5 +44,10 @@ _golden/*/assets/scene-renders/
 
 # engine render staging (rebuilt by render_lesson.py)
 production/remotion-engine/public/lessons/
+production/remotion-engine/public/shared/
 production/remotion-engine/src/data/render-manifest.json
 lessons/*/presenter/
+shared/music/act-ambient-bed-preview.m4a
+
+# chunked transfer staging (never commit)
+production/*/_tmp_master/

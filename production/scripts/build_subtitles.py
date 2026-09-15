@@ -14,6 +14,11 @@ scene's audio window, which is what matters for readability.
 {{arabic:key}} markers are resolved to the Arabic script from the shared lexicon
 so captions show what is actually spoken.
 
+The lexicon's `spoken-form` entries are deliberately NOT applied here. Those exist
+only to stop the TTS voice spelling out an acronym that is said as a word (ACT is
+fed to the voice as "Act"); on screen the brand is written "ACT", so that is what
+a caption must show. Written form for the eye, spoken form for the ear.
+
 USAGE: python build_subtitles.py [lesson-01] [--vtt]
 OUT:   lessons/<lesson>/subtitles/<lesson>.srt   (and .vtt with --vtt)
 """
