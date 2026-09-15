@@ -1,0 +1,707 @@
+1
+00:00:00,240 --> 00:00:03,080
+Hi,  and  welcome  back  to  Act.  You
+
+2
+00:00:03,080 --> 00:00:04,759
+already  have  a  clear  problem  in
+
+3
+00:00:04,759 --> 00:00:06,839
+front  of  you.  Now  comes  a  very
+
+4
+00:00:06,839 --> 00:00:08,760
+important  question.  What  do  the
+
+5
+00:00:08,760 --> 00:00:10,440
+people  affected  by  this  problem
+
+6
+00:00:10,440 --> 00:00:12,120
+actually  need?
+
+7
+00:00:12,120 --> 00:00:13,679
+It  sounds  simple,  but  this  is
+
+8
+00:00:13,679 --> 00:00:15,719
+where  many  projects  go  wrong.
+
+9
+00:00:15,719 --> 00:00:17,160
+People  often  choose  a  solution
+
+10
+00:00:17,160 --> 00:00:19,279
+because  it  looks  useful,  modern,
+
+11
+00:00:19,279 --> 00:00:21,480
+or  easy  to  organize.  But  a  good
+
+12
+00:00:21,480 --> 00:00:23,080
+solution  should  come  after  the
+
+13
+00:00:23,080 --> 00:00:25,640
+need,  not  before  it.  So  for  now,
+
+14
+00:00:25,640 --> 00:00:27,920
+forget  about  apps,  campaigns,
+
+15
+00:00:27,920 --> 00:00:30,039
+workshops,  donations,  or  any  other
+
+16
+00:00:30,039 --> 00:00:33,079
+idea.  Focus  on  the  people.  What
+
+17
+00:00:33,079 --> 00:00:34,800
+are  they  struggling  with?  What  is
+
+18
+00:00:34,800 --> 00:00:36,520
+stopping  them?  And  what  kind  of
+
+19
+00:00:36,520 --> 00:00:37,719
+help  would  really  make  a
+
+20
+00:00:37,719 --> 00:00:38,583
+difference?
+
+21
+00:00:38,583 --> 00:00:40,422
+Let's  make  this  easier  with  a
+
+22
+00:00:40,422 --> 00:00:42,942
+simple  example.  Think  about  four
+
+23
+00:00:42,942 --> 00:00:45,823
+very  different  cases.  A  tree,  a
+
+24
+00:00:45,823 --> 00:00:48,903
+student,  a  horse,  and  a  carpenter.
+
+25
+00:00:48,903 --> 00:00:51,543
+What  does  each  one  need  to  grow,
+
+26
+00:00:51,543 --> 00:00:55,743
+learn,  move,  or  do  the  job  well?
+
+27
+00:00:55,743 --> 00:00:57,583
+The  answers  will  be  different
+
+28
+00:00:57,583 --> 00:00:58,983
+because  their  situations  are
+
+29
+00:00:58,983 --> 00:01:00,063
+different.
+
+30
+00:01:00,063 --> 00:01:02,063
+A  hammer  may  help  a  carpenter,
+
+31
+00:01:02,063 --> 00:01:04,423
+but  it  is  useless  to  a  horse.
+
+32
+00:01:04,423 --> 00:01:06,543
+A  notebook  may  help  a  student,
+
+33
+00:01:06,543 --> 00:01:07,903
+but  it  will  not  help  a  tree
+
+34
+00:01:07,903 --> 00:01:09,063
+grow.
+
+35
+00:01:09,063 --> 00:01:11,223
+This  sounds  obvious,  right?  But
+
+36
+00:01:11,223 --> 00:01:12,822
+the  same  mistake  happens  in
+
+37
+00:01:12,822 --> 00:01:14,583
+community  projects.
+
+38
+00:01:14,583 --> 00:01:16,383
+We  sometimes  give  people  the  tool
+
+39
+00:01:16,383 --> 00:01:18,343
+we  like,  instead  of  the  support
+
+40
+00:01:18,343 --> 00:01:20,103
+they  really  need.
+
+41
+00:01:20,103 --> 00:01:21,982
+The  first  job  is  to  understand
+
+42
+00:01:21,982 --> 00:01:24,083
+the  person  and  the  situation.
+
+43
+00:01:24,323 --> 00:01:27,242
+So,  what  do  we  mean  by  a  need?
+
+44
+00:01:27,242 --> 00:01:29,323
+Keep  it  simple.  A  need  is
+
+45
+00:01:29,323 --> 00:01:30,922
+something  important  that  helps  a
+
+46
+00:01:30,922 --> 00:01:32,883
+person  or  group  improve  their
+
+47
+00:01:32,883 --> 00:01:34,123
+situation.
+
+48
+00:01:34,123 --> 00:01:36,682
+It  could  be  information,  a  skill,
+
+49
+00:01:36,682 --> 00:01:39,163
+transport,  equipment,  access  to  a
+
+50
+00:01:39,163 --> 00:01:41,883
+service,  time,  support,  or
+
+51
+00:01:41,883 --> 00:01:43,323
+something  else.
+
+52
+00:01:43,323 --> 00:01:44,923
+The  important  part  is  that  the
+
+53
+00:01:44,923 --> 00:01:46,563
+need  should  come  from  the  real
+
+54
+00:01:46,563 --> 00:01:49,323
+problem,  not  from  our  guess.
+
+55
+00:01:49,323 --> 00:01:51,282
+For  example,  if  someone  cannot  use
+
+56
+00:01:51,282 --> 00:01:53,563
+a  service,  the  real  need  may  not
+
+57
+00:01:53,563 --> 00:01:55,362
+be  “a  new  app.”
+
+58
+00:01:55,362 --> 00:01:56,723
+Maybe  the  problem  is  that  they  do
+
+59
+00:01:56,723 --> 00:01:58,683
+not  know  the  service  exists,
+
+60
+00:01:58,683 --> 00:02:00,322
+cannot  reach  it,  or  do  not
+
+61
+00:02:00,322 --> 00:02:02,603
+understand  how  to  use  it.
+
+62
+00:02:02,603 --> 00:02:04,443
+Different  causes  can  create  very
+
+63
+00:02:04,443 --> 00:02:06,083
+different  needs,  even  when  the
+
+64
+00:02:06,083 --> 00:02:07,403
+problem  looks  similar  from  the
+
+65
+00:02:07,403 --> 00:02:08,208
+outside.
+
+66
+00:02:08,208 --> 00:02:10,808
+Go  back  to  the  issue  you  chose.
+
+67
+00:02:10,808 --> 00:02:13,328
+Ask  yourself  four  questions.  Who
+
+68
+00:02:13,328 --> 00:02:15,368
+is  affected  most?  What  are  they
+
+69
+00:02:15,368 --> 00:02:18,488
+unable  to  do,  get  or  reach?  What
+
+70
+00:02:18,488 --> 00:02:20,608
+seems  to  be  stopping  them  and
+
+71
+00:02:20,608 --> 00:02:23,128
+what  kind  of  support  could  help?
+
+72
+00:02:23,128 --> 00:02:25,407
+Do  not  rush  the  answers.
+
+73
+00:02:25,407 --> 00:02:26,808
+Use  the  information  you  collected
+
+74
+00:02:26,808 --> 00:02:28,768
+before  and  pay  attention  to  what
+
+75
+00:02:28,768 --> 00:02:31,807
+people  actually  say  or  experience.
+
+76
+00:02:31,807 --> 00:02:33,288
+Sometimes  the  people  living  with
+
+77
+00:02:33,288 --> 00:02:34,487
+the  problem  will  point  out
+
+78
+00:02:34,487 --> 00:02:36,688
+something  you  completely  missed.
+
+79
+00:02:36,688 --> 00:02:39,048
+That  is  useful. You  are  not  trying
+
+80
+00:02:39,048 --> 00:02:40,807
+to  prove  that  your  first  idea  was
+
+81
+00:02:40,807 --> 00:02:42,447
+correct.  You  are  trying  to
+
+82
+00:02:42,447 --> 00:02:44,927
+understand  the  situation  better.
+
+83
+00:02:44,927 --> 00:02:47,048
+The  clearer  the  need  becomes,  the
+
+84
+00:02:47,048 --> 00:02:48,528
+easier  it  will  be  to  choose  a
+
+85
+00:02:48,528 --> 00:02:50,708
+solution  that  actually  fits.
+
+86
+00:02:50,948 --> 00:02:53,148
+Here  is  a  quick  test.  Imagine  the
+
+87
+00:02:53,148 --> 00:02:54,788
+people  you  want  to  help  need
+
+88
+00:02:54,788 --> 00:02:56,668
+training,  but  you  only  give  them
+
+89
+00:02:56,668 --> 00:02:58,908
+equipment.  The  equipment  may  sit
+
+90
+00:02:58,908 --> 00:03:01,028
+there  unused,  or  maybe  they
+
+91
+00:03:01,028 --> 00:03:02,708
+already  have  the  knowledge,  but
+
+92
+00:03:02,708 --> 00:03:05,108
+the  real  problem  is  transport.
+
+93
+00:03:05,108 --> 00:03:06,788
+Giving  them  more  information  will
+
+94
+00:03:06,788 --> 00:03:09,508
+not  fix  that.  A  project  can  look
+
+95
+00:03:09,508 --> 00:03:11,468
+good  and  still  miss  the  real
+
+96
+00:03:11,468 --> 00:03:14,307
+need.  That  is  why  helping  is  not
+
+97
+00:03:14,307 --> 00:03:16,348
+only  about  doing  something.  It  is
+
+98
+00:03:16,348 --> 00:03:18,708
+about  doing  something  that  fits.
+
+99
+00:03:18,708 --> 00:03:20,747
+Sometimes  the  best  support  is  very
+
+100
+00:03:20,747 --> 00:03:23,628
+simple.  Sometimes  it  is  not.
+
+101
+00:03:23,628 --> 00:03:25,988
+The  question  is  always  the  same.
+
+102
+00:03:25,988 --> 00:03:27,628
+Does  this  really  help  with  the
+
+103
+00:03:27,628 --> 00:03:29,828
+barrier  people  are  facing?  Or  are
+
+104
+00:03:29,828 --> 00:03:30,988
+we  just  giving  them  what  is
+
+105
+00:03:30,988 --> 00:03:32,708
+easiest  for  us  to  provide?
+
+106
+00:03:32,708 --> 00:03:34,908
+Now,  let's  try  it  with  your  own
+
+107
+00:03:34,908 --> 00:03:37,788
+issue.  Finish  this  sentence.
+
+108
+00:03:37,788 --> 00:03:39,627
+The  people  affected  by  this  issue
+
+109
+00:03:39,627 --> 00:03:41,267
+need?
+
+110
+00:03:41,267 --> 00:03:43,347
+Write  one  answer,  then  look  at  it
+
+111
+00:03:43,347 --> 00:03:44,307
+again.
+
+112
+00:03:44,307 --> 00:03:46,068
+Is  it  a  need  or  did  you
+
+113
+00:03:46,068 --> 00:03:48,227
+accidentally  write  a  solution?
+
+114
+00:03:48,227 --> 00:03:50,708
+For  example,  they  need  an  app  is
+
+115
+00:03:50,708 --> 00:03:52,428
+already  a  solution.
+
+116
+00:03:52,428 --> 00:03:53,747
+Ask  yourself  what  the  app  is
+
+117
+00:03:53,747 --> 00:03:55,668
+supposed  to  help  them  do.
+
+118
+00:03:55,668 --> 00:03:57,508
+Maybe  the  real  need  is  easier
+
+119
+00:03:57,508 --> 00:03:59,508
+access  to  information,  faster
+
+120
+00:03:59,508 --> 00:04:01,668
+communication  or  a  simpler  way  to
+
+121
+00:04:01,668 --> 00:04:03,708
+complete  a  task.
+
+122
+00:04:03,708 --> 00:04:05,427
+When  you  find  the  need  behind  the
+
+123
+00:04:05,427 --> 00:04:07,228
+solution,  you  open  the  door  to
+
+124
+00:04:07,228 --> 00:04:09,508
+more  than  one  possible  answer.
+
+125
+00:04:09,508 --> 00:04:11,228
+That  gives  you  more  freedom  later
+
+126
+00:04:11,228 --> 00:04:12,587
+because  you  can  compare  different
+
+127
+00:04:12,587 --> 00:04:14,188
+ways  to  help  instead  of  getting
+
+128
+00:04:14,188 --> 00:04:16,416
+stuck  on  one  idea  too  early.
+
+129
+00:04:16,416 --> 00:04:19,216
+Now,  compare  your  problem  sentence
+
+130
+00:04:19,216 --> 00:04:21,175
+with  your  need  sentence.  They
+
+131
+00:04:21,175 --> 00:04:22,576
+should  connect,  but  they  should
+
+132
+00:04:22,576 --> 00:04:24,736
+not  say  the  same  thing.
+
+133
+00:04:24,736 --> 00:04:26,376
+The  problem  tells  you  what  is
+
+134
+00:04:26,376 --> 00:04:28,656
+going  wrong.  The  need  tells  you
+
+135
+00:04:28,656 --> 00:04:29,896
+what  could  help  the  people
+
+136
+00:04:29,896 --> 00:04:32,775
+affected  move  forward.
+
+137
+00:04:32,775 --> 00:04:34,535
+If  the  problem  is  clear,  but  the
+
+138
+00:04:34,535 --> 00:04:36,736
+need  still  feels  weak,  that  is
+
+139
+00:04:36,736 --> 00:04:38,976
+okay.  Go  back  and  learn  a  little
+
+140
+00:04:38,976 --> 00:04:40,296
+more.
+
+141
+00:04:40,296 --> 00:04:41,976
+If  the  need  does  not  clearly
+
+142
+00:04:41,976 --> 00:04:43,736
+connect  to  the  problem,  check  it
+
+143
+00:04:43,736 --> 00:04:44,896
+again.
+
+144
+00:04:44,896 --> 00:04:46,455
+There  is  no  prize  for  moving
+
+145
+00:04:46,455 --> 00:04:49,015
+fast.  Taking  extra  time  here  can
+
+146
+00:04:49,015 --> 00:04:50,696
+save  you  from  building  the  wrong
+
+147
+00:04:50,696 --> 00:04:52,616
+thing  later.
+
+148
+00:04:52,616 --> 00:04:54,495
+Good  community  work  is  not  about
+
+149
+00:04:54,495 --> 00:04:56,536
+having  the  quickest  answer.  It  is
+
+150
+00:04:56,536 --> 00:04:57,936
+about  choosing  an  answer  that
+
+151
+00:04:57,936 --> 00:04:59,576
+makes  sense  for  the  people  you
+
+152
+00:04:59,576 --> 00:05:00,916
+want  to  support.
+
+153
+00:05:00,916 --> 00:05:03,156
+Before  you  finish,  keep  three
+
+154
+00:05:03,156 --> 00:05:05,116
+things  together.  Your  problem
+
+155
+00:05:05,116 --> 00:05:07,195
+statement,  the  useful  information
+
+156
+00:05:07,195 --> 00:05:09,156
+you  found  and  your  current  need
+
+157
+00:05:09,156 --> 00:05:10,435
+statement.
+
+158
+00:05:10,435 --> 00:05:12,276
+You  may  still  improve  them  later
+
+159
+00:05:12,276 --> 00:05:14,156
+and  that  is  normal.
+
+160
+00:05:14,156 --> 00:05:17,275
+For  now,  the  main  idea  is  simple.
+
+161
+00:05:17,275 --> 00:05:19,275
+Different  people  and  situations
+
+162
+00:05:19,275 --> 00:05:21,396
+need  different  kinds  of  support
+
+163
+00:05:21,396 --> 00:05:23,355
+and  the  right  tool  only  works
+
+164
+00:05:23,355 --> 00:05:26,316
+when  it  matches  the  real  need.
+
+165
+00:05:26,316 --> 00:05:28,076
+Next,  we  can  finally  start
+
+166
+00:05:28,076 --> 00:05:29,876
+thinking  about  solutions.
+
+167
+00:05:29,876 --> 00:05:31,595
+But  instead  of choosing  the  first
+
+168
+00:05:31,595 --> 00:05:33,396
+idea  that  comes  to  mind,  we  are
+
+169
+00:05:33,396 --> 00:05:35,196
+going  to  create  several  options
+
+170
+00:05:35,196 --> 00:05:36,196
+first.
+
+171
+00:05:36,196 --> 00:05:37,436
+That  gives  you  a  much  better
+
+172
+00:05:37,436 --> 00:05:38,596
+chance  of  finding  something
+
+173
+00:05:38,596 --> 00:05:40,795
+practical,  useful  and  worth
+
+174
+00:05:40,795 --> 00:05:42,276
+developing.
+
+175
+00:05:42,276 --> 00:05:44,036
+That's  it  for  today.  Keep  your
+
+176
+00:05:44,036 --> 00:05:45,436
+notes  with  you  and  I'll  see  you
+
+177
+00:05:45,436 --> 00:05:46,624
+in  the  next  lesson.
