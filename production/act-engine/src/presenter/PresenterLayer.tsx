@@ -35,10 +35,10 @@ export function PresenterLayer({
 
   const box = useCurrentLayoutBox(scenes, t, fps);
   const transitionMotion = usePresenterTransition(scenes, t, fps);
-  const sourceDissolve = getSourceCutDissolve(sourceCutSeconds, t, fps);
+  const sourceWipe = getSourceCutWipe(sourceCutSeconds, t, fps);
   const outgoingBox = useCurrentLayoutBox(
     scenes,
-    sourceDissolve ? Math.max(0, sourceDissolve.cut - 1 / fps) : t,
+    sourceWipe ? Math.max(0, sourceWipe.cut - 1 / fps) : t,
     fps,
   );
 
@@ -51,9 +51,15 @@ export function PresenterLayer({
         <PresenterVideoBox box={box} videoSrc={videoSrc} />
       </AbsoluteFill>
 
-      {sourceDissolve ? (
-        <AbsoluteFill style={{ opacity: sourceDissolve.opacity, pointerEvents: "none" }}>
-          <Freeze frame={sourceDissolve.outgoingFrame}>
+      {sourceWipe ? (
+        <AbsoluteFill
+          style={{
+            pointerEvents: "none",
+            maskImage: sourceWipe.mask,
+            WebkitMaskImage: sourceWipe.mask,
+          }}
+        >
+          <Freeze frame={sourceWipe.outgoingFrame}>
             <PresenterVideoBox box={outgoingBox} videoSrc={videoSrc} />
           </Freeze>
         </AbsoluteFill>
@@ -279,21 +285,23 @@ function useCurrentLayoutBox(scenes: EdlScene[], t: number, fps: number): Animat
   }, [scenes, t, fps]);
 }
 
-/** A clean post-cut dissolve: the last outgoing frame briefly covers the new shot and fades
- * away. It hides the generated-avatar pose jump without tinting the picture or adding branded
- * decoration, while the separately mounted narration audio remains continuous. */
-function getSourceCutDissolve(
+/** A clean post-cut picture wipe. The last outgoing frame covers the new shot, then a soft
+ * vertical boundary travels left to right to reveal it. There is no tint, decoration, or
+ * double-image blend, and the separately mounted narration audio remains continuous. */
+function getSourceCutWipe(
   cuts: number[],
   t: number,
   fps: number,
-): { cut: number; outgoingFrame: number; opacity: number } | null {
-  const DUR = 0.36;
+): { cut: number; outgoingFrame: number; mask: string } | null {
+  const DUR = 0.45;
   for (const cut of cuts) {
     const d = t - cut;
     if (d >= 0 && d < DUR) {
       const p = d / DUR;
-      const opacity = Math.pow(1 - p, 2);
-      return { cut, outgoingFrame: Math.max(0, Math.floor(cut * fps) - 1), opacity };
+      const eased = 1 - Math.pow(1 - p, 3);
+      const edge = eased * 108 - 4;
+      const mask = `linear-gradient(to right, transparent 0%, transparent ${edge - 2}%, rgba(0,0,0,0.45) ${edge}%, black ${edge + 2}%, black 100%)`;
+      return { cut, outgoingFrame: Math.max(0, Math.floor(cut * fps) - 1), mask };
     }
   }
   return null;
