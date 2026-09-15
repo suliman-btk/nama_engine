@@ -1,0 +1,89 @@
+[
+  {
+    "scene": "scene-001",
+    "scriptWords": 105,
+    "subtitleWords": 105,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-002",
+    "scriptWords": 112,
+    "subtitleWords": 112,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-003",
+    "scriptWords": 115,
+    "subtitleWords": 115,
+    "editDistance": 1,
+    "differences": [
+      {
+        "type": "substitution",
+        "script": "app",
+        "subtitle": "act"
+      }
+    ]
+  },
+  {
+    "scene": "scene-004",
+    "scriptWords": 112,
+    "subtitleWords": 110,
+    "editDistance": 4,
+    "differences": [
+      {
+        "type": "missing-in-subtitle",
+        "script": "You"
+      },
+      {
+        "type": "substitution",
+        "script": "are",
+        "subtitle": "You're"
+      },
+      {
+        "type": "missing-in-subtitle",
+        "script": "You"
+      },
+      {
+        "type": "substitution",
+        "script": "are",
+        "subtitle": "You're"
+      }
+    ]
+  },
+  {
+    "scene": "scene-005",
+    "scriptWords": 115,
+    "subtitleWords": 115,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-006",
+    "scriptWords": 118,
+    "subtitleWords": 118,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-007",
+    "scriptWords": 120,
+    "subtitleWords": 120,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-008",
+    "scriptWords": 117,
+    "subtitleWords": 117,
+    "editDistance": 1,
+    "differences": [
+      {
+        "type": "substitution",
+        "script": "choosing",
+        "subtitle": "using"
+      }
+    ]
+  }
+]

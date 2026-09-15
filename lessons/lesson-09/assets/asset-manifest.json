@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "lesson": "lesson-09",
+  "assets": [
+    {
+      "id": "official-slide-146-carpenter",
+      "path": "official-slide-146/carpenter.jpeg",
+      "kind": "photo",
+      "width": 450,
+      "height": 301,
+      "sha256": "30d2014be910e0fb8eecb1759caa5a17302bab12ebb829182a9a7ded98b7582b",
+      "source": {
+        "file": "ACT Lessons Updated Logo.pptx",
+        "slide": 146,
+        "embeddedMedia": "ppt/media/image99.jpeg",
+        "license": "Not stated in source deck"
+      },
+      "status": "selected",
+      "intendedScene": "scene-002",
+      "intendedAtPhrase": "a tree, a student, a horse, and a carpenter"
+    },
+    {
+      "id": "official-slide-146-student",
+      "path": "official-slide-146/student.jpeg",
+      "kind": "photo",
+      "width": 1000,
+      "height": 668,
+      "sha256": "c1a8545d867722f4453421d7298460f31c82aaa6e92dd90652682405f4031328",
+      "source": {
+        "file": "ACT Lessons Updated Logo.pptx",
+        "slide": 146,
+        "embeddedMedia": "ppt/media/image100.jpeg",
+        "license": "Not stated in source deck"
+      },
+      "status": "selected",
+      "intendedScene": "scene-002",
+      "intendedAtPhrase": "a tree, a student, a horse, and a carpenter"
+    },
+    {
+      "id": "official-slide-146-tree",
+      "path": "official-slide-146/tree.jpeg",
+      "kind": "photo",
+      "width": 1500,
+      "height": 999,
+      "sha256": "7f296047c6458a31b52d86cf3a6e33010da5531a9adbd94fd906e7f896315dac",
+      "source": {
+        "file": "ACT Lessons Updated Logo.pptx",
+        "slide": 146,
+        "embeddedMedia": "ppt/media/image101.jpeg",
+        "license": "Not stated in source deck"
+      },
+      "status": "selected",
+      "intendedScene": "scene-002",
+      "intendedAtPhrase": "a tree, a student, a horse, and a carpenter"
+    },
+    {
+      "id": "official-slide-146-horse",
+      "path": "official-slide-146/horse.jpeg",
+      "kind": "photo",
+      "width": 1704,
+      "height": 1280,
+      "sha256": "7a070568bd33ec934e7b6a9a51b129a5ce3aeed4ba56df5c70c32c17bd19b1ee",
+      "source": {
+        "file": "ACT Lessons Updated Logo.pptx",
+        "slide": 146,
+        "embeddedMedia": "ppt/media/image102.jpeg",
+        "license": "Not stated in source deck"
+      },
+      "status": "selected",
+      "intendedScene": "scene-002",
+      "intendedAtPhrase": "a tree, a student, a horse, and a carpenter"
+    }
+  ],
+  "curriculumReferences": [
+    {
+      "file": "ACT Curriclume - Trainer Manual Updated Logo (3).pdf",
+      "pages": [156, 157, 158, 159],
+      "use": "Confirms Lesson 9's defining-the-need exercise and the tree, student, horse, and carpenter visual set"
+    }
+  ]
+}
