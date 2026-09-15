@@ -75,7 +75,7 @@ const lesson09EdlInput: EdlInput = {
       start: { atSeconds: 38.583 },
       end: { atPhrase: "Think about four very different cases" },
       avatar: { layout: "PresenterFull", camera: "wide" },
-      transitionIn: "section-reveal",
+      transitionIn: "clean-cut",
       events: [],
     },
     {
@@ -139,7 +139,7 @@ const lesson09EdlInput: EdlInput = {
       start: { atSeconds: 84.323 },
       end: { atPhrase: "Keep it simple" },
       avatar: { layout: "PresenterFull", camera: "medium" },
-      transitionIn: "section-reveal",
+      transitionIn: "clean-cut",
       events: [],
     },
     {
@@ -207,7 +207,7 @@ const lesson09EdlInput: EdlInput = {
       start: { atSeconds: 128.208 },
       end: { atPhrase: "Ask yourself four questions" },
       avatar: { layout: "PresenterFull", camera: "wide" },
-      transitionIn: "section-reveal",
+      transitionIn: "clean-cut",
       events: [],
     },
     {
@@ -260,7 +260,7 @@ const lesson09EdlInput: EdlInput = {
       start: { atSeconds: 170.948 },
       end: { atSeconds: 185.108 },
       avatar: { layout: "PresenterRight", camera: "medium" },
-      transitionIn: "soft-push-left",
+      transitionIn: "clean-cut",
       events: [{
         id: "support-mismatch",
         anchor: { atPhrase: "Imagine the people you want" },
@@ -306,7 +306,7 @@ const lesson09EdlInput: EdlInput = {
       start: { atSeconds: 212.708 },
       end: { atPhrase: "Finish this sentence" },
       avatar: { layout: "PresenterFull", camera: "wide" },
-      transitionIn: "section-reveal",
+      transitionIn: "clean-cut",
       events: [],
     },
     {
@@ -374,7 +374,7 @@ const lesson09EdlInput: EdlInput = {
       start: { atSeconds: 256.416 },
       end: { atPhrase: "They should connect" },
       avatar: { layout: "PresenterFull", camera: "wide" },
-      transitionIn: "section-reveal",
+      transitionIn: "clean-cut",
       events: [],
     },
     {
@@ -428,7 +428,7 @@ const lesson09EdlInput: EdlInput = {
       start: { atSeconds: 300.916 },
       end: { atPhrase: "You may still improve them" },
       avatar: { layout: "PresenterLeft", camera: "medium" },
-      transitionIn: "soft-push-right",
+      transitionIn: "clean-cut",
       events: [{
         id: "keep-three-together",
         anchor: { atPhrase: "keep three things together" },
