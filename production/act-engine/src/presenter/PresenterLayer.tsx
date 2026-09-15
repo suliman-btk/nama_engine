@@ -293,12 +293,12 @@ function getSourceCutWipe(
   t: number,
   fps: number,
 ): { cut: number; outgoingFrame: number; mask: string } | null {
-  const DUR = 0.45;
+  const DUR = 0.9;
   for (const cut of cuts) {
     const d = t - cut;
     if (d >= 0 && d < DUR) {
       const p = d / DUR;
-      const eased = 1 - Math.pow(1 - p, 3);
+      const eased = p * p * (3 - 2 * p);
       const edge = eased * 108 - 4;
       const mask = `linear-gradient(to right, transparent 0%, transparent ${edge - 2}%, rgba(0,0,0,0.45) ${edge}%, black ${edge + 2}%, black 100%)`;
       return { cut, outgoingFrame: Math.max(0, Math.floor(cut * fps) - 1), mask };
