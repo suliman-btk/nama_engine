@@ -10,6 +10,7 @@ import { theme } from "../components/theme";
 import { LessonLabelContext, ContentEdgesContext } from "../slides/SlideFrame";
 import { BrandWatermark } from "../brand/BrandWatermark";
 import { GoldBaseline } from "../brand/FrameChrome";
+import { SceneTransitionLayer } from "../transitions/SceneTransitionLayer";
 
 export function Lesson09() {
   const edl = useMemo(() => {
@@ -36,6 +37,7 @@ export function Lesson09() {
         </ContentEdgesContext.Provider>
       </LessonLabelContext.Provider>
       <PresenterLayer scenes={edl.scenes} videoSrc={src} sourceCutSeconds={edl.sourceCutSeconds} />
+      <SceneTransitionLayer edl={edl} />
       <BrandWatermark />
       <GoldBaseline />
     </AbsoluteFill>
