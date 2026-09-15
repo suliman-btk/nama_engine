@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "lesson": "lesson-10",
+  "assets": [
+    {
+      "id": "official-slide-154-solutions-blender",
+      "path": "official-slides/solutions-blender.png",
+      "kind": "illustration",
+      "width": 1000,
+      "height": 700,
+      "sha256": "91c93fa7e13008145c579f11db7354ae819205f3d7186e5ac8120ad50ed4bd53",
+      "source": {
+        "file": "ACT Lessons Updated Logo.pptx",
+        "slide": 154,
+        "embeddedMedia": "ppt/media/image106.png",
+        "originalWidth": 352,
+        "originalHeight": 485,
+        "license": "Not stated in source deck"
+      },
+      "adaptation": "Centered at native size on an ACT deep-navy 1000x700 canvas; aspect ratio preserved",
+      "status": "selected",
+      "intendedScene": "scene-004",
+      "intendedAtPhrase": "mixing parts of several smaller ideas"
+    },
+    {
+      "id": "official-slide-156-case-study",
+      "path": "official-slides/case-study.png",
+      "kind": "illustration",
+      "width": 1000,
+      "height": 700,
+      "sha256": "e2a261342142dfac7b8e2d22b552dbe5ff161efa5b391fe0bf4514401d28ef14",
+      "source": {
+        "file": "ACT Lessons Updated Logo.pptx",
+        "slide": 156,
+        "embeddedMedia": "ppt/media/image108.png",
+        "originalWidth": 1520,
+        "originalHeight": 800,
+        "license": "Not stated in source deck"
+      },
+      "adaptation": "Proportionally reduced and centered on an ACT deep-navy 1000x700 canvas; aspect ratio preserved",
+      "status": "selected",
+      "intendedScene": "scene-006",
+      "intendedAtPhrase": "A volunteer project could give you a small place to practice"
+    }
+  ],
+  "curriculumReferences": [
+    {
+      "file": "ACT Curriclume - Trainer Manual Updated Logo (3).pdf",
+      "pages": [164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175],
+      "use": "Confirms Lesson 10's brainstorming, three-solution shortlist, volunteering-to-build-skills case studies, and skill-list close"
+    }
+  ],
+  "reviewedNotSelected": [
+    {
+      "file": "ACT Lessons Updated Logo.pptx",
+      "slide": 153,
+      "reason": "Information Raffle title art reviews Lesson 9 rather than clarifying Lesson 10 narration"
+    },
+    {
+      "file": "ACT Lessons Updated Logo.pptx",
+      "slide": 155,
+      "reason": "World Map is an unrelated energizer and is not narrated in this video"
+    },
+    {
+      "file": "ACT Lessons Updated Logo.pptx",
+      "slide": 157,
+      "reason": "Text-only activity title; the matching skill content is presented more clearly with editable video graphics"
+    }
+  ]
+}

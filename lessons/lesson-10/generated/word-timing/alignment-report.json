@@ -1,0 +1,88 @@
+[
+  {
+    "scene": "scene-001",
+    "scriptWords": 113,
+    "subtitleWords": 113,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-002",
+    "scriptWords": 109,
+    "subtitleWords": 109,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-003",
+    "scriptWords": 114,
+    "subtitleWords": 116,
+    "editDistance": 4,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "seem",
+        "subtitle": "seems"
+      },
+      {
+        "type": "insert",
+        "script": "",
+        "subtitle": "need"
+      },
+      {
+        "type": "replace",
+        "script": "shortlist",
+        "subtitle": "short list"
+      }
+    ]
+  },
+  {
+    "scene": "scene-004",
+    "scriptWords": 117,
+    "subtitleWords": 117,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-005",
+    "scriptWords": 103,
+    "subtitleWords": 103,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-006",
+    "scriptWords": 110,
+    "subtitleWords": 110,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-007",
+    "scriptWords": 112,
+    "subtitleWords": 112,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-008",
+    "scriptWords": 105,
+    "subtitleWords": 105,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-009",
+    "scriptWords": 111,
+    "subtitleWords": 111,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-010",
+    "scriptWords": 140,
+    "subtitleWords": 140,
+    "editDistance": 0,
+    "differences": []
+  }
+]
