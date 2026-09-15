@@ -1,6 +1,7 @@
 node_modules/
 public/*.mp4
 public/*.mov
+public/lesson-assets/
 .remotion/
 out/
 

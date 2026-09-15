@@ -10,6 +10,7 @@
     "still": "remotion still src/index.ts",
     "check": "tsc -p tsconfig.check.json && node .check/scripts/check-lesson.js",
     "word-timing": "node scripts/build-word-timing.mjs",
+    "stage-assets": "node scripts/stage-lesson-assets.mjs",
     "stills": "node render-all-stills.mjs"
   },
   "dependencies": {
