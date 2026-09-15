@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { AbsoluteFill, OffthreadVideo, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Freeze, OffthreadVideo, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { EdlScene } from "../edl/schema";
 import { LAYOUTS, type LayoutBox } from "./layoutConfig";
 import { Stage } from "./Stage";
@@ -35,7 +35,12 @@ export function PresenterLayer({
 
   const box = useCurrentLayoutBox(scenes, t, fps);
   const transitionMotion = usePresenterTransition(scenes, t, fps);
-  const cutCover = useSourceCutCover(sourceCutSeconds, t);
+  const sourceDissolve = getSourceCutDissolve(sourceCutSeconds, t, fps);
+  const outgoingBox = useCurrentLayoutBox(
+    scenes,
+    sourceDissolve ? Math.max(0, sourceDissolve.cut - 1 / fps) : t,
+    fps,
+  );
 
   return (
     <AbsoluteFill>
@@ -43,38 +48,51 @@ export function PresenterLayer({
       {/* Outer wrapper carries the transition move, inner carries the layout box — kept
           apart so the two transforms compose instead of overwriting each other. */}
       <AbsoluteFill style={{ ...transitionMotion, willChange: "transform, opacity" }}>
-      <div
-        style={{
-          position: "absolute",
-          left: `${box.xPct}%`,
-          top: `${box.yPct}%`,
-          width: `${box.wPct}%`,
-          height: `${box.hPct}%`,
-          borderRadius: box.radiusPx,
-          overflow: "hidden",
-          boxShadow: box.shadow ? "0 26px 70px rgba(0,0,0,0.55)" : undefined,
-          // A hairline edge so a corner/split card reads as a deliberate frame rather than
-          // a video that got cut off.
-          outline: box.radiusPx > 0 ? `2px solid ${theme.colors.panelEdge}` : undefined,
-          outlineOffset: -2,
-          transform: [box.mirror ? "scaleX(-1)" : "", cutCover.transform].filter(Boolean).join(" ") || undefined,
-          opacity: box.opacity * cutCover.opacity,
-          ...featherMask(box),
-        }}
-      >
-        <OffthreadVideo
-          src={videoSrc}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            objectPosition: `50% ${box.objectPosY}%`,
-            transform: `scale(${box.objectScale})`,
-          }}
-        />
-      </div>
+        <PresenterVideoBox box={box} videoSrc={videoSrc} />
       </AbsoluteFill>
+
+      {sourceDissolve ? (
+        <AbsoluteFill style={{ opacity: sourceDissolve.opacity, pointerEvents: "none" }}>
+          <Freeze frame={sourceDissolve.outgoingFrame}>
+            <PresenterVideoBox box={outgoingBox} videoSrc={videoSrc} />
+          </Freeze>
+        </AbsoluteFill>
+      ) : null}
     </AbsoluteFill>
+  );
+}
+
+function PresenterVideoBox({ box, videoSrc }: { box: AnimatedBox; videoSrc: string }) {
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: `${box.xPct}%`,
+        top: `${box.yPct}%`,
+        width: `${box.wPct}%`,
+        height: `${box.hPct}%`,
+        borderRadius: box.radiusPx,
+        overflow: "hidden",
+        boxShadow: box.shadow ? "0 26px 70px rgba(0,0,0,0.55)" : undefined,
+        outline: box.radiusPx > 0 ? `2px solid ${theme.colors.panelEdge}` : undefined,
+        outlineOffset: -2,
+        transform: box.mirror ? "scaleX(-1)" : undefined,
+        opacity: box.opacity,
+        ...featherMask(box),
+      }}
+    >
+      <OffthreadVideo
+        src={videoSrc}
+        muted
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          objectPosition: `50% ${box.objectPosY}%`,
+          transform: `scale(${box.objectScale})`,
+        }}
+      />
+    </div>
   );
 }
 
@@ -261,27 +279,24 @@ function useCurrentLayoutBox(scenes: EdlScene[], t: number, fps: number): Animat
   }, [scenes, t, fps]);
 }
 
-/**
- * Covers a hard cut inside the SOURCE footage — the moments where the avatar tool joined two
- * generated clips and the presenter's pose visibly jumps mid-sentence.
- *
- * This used to be a navy veil drawn over the ENTIRE frame, which dimmed the slide, the text
- * and the branding along with it — the picture looked like it was browning out for no reason
- * the viewer could see. The jump is only ever in the presenter's own picture, so the cover
- * belongs on the presenter card alone: a fast scale-through, a quarter of a second, with the
- * card never dropping below 70% opacity. The slide behind it is untouched.
- */
-function useSourceCutCover(cuts: number[], t: number): { transform: string; opacity: number } {
-  const DUR = 0.26;
+/** A clean post-cut dissolve: the last outgoing frame briefly covers the new shot and fades
+ * away. It hides the generated-avatar pose jump without tinting the picture or adding branded
+ * decoration, while the separately mounted narration audio remains continuous. */
+function getSourceCutDissolve(
+  cuts: number[],
+  t: number,
+  fps: number,
+): { cut: number; outgoingFrame: number; opacity: number } | null {
+  const DUR = 0.36;
   for (const cut of cuts) {
-    const d = t - (cut - DUR / 2);
-    if (d >= 0 && d <= DUR) {
+    const d = t - cut;
+    if (d >= 0 && d < DUR) {
       const p = d / DUR;
-      const bell = Math.sin(p * Math.PI); // 0 -> 1 -> 0, peaking on the cut
-      return { transform: `scale(${1 + bell * 0.05})`, opacity: 1 - bell * 0.3 };
+      const opacity = Math.pow(1 - p, 2);
+      return { cut, outgoingFrame: Math.max(0, Math.floor(cut * fps) - 1), opacity };
     }
   }
-  return { transform: "", opacity: 1 };
+  return null;
 }
 
 /** Feathers the inner edge of a split layout. Without this the video ends on a hard vertical
