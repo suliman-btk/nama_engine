@@ -1,0 +1,505 @@
+{
+  "lessonId": "lesson-06",
+  "title": "Your Roles and Your Communities",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-06-master.mp4",
+  "sourceCutSeconds": [
+    38.06666666666667,
+    78.33333333333333,
+    115.43333333333334,
+    152.43333333333334,
+    193.86666666666667,
+    229,
+    266.6
+  ],
+  "scenes": [
+    {
+      "sceneId": "s1-open",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atPhrase": "Every day, you move through different parts of life"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": []
+    },
+    {
+      "sceneId": "s1-visual",
+      "start": {
+        "atPhrase": "Every day, you move through different parts of life"
+      },
+      "end": {
+        "atSeconds": 38.06666666666667
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s1-visual-graphic",
+          "anchor": {
+            "atPhrase": "Every day, you move through different parts of life"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Your life roles",
+            "title": "Different ways you participate",
+            "items": [
+              "Student",
+              "Family member",
+              "Friend and neighbor",
+              "Employee or another role"
+            ],
+            "revealAtSeconds": [
+              14.68,
+              16.04,
+              17.18,
+              18.9
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s2-open",
+      "start": {
+        "atSeconds": 38.06666666666667
+      },
+      "end": {
+        "atPhrase": "The same person can have many roles in one day"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": []
+    },
+    {
+      "sceneId": "s2-visual",
+      "start": {
+        "atPhrase": "The same person can have many roles in one day"
+      },
+      "end": {
+        "atSeconds": 78.33333333333333
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s2-visual-graphic",
+          "anchor": {
+            "atPhrase": "The same person can have many roles in one day"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "One person, many roles",
+            "title": "Roles change with the setting",
+            "items": [
+              "Morning: student",
+              "Home: son or daughter",
+              "Later: friend",
+              "Shop: customer"
+            ],
+            "revealAtSeconds": [
+              45.52,
+              48.06,
+              50.08,
+              51.56
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s3-open",
+      "start": {
+        "atSeconds": 78.33333333333333
+      },
+      "end": {
+        "atPhrase": "A student is connected to learning"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": []
+    },
+    {
+      "sceneId": "s3-visual",
+      "start": {
+        "atPhrase": "A student is connected to learning"
+      },
+      "end": {
+        "atSeconds": 115.43333333333334
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s3-visual-graphic",
+          "anchor": {
+            "atPhrase": "A student is connected to learning"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Roles and responsibilities",
+            "title": "Actions happen inside relationships",
+            "items": [
+              "Student: learning and classmates",
+              "Family member: people at home",
+              "Neighbor: shared space and daily choices"
+            ],
+            "revealAtSeconds": [
+              82.7,
+              87.76,
+              90.94
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s4-open",
+      "start": {
+        "atSeconds": 115.43333333333334
+      },
+      "end": {
+        "atPhrase": "A community can be thought of"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": []
+    },
+    {
+      "sceneId": "s4-definition",
+      "start": {
+        "atPhrase": "A community can be thought of"
+      },
+      "end": {
+        "atPhrase": "Think about a school"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s4-definition-graphic",
+          "anchor": {
+            "atPhrase": "A community can be thought of"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "What is a community?",
+            "headline": "People connected by a shared setting",
+            "variant": "bar",
+            "emphasize": [
+              "People",
+              "shared"
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s4-diagrams",
+      "start": {
+        "atPhrase": "Think about a school"
+      },
+      "end": {
+        "atSeconds": 152.43333333333334
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [
+        {
+          "id": "s4-diagrams-graphic",
+          "anchor": {
+            "atPhrase": "Think about a school"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Communities around you",
+            "title": "Different roles, one community",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-06/school-community-new.svg",
+                "label": "School: different roles together"
+              },
+              {
+                "src": "lesson-assets/lesson-06/hospital-community-new.svg",
+                "label": "Hospital: people and resources"
+              }
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s5-open",
+      "start": {
+        "atSeconds": 152.43333333333334
+      },
+      "end": {
+        "atPhrase": "It also includes the environment"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": []
+    },
+    {
+      "sceneId": "s5-visual",
+      "start": {
+        "atPhrase": "It also includes the environment"
+      },
+      "end": {
+        "atSeconds": 193.86666666666667
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s5-visual-graphic",
+          "anchor": {
+            "atPhrase": "It also includes the environment"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "A community as a system",
+            "title": "Connected parts affect one another",
+            "items": [
+              "People and their roles",
+              "Resources and materials",
+              "Places and facilities",
+              "Rules and relationships"
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s6-open",
+      "start": {
+        "atSeconds": 193.86666666666667
+      },
+      "end": {
+        "atPhrase": "A class can be part of a school"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": []
+    },
+    {
+      "sceneId": "s6-visual",
+      "start": {
+        "atPhrase": "A class can be part of a school"
+      },
+      "end": {
+        "atSeconds": 229
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s6-visual-graphic",
+          "anchor": {
+            "atPhrase": "A class can be part of a school"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Community scale",
+            "title": "Communities within larger systems",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-06/education-scale-new.svg",
+                "label": "Class within school and system"
+              },
+              {
+                "src": "lesson-assets/lesson-06/health-scale-new.svg",
+                "label": "Clinic within network and sector"
+              }
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s7-open",
+      "start": {
+        "atSeconds": 229
+      },
+      "end": {
+        "atPhrase": "A simple investigation can ask"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": []
+    },
+    {
+      "sceneId": "s7-visual",
+      "start": {
+        "atPhrase": "A simple investigation can ask"
+      },
+      "end": {
+        "atSeconds": 266.6
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s7-visual-graphic",
+          "anchor": {
+            "atPhrase": "A simple investigation can ask"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Understanding a community",
+            "questions": [
+              "What issue exists here?",
+              "Is it still happening?",
+              "Has anyone tried to address it?",
+              "What did they do?"
+            ],
+            "askAtSeconds": [
+              237.96,
+              239.86,
+              241.28,
+              244.28
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s8-open",
+      "start": {
+        "atSeconds": 266.6
+      },
+      "end": {
+        "atPhrase": "Your roles connect you to people"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": []
+    },
+    {
+      "sceneId": "s8-summary",
+      "start": {
+        "atPhrase": "Your roles connect you to people"
+      },
+      "end": {
+        "atPhrase": "In the next lesson, we will look inside"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s8-summary-graphic",
+          "anchor": {
+            "atPhrase": "Your roles connect you to people"
+          },
+          "action": "show",
+          "component": "OutroSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Your roles and communities",
+            "title": "Your connections shape participation",
+            "points": [
+              "Roles connect you to people",
+              "Responsibilities shape your actions",
+              "Communities have resources and boundaries"
+            ],
+            "lessonLabel": "ACT · Lesson 6"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "s8-close",
+      "start": {
+        "atPhrase": "In the next lesson, we will look inside"
+      },
+      "end": {
+        "atSeconds": 308.662857
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": []
+    }
+  ]
+}

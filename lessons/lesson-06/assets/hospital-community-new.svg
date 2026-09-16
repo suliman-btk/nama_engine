@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="650" viewBox="0 0 440 650">
+<rect width="440" height="650" fill="#454C8A"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<text x="220" y="86" fill="#E4C862" font-size="27" font-weight="800">HOSPITAL COMMUNITY</text>
+<path d="M220 260V169M143 297L98 239M297 297L343 239M146 336L102 380M294 336L338 380" stroke="#FAF7EE" stroke-width="4"/>
+<rect x="127" y="258" width="186" height="97" rx="20" fill="#CFAD3A"/>
+<text x="220" y="316" font-size="33" font-weight="800" fill="#12142F">Hospital</text>
+<g fill="#FAF7EE"><rect x="132" y="104" width="176" height="65" rx="18"/><rect x="23" y="175" width="154" height="65" rx="18"/><rect x="262" y="175" width="154" height="65" rx="18"/><rect x="23" y="382" width="154" height="65" rx="18"/><rect x="262" y="382" width="154" height="65" rx="18"/></g>
+<g fill="#1B1E4A" font-size="28" font-weight="700"><text x="220" y="145">Doctors</text><text x="100" y="216">Nurses</text><text x="339" y="216">Staff</text><text x="100" y="423">Patients</text><text x="339" y="423">Resources</text></g>
+<text x="220" y="512" font-size="28" fill="#FAF7EE" font-weight="700">People and resources</text>
+<text x="220" y="553" font-size="28" fill="#E4C862" font-weight="700">Connected around care</text>
+</g></svg>

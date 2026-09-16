@@ -1,0 +1,31 @@
+{
+  "scriptWords": 792,
+  "subtitleWords": 699,
+  "differences": [
+    {
+      "i": 564,
+      "script": "on what you are trying to understand sometimes the",
+      "subtitle": "on what you were trying to understand sometimes the"
+    },
+    {
+      "i": 699,
+      "script": "the next unit so the path is becoming clearer",
+      "subtitle": "the next unit"
+    },
+    {
+      "i": 700,
+      "script": "next unit so the path is becoming clearer your",
+      "subtitle": "next unit"
+    },
+    {
+      "i": 701,
+      "script": "unit so the path is becoming clearer your roles",
+      "subtitle": "unit"
+    },
+    {
+      "i": 702,
+      "script": "so the path is becoming clearer your roles connect",
+      "subtitle": ""
+    }
+  ]
+}

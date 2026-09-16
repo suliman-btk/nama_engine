@@ -1,0 +1,16 @@
+{
+  "lesson": "lesson-06",
+  "assets": [
+    {"file":"school-roles.svg","sourceDeck":"ACT Lessons Updated Logo.pptx","slideNumber":108,"format":"vector SVG from existing PDF conversion of official deck","selection":"central school-role diagram; surrounding empty exercise notes and slide chrome excluded","intendedScenes":["s4-diagrams","s6-visual"],"phrase":"Think about a school","license":"User-supplied curriculum; no external license claimed"},
+    {"file":"community-scale.svg","sourceDeck":"ACT Lessons Updated Logo.pptx","slideNumber":109,"format":"vector SVG from existing PDF conversion of official deck","selection":"complete nested hospital/community diagram with all labels retained","intendedScenes":["s4-diagrams","s6-visual"],"phrase":"A hospital can be another","license":"User-supplied curriculum; no external license claimed"}
+  ],
+  "branding":"Composition-level NAMA watermark retained above presenter and visuals",
+  "externalImages":[],
+  "replacementDecision":"User requested replacing the slide extracts with clearer idea-based infographics; original extracts retained as unused references.",
+  "activeInfographics":[
+    {"file":"school-community-new.svg","source":"Agent-authored native vector infographic","referenceDeck":"ACT Lessons Updated Logo.pptx","referenceSlide":108,"scene":"s4-diagrams","idea":"Students, teachers and staff share one school setting"},
+    {"file":"hospital-community-new.svg","source":"Agent-authored native vector infographic","referenceDeck":"ACT Lessons Updated Logo.pptx","referenceSlide":109,"scene":"s4-diagrams","idea":"Doctors, nurses, staff, patients and resources are connected around care"},
+    {"file":"education-scale-new.svg","source":"Agent-authored native vector infographic based on approved narration","referenceDeck":"ACT Lessons Updated Logo.pptx","referenceSlide":109,"scene":"s6-visual","idea":"A class sits within a school within an education system"},
+    {"file":"health-scale-new.svg","source":"Agent-authored native vector infographic based on approved narration","referenceDeck":"ACT Lessons Updated Logo.pptx","referenceSlide":109,"scene":"s6-visual","idea":"A clinic sits within a hospital network within the wider health sector"}
+  ]
+}

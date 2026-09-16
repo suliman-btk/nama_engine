@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="650" viewBox="0 0 440 650">
+<rect width="440" height="650" fill="#454C8A"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<text x="220" y="86" fill="#E4C862" font-size="28" font-weight="800">EDUCATION SCALE</text>
+<rect x="36" y="140" width="368" height="430" rx="28" fill="#1B1E4A" stroke="#E4C862" stroke-width="3"/>
+<text x="220" y="193" fill="#FAF7EE" font-size="29" font-weight="700">Education system</text>
+<rect x="67" y="229" width="306" height="302" rx="24" fill="#3D6E96" stroke="#FAF7EE" stroke-width="2"/>
+<text x="220" y="282" fill="#FAF7EE" font-size="34" font-weight="800">School</text>
+<rect x="102" y="321" width="236" height="163" rx="20" fill="#CFAD3A"/>
+<text x="220" y="393" fill="#12142F" font-size="40" font-weight="800">Class</text>
+<text x="220" y="437" fill="#12142F" font-size="25">People and roles</text>
+</g></svg>

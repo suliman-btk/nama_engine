@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="650" viewBox="0 0 440 650">
+<rect width="440" height="650" fill="#454C8A"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<text x="220" y="86" fill="#E4C862" font-size="28" font-weight="800">SCHOOL COMMUNITY</text>
+<circle cx="220" cy="304" r="166" fill="none" stroke="#E4C862" stroke-width="3" stroke-dasharray="8 7"/>
+<path d="M220 251V192M158 324L101 350M282 324L339 350" stroke="#FAF7EE" stroke-width="4"/>
+<rect x="137" y="253" width="166" height="100" rx="22" fill="#CFAD3A"/>
+<text x="220" y="314" font-size="36" font-weight="800" fill="#12142F">School</text>
+<rect x="133" y="146" width="174" height="68" rx="18" fill="#FAF7EE"/>
+<text x="220" y="188" font-size="30" fill="#1B1E4A" font-weight="700">Students</text>
+<rect x="24" y="359" width="174" height="68" rx="18" fill="#FAF7EE"/>
+<text x="111" y="402" font-size="30" fill="#1B1E4A" font-weight="700">Teachers</text>
+<rect x="243" y="359" width="174" height="68" rx="18" fill="#FAF7EE"/>
+<text x="330" y="402" font-size="30" fill="#1B1E4A" font-weight="700">Staff</text>
+<text x="220" y="513" font-size="28" fill="#FAF7EE" font-weight="700">Different roles</text>
+<text x="220" y="553" font-size="28" fill="#E4C862" font-weight="700">One shared setting</text>
+</g></svg>
