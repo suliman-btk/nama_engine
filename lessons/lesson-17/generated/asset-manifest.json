@@ -1,0 +1,93 @@
+{
+  "assets": [
+    {
+      "file": "readiness.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s2-graphic"
+    },
+    {
+      "file": "backup.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s2-graphic"
+    },
+    {
+      "file": "attendance.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s4-graphic"
+    },
+    {
+      "file": "late-start.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s4-graphic"
+    },
+    {
+      "file": "documentation.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s5-graphic"
+    },
+    {
+      "file": "notes.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s5-graphic"
+    },
+    {
+      "file": "continuation.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s7-graphic"
+    },
+    {
+      "file": "future.svg",
+      "width": 440,
+      "height": 650,
+      "source": "Agent-authored native infographic based on locked Lessons 17–18 narration",
+      "license": "No external image or licence claim",
+      "scene": "s7-graphic"
+    }
+  ],
+  "officialReview": {
+    "deck": "ACT Lessons Updated Logo.pptx",
+    "slidesInspected": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218
+    ],
+    "selection": "No matching photograph selected: carpentry examples are not narrated; watermarked stock shoe-rack photo has unclear reuse rights. Content is supported by narration-based infographics."
+  }
+}

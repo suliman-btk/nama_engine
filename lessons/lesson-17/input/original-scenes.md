@@ -1,0 +1,69 @@
+# ACT Lesson 17-18 — Execute, Adapt and Document
+
+> LOCKED AVATAR SCRIPT
+> Every scene is validated at 600–800 characters INCLUDING audio tags.
+> Individual self-paced learner. No team, submission, instructor dependency, mandatory execution, or required presentation.
+
+## Scene 01
+
+[natural pace] [interest] [natural]
+
+Hi, and welcome back to Act. Planning helps you prepare, but execution is where the plan meets reality. This is the point where assumptions are tested. Some parts may work exactly as expected, while others may need to change. [short pause] Good execution is not blindly following every line of a plan. It is using the plan as a guide while paying attention to what is actually happening. The goal is still the same: respond to the real need as effectively as possible, even when the method needs to adjust along the way. That flexibility is part of good execution.
+
+---
+
+## Scene 02
+
+[natural pace] [thoughtful] [natural]
+
+Before an initiative begins, a simple readiness check can prevent many avoidable problems. Are the main resources available? Is the time confirmed? Is the place ready? Are any permissions needed? Does everyone who needs information have it? Is there a clear way to record what happens? [short pause] It also helps to separate essential items from useful extras. If a projector fails, can the activity still continue? If one handout is missing, is there another way to explain the same information? Knowing what is truly essential makes adaptation easier. A backup option can also reduce unnecessary stress.
+
+---
+
+## Scene 03
+
+[natural pace] [curiosity] [natural]
+
+During execution, compare what is happening with what was planned. If things are working, keep going. If something changes, first understand the change before reacting. Maybe fewer people arrive. Maybe a resource becomes unavailable. Maybe an activity takes longer than expected. [short pause] Ask one useful question: does this change affect the main purpose, or only the way we planned to reach it? If the purpose is still possible, changing the method can be reasonable. The plan gives structure, but judgment helps you respond to reality. That distinction helps you react more calmly.
+
+---
+
+## Scene 04
+
+[natural pace] [interest] [natural]
+
+Imagine an activity was planned for one hundred people, but only forty arrive. Canceling immediately is not the only option, and pretending one hundred arrived is obviously not useful. You could adjust the activity for a smaller group, keep the same objective, and record what happened. [short pause] Or imagine the activity starts late because the place was not ready. You may shorten one part, move another, or change the order. In both cases, the important skill is protecting what matters most instead of trying to save every detail exactly as written. The objective stays stable while the method changes.
+
+---
+
+## Scene 05
+
+[natural pace] [serious] [natural]
+
+Documentation is more than taking photos. Useful documentation can include what was planned, what actually happened, simple numbers or results, important changes, challenges, feedback, and lessons learned. Photos or video may help when appropriate, but they are only part of the record. [short pause] Good documentation is often easier when it happens during the activity. A short note such as “started thirty minutes late” or “changed the activity because the room was smaller” can be more useful than trying to remember everything afterward. Small records can later explain big decisions.
+
+---
+
+## Scene 06
+
+[natural pace] [thoughtful] [natural]
+
+After the activity, look back at the experience. What worked well? What was harder than expected? What changed during execution? How was the problem handled? What would you keep next time, and what would you change? [short pause] Then compare the result with the original purpose. Did the activity reach the people it was meant to reach? Did it address the need in the way you expected? You may not be able to prove a large impact immediately, but you can still look for reasonable signs that show whether the effort moved in the right direction. That comparison helps separate activity from actual value.
+
+---
+
+## Scene 07
+
+[natural pace] [interest] [natural]
+
+There is one more useful question: could the initiative continue, repeat, or grow? Sustainability does not always mean making something permanent. It means understanding what would be needed if the idea were to continue. [short pause] Maybe it needs regular funding, a reliable location, trained people, stronger partnerships, or a simpler design. Thinking about continuation helps reveal whether the activity depends on one special situation or whether it can work again. It also shows which resources or relationships matter most for the future. It also helps you see what would need to change next time.
+
+---
+
+## Scene 08
+
+[slow pace] [hope] [natural]
+
+So execution has a clear rhythm: prepare carefully, follow the plan, notice what reality changes, adapt when needed, document what happened, and reflect afterward. Then look at results, challenges, lessons, and what would be needed to improve or continue the idea. [short pause] In the final part of Act, we will look at communication. The goal is not to give a formal presentation, but to understand how to explain an initiative clearly so another person can follow the problem, the response, what happened, and what was learned. I’ll see you there. That is how action becomes learning, not just activity.
+
+---

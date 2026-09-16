@@ -1,0 +1,567 @@
+{
+  "lessonId": "lesson-17",
+  "title": "Execute, Adapt and Document — Lessons 17–18",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-17-master.mp4",
+  "sourceCutSeconds": [
+    37.63333333333333,
+    80.06666666666666,
+    122.93333333333334,
+    163.83333333333334,
+    200.43333333333334,
+    239,
+    280.3333333333333
+  ],
+  "scenes": [
+    {
+      "sceneId": "s1-open",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atPhrase": "This is the point where assumptions are tested"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s1-graphic",
+      "start": {
+        "atPhrase": "This is the point where assumptions are tested"
+      },
+      "end": {
+        "atPhrase": "The goal is still the same"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s1-graphic-visual",
+          "anchor": {
+            "atPhrase": "This is the point where assumptions are tested"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Execution",
+            "headline": "A stable purpose with an adaptable method",
+            "variant": "bar",
+            "emphasize": [
+              "purpose",
+              "adaptable"
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s1-return",
+      "start": {
+        "atPhrase": "The goal is still the same"
+      },
+      "end": {
+        "atSeconds": 37.63333333333333
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s2-open",
+      "start": {
+        "atSeconds": 37.63333333333333
+      },
+      "end": {
+        "atPhrase": "Are the main resources available"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s2-graphic",
+      "start": {
+        "atPhrase": "Are the main resources available"
+      },
+      "end": {
+        "atPhrase": "Knowing what is truly essential"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s2-graphic-visual",
+          "anchor": {
+            "atPhrase": "Are the main resources available"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Readiness check",
+            "title": "Essentials before execution",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-17/readiness.svg",
+                "label": ""
+              },
+              {
+                "src": "lesson-assets/lesson-17/backup.svg",
+                "label": ""
+              }
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s2-return",
+      "start": {
+        "atPhrase": "Knowing what is truly essential"
+      },
+      "end": {
+        "atSeconds": 80.06666666666666
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s3-open",
+      "start": {
+        "atSeconds": 80.06666666666666
+      },
+      "end": {
+        "atPhrase": "If something changes"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s3-graphic",
+      "start": {
+        "atPhrase": "If something changes"
+      },
+      "end": {
+        "atPhrase": "The plan gives structure"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s3-graphic-visual",
+          "anchor": {
+            "atPhrase": "If something changes"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Responding to change",
+            "headline": "Does the change affect the purpose or the method?",
+            "variant": "bar",
+            "emphasize": [
+              "purpose",
+              "method"
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s3-return",
+      "start": {
+        "atPhrase": "The plan gives structure"
+      },
+      "end": {
+        "atPhrase": "Imagine an activity was planned"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s4-graphic",
+      "start": {
+        "atPhrase": "Imagine an activity was planned"
+      },
+      "end": {
+        "atPhrase": "In both cases"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s4-graphic-visual",
+          "anchor": {
+            "atPhrase": "Imagine an activity was planned"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Adapting in practice",
+            "title": "The objective stays stable",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-17/attendance.svg",
+                "label": ""
+              },
+              {
+                "src": "lesson-assets/lesson-17/late-start.svg",
+                "label": ""
+              }
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s4-return",
+      "start": {
+        "atPhrase": "In both cases"
+      },
+      "end": {
+        "atSeconds": 163.83333333333334
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s5-open",
+      "start": {
+        "atSeconds": 163.83333333333334
+      },
+      "end": {
+        "atPhrase": "Useful documentation can include"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s5-graphic",
+      "start": {
+        "atPhrase": "Useful documentation can include"
+      },
+      "end": {
+        "atPhrase": "Small records can later explain"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s5-graphic-visual",
+          "anchor": {
+            "atPhrase": "Useful documentation can include"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Documentation",
+            "title": "A clear record of what happened",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-17/documentation.svg",
+                "label": ""
+              },
+              {
+                "src": "lesson-assets/lesson-17/notes.svg",
+                "label": ""
+              }
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s5-return",
+      "start": {
+        "atPhrase": "Small records can later explain"
+      },
+      "end": {
+        "atSeconds": 200.43333333333334
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s6-open",
+      "start": {
+        "atSeconds": 200.43333333333334
+      },
+      "end": {
+        "atPhrase": "What worked well"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s6-graphic",
+      "start": {
+        "atPhrase": "What worked well"
+      },
+      "end": {
+        "atPhrase": "You may not be able to prove"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s6-graphic-visual",
+          "anchor": {
+            "atPhrase": "What worked well"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Reflection",
+            "questions": [
+              "What worked well?",
+              "What was harder than expected?",
+              "What changed during execution?",
+              "How was the problem handled?",
+              "What would you keep next time, and what would you change?"
+            ],
+            "askAtSeconds": [
+              204.18,
+              205.6,
+              207.32,
+              209.88,
+              211.64
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s6-return",
+      "start": {
+        "atPhrase": "You may not be able to prove"
+      },
+      "end": {
+        "atSeconds": 239
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s7-open",
+      "start": {
+        "atSeconds": 239
+      },
+      "end": {
+        "atPhrase": "Sustainability does not always mean"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s7-graphic",
+      "start": {
+        "atPhrase": "Sustainability does not always mean"
+      },
+      "end": {
+        "atPhrase": "It also shows which resources"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s7-graphic-visual",
+          "anchor": {
+            "atPhrase": "Sustainability does not always mean"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Continuation",
+            "title": "What would help the idea work again?",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-17/continuation.svg",
+                "label": ""
+              },
+              {
+                "src": "lesson-assets/lesson-17/future.svg",
+                "label": ""
+              }
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s7-return",
+      "start": {
+        "atPhrase": "It also shows which resources"
+      },
+      "end": {
+        "atSeconds": 280.3333333333333
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s8-open",
+      "start": {
+        "atSeconds": 280.3333333333333
+      },
+      "end": {
+        "atPhrase": "Then look at results"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s8-graphic",
+      "start": {
+        "atPhrase": "Then look at results"
+      },
+      "end": {
+        "atPhrase": "In the final part of Act"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s8-graphic-visual",
+          "anchor": {
+            "atPhrase": "Then look at results"
+          },
+          "action": "show",
+          "component": "OutroSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Execute, adapt and document",
+            "title": "Action becomes learning",
+            "points": [
+              "Prepare and follow the plan",
+              "Notice changes and adapt the method",
+              "Document events and reflect on results"
+            ],
+            "next": "Explain the initiative clearly"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s8-return",
+      "start": {
+        "atPhrase": "In the final part of Act"
+      },
+      "end": {
+        "atSeconds": 328.260499
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "scale-through",
+      "events": []
+    }
+  ]
+}

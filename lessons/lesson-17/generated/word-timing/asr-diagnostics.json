@@ -1,0 +1,57 @@
+[
+  {
+    "type": "insert",
+    "script": "",
+    "asr": "But"
+  },
+  {
+    "type": "insert",
+    "script": "",
+    "asr": "purpose"
+  },
+  {
+    "type": "replace",
+    "script": "one hundred",
+    "asr": "100"
+  },
+  {
+    "type": "replace",
+    "script": "forty",
+    "asr": "40"
+  },
+  {
+    "type": "replace",
+    "script": "one hundred",
+    "asr": "100"
+  },
+  {
+    "type": "insert",
+    "script": "",
+    "asr": "But"
+  },
+  {
+    "type": "replace",
+    "script": "thirty",
+    "asr": "30"
+  },
+  {
+    "type": "insert",
+    "script": "",
+    "asr": "Did"
+  },
+  {
+    "type": "insert",
+    "script": "",
+    "asr": "So"
+  },
+  {
+    "type": "insert",
+    "script": "",
+    "asr": "plan"
+  },
+  {
+    "type": "insert",
+    "script": "",
+    "asr": "goals"
+  }
+]

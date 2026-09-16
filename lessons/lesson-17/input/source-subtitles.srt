@@ -1,0 +1,556 @@
+1
+00:00:00,240 --> 00:00:02,919
+Hi,  and  welcome  back  to  Act.
+
+2
+00:00:02,919 --> 00:00:05,080
+Planning  helps  you  prepare,  but
+
+3
+00:00:05,080 --> 00:00:07,319
+execution  is  where  the  plan  meets
+
+4
+00:00:07,319 --> 00:00:09,360
+reality.  This  is  the  point  where
+
+5
+00:00:09,360 --> 00:00:11,639
+assumptions  are  tested.  Some  parts
+
+6
+00:00:11,639 --> 00:00:13,799
+may  work  exactly  as  expected,
+
+7
+00:00:13,799 --> 00:00:16,279
+while  others  may  need  to  change.
+
+8
+00:00:16,279 --> 00:00:18,640
+Good  execution  is  not  blindly
+
+9
+00:00:18,640 --> 00:00:20,840
+following  every  line  of  a  plan.
+
+10
+00:00:20,840 --> 00:00:22,960
+It  is  using  the  plan  as  a  guide
+
+11
+00:00:22,960 --> 00:00:24,400
+while  paying  attention  to  what  is
+
+12
+00:00:24,400 --> 00:00:26,599
+actually  happening.  The  goal  is
+
+13
+00:00:26,599 --> 00:00:28,480
+still  the  same.  Respond  to  the
+
+14
+00:00:28,480 --> 00:00:30,160
+real  need  as  effectively is
+
+15
+00:00:30,160 --> 00:00:31,960
+possible.  Even  when  the  method
+
+16
+00:00:31,960 --> 00:00:34,079
+needs  to  adjust  along  the  way,
+
+17
+00:00:34,079 --> 00:00:36,320
+that  flexibility  is  part  of  good
+
+18
+00:00:36,320 --> 00:00:37,291
+execution.
+
+19
+00:00:37,291 --> 00:00:39,771
+Before  an  initiative  begins,  a
+
+20
+00:00:39,771 --> 00:00:42,011
+simple  readiness  check  can  prevent
+
+21
+00:00:42,011 --> 00:00:44,371
+many  avoidable  problems.
+
+22
+00:00:44,371 --> 00:00:46,571
+Are  the  main  resources  available?
+
+23
+00:00:46,571 --> 00:00:48,771
+Is  the  time  confirmed?  Is  the
+
+24
+00:00:48,771 --> 00:00:51,010
+place  ready?  Are  any  permissions
+
+25
+00:00:51,010 --> 00:00:53,330
+needed?  Does  everyone  who  needs
+
+26
+00:00:53,330 --> 00:00:55,131
+information  have  it?
+
+27
+00:00:55,131 --> 00:00:56,971
+Is  there  a  clear  way  to  record
+
+28
+00:00:56,971 --> 00:00:58,691
+what  happens?
+
+29
+00:00:58,691 --> 00:01:00,291
+It  also  helps  to  separate
+
+30
+00:01:00,291 --> 00:01:03,451
+essential  items  from  useful  extras.
+
+31
+00:01:03,451 --> 00:01:05,330
+If  a  projector  fails,  can  the
+
+32
+00:01:05,330 --> 00:01:07,291
+activity  still  continue?
+
+33
+00:01:07,291 --> 00:01:09,211
+If  one  handout  is  missing,  is
+
+34
+00:01:09,211 --> 00:01:10,731
+there  another  way  to  explain  the
+
+35
+00:01:10,731 --> 00:01:12,370
+same  information?
+
+36
+00:01:12,370 --> 00:01:14,530
+Knowing  what  is  truly  essential
+
+37
+00:01:14,530 --> 00:01:16,811
+makes  adaptation  easier.
+
+38
+00:01:16,811 --> 00:01:18,811
+A  backup  option  can  also  reduce
+
+39
+00:01:18,811 --> 00:01:20,416
+unnecessary  stress.
+
+40
+00:01:20,696 --> 00:01:23,095
+During  execution,  compare  what  is
+
+41
+00:01:23,095 --> 00:01:25,656
+happening  with  what  was  planned.
+
+42
+00:01:25,656 --> 00:01:28,136
+If  things  are  working,  keep  going.
+
+43
+00:01:28,136 --> 00:01:30,256
+If  something  changes,  first
+
+44
+00:01:30,256 --> 00:01:32,175
+understand  the  change  before
+
+45
+00:01:32,175 --> 00:01:33,456
+reacting.
+
+46
+00:01:33,456 --> 00:01:36,175
+Maybe  fewer  people  arrive.  Maybe  a
+
+47
+00:01:36,175 --> 00:01:38,576
+resource  becomes  unavailable.  Maybe
+
+48
+00:01:38,576 --> 00:01:40,336
+an  activity  takes  longer  than
+
+49
+00:01:40,336 --> 00:01:41,976
+expected.
+
+50
+00:01:41,976 --> 00:01:44,816
+Ask  one  useful  question.
+
+51
+00:01:44,816 --> 00:01:46,775
+Does  this  change  affect  the  main
+
+52
+00:01:46,775 --> 00:01:48,855
+purpose  or  only  the  way  we
+
+53
+00:01:48,855 --> 00:01:50,816
+planned  to  reach  it? If  the
+
+54
+00:01:50,816 --> 00:01:52,776
+purpose  is  still  possible,  changing
+
+55
+00:01:52,776 --> 00:01:54,776
+the  method  can  be  reasonable.
+
+56
+00:01:54,776 --> 00:01:56,815
+The  plan  gives  structure,  but
+
+57
+00:01:56,815 --> 00:01:58,576
+judgment  helps  you  respond  to
+
+58
+00:01:58,576 --> 00:01:59,815
+reality.
+
+59
+00:01:59,815 --> 00:02:01,576
+That  distinction  helps  you  react
+
+60
+00:02:01,576 --> 00:02:02,624
+more  calmly.
+
+61
+00:02:02,904 --> 00:02:04,864
+Imagine  an  activity  was  planned
+
+62
+00:02:04,864 --> 00:02:07,704
+for  100  people,  but  only  40
+
+63
+00:02:07,704 --> 00:02:10,144
+arrive.  Cancelling  immediately  is
+
+64
+00:02:10,144 --> 00:02:11,984
+not  the  only  option,  and
+
+65
+00:02:11,984 --> 00:02:14,504
+pretending  100  arrived  is  obviously
+
+66
+00:02:14,504 --> 00:02:15,984
+not  useful.
+
+67
+00:02:15,984 --> 00:02:17,704
+You  could  adjust  the  activity  for
+
+68
+00:02:17,704 --> 00:02:19,464
+a  smaller  group,  keep  the  same
+
+69
+00:02:19,464 --> 00:02:21,184
+objective,  and  record  what
+
+70
+00:02:21,184 --> 00:02:22,504
+happened.
+
+71
+00:02:22,504 --> 00:02:24,304
+Or  imagine  the  activity  starts
+
+72
+00:02:24,304 --> 00:02:25,944
+late  because  the  place  was  not
+
+73
+00:02:25,944 --> 00:02:28,464
+ready.  You  may  shorten  one  part,
+
+74
+00:02:28,464 --> 00:02:31,143
+move  another,  or  change  the  order.
+
+75
+00:02:31,143 --> 00:02:33,544
+In  both  cases,  the  important  skill
+
+76
+00:02:33,544 --> 00:02:35,744
+is  protecting  what  matters  most
+
+77
+00:02:35,744 --> 00:02:37,464
+instead  of  trying  to  save  every
+
+78
+00:02:37,464 --> 00:02:39,984
+detail  exactly  as  written.
+
+79
+00:02:39,984 --> 00:02:41,863
+The  objective  stay  stable  while
+
+80
+00:02:41,863 --> 00:02:43,207
+the  method  changes.
+
+81
+00:02:43,527 --> 00:02:45,727
+Documentation  is  more  than  taking
+
+82
+00:02:45,727 --> 00:02:48,127
+photos.  Useful  documentation  can
+
+83
+00:02:48,127 --> 00:02:50,006
+include  what  was  planned,  what
+
+84
+00:02:50,006 --> 00:02:52,327
+actually  happened,  simple  numbers
+
+85
+00:02:52,327 --> 00:02:54,846
+or  results,  important  changes,
+
+86
+00:02:54,846 --> 00:02:57,046
+challenges,  feedback,  and  lessons
+
+87
+00:02:57,046 --> 00:02:57,966
+learned.
+
+88
+00:02:57,966 --> 00:02:59,647
+Photos  or  video  may  help  when
+
+89
+00:02:59,647 --> 00:03:01,406
+appropriate,  but  they  are  only
+
+90
+00:03:01,406 --> 00:03:03,047
+part  of  the  record.
+
+91
+00:03:03,047 --> 00:03:05,167
+Good  documentation  is  often  easier
+
+92
+00:03:05,167 --> 00:03:06,367
+when  it  happens  during  the
+
+93
+00:03:06,367 --> 00:03:08,847
+activity.  A  short  note  such  as
+
+94
+00:03:08,847 --> 00:03:11,287
+started  30  minutes  late  or  change
+
+95
+00:03:11,287 --> 00:03:12,607
+the  activity  because  the  room  was
+
+96
+00:03:12,607 --> 00:03:14,527
+smaller.  can  be  more  useful  than
+
+97
+00:03:14,527 --> 00:03:16,047
+trying  to  remember  everything
+
+98
+00:03:16,047 --> 00:03:18,487
+afterward.  Small  records  can  later
+
+99
+00:03:18,487 --> 00:03:20,290
+explain  big  decisions.
+
+100
+00:03:20,290 --> 00:03:22,730
+After  the  activity,  look  back  at
+
+101
+00:03:22,730 --> 00:03:25,490
+the  experience.  What  worked  well?
+
+102
+00:03:25,490 --> 00:03:27,370
+What  was  harder  than  expected?
+
+103
+00:03:27,370 --> 00:03:29,969
+What  changed  during  execution?  How
+
+104
+00:03:29,969 --> 00:03:31,849
+was  the  problem  handled?  What
+
+105
+00:03:31,849 --> 00:03:33,610
+would  you  keep  next  time?  And
+
+106
+00:03:33,610 --> 00:03:35,370
+what  would  you  change?
+
+107
+00:03:35,370 --> 00:03:37,370
+Then,  compare  the  result  with  the
+
+108
+00:03:37,370 --> 00:03:39,810
+original  purpose.  Did  the  activity
+
+109
+00:03:39,810 --> 00:03:41,170
+reach  the  people  it  was  meant  to
+
+110
+00:03:41,170 --> 00:03:43,370
+reach?  Did  it  address  the  need  in
+
+111
+00:03:43,370 --> 00:03:45,090
+the  way  you  expected?
+
+112
+00:03:45,090 --> 00:03:46,729
+You  may  not  be  able  to  prove  a
+
+113
+00:03:46,729 --> 00:03:49,130
+large  impact  immediately,  but  you
+
+114
+00:03:49,130 --> 00:03:50,690
+can  still  look  for  reasonable
+
+115
+00:03:50,690 --> 00:03:52,450
+signs  that  show  whether  the  effort
+
+116
+00:03:52,450 --> 00:03:54,450
+moved  in  the  right  direction.
+
+117
+00:03:54,450 --> 00:03:56,490
+That  comparison  helps  separate
+
+118
+00:03:56,490 --> 00:03:58,831
+activity  from  actual  value.
+
+119
+00:03:59,111 --> 00:04:01,750
+There  is  one  more  useful  question.
+
+120
+00:04:01,750 --> 00:04:03,791
+Could  the  initiative  continue,
+
+121
+00:04:03,791 --> 00:04:06,150
+repeat  or  grow?
+
+122
+00:04:06,150 --> 00:04:08,191
+Sustainability  does  not  always  mean
+
+123
+00:04:08,191 --> 00:04:10,231
+making  something  permanent.  It
+
+124
+00:04:10,231 --> 00:04:11,951
+means  understanding  what  would  be
+
+125
+00:04:11,951 --> 00:04:13,590
+needed  if  the  idea  were  to
+
+126
+00:04:13,590 --> 00:04:14,950
+continue.
+
+127
+00:04:14,950 --> 00:04:17,151
+Maybe  it  needs  regular  funding,  a
+
+128
+00:04:17,151 --> 00:04:19,950
+reliable  location,  trained  people,
+
+129
+00:04:19,950 --> 00:04:22,110
+stronger  partnerships  or  a  simpler
+
+130
+00:04:22,110 --> 00:04:23,511
+design.
+
+131
+00:04:23,511 --> 00:04:25,350
+Thinking  about  continuation  helps
+
+132
+00:04:25,350 --> 00:04:27,270
+reveal  whether  the  activity  depends
+
+133
+00:04:27,270 --> 00:04:29,911
+on  one  special  situation or  whether
+
+134
+00:04:29,911 --> 00:04:31,590
+it  can  work  again.
+
+135
+00:04:31,590 --> 00:04:33,631
+It  also  shows  which  resources  or
+
+136
+00:04:33,631 --> 00:04:35,511
+relationships  matter  most  for  the
+
+137
+00:04:35,511 --> 00:04:36,791
+future.
+
+138
+00:04:36,791 --> 00:04:38,390
+It  also  helps  you  see  what  would
+
+139
+00:04:38,390 --> 00:04:40,206
+need  to  change  next  time.
+
