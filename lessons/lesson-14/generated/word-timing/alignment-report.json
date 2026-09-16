@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "scene-001",
+    "scriptWords": 75,
+    "subtitleWords": 75,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-002",
+    "scriptWords": 72,
+    "subtitleWords": 71,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "one hundred",
+        "subtitle": "100"
+      }
+    ]
+  },
+  {
+    "scene": "scene-003",
+    "scriptWords": 71,
+    "subtitleWords": 70,
+    "editDistance": 3,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "one hundred",
+        "subtitle": "100"
+      },
+      {
+        "type": "replace",
+        "script": "forty",
+        "subtitle": "40"
+      }
+    ]
+  },
+  {
+    "scene": "scene-004",
+    "scriptWords": 71,
+    "subtitleWords": 71,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-005",
+    "scriptWords": 77,
+    "subtitleWords": 77,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-006",
+    "scriptWords": 54,
+    "subtitleWords": 54,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-007",
+    "scriptWords": 75,
+    "subtitleWords": 76,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "fifty",
+        "subtitle": "50"
+      },
+      {
+        "type": "insert",
+        "script": "",
+        "subtitle": "must"
+      }
+    ]
+  },
+  {
+    "scene": "scene-008",
+    "scriptWords": 83,
+    "subtitleWords": 0,
+    "editDistance": 83,
+    "differences": [
+      {
+        "type": "delete",
+        "script": "A useful plan is not the one that never changes It is the one that becomes stronger when you check it against reality Review assumptions check resources and cost look for timing problems test what you can and improve the weak parts Next we will look at another source of better planning people and environments that already have experience with similar work They can show you things that are difficult to see from a document alone I\u2019ll see you in the next lesson",
+        "subtitle": ""
+      }
+    ]
+  }
+]

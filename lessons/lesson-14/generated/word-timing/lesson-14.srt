@@ -1,0 +1,404 @@
+1
+00:00:00,359 --> 00:00:03,159
+Hi  and  welcome  back  to  Act.
+
+2
+00:00:03,159 --> 00:00:04,839
+Imagine  you  finished  a  project
+
+3
+00:00:04,839 --> 00:00:07,720
+plan  and  every  box  is  filled  in.
+
+4
+00:00:07,720 --> 00:00:10,040
+Does  that  mean  the  plan  is  ready?
+
+5
+00:00:10,040 --> 00:00:12,360
+Not  always.  A  plan  can  look
+
+6
+00:00:12,360 --> 00:00:14,160
+complete  and  still  depend  on
+
+7
+00:00:14,160 --> 00:00:15,440
+assumptions  that  are  too
+
+8
+00:00:15,440 --> 00:00:18,439
+optimistic,  too  expensive  or  simply
+
+9
+00:00:18,439 --> 00:00:19,760
+wrong.
+
+10
+00:00:19,760 --> 00:00:22,119
+This  is  why  planning  also  includes
+
+11
+00:00:22,119 --> 00:00:23,400
+review.
+
+12
+00:00:23,400 --> 00:00:25,640
+Before  action  starts,  it  is  useful
+
+13
+00:00:25,640 --> 00:00:27,400
+to  look  at  the  plan  again  and
+
+14
+00:00:27,400 --> 00:00:29,759
+ask  what  could  make  this  difficult
+
+15
+00:00:29,759 --> 00:00:31,041
+in real  life.
+
+16
+00:00:31,321 --> 00:00:33,000
+Start  by  checking  the  parts  that
+
+17
+00:00:33,000 --> 00:00:34,881
+depend  on  assumptions.
+
+18
+00:00:34,881 --> 00:00:37,161
+Maybe  you  expect  100  people  to
+
+19
+00:00:37,161 --> 00:00:38,201
+attend.
+
+20
+00:00:38,201 --> 00:00:39,680
+Maybe  you  assume  a  room  is
+
+21
+00:00:39,680 --> 00:00:40,881
+available.
+
+22
+00:00:40,881 --> 00:00:42,401
+Maybe  you  believe  a  task  will
+
+23
+00:00:42,401 --> 00:00:43,921
+take  one  day.
+
+24
+00:00:43,921 --> 00:00:45,321
+Maybe  you  expect  a  certain
+
+25
+00:00:45,321 --> 00:00:47,361
+resource  to  be  free.
+
+26
+00:00:47,361 --> 00:00:48,721
+None  of  those  assumptions  are
+
+27
+00:00:48,721 --> 00:00:50,641
+automatically  bad.
+
+28
+00:00:50,641 --> 00:00:52,201
+The  problem  is  treating  them  like
+
+29
+00:00:52,201 --> 00:00:54,761
+facts  before  checking  them.
+
+30
+00:00:54,761 --> 00:00:56,721
+A  stronger  plan  separates  what  you
+
+31
+00:00:56,721 --> 00:00:58,361
+know  from  what  you  are  only
+
+32
+00:00:58,361 --> 00:00:59,291
+expecting.
+
+33
+00:00:59,291 --> 00:01:01,411
+For  example,  imagine  the  plan
+
+34
+00:01:01,411 --> 00:01:03,691
+expects  100  participants,  but  the
+
+35
+00:01:03,691 --> 00:01:06,331
+available  room  only  holds  40.  The
+
+36
+00:01:06,331 --> 00:01:08,211
+goal  may  still  be  useful,  but  the
+
+37
+00:01:08,211 --> 00:01:10,451
+plan  has  a  mismatch.  You  could
+
+38
+00:01:10,451 --> 00:01:12,411
+reduce  the  number,  use  more  than
+
+39
+00:01:12,411 --> 00:01:13,930
+one  session,  or  look  for  a
+
+40
+00:01:13,930 --> 00:01:15,371
+different  location.
+
+41
+00:01:15,371 --> 00:01:17,091
+The  important  skill  is  not
+
+42
+00:01:17,091 --> 00:01:18,570
+protecting  the  first  version  of
+
+43
+00:01:18,570 --> 00:01:20,490
+the  plan.  It  is  noticing  the
+
+44
+00:01:20,490 --> 00:01:22,611
+mismatch  and  adjusting  the  plan
+
+45
+00:01:22,611 --> 00:01:24,499
+while  the  change  is  still  easy.
+
+46
+00:01:24,779 --> 00:01:26,939
+The  same  applies  to  resources  and
+
+47
+00:01:26,939 --> 00:01:29,459
+cost.  Suppose  your  activity  depends
+
+48
+00:01:29,459 --> 00:01:31,499
+on  equipment  that  costs  twice  the
+
+49
+00:01:31,499 --> 00:01:33,939
+amount  you  can  realistically  spend.
+
+50
+00:01:33,939 --> 00:01:36,098
+You  now  have  a  decision  to  make.
+
+51
+00:01:36,098 --> 00:01:38,539
+Can  you  borrow  it,  replace  it,
+
+52
+00:01:38,539 --> 00:01:40,579
+reduce  the  scope,  change  the
+
+53
+00:01:40,579 --> 00:01:42,139
+activity?
+
+54
+00:01:42,139 --> 00:01:44,499
+A  weak  plan  ignores  the  problem
+
+55
+00:01:44,499 --> 00:01:46,459
+and  hopes  it  disappears.
+
+56
+00:01:46,459 --> 00:01:48,379
+A  stronger  plan  looks  for  an
+
+57
+00:01:48,379 --> 00:01:50,018
+option  that  still  serves  the
+
+58
+00:01:50,018 --> 00:01:52,659
+original  need  without  pretending
+
+59
+00:01:52,659 --> 00:01:54,374
+the  limitation  is  not  there.
+
+60
+00:01:54,374 --> 00:01:56,414
+Time  needs  the  same  kind  of
+
+61
+00:01:56,414 --> 00:01:57,414
+review.
+
+62
+00:01:57,414 --> 00:01:58,974
+Ask  whether  tasks  are  in  a
+
+63
+00:01:58,974 --> 00:02:01,414
+logical  order  and  whether  one  task
+
+64
+00:02:01,414 --> 00:02:03,053
+depends  on  another.
+
+65
+00:02:03,053 --> 00:02:05,174
+You  cannot  print  materials  before
+
+66
+00:02:05,174 --> 00:02:07,294
+the  content  is  ready.  You  cannot
+
+67
+00:02:07,294 --> 00:02:09,013
+confirm  participants  before  the
+
+68
+00:02:09,013 --> 00:02:11,054
+time  and  place  are  clear.
+
+69
+00:02:11,054 --> 00:02:12,733
+When  a  task  depends  on  something
+
+70
+00:02:12,733 --> 00:02:15,254
+else,  that  dependency  belongs  in
+
+71
+00:02:15,254 --> 00:02:16,454
+the  plan.
+
+72
+00:02:16,454 --> 00:02:18,653
+A  realistic  timeline  is  not  only
+
+73
+00:02:18,653 --> 00:02:20,973
+a  list  of  dates.  It  reflects  the
+
+74
+00:02:20,973 --> 00:02:22,733
+order  in  which  the  work  actually
+
+75
+00:02:22,733 --> 00:02:23,749
+has  to  happen.
+
+76
+00:02:23,989 --> 00:02:26,428
+Practice  can  also  expose  weaknesses
+
+77
+00:02:26,428 --> 00:02:28,829
+that  planning  alone  may  miss.  When
+
+78
+00:02:28,829 --> 00:02:30,789
+people  repeat  a  task,  they  often
+
+79
+00:02:30,789 --> 00:02:33,468
+become  faster,  notice  patterns  and
+
+80
+00:02:33,468 --> 00:02:35,109
+understand  what  they  need  more
+
+81
+00:02:35,109 --> 00:02:36,308
+clearly.
+
+82
+00:02:36,308 --> 00:02:38,468
+The  useful  lesson  is  simple.
+
+83
+00:02:38,468 --> 00:02:40,189
+Before  an  important  action,  a
+
+84
+00:02:40,189 --> 00:02:42,429
+small  test  or  rehearsal  can  reveal
+
+85
+00:02:42,429 --> 00:02:45,069
+missing  steps,  unclear  instructions
+
+86
+00:02:45,069 --> 00:02:47,165
+or  skills  that  still  need  work.
+
+87
+00:02:47,645 --> 00:02:50,405
+Try  a  short  individual  check.
+
+88
+00:02:50,405 --> 00:02:52,405
+Imagine  a  community  activity  with
+
+89
+00:02:52,405 --> 00:02:55,485
+these  details.  50  participants,  one
+
+90
+00:02:55,485 --> 00:02:57,525
+small  room,  no  confirmed
+
+91
+00:02:57,525 --> 00:03:00,205
+permission,  a  very  limited  budget
+
+92
+00:03:00,205 --> 00:03:02,044
+and  all  preparation  planned  for
+
+93
+00:03:02,044 --> 00:03:03,805
+the  final  day.
+
+94
+00:03:03,805 --> 00:03:05,604
+What  would  you  question  first?
+
+95
+00:03:05,604 --> 00:03:07,325
+Which  part  needs  evidence,  a
+
+96
+00:03:07,325 --> 00:03:09,925
+different  option  or  more  time?  You
+
+97
+00:03:09,925 --> 00:03:12,364
+do  not  need  a  perfect  answer.  The
+
+98
+00:03:12,364 --> 00:03:13,885
+point  is  to  practice  looking  at  a
+
+99
+00:03:13,885 --> 00:03:15,245
+plan  as  something  that  can  be
+
+100
+00:03:15,245 --> 00:03:17,204
+tested,  not  something  that  must
+
+101
+00:03:17,204 --> 00:03:18,373
+must  be  defended.
+
