@@ -1,0 +1,548 @@
+{
+  "lessonId": "lesson-07",
+  "title": "From Community Awareness to Contribution",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-07-master.mp4",
+  "sourceCutSeconds": [
+    37.13333333333333,
+    74.73333333333333,
+    115.23333333333333,
+    152.36666666666667,
+    192.06666666666666,
+    233.06666666666666,
+    274.76666666666665
+  ],
+  "scenes": [
+    {
+      "sceneId": "s1-open",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atPhrase": "You will probably notice two things"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s1-visual",
+      "start": {
+        "atPhrase": "You will probably notice two things"
+      },
+      "end": {
+        "atPhrase": "If you only see problems"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s1-visual-graphic",
+          "anchor": {
+            "atPhrase": "You will probably notice two things"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Social awareness",
+            "headline": "Strengths and problems both matter",
+            "variant": "bar",
+            "emphasize": [
+              "Strengths",
+              "problems"
+            ],
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s1-return",
+      "start": {
+        "atPhrase": "If you only see problems"
+      },
+      "end": {
+        "atSeconds": 37.13333333333333
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s2-open",
+      "start": {
+        "atSeconds": 37.13333333333333
+      },
+      "end": {
+        "atPhrase": "Volunteering is work a person"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s2-visual",
+      "start": {
+        "atPhrase": "Volunteering is work a person"
+      },
+      "end": {
+        "atPhrase": "The difference is the purpose"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s2-visual-graphic",
+          "anchor": {
+            "atPhrase": "Volunteering is work a person"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Volunteering",
+            "headline": "Contribution without expecting a reward",
+            "variant": "centred",
+            "emphasize": [
+              "Contribution",
+              "reward"
+            ],
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s2-return",
+      "start": {
+        "atPhrase": "The difference is the purpose"
+      },
+      "end": {
+        "atSeconds": 74.73333333333333
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s3-open",
+      "start": {
+        "atSeconds": 74.73333333333333
+      },
+      "end": {
+        "atPhrase": "A fallen tree blocks a road"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s3-visual",
+      "start": {
+        "atPhrase": "A fallen tree blocks a road"
+      },
+      "end": {
+        "atPhrase": "The useful point is not"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s3-visual-graphic",
+          "anchor": {
+            "atPhrase": "A fallen tree blocks a road"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Initiative in action",
+            "title": "A useful first step",
+            "steps": [
+              "A fallen tree blocks the road",
+              "One child begins to act",
+              "Other people join to help"
+            ],
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s3-return",
+      "start": {
+        "atPhrase": "The useful point is not"
+      },
+      "end": {
+        "atSeconds": 115.23333333333333
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s4-open",
+      "start": {
+        "atSeconds": 115.23333333333333
+      },
+      "end": {
+        "atPhrase": "A community may gain"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s4-visual",
+      "start": {
+        "atPhrase": "A community may gain"
+      },
+      "end": {
+        "atPhrase": "The point is not to promise"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s4-visual-graphic",
+          "anchor": {
+            "atPhrase": "A community may gain"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Contribution and growth",
+            "title": "Benefits through service",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-07/community-benefit.svg",
+                "label": "Meeting a real need"
+              },
+              {
+                "src": "lesson-assets/lesson-07/personal-growth.svg",
+                "label": "Practicing useful abilities"
+              }
+            ],
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s4-return",
+      "start": {
+        "atPhrase": "The point is not to promise"
+      },
+      "end": {
+        "atSeconds": 152.36666666666667
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s5-open",
+      "start": {
+        "atSeconds": 152.36666666666667
+      },
+      "end": {
+        "atPhrase": "Use green spots for strengths"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s5-visual",
+      "start": {
+        "atPhrase": "Use green spots for strengths"
+      },
+      "end": {
+        "atSeconds": 192.06666666666666
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s5-visual-graphic",
+          "anchor": {
+            "atPhrase": "Use green spots for strengths"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Community mapping",
+            "title": "Strengths, problems and possible reasons",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-07/community-map.svg",
+                "label": "Community map"
+              },
+              {
+                "src": "lesson-assets/lesson-07/map-key.svg",
+                "label": "A possible reason needs checking"
+              }
+            ],
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s6-open",
+      "start": {
+        "atSeconds": 192.06666666666666
+      },
+      "end": {
+        "atPhrase": "Choose one community you know well"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s6-visual",
+      "start": {
+        "atPhrase": "Choose one community you know well"
+      },
+      "end": {
+        "atSeconds": 233.06666666666666
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s6-visual-graphic",
+          "anchor": {
+            "atPhrase": "Choose one community you know well"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Individual reflection",
+            "title": "Your own community map",
+            "steps": [
+              "Choose a community you know",
+              "Mark 2–3 strengths or opportunities",
+              "Mark 2–3 observed problems",
+              "Add one possible reason for one problem"
+            ],
+            "pauseNote": "Observation and possible cause are different",
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s7-open",
+      "start": {
+        "atSeconds": 233.06666666666666
+      },
+      "end": {
+        "atPhrase": "Maybe you are good at"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s7-visual",
+      "start": {
+        "atPhrase": "Maybe you are good at"
+      },
+      "end": {
+        "atPhrase": "Sometimes that connection becomes volunteering"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s7-visual-graphic",
+          "anchor": {
+            "atPhrase": "Maybe you are good at"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Your abilities",
+            "title": "Useful abilities meet real needs",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-07/your-abilities.svg",
+                "label": "What you can offer"
+              },
+              {
+                "src": "lesson-assets/lesson-07/real-needs.svg",
+                "label": "Where it can help"
+              }
+            ],
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s7-return",
+      "start": {
+        "atPhrase": "Sometimes that connection becomes volunteering"
+      },
+      "end": {
+        "atSeconds": 274.76666666666665
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s8-open",
+      "start": {
+        "atSeconds": 274.76666666666665
+      },
+      "end": {
+        "atPhrase": "Your roles connect you to communities"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s8-visual",
+      "start": {
+        "atPhrase": "Your roles connect you to communities"
+      },
+      "end": {
+        "atPhrase": "In the next part of Act"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s8-visual-graphic",
+          "anchor": {
+            "atPhrase": "Your roles connect you to communities"
+          },
+          "action": "show",
+          "component": "OutroSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Unit 2 recap",
+            "title": "Awareness supports contribution",
+            "points": [
+              "Roles connect you to communities",
+              "Communities have both strengths and needs",
+              "Useful abilities can support a real need"
+            ],
+            "next": "Define one real problem clearly",
+            "lessonLabel": "ACT · Lesson 7"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s8-return",
+      "start": {
+        "atPhrase": "In the next part of Act"
+      },
+      "end": {
+        "atSeconds": 318.322358
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "scale-through",
+      "events": []
+    }
+  ]
+}

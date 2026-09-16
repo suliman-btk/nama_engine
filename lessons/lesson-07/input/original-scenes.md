@@ -1,0 +1,70 @@
+# ACT Lesson 07 — From Community Awareness to Contribution
+
+> LOCKED AVATAR SCRIPT
+> Knowledge-focused, self-paced, individual learner.
+> No team/group activity, submission, instructor dependency, points, competition, or required presentation.
+> Every scene is 600–800 characters including audio tags.
+
+## Scene 01
+
+[natural pace] [interest] [natural]
+
+Hi, and welcome back to Act. Last time, we looked at the roles you have and the communities those roles connect you to. Now imagine looking at one of those communities more closely. You will probably notice two things at the same time: things that are working well, and things that could be better. [short pause] Social awareness means learning to notice both. If you only see problems, you miss the strengths already available. If you only see strengths, you may ignore people who are struggling. Understanding a community means holding both views together. Both matter.
+
+---
+
+## Scene 02
+
+[natural pace] [thoughtful] [natural]
+
+One way people contribute to a community is through volunteering. Volunteering is work a person gives to society without expecting a reward in return. [short pause] That does not mean the volunteer learns nothing or gains nothing personally. People may develop skills, experience, or stronger connections through service. The difference is the purpose: the action begins with contributing to a need, not with demanding a reward. Volunteering is one way a person can turn awareness of a community into useful action, even when the action itself is small. That makes contribution practical.
+
+---
+
+## Scene 03
+
+[natural pace] [curiosity] [natural]
+
+Think about a simple example. A fallen tree blocks a road, and one child starts trying to move it. The child cannot solve the problem alone at first, but the action gets other people moving too. [short pause] The useful point is not that one person must do everything. It is that initiative can begin when someone notices a problem and takes a reasonable first step. Sometimes other people choose to join once they see that action is possible. A community can change when awareness moves from “someone should do something” to “what useful step can begin here?” That shift is what initiative looks like.
+
+---
+
+## Scene 04
+
+[natural pace] [positive] [natural]
+
+Contribution can benefit both the community and the person contributing. A community may gain a cleaner space, better support, useful knowledge, or help with a problem. At the same time, the person involved may practice communication, organization, problem solving, or another skill. [short pause] Imagine people helping improve buildings in their village while learning practical construction skills through the process. The point is not to promise a job or a reward. It is to show that serving a real need can also become a place where useful abilities are practiced and strengthened.
+
+---
+
+## Scene 05
+
+[natural pace] [interest] [natural]
+
+A useful way to understand a community is to map what you see. Use green spots for strengths and opportunities, red spots for problems or negative conditions, and black points for possible reasons behind a problem. [short pause] A green spot might be supportive people, useful resources, local knowledge, or a good facility. A red spot might be littering, unemployment, smoking, unsafe spaces, or another issue affecting people. A black point asks a different question: what may be contributing to that problem? The map helps you separate what is good, what is difficult, and what may be behind it.
+
+---
+
+## Scene 06
+
+[natural pace] [curiosity] [natural]
+
+Try this as an individual reflection. Choose one community you know well: your neighborhood, school, university, workplace, or another place you regularly see. Picture it like a simple map. [medium pause] First, mark two or three green spots: strengths, resources, or opportunities. Then mark two or three red spots: problems or difficulties you have genuinely noticed. For one red spot, write one possible reason beside it. You are not trying to prove the cause yet. The goal is to separate what you observe from what you think may be causing it. That distinction matters.
+
+---
+
+## Scene 07
+
+[natural pace] [thoughtful] [natural]
+
+Now add one more layer: where could your own abilities fit? Maybe you are good at explaining ideas, organizing information, listening, designing, writing, technology, sports, or practical work. [short pause] You do not need to solve every red spot on the map. Contribution starts by noticing where a real need and a useful ability might connect. Sometimes that connection becomes volunteering. Sometimes it becomes an initiative later. For now, the important skill is seeing your community as a place with both needs and resources, not only as a place where you happen to live.
+
+---
+
+## Scene 08
+
+[slow pace] [hope] [natural]
+
+Let’s bring Unit 2 together. Your roles connect you to communities. Communities contain people, resources, strengths, opportunities, and problems. Contribution means noticing where something useful can be offered, and volunteering is one way that can happen. [short pause] Keep your community map in mind, especially the red spots you identified. In the next part of Act, we will choose one real problem and slow down before trying to solve it. We will learn how to define it clearly and understand what is actually happening. That’s it for today, and I’ll see you in the next lesson.
+
+---

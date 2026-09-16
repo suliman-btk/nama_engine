@@ -1,0 +1,74 @@
+{
+  "assets": [
+    {
+      "file": "official-neighborhood-map.jpeg",
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 121,
+      "embeddedImage": "ppt/media/image89.jpeg",
+      "width": 990,
+      "height": 743,
+      "license": "Official supplied curriculum; no additional licence claimed",
+      "usage": "s5-visual: actual image preserved uncropped inside community-map.svg"
+    },
+    {
+      "file": "community-map.svg",
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 121,
+      "treatment": "Original embedded map fitted without stretch, with narration-based labels"
+    },
+    {
+      "file": "map-key.svg",
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 121,
+      "treatment": "Editable vector rebuild of green/red/black framework; possible-reason qualifier follows locked script"
+    },
+    {
+      "file": "community-benefit.svg",
+      "source": "Agent-authored native infographic from locked Lesson 7 narration",
+      "width": 440,
+      "height": 650,
+      "license": "No external asset or licence claim"
+    },
+    {
+      "file": "personal-growth.svg",
+      "source": "Agent-authored native infographic from locked Lesson 7 narration",
+      "width": 440,
+      "height": 650,
+      "license": "No external asset or licence claim"
+    },
+    {
+      "file": "your-abilities.svg",
+      "source": "Agent-authored native infographic from locked Lesson 7 narration",
+      "width": 440,
+      "height": 650,
+      "license": "No external asset or licence claim"
+    },
+    {
+      "file": "real-needs.svg",
+      "source": "Agent-authored native infographic from locked Lesson 7 narration",
+      "width": 440,
+      "height": 650,
+      "license": "No external asset or licence claim"
+    }
+  ],
+  "inspectedSlides": [
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+  ],
+  "omitted": [
+    {
+      "slide": 118,
+      "reason": "Low-resolution video still does not clearly show the narrated tree example"
+    },
+    {
+      "slide": 124,
+      "reason": "Third-party linked video not downloaded; unclear reuse rights"
+    }
+  ]
+}
