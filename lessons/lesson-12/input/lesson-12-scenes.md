@@ -1,0 +1,100 @@
+# ACT Lesson 12 — Make the Solution SMART and Stronger
+
+> LOCKED AVATAR SCRIPT
+> Copy the complete text inside each Scene section into Google Vids, INCLUDING the square-bracket audio tags.
+> Audio tags are controls and are not spoken.
+> Spoken course name is written as “Act”.
+> Style: warm, friendly, simple, natural, and comfortable for a self-paced LMS/YouTube audience.
+> Speak to one learner directly.
+> Do not mention the Trainer's Manual, source, curriculum, workshop, competition, points, or team/cohort mode.
+> Keep continuity with the lesson before and after without sounding like a course director.
+> Every lesson starts with a short welcome and ends with a natural human closing.
+> Scene target: 600–800 characters including audio tags.
+
+## Scene 01
+
+[natural pace] [interest] [natural]
+
+Hi, and welcome back to Act. You have one solution now. The next step is to make it clear enough that someone can understand what you actually want to do. [short pause] A useful way to check that is the SMART model. SMART gives us five simple checks: Specific, Measurable, Attainable, Relevant, and Timely. You do not need to memorize big definitions. We are going to take the solution you chose and make it clearer one part at a time. By the end, you should be able to explain what you want to do, who it is for, what success could look like, whether it can really be done, and when it should happen.
+
+---
+
+## Scene 02
+
+[natural pace] [curiosity] [natural]
+
+Start with S: Specific. A vague idea like “raise awareness about smoking” does not tell us enough. What kind of awareness? For whom? Where? And what exactly will you do? [short pause] A more specific version could be: “Run awareness sessions about the harmful effects of smoking for high school students in one city.” Now we can picture the action, the topic, the people, and the place. Do the same with your own solution. Ask yourself: what do I want to achieve, why does it matter, how might I do it, who is involved, and where will it happen? You do not need every detail yet, but the direction should be clear.
+
+---
+
+## Scene 03
+
+[natural pace] [interest] [natural]
+
+M stands for Measurable. This means adding something you can count or check so you know whether the goal was reached. [short pause] Using the same example, we could say: “Run three awareness sessions for 200 high school students.” Now there is something clear to measure: three sessions and 200 people reached. Your number will depend on your own project. It might be people reached, sessions completed, items delivered, responses collected, or another simple measure that fits the solution. The point is not to chase a big number. The point is to know what you will look at later when you ask, “Did we actually do what we planned?”
+
+---
+
+## Scene 04
+
+[natural pace] [thoughtful] [natural]
+
+A stands for Attainable. You already checked part of this when you used the Solution Filter. Can this idea really be done with your current ability, limits, and available support? [short pause] R stands for Relevant here, meaning the goal should also be realistic and workable in the situation. If there are only 500 people in the group you are trying to reach, planning for 5,000 does not make sense. The same goes for money, access, time, or other limits. A strong goal should stretch you a little, but it should still live in the real world. If something clearly cannot work, adjust the size or the way you plan to do it.
+
+---
+
+## Scene 05
+
+[natural pace] [interest] [natural]
+
+T stands for Timely. Give the solution a clear time or period. When will you start, and by when should the action be completed? [short pause] The awareness example could become: “Run three awareness sessions for 200 high school students during the first semester.” Now the action has a time frame. Your own project may use a week, a month, a semester, a campaign period, or another clear window. Time matters because it helps you know how fast you need to move and whether the goal is still realistic. Without a time frame, it is very easy for a good idea to keep getting pushed into “later” without ever becoming real.
+
+---
+
+## Scene 06
+
+[natural pace] [positive] [natural]
+
+Now take your final solution and rewrite it using all five SMART checks. [medium pause] Ask yourself: is it specific enough that someone else understands it? Can I measure something important? Is it attainable with what I have or can reasonably get? Is it realistic for this situation? And is the time clear? [short pause] If one part is weak, change the sentence. Do not worry if your first version feels messy. The point of SMART is to turn a broad idea into something you can actually work with. Keep improving the wording until the solution feels clear, possible, and connected to the need you have been carrying through this unit.
+
+---
+
+## Scene 07
+
+[natural pace] [curiosity] [natural]
+
+Once the solution is clear, you can ask another question: is there a better or more creative way to do it? Innovation does not always mean expensive technology or something nobody has ever seen before. Sometimes it simply means looking at the same idea from a different angle and finding a fresh way to make it work. [short pause] Imagine giving five people the same unfinished drawing. One person may see a face, another may see a road, and someone else may turn it into something completely different. The starting point is the same, but the way they look at it changes the result. You can do the same with a community solution.
+
+---
+
+## Scene 08
+
+[natural pace] [positive] [natural]
+
+Try a small creativity exercise. Write your solution in the middle of a page. Around it, add a few random prompts such as location, time, audience, partner, social media, mobile, book, game, color, or another simple word. [medium pause] Pick three prompts and ask, “Could this change the way I deliver the solution?” Maybe the location changes. Maybe the way people hear about it changes. Maybe a partner makes it easier to reach the people who need it. You do not have to use every idea. The goal is simply to break your normal pattern for a few minutes and see whether a fresh angle gives you something useful.
+
+---
+
+## Scene 09
+
+[natural pace] [thoughtful] [natural]
+
+Now look at the ideas you created. Keep the useful parts, combine ideas that work well together, and remove anything that makes the solution weaker or more confusing. [short pause] A creative idea is only helpful if it still fits the real need and can actually work. If your new version changes something important — like who you are helping, how much you will do, or when it will happen — update your SMART statement too. You are not adding creativity just to make the project look special. You are trying to make the final solution clearer, stronger, more original, or easier to use while still keeping it realistic.
+
+---
+
+## Scene 10
+
+[natural pace] [thoughtful] [natural]
+
+One more thing before we close the unit: your action can affect more people than you expect. Think about a row of connected pieces. Move one, and the movement can reach the next one, then the next. [short pause] Community work can be similar. A useful action may directly help one group, then influence families, coworkers, neighbors, or other people around them. Some effects may happen even when you did not plan them. That is why it is worth thinking beyond the first result. Ask yourself: if this solution works, who else could be affected by it? What good change might spread from the first action? This helps you see the wider meaning of what you are building.
+
+---
+
+## Scene 11
+
+[slow pace] [hope] [natural]
+
+That’s the end of Unit Three. Look at how far one idea has travelled: you chose a real problem, understood the need behind it, created several possible solutions, compared them, selected one, made it SMART, and looked for a stronger way to deliver it. [short pause] Keep that final solution safe, because Unit Four starts from exactly there. The question changes from “What should I do?” to “How will I actually make this happen?” Next, we move into planning, then execution, and finally sharing what happened. Your idea is ready to become a real plan. Keep your work with you, and I’ll see you in the next lesson.
+
+---

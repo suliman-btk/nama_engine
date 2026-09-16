@@ -1,0 +1,912 @@
+1
+00:00:00,640 --> 00:00:03,600
+Hi,  and  welcome  back  to  act.  You
+
+2
+00:00:03,600 --> 00:00:05,920
+have  one  solution  now.  The  next
+
+3
+00:00:05,920 --> 00:00:07,480
+step  is  to  make  it  clear  enough
+
+4
+00:00:07,480 --> 00:00:09,360
+that  someone  can  understand  what
+
+5
+00:00:09,360 --> 00:00:11,920
+you  actually  want  to  do.
+
+6
+00:00:11,920 --> 00:00:13,519
+A  useful  way  to  check  that  is
+
+7
+00:00:13,519 --> 00:00:15,839
+the  smart  model.  Smart  gives  us
+
+8
+00:00:15,839 --> 00:00:18,800
+five  simple  checks,  specific,
+
+9
+00:00:18,800 --> 00:00:21,800
+measurable,  attainable,  relevant,
+
+10
+00:00:21,800 --> 00:00:23,119
+and  timely.
+
+11
+00:00:23,119 --> 00:00:24,800
+You  do  not  need  to  memorize  big
+
+12
+00:00:24,800 --> 00:00:26,760
+definitions.  We  are  going  to  take
+
+13
+00:00:26,760 --> 00:00:28,199
+the  solution  you  chose  and  make
+
+14
+00:00:28,199 --> 00:00:30,759
+it  clearer  one  part  at  a  time.
+
+15
+00:00:30,759 --> 00:00:32,200
+By  the  end,  you  should  be  able
+
+16
+00:00:32,200 --> 00:00:34,160
+to  explain  what  you  want  to  do,
+
+17
+00:00:34,160 --> 00:00:36,320
+who  it  is  for,  what  success  could
+
+18
+00:00:36,320 --> 00:00:38,120
+look  like,  whether  it  can  really
+
+19
+00:00:38,120 --> 00:00:39,760
+be  done  and  when  it  should
+
+20
+00:00:39,760 --> 00:00:40,416
+happen.
+
+21
+00:00:40,656 --> 00:00:44,095
+specific.  A  vague  idea  like  raise
+
+22
+00:00:44,095 --> 00:00:46,096
+awareness  about  smoking  does  not
+
+23
+00:00:46,096 --> 00:00:48,016
+tell  us  enough.  What  kind  of
+
+24
+00:00:48,016 --> 00:00:50,935
+awareness?  For  whom?  Where?  And
+
+25
+00:00:50,935 --> 00:00:53,256
+what  exactly  will  you  do?
+
+26
+00:00:53,256 --> 00:00:55,536
+A  more  specific  version  could  be
+
+27
+00:00:55,536 --> 00:00:57,256
+run  awareness  sessions  about  the
+
+28
+00:00:57,256 --> 00:00:58,936
+harmful  effects  of  smoking  for
+
+29
+00:00:58,936 --> 00:01:01,296
+high  school  students  in  one  city.
+
+30
+00:01:01,296 --> 00:01:03,136
+Now  we  can  picture  the  action,
+
+31
+00:01:03,136 --> 00:01:04,976
+the  topic,  the  people,  and  the
+
+32
+00:01:04,976 --> 00:01:06,096
+place.
+
+33
+00:01:06,096 --> 00:01:07,296
+Do  the  same  with  your  own
+
+34
+00:01:07,296 --> 00:01:09,896
+solution.  Ask  yourself,  what  do  I
+
+35
+00:01:09,896 --> 00:01:11,695
+want  to  achieve,  why  does  it
+
+36
+00:01:11,695 --> 00:01:14,376
+matter?  How  might  I  do  it?  Who
+
+37
+00:01:14,376 --> 00:01:16,176
+is  involved?  And  where  will  it
+
+38
+00:01:16,176 --> 00:01:17,295
+happen?
+
+39
+00:01:17,295 --> 00:01:19,416
+You  do  not  need  every  detail  yet,
+
+40
+00:01:19,416 --> 00:01:21,582
+but  the  direction  should  be  clear.
+
+41
+00:01:21,822 --> 00:01:24,461
+M  stands  for  measurable.  This
+
+42
+00:01:24,461 --> 00:01:25,941
+means  adding  something  you  can
+
+43
+00:01:25,941 --> 00:01:27,742
+count  or  check  so  you  know
+
+44
+00:01:27,742 --> 00:01:29,542
+whether  the  goal  was  reached.
+
+45
+00:01:29,542 --> 00:01:31,261
+Using  the  same  example,  we  could
+
+46
+00:01:31,261 --> 00:01:33,982
+say  run  three  awareness  sessions
+
+47
+00:01:33,982 --> 00:01:36,822
+for  200  high  school  students.  Now,
+
+48
+00:01:36,822 --> 00:01:38,822
+there's  something  clear  to  measure.
+
+49
+00:01:38,822 --> 00:01:40,941
+Three  sessions  and  200  people
+
+50
+00:01:40,941 --> 00:01:42,982
+reached.  Your  number  will  depend
+
+51
+00:01:42,982 --> 00:01:45,021
+on  your  own  project.  It  might  be
+
+52
+00:01:45,021 --> 00:01:47,502
+people  reached,  sessions  completed,
+
+53
+00:01:47,502 --> 00:01:49,941
+items  delivered,  responses  collected
+
+54
+00:01:49,941 --> 00:01:51,621
+or  another  simple  measure  that
+
+55
+00:01:51,621 --> 00:01:53,422
+It's  the  solution.  The  point  is
+
+56
+00:01:53,422 --> 00:01:55,661
+not  to  chase  a  big  number.  The
+
+57
+00:01:55,661 --> 00:01:57,141
+point  is  to  know  what  you  will
+
+58
+00:01:57,141 --> 00:01:59,102
+look  at  later  when  you  ask,  "Did
+
+59
+00:01:59,102 --> 00:02:01,332
+we  actually  do  what  we  planned?"
+
+60
+00:02:01,332 --> 00:02:04,531
+A  stands  for  attainable.  You
+
+61
+00:02:04,531 --> 00:02:06,052
+already  checked  part  of  this  when
+
+62
+00:02:06,052 --> 00:02:08,171
+you  used  the  solution  filter.
+
+63
+00:02:08,171 --> 00:02:10,092
+Can  this  idea  really  be  done  with
+
+64
+00:02:10,092 --> 00:02:12,332
+your  current  ability,  limits  and
+
+65
+00:02:12,332 --> 00:02:14,332
+available  support?
+
+66
+00:02:14,332 --> 00:02:16,692
+R  stands  for  relevant  here,
+
+67
+00:02:16,692 --> 00:02:18,292
+meaning  the  goal  should  also  be
+
+68
+00:02:18,292 --> 00:02:20,052
+realistic  and  workable  in  the
+
+69
+00:02:20,052 --> 00:02:21,371
+situation.
+
+70
+00:02:21,371 --> 00:02:23,172
+If  there  are  only  500  people  in
+
+71
+00:02:23,172 --> 00:02:24,172
+the  group  you  are  trying  to
+
+72
+00:02:24,172 --> 00:02:27,212
+reach,  planning  for  5,000  does  not
+
+73
+00:02:27,212 --> 00:02:28,371
+make  sense.
+
+74
+00:02:28,371 --> 00:02:30,652
+The  same  goes  for  money,  access,
+
+75
+00:02:30,652 --> 00:02:32,691
+time  or  other  limits.
+
+76
+00:02:32,691 --> 00:02:34,452
+A  strong  goal  should  stretch  you
+
+77
+00:02:34,452 --> 00:02:36,252
+a  little,  but  it  should  still
+
+78
+00:02:36,252 --> 00:02:38,092
+live  in  the  real  world.
+
+79
+00:02:38,092 --> 00:02:40,492
+If  something  clearly  cannot  work,
+
+80
+00:02:40,492 --> 00:02:42,211
+adjust  the  size  or  the  way  you
+
+81
+00:02:42,211 --> 00:02:43,332
+plan  to  do  it.
+
+82
+00:02:43,572 --> 00:02:46,292
+T  stands  for  timely.  Give  the
+
+83
+00:02:46,292 --> 00:02:49,292
+solution  a  clear  time  or  period.
+
+84
+00:02:49,292 --> 00:02:51,171
+When  will  you  start  and  by  when
+
+85
+00:02:51,171 --> 00:02:53,212
+should  the  action  be  completed?
+
+86
+00:02:53,212 --> 00:02:55,492
+The  awareness  example  could  become
+
+87
+00:02:55,492 --> 00:02:57,492
+run  three  awareness  sessions  for
+
+88
+00:02:57,492 --> 00:02:59,332
+200  high  school  students  during
+
+89
+00:02:59,332 --> 00:03:01,572
+the  first  semester.  Now  the  action
+
+90
+00:03:01,572 --> 00:03:03,531
+has  a  time  frame.  Your  own
+
+91
+00:03:03,531 --> 00:03:06,052
+project  may  use  a  week,  a  month,
+
+92
+00:03:06,052 --> 00:03:08,652
+a  semester,  a  campaign  period  or
+
+93
+00:03:08,652 --> 00:03:10,292
+another  clear  window.
+
+94
+00:03:10,292 --> 00:03:12,252
+Time  matters  because  it  helps  you
+
+95
+00:03:12,252 --> 00:03:14,212
+know  how  fast  you need  to  move,
+
+96
+00:03:14,212 --> 00:03:15,492
+and  whether  the  goal  is  still
+
+97
+00:03:15,492 --> 00:03:16,731
+realistic.
+
+98
+00:03:16,731 --> 00:03:18,652
+Without  a  time  frame,  it  is  very
+
+99
+00:03:18,652 --> 00:03:20,492
+easy  for  a  good  idea  to  keep
+
+100
+00:03:20,492 --> 00:03:22,372
+getting  pushed  into  later  without
+
+101
+00:03:22,372 --> 00:03:23,623
+ever  becoming  real.
+
+102
+00:03:23,903 --> 00:03:25,903
+Now  take  your  final  solution  and
+
+103
+00:03:25,903 --> 00:03:28,063
+rewrite  it  using  all  five  smart
+
+104
+00:03:28,063 --> 00:03:29,063
+checks.
+
+105
+00:03:29,063 --> 00:03:30,902
+Ask  yourself,  is  it  specific
+
+106
+00:03:30,902 --> 00:03:32,063
+enough  that  someone  else
+
+107
+00:03:32,063 --> 00:03:34,063
+understands  it?  Can  I  measure
+
+108
+00:03:34,063 --> 00:03:35,743
+something  important?  Is  it
+
+109
+00:03:35,743 --> 00:03:37,503
+attainable  with  what  I  have  or
+
+110
+00:03:37,503 --> 00:03:39,462
+can  reasonably  get?  Is  it
+
+111
+00:03:39,462 --> 00:03:41,623
+realistic  for  this  situation?  And
+
+112
+00:03:41,623 --> 00:03:43,463
+is  the  time  clear?
+
+113
+00:03:43,463 --> 00:03:45,303
+If  one  part  is  weak,  change  the
+
+114
+00:03:45,303 --> 00:03:46,303
+sentence.
+
+115
+00:03:46,303 --> 00:03:47,742
+Do  not  worry  if  your  first
+
+116
+00:03:47,742 --> 00:03:49,822
+version  feels  messy.  The  point  of
+
+117
+00:03:49,822 --> 00:03:51,863
+smart  is  to  turn  a  broad  idea
+
+118
+00:03:51,863 --> 00:03:53,302
+into  something  you  can  actually
+
+119
+00:03:53,302 --> 00:03:54,503
+work with.
+
+120
+00:03:54,503 --> 00:03:56,062
+Keep  improving  the  wording  until
+
+121
+00:03:56,062 --> 00:03:58,303
+the  solution  feels  clear,  possible
+
+122
+00:03:58,303 --> 00:03:59,783
+and  connected  to  the  need  you've
+
+123
+00:03:59,783 --> 00:04:01,414
+been  carrying  through  this  unit.
+
+124
+00:04:01,414 --> 00:04:03,694
+Once  the  solution  is  clear,  you
+
+125
+00:04:03,694 --> 00:04:05,934
+can  ask  another  question.  Is  there
+
+126
+00:04:05,934 --> 00:04:07,894
+a  better  or  more  creative  way  to
+
+127
+00:04:07,894 --> 00:04:08,894
+do  it?
+
+128
+00:04:08,894 --> 00:04:10,814
+Innovation  does  not  always  mean
+
+129
+00:04:10,814 --> 00:04:13,013
+expensive  technology  or  something
+
+130
+00:04:13,013 --> 00:04:15,053
+nobody  has  ever  seen  before.
+
+131
+00:04:15,053 --> 00:04:16,894
+Sometimes  it  simply  means  looking
+
+132
+00:04:16,894 --> 00:04:18,734
+at  the  same  idea  from  a  different
+
+133
+00:04:18,734 --> 00:04:20,654
+angle  and  finding  a  fresh  way  to
+
+134
+00:04:20,654 --> 00:04:22,094
+make  it  work.
+
+135
+00:04:22,094 --> 00:04:23,894
+Imagine  giving  five  people  the
+
+136
+00:04:23,894 --> 00:04:26,654
+same  unfinished  drawing.  One  person
+
+137
+00:04:26,654 --> 00:04:28,654
+may  see  a  face,  another  may  see
+
+138
+00:04:28,654 --> 00:04:30,693
+a  road,  and  someone  else  may  turn
+
+139
+00:04:30,693 --> 00:04:32,134
+it  into  something completely
+
+140
+00:04:32,134 --> 00:04:34,054
+different.  The  starting  point  is
+
+141
+00:04:34,054 --> 00:04:35,934
+the  same,  but  the  way  they  look
+
+142
+00:04:35,934 --> 00:04:38,254
+at  it  changes  the  result.  You  can
+
+143
+00:04:38,254 --> 00:04:39,653
+do  the  same  with  a  community
+
+144
+00:04:39,653 --> 00:04:40,705
+solution.
+
+145
+00:04:40,705 --> 00:04:43,545
+Try  a  small  creativity  exercise.
+
+146
+00:04:43,545 --> 00:04:45,145
+Write  your  solution  in  the  middle
+
+147
+00:04:45,145 --> 00:04:47,464
+of  a  page.  Around  it,  add  a  few
+
+148
+00:04:47,464 --> 00:04:49,905
+random  prompts  such  as  location,
+
+149
+00:04:49,905 --> 00:04:52,945
+time,  audience,  partner,  social
+
+150
+00:04:52,945 --> 00:04:57,105
+media,  mobile,  book,  game,  color,
+
+151
+00:04:57,105 --> 00:04:59,064
+or  another  simple  word.
+
+152
+00:04:59,064 --> 00:05:01,585
+Pick  three  prompts  and  ask,  could
+
+153
+00:05:01,585 --> 00:05:03,425
+this  change  the  way  I  deliver  the
+
+154
+00:05:03,425 --> 00:05:04,545
+solution?
+
+155
+00:05:04,545 --> 00:05:06,665
+Maybe  the  location  changes.  Maybe
+
+156
+00:05:06,665 --> 00:05:08,025
+the  way  people  hear  about  it
+
+157
+00:05:08,025 --> 00:05:10,185
+changes.  Maybe  a  partner  makes  it
+
+158
+00:05:10,185 --> 00:05:11,505
+easier  to  Reach  the  people  who
+
+159
+00:05:11,505 --> 00:05:12,505
+need  it.
+
+160
+00:05:12,505 --> 00:05:14,145
+You  do  not  have  to  use  every
+
+161
+00:05:14,145 --> 00:05:16,424
+idea.  The  goal  is  simply  to  break
+
+162
+00:05:16,424 --> 00:05:17,865
+your  normal  pattern  for  a  few
+
+163
+00:05:17,865 --> 00:05:19,545
+minutes  and  see  whether  a  fresh
+
+164
+00:05:19,545 --> 00:05:21,455
+angle  gives  you  something  useful.
+
+165
+00:05:21,455 --> 00:05:23,455
+Now,  look  at  the  ideas  you
+
+166
+00:05:23,455 --> 00:05:26,055
+created.  Keep  the  useful  parts,
+
+167
+00:05:26,055 --> 00:05:27,895
+combine  ideas  that  work  well
+
+168
+00:05:27,895 --> 00:05:30,134
+together  and  remove  anything  that
+
+169
+00:05:30,134 --> 00:05:32,174
+makes  the  solution  weaker  or  more
+
+170
+00:05:32,174 --> 00:05:33,575
+confusing.
+
+171
+00:05:33,575 --> 00:05:36,014
+A  creative  idea  is  only  helpful
+
+172
+00:05:36,014 --> 00:05:38,455
+if  it  still  fits  the  real  need
+
+173
+00:05:38,455 --> 00:05:40,415
+and  can  actually  work.
+
+174
+00:05:40,415 --> 00:05:41,894
+If  your  new  version  changes
+
+175
+00:05:41,894 --> 00:05:43,695
+something  important,  like  who  you
+
+176
+00:05:43,695 --> 00:05:45,974
+are  helping,  how  much  you  will  do
+
+177
+00:05:45,974 --> 00:05:47,935
+or  when  it  will  happen,  update
+
+178
+00:05:47,935 --> 00:05:49,894
+your  smart  statement  too.
+
+179
+00:05:49,894 --> 00:05:51,974
+You  are  not  adding  creativity just
+
+180
+00:05:51,974 --> 00:05:53,975
+to  make  the  project  look  special.
+
+181
+00:05:53,975 --> 00:05:55,455
+You  are  trying  to  make  the  final
+
+182
+00:05:55,455 --> 00:05:57,975
+solution  clearer,  stronger,  more
+
+183
+00:05:57,975 --> 00:06:00,615
+original  or  easier  to  use  while
+
+184
+00:06:00,615 --> 00:06:02,621
+still  keeping  it  realistic.
+
+185
+00:06:02,621 --> 00:06:04,541
+One  more  thing  before  we  close  the
+
+186
+00:06:04,541 --> 00:06:07,301
+unit.  Your  action  can  affect  more
+
+187
+00:06:07,301 --> 00:06:09,301
+people  than  you  expect.
+
+188
+00:06:09,301 --> 00:06:10,821
+Think  about  a  row  of  connected
+
+189
+00:06:10,821 --> 00:06:13,501
+pieces.  Move  one  and  the  movement
+
+190
+00:06:13,501 --> 00:06:15,300
+can  reach  the  next  one,  then  the
+
+191
+00:06:15,300 --> 00:06:16,621
+next.
+
+192
+00:06:16,621 --> 00:06:18,941
+Community  work  can  be  similar.
+
+193
+00:06:18,941 --> 00:06:21,021
+A  useful  action  may  directly  help
+
+194
+00:06:21,021 --> 00:06:23,781
+one  group,  then  influence  families,
+
+195
+00:06:23,781 --> 00:06:25,980
+co-workers,  neighbors  or  other
+
+196
+00:06:25,980 --> 00:06:27,581
+people  around  them.
+
+197
+00:06:27,581 --> 00:06:29,300
+Some  effects  may  happen  even  when
+
+198
+00:06:29,300 --> 00:06:31,181
+you  did  not  plan  them.
+
+199
+00:06:31,181 --> 00:06:32,660
+That  is  why  it  is  worth  thinking
+
+200
+00:06:32,660 --> 00:06:34,981
+beyond  the  first  result.
+
+201
+00:06:34,981 --> 00:06:37,061
+Ask  yourself,  if  this  solution
+
+202
+00:06:37,061 --> 00:06:39,061
+works,  who  else  could  be  affected
+
+203
+00:06:39,061 --> 00:06:40,020
+by  it?
+
+204
+00:06:40,020 --> 00:06:42,020
+What  good  change  might  spread  from
+
+205
+00:06:42,020 --> 00:06:43,660
+the  first  action?
+
+206
+00:06:43,660 --> 00:06:45,020
+This  helps  you  see  the  wider
+
+207
+00:06:45,020 --> 00:06:46,621
+meaning  of  what  you  are  building.
+
+208
+00:06:46,621 --> 00:06:49,901
+That's  the  end  of  unit  three.
+
+209
+00:06:49,901 --> 00:06:52,500
+Look  at  how  far  one  idea  has
+
+210
+00:06:52,500 --> 00:06:54,941
+traveled.  You  chose  a  real
+
+211
+00:06:54,941 --> 00:06:57,821
+problem,  understood  the  need  behind
+
+212
+00:06:57,821 --> 00:07:00,140
+it,  created  several  possible
+
+213
+00:07:00,140 --> 00:07:03,061
+solutions,  compared  them,  selected
+
+214
+00:07:03,061 --> 00:07:05,701
+one,  made  it  smart,  and  looked
+
+215
+00:07:05,701 --> 00:07:08,701
+for  a  stronger  way  to  deliver  it.
+
+216
+00:07:08,701 --> 00:07:11,301
+Keep  that  final  solution  safe
+
+217
+00:07:11,301 --> 00:07:13,101
+because  unit  four  starts  from
+
+218
+00:07:13,101 --> 00:07:14,980
+exactly  there.
+
+219
+00:07:14,980 --> 00:07:17,060
+The  question  changes  from  What
+
+220
+00:07:17,060 --> 00:07:19,541
+should  I  do?  To  how  will  I
+
+221
+00:07:19,541 --> 00:07:22,020
+actually  make  this  hacking?
+
+222
+00:07:22,020 --> 00:07:24,461
+Next,  we  move  into  planning,  then
+
+223
+00:07:24,461 --> 00:07:27,061
+execution  and  finally  sharing  what
+
+224
+00:07:27,061 --> 00:07:28,261
+happened.
+
+225
+00:07:28,261 --> 00:07:30,660
+Your  idea  is  ready  to  become  a
+
+226
+00:07:30,660 --> 00:07:32,381
+real  plan.
+
+227
+00:07:32,381 --> 00:07:33,981
+Keep  your  work  with  you  and  I'll
+
+228
+00:07:33,981 --> 00:07:35,454
+see  you  in  the  next  lesson.
+

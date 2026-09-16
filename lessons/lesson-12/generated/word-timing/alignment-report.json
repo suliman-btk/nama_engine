@@ -1,0 +1,119 @@
+[
+  {
+    "scene": "scene-001",
+    "scriptWords": 112,
+    "subtitleWords": 112,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-002",
+    "scriptWords": 110,
+    "subtitleWords": 107,
+    "editDistance": 3,
+    "differences": [
+      {
+        "type": "delete",
+        "script": "Start with S",
+        "subtitle": ""
+      }
+    ]
+  },
+  {
+    "scene": "scene-003",
+    "scriptWords": 107,
+    "subtitleWords": 106,
+    "editDistance": 3,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "there is",
+        "subtitle": "there's"
+      },
+      {
+        "type": "replace",
+        "script": "fits",
+        "subtitle": "It's"
+      }
+    ]
+  },
+  {
+    "scene": "scene-004",
+    "scriptWords": 112,
+    "subtitleWords": 112,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-005",
+    "scriptWords": 109,
+    "subtitleWords": 109,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-006",
+    "scriptWords": 107,
+    "subtitleWords": 106,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "you have",
+        "subtitle": "you've"
+      }
+    ]
+  },
+  {
+    "scene": "scene-007",
+    "scriptWords": 111,
+    "subtitleWords": 111,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-008",
+    "scriptWords": 107,
+    "subtitleWords": 107,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-009",
+    "scriptWords": 105,
+    "subtitleWords": 105,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-010",
+    "scriptWords": 116,
+    "subtitleWords": 117,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "coworkers",
+        "subtitle": "co workers"
+      }
+    ]
+  },
+  {
+    "scene": "scene-011",
+    "scriptWords": 106,
+    "subtitleWords": 106,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "travelled",
+        "subtitle": "traveled"
+      },
+      {
+        "type": "replace",
+        "script": "happen",
+        "subtitle": "hacking"
+      }
+    ]
+  }
+]

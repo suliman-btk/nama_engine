@@ -1,0 +1,10 @@
+{
+  "lesson": 12,
+  "assets": [
+    {"path":"assets/official-slides/slide-169.png","source":"source-material/ACT Lessons Updated Logo.pptx","slide":169,"use":"Reference for the large, renderer-native SMART overview in scene 1"},
+    {"path":"assets/official-slides/slide-170.png","source":"source-material/ACT Lessons Updated Logo.pptx","slide":170,"use":"Reference for scenes 2–6 SMART definitions"},
+    {"path":"assets/official-slides/slide-174.png","source":"source-material/ACT Lessons Updated Logo.pptx","slide":174,"use":"Reference for the full-size native graphic in scene 7"},
+    {"path":"assets/official-slides/slide-176.png","source":"source-material/ACT Lessons Updated Logo.pptx","slide":176,"use":"Reference for the full-size native activity graphic in scene 8"}
+  ],
+  "curriculumReferences":[{"source":"source-material/ACT Curriclume - Trainer Manual Updated Logo (3).pdf","pages":"184–196"}]
+}
