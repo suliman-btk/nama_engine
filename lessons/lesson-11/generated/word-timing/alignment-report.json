@@ -1,0 +1,88 @@
+[
+  {
+    "scene": "scene-001",
+    "scriptWords": 112,
+    "subtitleWords": 112,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-002",
+    "scriptWords": 104,
+    "subtitleWords": 104,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-003",
+    "scriptWords": 104,
+    "subtitleWords": 104,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-004",
+    "scriptWords": 108,
+    "subtitleWords": 108,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-005",
+    "scriptWords": 114,
+    "subtitleWords": 114,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-006",
+    "scriptWords": 110,
+    "subtitleWords": 110,
+    "editDistance": 1,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "this",
+        "subtitle": "the"
+      }
+    ]
+  },
+  {
+    "scene": "scene-007",
+    "scriptWords": 107,
+    "subtitleWords": 108,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "answers",
+        "subtitle": "answer"
+      },
+      {
+        "type": "insert",
+        "script": "",
+        "subtitle": "be"
+      }
+    ]
+  },
+  {
+    "scene": "scene-008",
+    "scriptWords": 107,
+    "subtitleWords": 108,
+    "editDistance": 1,
+    "differences": [
+      {
+        "type": "insert",
+        "script": "",
+        "subtitle": "from"
+      }
+    ]
+  },
+  {
+    "scene": "scene-009",
+    "scriptWords": 105,
+    "subtitleWords": 105,
+    "editDistance": 0,
+    "differences": []
+  }
+]

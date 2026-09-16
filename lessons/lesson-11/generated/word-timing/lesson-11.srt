@@ -1,0 +1,764 @@
+1
+00:00:00,199 --> 00:00:02,679
+Hi,  and  welcome  back  to  Act.  You
+
+2
+00:00:02,679 --> 00:00:04,520
+now  have  three  possible  solutions
+
+3
+00:00:04,520 --> 00:00:06,399
+in  front  of  you.  Nice,  but  we
+
+4
+00:00:06,399 --> 00:00:08,200
+still  have  one  important  decision
+
+5
+00:00:08,200 --> 00:00:10,480
+to  make.  Which  one  actually  fits
+
+6
+00:00:10,480 --> 00:00:11,559
+best?
+
+7
+00:00:11,559 --> 00:00:12,719
+This  is  not  about  choosing  the
+
+8
+00:00:12,719 --> 00:00:14,599
+idea  that  sounds  coolest  or  the
+
+9
+00:00:14,599 --> 00:00:16,920
+one  you  personally  like  most.  We
+
+10
+00:00:16,920 --> 00:00:18,400
+need  to  look  at  each  option  from
+
+11
+00:00:18,400 --> 00:00:20,640
+a  few  different  angles  first.  A
+
+12
+00:00:20,640 --> 00:00:22,359
+simple  solution  filter  can  help
+
+13
+00:00:22,359 --> 00:00:24,039
+with  that.  Think  of  it  as  a  way
+
+14
+00:00:24,039 --> 00:00:26,359
+to  slow  the  decision  down,  compare
+
+15
+00:00:26,359 --> 00:00:28,240
+the  ideas  fairly  and  make  your
+
+16
+00:00:28,240 --> 00:00:30,039
+reasons  clearer.
+
+17
+00:00:30,039 --> 00:00:31,119
+Keep  your  three  ideas  from  the
+
+18
+00:00:31,119 --> 00:00:32,920
+last  lesson  beside  you,  because  we
+
+19
+00:00:32,920 --> 00:00:34,079
+are  going  to  use  them  all  the
+
+20
+00:00:34,079 --> 00:00:35,250
+way  through  this  one.
+
+21
+00:00:35,250 --> 00:00:37,530
+The  filter  asks  six  simple
+
+22
+00:00:37,530 --> 00:00:38,810
+questions.
+
+23
+00:00:38,810 --> 00:00:40,609
+What  strengths  do  you  already  have
+
+24
+00:00:40,609 --> 00:00:41,490
+that  could  help  with  this
+
+25
+00:00:41,490 --> 00:00:42,609
+solution?
+
+26
+00:00:42,609 --> 00:00:44,090
+What  could  make  it  difficult  for
+
+27
+00:00:44,090 --> 00:00:44,929
+you?
+
+28
+00:00:44,929 --> 00:00:46,849
+What  useful  skills  could  you  build
+
+29
+00:00:46,849 --> 00:00:48,170
+while  doing  it?
+
+30
+00:00:48,170 --> 00:00:50,129
+Who  could  benefit?  And  does  the
+
+31
+00:00:50,129 --> 00:00:52,090
+idea  really  answer  the  need  you
+
+32
+00:00:52,090 --> 00:00:53,289
+found?
+
+33
+00:00:53,289 --> 00:00:55,010
+What  positive  values  could  the
+
+34
+00:00:55,010 --> 00:00:56,689
+solution  support?
+
+35
+00:00:56,689 --> 00:00:58,609
+And  finally,  is  there  a  suitable
+
+36
+00:00:58,609 --> 00:01:00,769
+place  or  situation  where  this  idea
+
+37
+00:01:00,769 --> 00:01:03,090
+can  really  work?
+
+38
+00:01:03,090 --> 00:01:04,849
+None  of  these  questions  decides
+
+39
+00:01:04,849 --> 00:01:06,330
+the  answer  alone.
+
+40
+00:01:06,330 --> 00:01:07,649
+The  point  is  to  look  at  the
+
+41
+00:01:07,649 --> 00:01:09,170
+whole  picture.
+
+42
+00:01:09,170 --> 00:01:10,969
+A  strong  idea  should  make  sense
+
+43
+00:01:10,969 --> 00:01:13,129
+for  the  people,  the  need,  your
+
+44
+00:01:13,129 --> 00:01:15,370
+ability  and  the  situation  around
+
+45
+00:01:15,370 --> 00:01:15,833
+it.
+
+46
+00:01:16,073 --> 00:01:17,992
+Start  with  your  own  ability  and
+
+47
+00:01:17,992 --> 00:01:19,272
+challenges.
+
+48
+00:01:19,272 --> 00:01:20,592
+Remember  the  strengths  and
+
+49
+00:01:20,592 --> 00:01:22,433
+weaknesses  you  explored  earlier  in
+
+50
+00:01:22,433 --> 00:01:24,552
+act?  Bring  that  thinking  back
+
+51
+00:01:24,552 --> 00:01:25,552
+here.
+
+52
+00:01:25,552 --> 00:01:27,472
+Maybe  one  solution  fits  a  skill
+
+53
+00:01:27,472 --> 00:01:29,552
+you  already  have.  Another  may
+
+54
+00:01:29,552 --> 00:01:31,233
+depend  on  something  you  have  never
+
+55
+00:01:31,233 --> 00:01:32,793
+done  before.
+
+56
+00:01:32,793 --> 00:01:35,032
+Be  honest  about  both  sides.
+
+57
+00:01:35,032 --> 00:01:36,872
+Your  strengths  can  make  a  solution
+
+58
+00:01:36,872 --> 00:01:38,633
+easier  to  start,  while  your
+
+59
+00:01:38,633 --> 00:01:40,432
+challenges  show  where  you  may  need
+
+60
+00:01:40,432 --> 00:01:43,713
+more  learning,  support,  time,  or  a
+
+61
+00:01:43,713 --> 00:01:45,512
+simpler  approach.
+
+62
+00:01:45,512 --> 00:01:47,233
+This  is not  about  proving  that  you
+
+63
+00:01:47,233 --> 00:01:49,353
+can  do  everything  alone.
+
+64
+00:01:49,353 --> 00:01:51,033
+Good  leadership  includes  knowing
+
+65
+00:01:51,033 --> 00:01:53,232
+what  you  can  handle  now  and  where
+
+66
+00:01:53,232 --> 00:01:54,793
+you  still  need  to  grow  before
+
+67
+00:01:54,793 --> 00:01:56,473
+taking  responsibility  for  something
+
+68
+00:01:56,473 --> 00:01:57,166
+bigger.
+
+69
+00:01:57,166 --> 00:01:59,246
+Next,  look  at  the  skills  you
+
+70
+00:01:59,246 --> 00:02:00,686
+wanted  to  build  in  the  last
+
+71
+00:02:00,686 --> 00:02:02,806
+lesson.  Which  solution  gives  you  a
+
+72
+00:02:02,806 --> 00:02:04,806
+real  chance  to  practice  them?
+
+73
+00:02:04,806 --> 00:02:06,885
+Maybe  one  idea  helps  you  improve
+
+74
+00:02:06,885 --> 00:02:09,046
+communication.  Another  could  build
+
+75
+00:02:09,046 --> 00:02:11,685
+planning,  budgeting,  design,  or  a
+
+76
+00:02:11,685 --> 00:02:13,086
+technical  skill.
+
+77
+00:02:13,086 --> 00:02:15,486
+This  matters  because  real  projects
+
+78
+00:02:15,486 --> 00:02:17,006
+can  become  a  place  to  learn
+
+79
+00:02:17,006 --> 00:02:19,205
+through  doing.  But  keep  the  order
+
+80
+00:02:19,205 --> 00:02:21,285
+right.  The  project  should  answer  a
+
+81
+00:02:21,285 --> 00:02:23,726
+real  community  need  first.  Your
+
+82
+00:02:23,726 --> 00:02:25,646
+personal  growth  is  a  benefit,  not
+
+83
+00:02:25,646 --> 00:02:27,205
+the  main  reason  for  choosing  the
+
+84
+00:02:27,205 --> 00:02:28,285
+solution.
+
+85
+00:02:28,285 --> 00:02:30,846
+So,  ask  both  questions  together.
+
+86
+00:02:30,846 --> 00:02:32,926
+Could  this  idea  help  people?  And
+
+87
+00:02:32,926 --> 00:02:34,486
+could  it  also  give  me  a  useful
+
+88
+00:02:34,486 --> 00:02:36,045
+chance  to  develop  skills  while
+
+89
+00:02:36,045 --> 00:02:37,666
+doing  the  work  responsibly?
+
+90
+00:02:37,666 --> 00:02:39,466
+Now  focus  on  the  people  who  could
+
+91
+00:02:39,466 --> 00:02:41,506
+benefit.  How  many  people  could
+
+92
+00:02:41,506 --> 00:02:43,826
+this  solution  realistically  reach
+
+93
+00:02:43,826 --> 00:02:45,306
+and  does  it  actually  match  the
+
+94
+00:02:45,306 --> 00:02:47,746
+need  you  wrote  in  lesson  nine?
+
+95
+00:02:47,746 --> 00:02:49,626
+Do  not  just  write  a  big  number
+
+96
+00:02:49,626 --> 00:02:51,706
+because  it  looks  impressive.  Think
+
+97
+00:02:51,706 --> 00:02:53,505
+about  who  would  really  use  or
+
+98
+00:02:53,505 --> 00:02:55,266
+receive  the  solution.
+
+99
+00:02:55,266 --> 00:02:57,146
+If  an  idea  can  reach  many  people
+
+100
+00:02:57,146 --> 00:02:59,066
+but  does  not  solve  the  need,  it
+
+101
+00:02:59,066 --> 00:03:01,025
+is  still  a  weak  fit.
+
+102
+00:03:01,025 --> 00:03:02,746
+If  another  idea  reaches  a  smaller
+
+103
+00:03:02,746 --> 00:03:04,386
+group  but  clearly  answers  the
+
+104
+00:03:04,386 --> 00:03:05,906
+problem  you  studied,  that
+
+105
+00:03:05,906 --> 00:03:08,506
+information  matters  too. The  filter
+
+106
+00:03:08,506 --> 00:03:10,786
+is  helping  you  compare  real  fit,
+
+107
+00:03:10,786 --> 00:03:12,545
+not  just  appearance.
+
+108
+00:03:12,545 --> 00:03:15,506
+Keep  asking,  who  benefits?  How  do
+
+109
+00:03:15,506 --> 00:03:17,106
+they  benefit?  And  does  this
+
+110
+00:03:17,106 --> 00:03:19,249
+solution  connect  back  to  the  need?
+
+111
+00:03:19,569 --> 00:03:22,249
+There  are  two  more  checks.  First,
+
+112
+00:03:22,249 --> 00:03:24,849
+values.  What  positive  value  could
+
+113
+00:03:24,849 --> 00:03:26,369
+the  solution  support  through  the
+
+114
+00:03:26,369 --> 00:03:28,729
+way  it  works?  Maybe  it  encourages
+
+115
+00:03:28,729 --> 00:03:31,169
+responsibility,  cooperation,
+
+116
+00:03:31,169 --> 00:03:33,928
+learning,  care,  or  another  value
+
+117
+00:03:33,928 --> 00:03:35,769
+connected  to  the  project.
+
+118
+00:03:35,769 --> 00:03:38,089
+Second,  the  environment.  Is  there
+
+119
+00:03:38,089 --> 00:03:40,209
+a  suitable  place  or  situation  for
+
+120
+00:03:40,209 --> 00:03:41,809
+this  idea  to  work?
+
+121
+00:03:41,809 --> 00:03:43,649
+A  good  idea  can  fail  if  the
+
+122
+00:03:43,649 --> 00:03:45,729
+setting  does  not  support  it.  Think
+
+123
+00:03:45,729 --> 00:03:48,169
+about  access,  the  people  involved,
+
+124
+00:03:48,169 --> 00:03:50,089
+the  place  and  Whether  the  solution
+
+125
+00:03:50,089 --> 00:03:52,529
+can  actually  be  carried  out  there.
+
+126
+00:03:52,529 --> 00:03:54,009
+You  do  not  need  a  perfect
+
+127
+00:03:54,009 --> 00:03:56,209
+situation.  You  just  need  enough  of
+
+128
+00:03:56,209 --> 00:03:58,169
+a  fit  that  the  idea  has  a  real
+
+129
+00:03:58,169 --> 00:04:00,249
+chance  to  work  instead  of  staying
+
+130
+00:04:00,249 --> 00:04:02,249
+as  a  nice  idea  on  paper.
+
+131
+00:04:02,249 --> 00:04:04,849
+Now  use  the  solution  filter
+
+132
+00:04:04,849 --> 00:04:06,608
+worksheet  with  this  lesson.  Put
+
+133
+00:04:06,608 --> 00:04:08,449
+your  three  ideas  into  the  filter
+
+134
+00:04:08,449 --> 00:04:10,088
+and  answer  the  six  questions  for
+
+135
+00:04:10,088 --> 00:04:12,049
+each  one.  Keep  your  answer  short
+
+136
+00:04:12,049 --> 00:04:13,768
+and  clear.
+
+137
+00:04:13,768 --> 00:04:15,449
+Take  your  time  here.  You  are
+
+138
+00:04:15,449 --> 00:04:17,529
+comparing  your  strengths,  your
+
+139
+00:04:17,529 --> 00:04:19,489
+challenges,  the  skills  you  could
+
+140
+00:04:19,489 --> 00:04:22,089
+build,  the  people  who  may  benefit,
+
+141
+00:04:22,089 --> 00:04:24,249
+the  values  the  idea  supports,  and
+
+142
+00:04:24,249 --> 00:04:26,528
+whether  the  environment  fits.
+
+143
+00:04:26,528 --> 00:04:28,209
+When  you  finish,  place  the  three
+
+144
+00:04:28,209 --> 00:04:30,009
+options  side  by  side  and  look  at
+
+145
+00:04:30,009 --> 00:04:32,089
+the  whole  picture.  Do  not  choose
+
+146
+00:04:32,089 --> 00:04:34,049
+be  because  one  box  looks  good.
+
+147
+00:04:34,049 --> 00:04:35,249
+Look  for  the  solution  that  makes
+
+148
+00:04:35,249 --> 00:04:37,409
+the  strongest  overall  sense  for
+
+149
+00:04:37,409 --> 00:04:39,609
+the  need,  the  people,  and  what
+
+150
+00:04:39,609 --> 00:04:41,499
+you  can  realistically  take  forward.
+
+151
+00:04:41,499 --> 00:04:43,939
+Now,  make  the  choice.  Which
+
+152
+00:04:43,939 --> 00:04:46,699
+solution  has  the  best  overall  fit?
+
+153
+00:04:46,699 --> 00:04:48,499
+Write  it  down.  Then  add  two  or
+
+154
+00:04:48,499 --> 00:04:50,579
+three  simple  sentences  explaining
+
+155
+00:04:50,579 --> 00:04:52,178
+why  you  chose  it.
+
+156
+00:04:52,178 --> 00:04:53,939
+And  remember,  the  filter  is  a
+
+157
+00:04:53,939 --> 00:04:56,138
+guide,  not  a  cage.  If  your
+
+158
+00:04:56,138 --> 00:04:57,698
+comparison  makes  you  realize  that
+
+159
+00:04:57,698 --> 00:04:59,739
+another  idea  outside  your  original
+
+160
+00:04:59,739 --> 00:05:01,698
+three  would  fit  much  better,  you
+
+161
+00:05:01,698 --> 00:05:03,579
+can  bring  that  idea  back  and  run
+
+162
+00:05:03,579 --> 00:05:05,098
+it  through  the  same  filter  before
+
+163
+00:05:05,098 --> 00:05:06,339
+deciding.
+
+164
+00:05:06,339 --> 00:05:07,899
+What  matters  is  that  the  final
+
+165
+00:05:07,899 --> 00:05:09,819
+choice  has  a  clear  reason  behind
+
+166
+00:05:09,819 --> 00:05:12,059
+it.  You  are  moving  away  from  from
+
+167
+00:05:12,059 --> 00:05:14,659
+I  like  this  idea  and  toward,  this
+
+168
+00:05:14,659 --> 00:05:17,058
+idea  fits  the  need,  the  people,
+
+169
+00:05:17,058 --> 00:05:18,779
+my  situation,  and  what  I  can
+
+170
+00:05:18,779 --> 00:05:20,124
+actually  do.
+
+171
+00:05:20,404 --> 00:05:22,763
+That's  it  for  today.  You  started
+
+172
+00:05:22,763 --> 00:05:25,084
+with  three  possible  solutions  and
+
+173
+00:05:25,084 --> 00:05:27,403
+used  a  clear  way  to  compare  them
+
+174
+00:05:27,403 --> 00:05:29,364
+instead  of  guessing.
+
+175
+00:05:29,364 --> 00:05:31,484
+Keep  your  completed  filter  and  the
+
+176
+00:05:31,484 --> 00:05:34,244
+one  solution  you  selected.
+
+177
+00:05:34,244 --> 00:05:36,084
+Next,  we  are  going  to  make  that
+
+178
+00:05:36,084 --> 00:05:38,563
+solution  much  clearer  and  easier
+
+179
+00:05:38,563 --> 00:05:39,924
+to  work  with.
+
+180
+00:05:39,924 --> 00:05:41,124
+We  will  check  whether  it  is
+
+181
+00:05:41,124 --> 00:05:44,323
+specific,  measurable,  realistic  in
+
+182
+00:05:44,323 --> 00:05:46,684
+your  situation  and  clear  about
+
+183
+00:05:46,684 --> 00:05:48,044
+time.
+
+184
+00:05:48,044 --> 00:05:49,723
+Then  we  will  look  at  how  a
+
+185
+00:05:49,723 --> 00:05:52,203
+simple creative  change  can  make  the
+
+186
+00:05:52,203 --> 00:05:54,644
+idea  stronger  without  losing  the
+
+187
+00:05:54,644 --> 00:05:56,924
+real  need  behind  it.
+
+188
+00:05:56,924 --> 00:05:59,044
+Keep  your  final  solution  with  you
+
+189
+00:05:59,044 --> 00:06:01,044
+because  we  will  build  directly  on
+
+190
+00:06:01,044 --> 00:06:02,244
+it  next.
+
+191
+00:06:02,244 --> 00:06:03,790
+I'll  see  you  in  the  next  lesson.
+

@@ -1,0 +1,15 @@
+{
+  "lesson": 11,
+  "assets": [
+    {
+      "kind": "editable-reconstruction",
+      "source": "source-material/ACT Lessons Updated Logo.pptx",
+      "slides": [163, 164],
+      "use": "Scenes 2–7: readable video-native reconstruction of the official Solution Filter checks and activity",
+      "notes": "Original worksheet structure and meaning preserved; wording is synchronized to the locked narration."
+    }
+  ],
+  "curriculumReferences": [
+    { "source": "source-material/ACT Curriclume - Trainer Manual Updated Logo (3).pdf", "pages": "176–183" }
+  ]
+}
