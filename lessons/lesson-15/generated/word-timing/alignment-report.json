@@ -1,0 +1,70 @@
+[
+  {
+    "scene": "scene-001",
+    "scriptWords": 63,
+    "subtitleWords": 63,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-002",
+    "scriptWords": 70,
+    "subtitleWords": 71,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "impressive",
+        "subtitle": "impress of"
+      }
+    ]
+  },
+  {
+    "scene": "scene-003",
+    "scriptWords": 63,
+    "subtitleWords": 63,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-004",
+    "scriptWords": 56,
+    "subtitleWords": 56,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-005",
+    "scriptWords": 65,
+    "subtitleWords": 65,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-006",
+    "scriptWords": 69,
+    "subtitleWords": 69,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-007",
+    "scriptWords": 63,
+    "subtitleWords": 63,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-008",
+    "scriptWords": 77,
+    "subtitleWords": 0,
+    "editDistance": 77,
+    "differences": [
+      {
+        "type": "delete",
+        "script": "The key idea is this planning improves when it meets experience Observe how similar work happens ask practical questions compare what you learn with the plan and revise what no longer makes sense In the next lesson we will move from preparation to execution We will look at what should be checked before action starts how to respond when reality changes and how to document what happened so the experience becomes useful learning I\u2019ll see you there",
+        "subtitle": ""
+      }
+    ]
+  }
+]
