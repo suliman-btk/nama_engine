@@ -1,0 +1,81 @@
+[
+  {
+    "scene": "scene-001",
+    "scriptWords": 82,
+    "subtitleWords": 82,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-002",
+    "scriptWords": 85,
+    "subtitleWords": 86,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "an",
+        "subtitle": "and"
+      },
+      {
+        "type": "insert",
+        "script": "",
+        "subtitle": "too"
+      }
+    ]
+  },
+  {
+    "scene": "scene-003",
+    "scriptWords": 79,
+    "subtitleWords": 79,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-004",
+    "scriptWords": 68,
+    "subtitleWords": 68,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-005",
+    "scriptWords": 78,
+    "subtitleWords": 78,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-006",
+    "scriptWords": 78,
+    "subtitleWords": 78,
+    "editDistance": 0,
+    "differences": []
+  },
+  {
+    "scene": "scene-007",
+    "scriptWords": 82,
+    "subtitleWords": 81,
+    "editDistance": 2,
+    "differences": [
+      {
+        "type": "replace",
+        "script": "Here is",
+        "subtitle": "Here's"
+      }
+    ]
+  },
+  {
+    "scene": "scene-008",
+    "scriptWords": 83,
+    "subtitleWords": 84,
+    "editDistance": 1,
+    "differences": [
+      {
+        "type": "insert",
+        "script": "",
+        "subtitle": "Understand"
+      }
+    ]
+  }
+]
