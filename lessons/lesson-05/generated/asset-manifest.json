@@ -1,0 +1,27 @@
+{
+  "lesson": 5,
+  "officialDeck": "source-material/ACT Lessons Updated Logo.pptx",
+  "visuals": [
+    {
+      "slide": 89,
+      "sectionSlideTitle": "2- Leadership Compass (slide 79)",
+      "description": "Four labelled trait-wheels (North, South, East, West) enumerating the exact leadership descriptors the narration lifts almost verbatim for each direction.",
+      "extractedAs": "screenshot of the whole slide composition (SmartArt diagram, not an embeddable picture object)",
+      "localFile": "assets/deck/slide-089-leadership-compass-wheels.png",
+      "matchesNarrationPhrase": "The curriculum describes Northern leaders as straightforward, results focused, quick to initiate... / South is more people focused... / East is the detail focused direction... / West is the creative and adventurous direction...",
+      "status": "candidate visual — not yet placed in the EDL; see review-notes.md for the open engine question"
+    },
+    {
+      "slide": 79,
+      "description": "Section title slide with a plain decorative compass rose graphic (not the two-axis quadrant diagram the narration describes).",
+      "localFile": "assets/deck/slide-079-leadership-compass-title.png",
+      "status": "reference only, likely not needed in the review stills"
+    },
+    {
+      "slides": [81, 83, 85, 87],
+      "description": "Generic stock signpost photos for East/West/South/North individually — decorative, not curriculum-specific. Not recommended for inclusion.",
+      "status": "considered, not selected"
+    }
+  ],
+  "note": "No literal two-crossing-axes quadrant diagram exists in the deck for this lesson; the closest official visual is the four trait-wheels on slide 89."
+}

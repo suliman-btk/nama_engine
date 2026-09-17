@@ -1,0 +1,23 @@
+# Lesson 5 — Finding Your Compass
+
+Target length: ~8–9 min | 6 scenes | max 800 characters per scene Pronunciation: ACT is written “ACT” and spoken as the word “Act” (rhymes with “fact”). No Arabic phrases appear in this lesson’s source content.
+
+Paste each scene below into its own Google Vids scene, in order.
+
+## Scene 1: Before anything else: if you went and asked people who matter to you what they honestly see in you, take a second and actually feel what that was. Hold onto how that felt, because everything today builds on it. Here’s a real question this lesson finally answers: what kind of leader are you? Not a guess — a real, mapped-out answer, using a simple compass with four directions. Picture two lines crossing, like a plus sign. One runs from task-focused to people-focused — how much you care about getting the job done versus how everyone feels while doing it. The other runs from fast-paced to slow-paced — how quickly you naturally move. Where the two lines cross, you get four directions, and four types of leaders.
+
+## Scene 2: The Northern leader is fast and task-focused — direct, decisive, gets things moving immediately. The Southern leader is people-focused first — patient, empathetic, tuned in to how everyone’s actually feeling, sometimes at the cost of speed. The Eastern leader is detail-focused and thorough — makes sure a job is done right, not just done fast. The Western leader is the creative one — big ideas, unique thinking, sometimes further out than what’s immediately practical.
+
+Here’s the rule that matters more than the map itself: no direction on this compass is better than any other. A Northern leader isn’t “more of a leader” than a Southern one. Each type is simply the best fit for a different kind of moment — and every single one of them is going to be genuinely useful somewhere in your life.
+
+## Scene 3: One more honest note: people aren’t actually boxed into one direction forever. You might lead one way with your friends and a completely different way at home, or at work, or on a team — and that’s normal. Most people do have one pattern that shows up the most, but don’t mistake this compass for a permanent label. It’s a starting point for understanding yourself, not a cage.
+
+Think back over the last few lessons — the way you naturally respond when something needs to get done, the strengths the people you trust just told you they see in you. Which direction on this compass sounds the most like you? You don’t need to be certain. A rough guess is enough to start with.
+
+## Scene 4: Pause the video here. Whichever direction felt closest to you, picture yourself actually in that role, for real. Northern leader — you’ve been asked to organize fifty people to build a camp, from nothing, in one hour. What’s your first move? Southern leader — it’s the first day of school, and nervous new students need someone to make them feel okay. What do you actually say to them? Eastern leader — you have to plan transportation for hundreds of people with only a handful of drivers, and every detail has to work. Where do you start? Western leader — you’ve been handed a big budget and told to design something completely new, built around what people actually need. What do you build? Take a minute and actually picture your answer, not just the type.
+
+## Scene 5: However you answered — notice something. You probably didn’t have to force that answer. It came from somewhere real: the same pattern that’s probably been showing up in your life for years, just without a name attached to it yet. That’s really the whole point of today. Not to hand you a label, but to give a name to something that was already true.
+
+Here’s something worth pausing on: this is the last lesson of Unit 1. Everything you’ve done so far — the icebreakers, the identity wheel, the six honest sentences, understanding others, and now this compass — all of it was answering one single question: who am I? That question doesn’t get a final answer today. It’s not supposed to.
+
+## Scene 6: But before you move forward, there’s one more thing worth doing — the real close of everything this unit built. After this video, not right now, take real time with it: write one honest page answering exactly that question, who am I? No grade, no one checking it, no right length — just you, being honest with yourself, using everything the last five lessons gave you to work with. Take your time with it. There’s no rush, and no version of it that’s wrong. Starting next lesson, the question changes — to “who are others?” You’re about to turn everything you’ve learned about yourself outward, toward the people and community around you. I’ll see you there.
