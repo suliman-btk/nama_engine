@@ -27,7 +27,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "scale-through",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-left"
     },
@@ -64,28 +64,12 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s1-return",
       "start": {
         "atPhrase": "The goal is still the same"
-      },
-      "end": {
-        "atSeconds": 37.63333333333333
-      },
-      "avatar": {
-        "layout": "PresenterFull",
-        "camera": "medium"
-      },
-      "transitionIn": "scale-through",
-      "events": [],
-      "transitionOut": "mask-wipe"
-    },
-    {
-      "sceneId": "s2-open",
-      "start": {
-        "atSeconds": 37.63333333333333
       },
       "end": {
         "atPhrase": "Are the main resources available"
@@ -94,7 +78,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "mask-wipe",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-right"
     },
@@ -136,28 +120,12 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s2-return",
       "start": {
         "atPhrase": "Knowing what is truly essential"
-      },
-      "end": {
-        "atSeconds": 80.06666666666666
-      },
-      "avatar": {
-        "layout": "PresenterFull",
-        "camera": "close"
-      },
-      "transitionIn": "scale-through",
-      "events": [],
-      "transitionOut": "scale-through"
-    },
-    {
-      "sceneId": "s3-open",
-      "start": {
-        "atSeconds": 80.06666666666666
       },
       "end": {
         "atPhrase": "If something changes"
@@ -166,7 +134,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "scale-through",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-left"
     },
@@ -203,7 +171,7 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s3-return",
@@ -217,7 +185,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "scale-through",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-right"
     },
@@ -259,28 +227,12 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s4-return",
       "start": {
         "atPhrase": "In both cases"
-      },
-      "end": {
-        "atSeconds": 163.83333333333334
-      },
-      "avatar": {
-        "layout": "PresenterFull",
-        "camera": "close"
-      },
-      "transitionIn": "scale-through",
-      "events": [],
-      "transitionOut": "scale-through"
-    },
-    {
-      "sceneId": "s5-open",
-      "start": {
-        "atSeconds": 163.83333333333334
       },
       "end": {
         "atPhrase": "Useful documentation can include"
@@ -289,7 +241,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "scale-through",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-left"
     },
@@ -331,28 +283,12 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s5-return",
       "start": {
         "atPhrase": "Small records can later explain"
-      },
-      "end": {
-        "atSeconds": 200.43333333333334
-      },
-      "avatar": {
-        "layout": "PresenterFull",
-        "camera": "medium"
-      },
-      "transitionIn": "scale-through",
-      "events": [],
-      "transitionOut": "mask-wipe"
-    },
-    {
-      "sceneId": "s6-open",
-      "start": {
-        "atSeconds": 200.43333333333334
       },
       "end": {
         "atPhrase": "What worked well"
@@ -361,7 +297,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "mask-wipe",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-right"
     },
@@ -406,28 +342,12 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s6-return",
       "start": {
         "atPhrase": "You may not be able to prove"
-      },
-      "end": {
-        "atSeconds": 239
-      },
-      "avatar": {
-        "layout": "PresenterFull",
-        "camera": "close"
-      },
-      "transitionIn": "scale-through",
-      "events": [],
-      "transitionOut": "scale-through"
-    },
-    {
-      "sceneId": "s7-open",
-      "start": {
-        "atSeconds": 239
       },
       "end": {
         "atPhrase": "Sustainability does not always mean"
@@ -436,7 +356,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "scale-through",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-left"
     },
@@ -478,28 +398,12 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s7-return",
       "start": {
         "atPhrase": "It also shows which resources"
-      },
-      "end": {
-        "atSeconds": 280.3333333333333
-      },
-      "avatar": {
-        "layout": "PresenterFull",
-        "camera": "medium"
-      },
-      "transitionIn": "scale-through",
-      "events": [],
-      "transitionOut": "mask-wipe"
-    },
-    {
-      "sceneId": "s8-open",
-      "start": {
-        "atSeconds": 280.3333333333333
       },
       "end": {
         "atPhrase": "Then look at results"
@@ -508,7 +412,7 @@
         "layout": "PresenterFull",
         "camera": "wide"
       },
-      "transitionIn": "mask-wipe",
+      "transitionIn": "crossfade",
       "events": [],
       "transitionOut": "soft-push-right"
     },
@@ -546,7 +450,7 @@
           }
         }
       ],
-      "transitionOut": "scale-through"
+      "transitionOut": "crossfade"
     },
     {
       "sceneId": "s8-return",
@@ -560,7 +464,7 @@
         "layout": "PresenterFull",
         "camera": "close"
       },
-      "transitionIn": "scale-through",
+      "transitionIn": "crossfade",
       "events": []
     }
   ]
