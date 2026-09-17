@@ -1,0 +1,1228 @@
+{
+  "lessonId": "lesson-04",
+  "title": "Leadership can be developed",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-04-master.mp4",
+  "sourceCutSeconds": [
+    43.366667,
+    85.7,
+    127.866667,
+    170.066667,
+    208.433333,
+    225.2,
+    254.466667,
+    294.666667,
+    341.466667
+  ],
+  "scenes": [
+    {
+      "sceneId": "beat-001",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atSeconds": 8.34
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-002",
+      "start": {
+        "atSeconds": 8.34
+      },
+      "end": {
+        "atSeconds": 18.16
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-2",
+          "anchor": {
+            "atPhrase": "Now we can name the skill"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "From awareness to action",
+            "headline": "Leadership turns ideas into action.",
+            "variant": "bar",
+            "emphasize": [
+              "Leadership",
+              "action"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-003",
+      "start": {
+        "atSeconds": 18.16
+      },
+      "end": {
+        "atSeconds": 21.54
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-3",
+          "anchor": {
+            "atPhrase": "Leadership is directing people"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "A working definition",
+            "headline": "Directing people toward a goal.",
+            "variant": "bar",
+            "emphasize": [
+              "goal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-004",
+      "start": {
+        "atSeconds": 21.54
+      },
+      "end": {
+        "atSeconds": 35.46
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-4",
+          "anchor": {
+            "atPhrase": "Notice what that definition"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Beyond a title",
+            "title": "Leadership is not…",
+            "items": [
+              "Having a title",
+              "Being the loudest person",
+              "Giving orders"
+            ],
+            "revealAtSeconds": [
+              25.32,
+              26.66,
+              28.7
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-005",
+      "start": {
+        "atSeconds": 35.46
+      },
+      "end": {
+        "atSeconds": 43.7
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-5",
+          "anchor": {
+            "atPhrase": "For a community leader"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "The useful question",
+            "headline": "Can I help people move toward a useful goal?",
+            "variant": "bar",
+            "emphasize": [
+              "useful",
+              "goal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-006",
+      "start": {
+        "atSeconds": 43.7
+      },
+      "end": {
+        "atSeconds": 50.58
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-007",
+      "start": {
+        "atSeconds": 50.58
+      },
+      "end": {
+        "atSeconds": 54.52
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-7",
+          "anchor": {
+            "atPhrase": "Its message is that"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "A skill you can build",
+            "headline": "Leadership can be acquired and developed.",
+            "variant": "bar",
+            "emphasize": [
+              "acquired",
+              "developed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-008",
+      "start": {
+        "atSeconds": 54.52
+      },
+      "end": {
+        "atSeconds": 62.66
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-8",
+          "anchor": {
+            "atPhrase": "Some people may feel"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Build your ability",
+            "title": "Develop leadership through…",
+            "items": [
+              "Experience",
+              "Practice",
+              "Responsibility"
+            ],
+            "revealAtSeconds": [
+              59.52,
+              60.64,
+              61.32
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-009",
+      "start": {
+        "atSeconds": 62.66
+      },
+      "end": {
+        "atSeconds": 81.14
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-9",
+          "anchor": {
+            "atPhrase": "That means you should"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "More than one personality",
+            "title": "These traits can all appear in leadership.",
+            "items": [
+              "Quiet",
+              "Careful",
+              "Creative",
+              "People focused"
+            ],
+            "revealAtSeconds": [
+              66.96,
+              67.74,
+              68.48,
+              69.34
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-010",
+      "start": {
+        "atSeconds": 81.14
+      },
+      "end": {
+        "atSeconds": 86
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-10",
+          "anchor": {
+            "atPhrase": "Community leadership grows"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Practice before a title",
+            "headline": "Leadership grows through practice.",
+            "variant": "bar",
+            "emphasize": [
+              "practice"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-011",
+      "start": {
+        "atSeconds": 86
+      },
+      "end": {
+        "atSeconds": 90.48
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-012",
+      "start": {
+        "atSeconds": 90.48
+      },
+      "end": {
+        "atSeconds": 110.8
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-12",
+          "anchor": {
+            "atPhrase": "Some people lead by"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Different approaches",
+            "title": "Different ways to lead",
+            "items": [
+              "Clear direction and fast decisions",
+              "Persuasion around an idea",
+              "Motivating a team",
+              "Role modelling through actions"
+            ],
+            "revealAtSeconds": [
+              91.8,
+              95.46,
+              98.38,
+              100.52
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-013",
+      "start": {
+        "atSeconds": 110.8
+      },
+      "end": {
+        "atSeconds": 128.1
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-13",
+          "anchor": {
+            "atPhrase": "The source curriculum wants"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Situation matters",
+            "headline": "Different situations need different strengths.",
+            "variant": "bar",
+            "emphasize": [
+              "different",
+              "strengths"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-014",
+      "start": {
+        "atSeconds": 128.1
+      },
+      "end": {
+        "atSeconds": 136.2
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-015",
+      "start": {
+        "atSeconds": 136.2
+      },
+      "end": {
+        "atSeconds": 140.86
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-15",
+          "anchor": {
+            "atPhrase": "The strength of a group"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Teamwork",
+            "headline": "Combine strengths—not identical personalities.",
+            "variant": "bar",
+            "emphasize": [
+              "Combine",
+              "strengths"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-016",
+      "start": {
+        "atSeconds": 140.86
+      },
+      "end": {
+        "atSeconds": 144.62
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-16",
+          "anchor": {
+            "atPhrase": "Pause the video and watch"
+          },
+          "action": "show",
+          "component": "VideoLinkSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Pause and watch",
+            "title": "The teamwork clip",
+            "note": "Watch the accompanying curriculum clip, then return to this lesson."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-017",
+      "start": {
+        "atSeconds": 144.62
+      },
+      "end": {
+        "atSeconds": 154.96
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-17",
+          "anchor": {
+            "atPhrase": "When you return focus"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Reflect",
+            "questions": [
+              "What made the smaller individuals successful?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-018",
+      "start": {
+        "atSeconds": 154.96
+      },
+      "end": {
+        "atSeconds": 170.44
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-18",
+          "anchor": {
+            "atPhrase": "It is that people become"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Working together",
+            "title": "Become more effective together",
+            "items": [
+              "Understand your abilities",
+              "Cooperate",
+              "Combine strengths"
+            ],
+            "revealAtSeconds": [
+              157.58,
+              159.28,
+              160.2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-019",
+      "start": {
+        "atSeconds": 170.44
+      },
+      "end": {
+        "atSeconds": 175.3
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-020",
+      "start": {
+        "atSeconds": 175.3
+      },
+      "end": {
+        "atSeconds": 181.88
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-20",
+          "anchor": {
+            "atPhrase": "The source explains that"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Official assessment",
+            "title": "Follow the ACT worksheet exactly",
+            "steps": [
+              "Rank the traits according to how strongly they describe you.",
+              "Total your results.",
+              "Complete the assessment honestly."
+            ],
+            "pauseNote": "Pause to complete the official assessment."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-021",
+      "start": {
+        "atSeconds": 181.88
+      },
+      "end": {
+        "atSeconds": 196.52
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-21",
+          "anchor": {
+            "atPhrase": "then total the results"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Official scoring table",
+            "title": "Total each leadership direction",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-04/scoring-east-west.svg",
+                "label": "Eastern · Western"
+              },
+              {
+                "src": "lesson-assets/lesson-04/scoring-south-north.svg",
+                "label": "Southern · Northern"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-022",
+      "start": {
+        "atSeconds": 196.52
+      },
+      "end": {
+        "atSeconds": 208.56
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-22",
+          "anchor": {
+            "atPhrase": "Treat the result as"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Your result",
+            "headline": "Current tendencies—not a permanent label.",
+            "variant": "bar",
+            "emphasize": [
+              "tendencies",
+              "not"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-023",
+      "start": {
+        "atSeconds": 208.56
+      },
+      "end": {
+        "atSeconds": 214.74
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-024",
+      "start": {
+        "atSeconds": 214.74
+      },
+      "end": {
+        "atSeconds": 237.46
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-24",
+          "anchor": {
+            "atPhrase": "It can help you notice"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Self-awareness",
+            "title": "Notice patterns in how you…",
+            "items": [
+              "Think",
+              "Communicate",
+              "Decide",
+              "Work with people"
+            ],
+            "revealAtSeconds": [
+              217.14,
+              217.52,
+              219.1,
+              220.28
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-025",
+      "start": {
+        "atSeconds": 237.46
+      },
+      "end": {
+        "atSeconds": 254.56
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-25",
+          "anchor": {
+            "atPhrase": "A result should create"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Keep perspective",
+            "headline": "Self-awareness, not a box.",
+            "variant": "bar",
+            "emphasize": [
+              "Self-awareness"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-026",
+      "start": {
+        "atSeconds": 254.56
+      },
+      "end": {
+        "atSeconds": 261.56
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-027",
+      "start": {
+        "atSeconds": 261.56
+      },
+      "end": {
+        "atSeconds": 272.28
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-27",
+          "anchor": {
+            "atPhrase": "Choose five people"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "A mission for the brave",
+            "title": "Ask five people you trust",
+            "steps": [
+              "What are my strengths?",
+              "What positive traits do you see in me?"
+            ],
+            "pauseNote": "Write five names. Speak to them before the next lesson."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-028",
+      "start": {
+        "atSeconds": 272.28
+      },
+      "end": {
+        "atSeconds": 282.54
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-28",
+          "anchor": {
+            "atPhrase": "Your goal is to collect"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Official feedback worksheet",
+            "title": "Record specific answers",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-04/feedback-people.svg",
+                "label": "Five people you trust"
+              },
+              {
+                "src": "lesson-assets/lesson-04/feedback-strengths.svg",
+                "label": "Strengths they see in you"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-029",
+      "start": {
+        "atSeconds": 282.54
+      },
+      "end": {
+        "atSeconds": 294.98
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-29",
+          "anchor": {
+            "atPhrase": "But remember these answers"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Keep perspective",
+            "headline": "Opinions are information—not final facts.",
+            "variant": "bar",
+            "emphasize": [
+              "information",
+              "not"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-030",
+      "start": {
+        "atSeconds": 294.98
+      },
+      "end": {
+        "atSeconds": 299.12
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-031",
+      "start": {
+        "atSeconds": 299.12
+      },
+      "end": {
+        "atSeconds": 323.78
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-31",
+          "anchor": {
+            "atPhrase": "Because leaders need both"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Two views",
+            "title": "See yourself from both sides",
+            "items": [
+              "Internal: your intentions",
+              "External: your behaviour"
+            ],
+            "revealAtSeconds": [
+              304.3,
+              306.2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-032",
+      "start": {
+        "atSeconds": 323.78
+      },
+      "end": {
+        "atSeconds": 332.22
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-32",
+          "anchor": {
+            "atPhrase": "Use feedback as information"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Use feedback wisely",
+            "headline": "Information to examine—not a verdict to obey.",
+            "variant": "bar",
+            "emphasize": [
+              "examine",
+              "not"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-033",
+      "start": {
+        "atSeconds": 332.22
+      },
+      "end": {
+        "atSeconds": 341.72
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-33",
+          "anchor": {
+            "atPhrase": "Discover your strengths so"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Keep developing",
+            "title": "Invest in your strengths",
+            "items": [
+              "Discover your strengths",
+              "Develop undiscovered abilities",
+              "Become useful to people and projects"
+            ],
+            "revealAtSeconds": [
+              332.22,
+              335.3,
+              337.96
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-034",
+      "start": {
+        "atSeconds": 341.72
+      },
+      "end": {
+        "atSeconds": 349.12
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-035",
+      "start": {
+        "atSeconds": 349.12
+      },
+      "end": {
+        "atSeconds": 364.8
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-35",
+          "anchor": {
+            "atPhrase": "You learned that people can"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Lesson recap",
+            "title": "Leadership takes different forms",
+            "items": [
+              "Direction",
+              "Influence",
+              "Motivation",
+              "Example",
+              "Teamwork"
+            ],
+            "revealAtSeconds": [
+              350.74,
+              351.74,
+              352.62,
+              353.48,
+              354.3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-036",
+      "start": {
+        "atSeconds": 364.8
+      },
+      "end": {
+        "atSeconds": 376.36
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-36",
+          "anchor": {
+            "atPhrase": "Keep both results"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Bring to the next lesson",
+            "headline": "Keep your assessment and outside feedback.",
+            "variant": "bar",
+            "emphasize": [
+              "assessment",
+              "feedback"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-037",
+      "start": {
+        "atSeconds": 376.36
+      },
+      "end": {
+        "atSeconds": 380.157098
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "transitionOut": "crossfade",
+      "events": [
+        {
+          "id": "graphic-37",
+          "anchor": {
+            "atPhrase": "When is my natural style"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Next: the leadership compass",
+            "headline": "When is my style useful—and when should I adapt?",
+            "variant": "bar",
+            "emphasize": [
+              "useful",
+              "adapt"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

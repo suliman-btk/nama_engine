@@ -1,0 +1,26 @@
+[
+  {
+    "passFile": "lesson04-asr-second.json",
+    "type": "delete",
+    "script": "way they treat people None of those methods automatically makes one",
+    "recognized": ""
+  },
+  {
+    "passFile": "lesson04-asr-second.json",
+    "type": "insert",
+    "script": "",
+    "recognized": "example"
+  },
+  {
+    "passFile": "lesson04-asr-second.json",
+    "type": "insert",
+    "script": "",
+    "recognized": "you"
+  },
+  {
+    "passFile": "lesson04-asr-second.json",
+    "type": "replace",
+    "script": "place",
+    "recognized": "placed"
+  }
+]

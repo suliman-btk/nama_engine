@@ -1,6 +1,7 @@
 import React from "react";
 import { Composition } from "remotion";
 import { Lesson08 } from "./compositions/Lesson08";
+import { Lesson04 } from "./compositions/Lesson04";
 
 const LESSON_08_DURATION_SECONDS = 371.031655; // full source video length (ffprobe)
 const FPS = 30;
@@ -8,6 +9,7 @@ const FPS = 30;
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition id="Lesson04" component={Lesson04} durationInFrames={Math.round(380.157098 * FPS)} fps={FPS} width={1920} height={1080}/>
       <Composition
         id="Lesson08"
         component={Lesson08}

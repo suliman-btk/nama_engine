@@ -1,0 +1,30 @@
+{
+  "assets": [
+    {
+      "files": [
+        "scoring-east-west.svg",
+        "scoring-south-north.svg"
+      ],
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 71,
+      "treatment": "Faithful vector reconstruction of every scoring column, item number and total; original labels retained; split into two readable cards."
+    },
+    {
+      "files": [
+        "feedback-people.svg",
+        "feedback-strengths.svg"
+      ],
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 74,
+      "treatment": "Vector adaptation preserving five people and five strength entries per person; original column labels retained."
+    },
+    {
+      "file": "lesson-04-teamwork.mp4",
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 68,
+      "embeddedPath": "ppt/media/media4.mp4",
+      "treatment": "Unmodified accompanying activity clip; narration and master audio not interrupted."
+    }
+  ],
+  "licence": "Provided official curriculum; no separate licence claimed"
+}
