@@ -1,0 +1,66 @@
+{
+  "assets": [
+    {
+      "file": "table.svg",
+      "width": 440,
+      "height": 650,
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 38,
+      "treatment": "Original embedded photograph, aspect ratio preserved inside designed layout",
+      "license": "User-supplied curriculum reference; no external licence claimed"
+    },
+    {
+      "file": "meaning.svg",
+      "width": 440,
+      "height": 650,
+      "sourceDeck": null,
+      "slide": null,
+      "treatment": "Narration-based typography",
+      "license": "User-supplied curriculum reference; no external licence claimed"
+    },
+    {
+      "file": "children.svg",
+      "width": 440,
+      "height": 650,
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 45,
+      "treatment": "Original embedded photograph, aspect ratio preserved inside designed layout",
+      "license": "User-supplied curriculum reference; no external licence claimed"
+    },
+    {
+      "file": "adults.svg",
+      "width": 440,
+      "height": 650,
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 46,
+      "treatment": "Original embedded photograph, aspect ratio preserved inside designed layout",
+      "license": "User-supplied curriculum reference; no external licence claimed"
+    },
+    {
+      "file": "wheel-center.svg",
+      "width": 440,
+      "height": 650,
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 48,
+      "treatment": "Editable, legible narration-matched adaptation of worksheet; original retained intact",
+      "license": "User-supplied curriculum reference; no external licence claimed"
+    },
+    {
+      "file": "wheel-prompts.svg",
+      "width": 440,
+      "height": 650,
+      "sourceDeck": "ACT Lessons Updated Logo.pptx",
+      "slide": 48,
+      "treatment": "Editable, legible narration-matched adaptation of worksheet; original retained intact",
+      "license": "User-supplied curriculum reference; no external licence claimed"
+    }
+  ],
+  "originalWorksheet": {
+    "file": "personal-identity-wheel-original.jpeg",
+    "sourceDeck": "ACT Lessons Updated Logo.pptx",
+    "slide": 48,
+    "width": 975,
+    "height": 995
+  },
+  "approval": "User approved corrected review pictures and explicitly requested final rendering"
+}

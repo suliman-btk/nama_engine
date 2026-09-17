@@ -1,0 +1,8 @@
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/00.mp4'
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/01.mp4'
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/02.mp4'
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/03.mp4'
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/04.mp4'
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/05.mp4'
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/06.mp4'
+file '/Users/suilman_btk/Desktop/act-video-course/lessons/lesson-02/qa/transition-repair/07.mp4'

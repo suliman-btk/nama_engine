@@ -1,0 +1,969 @@
+{
+  "lessonId": "lesson-02",
+  "title": "Identity and Self-Awareness",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-02-master.mp4",
+  "sourceCutSeconds": [
+    35.56666666666667,
+    72.7,
+    105.83333333333333,
+    139.46666666666667,
+    176.63333333333333,
+    214.7,
+    246.86666666666667,
+    284.73333333333335,
+    315.2,
+    364.96666666666664
+  ],
+  "scenes": [
+    {
+      "sceneId": "s1-open",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atPhrase": "What do you remember"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s1-graphic",
+      "start": {
+        "atPhrase": "What do you remember"
+      },
+      "end": {
+        "atPhrase": "Hold your answer"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s1-graphic-visual",
+          "anchor": {
+            "atPhrase": "What do you remember"
+          },
+          "action": "show",
+          "component": "ThreeZoneDiagram",
+          "animation": "fade-rise",
+          "props": {}
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s1-return",
+      "start": {
+        "atPhrase": "Hold your answer"
+      },
+      "end": {
+        "atSeconds": 23.040000000000003
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s1-return-wide",
+      "start": {
+        "atSeconds": 23.040000000000003
+      },
+      "end": {
+        "atPhrase": "To answer that"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s1-definition",
+      "start": {
+        "atPhrase": "To answer that"
+      },
+      "end": {
+        "atSeconds": 33.36666666666667
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s1-definition-visual",
+          "anchor": {
+            "atPhrase": "To answer that"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Identity",
+            "headline": "What makes something itself, and not something else",
+            "variant": "bar"
+          }
+        }
+      ],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s1-turn",
+      "start": {
+        "atSeconds": 33.36666666666667
+      },
+      "end": {
+        "atPhrase": "Think about an ordinary object"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s2-graphic",
+      "start": {
+        "atPhrase": "Think about an ordinary object"
+      },
+      "end": {
+        "atPhrase": "Objects have identity"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s2-graphic-visual",
+          "anchor": {
+            "atPhrase": "Think about an ordinary object"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Identity examples",
+            "title": "What makes something unique?",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-02/table.svg",
+                "label": ""
+              },
+              {
+                "src": "lesson-assets/lesson-02/meaning.svg",
+                "label": ""
+              }
+            ]
+          }
+        }
+      ],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s2-return",
+      "start": {
+        "atPhrase": "Objects have identity"
+      },
+      "end": {
+        "atSeconds": 70.3
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s2-return-wide",
+      "start": {
+        "atSeconds": 70.3
+      },
+      "end": {
+        "atSeconds": 72.7
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s3-open",
+      "start": {
+        "atSeconds": 72.7
+      },
+      "end": {
+        "atPhrase": "Who are you"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s3-graphic",
+      "start": {
+        "atPhrase": "Who are you"
+      },
+      "end": {
+        "atPhrase": "Self awareness begins"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s3-graphic-visual",
+          "anchor": {
+            "atPhrase": "Who are you"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Your identity",
+            "questions": [
+              "Who are you?",
+              "How would you describe yourself?",
+              "What makes you different?"
+            ],
+            "askAtSeconds": [
+              75.96,
+              77.36,
+              79.82
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s3-return",
+      "start": {
+        "atPhrase": "Self awareness begins"
+      },
+      "end": {
+        "atSeconds": 103.43333333333332
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s3-return-wide",
+      "start": {
+        "atSeconds": 103.43333333333332
+      },
+      "end": {
+        "atSeconds": 105.83333333333333
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s4-open",
+      "start": {
+        "atSeconds": 105.83333333333333
+      },
+      "end": {
+        "atPhrase": "But identity goes far beyond biology"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s4-graphic",
+      "start": {
+        "atPhrase": "But identity goes far beyond biology"
+      },
+      "end": {
+        "atPhrase": "A person who understands"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s4-graphic-visual",
+          "anchor": {
+            "atPhrase": "But identity goes far beyond biology"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Layers of identity",
+            "title": "More than biology",
+            "items": [
+              "Experiences",
+              "Values and interests",
+              "Abilities and beliefs",
+              "Relationships",
+              "Environments"
+            ]
+          }
+        }
+      ],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s4-return",
+      "start": {
+        "atPhrase": "A person who understands"
+      },
+      "end": {
+        "atSeconds": 137.06666666666666
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s4-return-wide",
+      "start": {
+        "atSeconds": 137.06666666666666
+      },
+      "end": {
+        "atSeconds": 139.46666666666667
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s5-open",
+      "start": {
+        "atSeconds": 139.46666666666667
+      },
+      "end": {
+        "atPhrase": "identity is not a ranking"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s5-graphic",
+      "start": {
+        "atPhrase": "identity is not a ranking"
+      },
+      "end": {
+        "atPhrase": "For a community leader"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s5-graphic-visual",
+          "anchor": {
+            "atPhrase": "identity is not a ranking"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Respecting difference",
+            "headline": "Difference is not superiority",
+            "variant": "bar",
+            "emphasize": [
+              "not",
+              "superiority"
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s5-return",
+      "start": {
+        "atPhrase": "For a community leader"
+      },
+      "end": {
+        "atSeconds": 174.22
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s5-return-wide",
+      "start": {
+        "atSeconds": 174.22
+      },
+      "end": {
+        "atPhrase": "Picture two photos"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s6-graphic",
+      "start": {
+        "atPhrase": "Picture two photos"
+      },
+      "end": {
+        "atPhrase": "Identity is not one fixed label"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s6-graphic-visual",
+          "anchor": {
+            "atPhrase": "Picture two photos"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Identity over time",
+            "title": "More layers become visible",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-02/children.svg",
+                "label": ""
+              },
+              {
+                "src": "lesson-assets/lesson-02/adults.svg",
+                "label": ""
+              }
+            ]
+          }
+        }
+      ],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s6-return",
+      "start": {
+        "atPhrase": "Identity is not one fixed label"
+      },
+      "end": {
+        "atSeconds": 213.9
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s6-return-wide",
+      "start": {
+        "atSeconds": 213.9
+      },
+      "end": {
+        "atPhrase": "Use the Personal Identity Wheel"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s7-graphic",
+      "start": {
+        "atPhrase": "Use the Personal Identity Wheel"
+      },
+      "end": {
+        "atPhrase": "Pause the video"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s7-graphic-visual",
+          "anchor": {
+            "atPhrase": "Use the Personal Identity Wheel"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Your turn",
+            "title": "Personal Identity Wheel",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-02/wheel-center.svg",
+                "label": ""
+              },
+              {
+                "src": "lesson-assets/lesson-02/wheel-prompts.svg",
+                "label": ""
+              }
+            ]
+          }
+        }
+      ],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s7-pause",
+      "start": {
+        "atPhrase": "Pause the video"
+      },
+      "end": {
+        "atPhrase": "Don’t write what sounds impressive"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s7-pause-visual",
+          "anchor": {
+            "atPhrase": "Pause the video"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Five honest minutes",
+            "title": "Your first Identity Wheel",
+            "steps": [
+              "Write your name in the center",
+              "Add three honest words about yourself",
+              "Fill in your interests, skill and motto",
+              "Use the provided wheel or draw a circle"
+            ],
+            "pauseNote": "Pause and take about five minutes"
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s7-return",
+      "start": {
+        "atPhrase": "Don’t write what sounds impressive"
+      },
+      "end": {
+        "atSeconds": 246.86666666666667
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s8-open",
+      "start": {
+        "atSeconds": 246.86666666666667
+      },
+      "end": {
+        "atPhrase": "Does one page capture your whole identity"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s8-graphic",
+      "start": {
+        "atPhrase": "Does one page capture your whole identity"
+      },
+      "end": {
+        "atPhrase": "If you’re taking Act"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s8-graphic-visual",
+          "anchor": {
+            "atPhrase": "Does one page capture your whole identity"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Reflecting on your wheel",
+            "questions": [
+              "Does one page capture your whole identity?"
+            ],
+            "askAtSeconds": [
+              252.8
+            ]
+          }
+        }
+      ],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s8-return",
+      "start": {
+        "atPhrase": "If you’re taking Act"
+      },
+      "end": {
+        "atSeconds": 282.33333333333337
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s8-return-wide",
+      "start": {
+        "atSeconds": 282.33333333333337
+      },
+      "end": {
+        "atSeconds": 284.73333333333335
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s9-open",
+      "start": {
+        "atSeconds": 284.73333333333335
+      },
+      "end": {
+        "atPhrase": "If you don’t understand your own values"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s9-graphic",
+      "start": {
+        "atPhrase": "If you don’t understand your own values"
+      },
+      "end": {
+        "atPhrase": "Knowing yourself does not mean"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s9-graphic-visual",
+          "anchor": {
+            "atPhrase": "If you don’t understand your own values"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Identity and leadership",
+            "title": "Your role in a team",
+            "steps": [
+              "Understand your values and strengths",
+              "Recognize your interests and limits",
+              "Notice what you can offer",
+              "Identify what you need to develop",
+              "Recognize complementary strengths"
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s9-return",
+      "start": {
+        "atPhrase": "Knowing yourself does not mean"
+      },
+      "end": {
+        "atSeconds": 312.8
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s9-return-wide",
+      "start": {
+        "atSeconds": 312.8
+      },
+      "end": {
+        "atSeconds": 315.2
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s10-open",
+      "start": {
+        "atSeconds": 315.2
+      },
+      "end": {
+        "atPhrase": "The most beloved people to Allah"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "s10-graphic",
+      "start": {
+        "atPhrase": "The most beloved people to Allah"
+      },
+      "end": {
+        "atPhrase": "Keep that idea with you"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "s10-graphic-visual",
+          "anchor": {
+            "atPhrase": "The most beloved people to Allah"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "The Prophet Peace Be Upon Him",
+            "headline": "The most beloved people to Allah are those who are most beneficial to people.",
+            "variant": "centred"
+          }
+        }
+      ],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s10-return",
+      "start": {
+        "atPhrase": "Keep that idea with you"
+      },
+      "end": {
+        "atSeconds": 362.56666666666666
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "close"
+      },
+      "transitionIn": "mask-wipe",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s10-return-wide",
+      "start": {
+        "atSeconds": 362.56666666666666
+      },
+      "end": {
+        "atSeconds": 364.96666666666664
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s11-open",
+      "start": {
+        "atSeconds": 364.96666666666664
+      },
+      "end": {
+        "atPhrase": "Would you keep the same three now"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "s11-graphic",
+      "start": {
+        "atPhrase": "Would you keep the same three now"
+      },
+      "end": {
+        "atPhrase": "Keep your Personal Identity Wheel"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "s11-graphic-visual",
+          "anchor": {
+            "atPhrase": "Would you keep the same three now"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Before you finish",
+            "questions": [
+              "Would you keep the same three words?",
+              "Would you change one?",
+              "Would you add something you had not noticed?"
+            ],
+            "askAtSeconds": [
+              371.79,
+              373.91,
+              375.67
+            ]
+          }
+        }
+      ],
+      "transitionOut": "scale-through"
+    },
+    {
+      "sceneId": "s11-return",
+      "start": {
+        "atPhrase": "Keep your Personal Identity Wheel"
+      },
+      "end": {
+        "atSeconds": 399.792834
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "medium"
+      },
+      "transitionIn": "scale-through",
+      "events": [],
+      "transitionOut": "mask-wipe"
+    },
+    {
+      "sceneId": "s11-return-wide",
+      "start": {
+        "atSeconds": 399.792834
+      },
+      "end": {
+        "atSeconds": 402.192834
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "mask-wipe",
+      "events": []
+    }
+  ]
+}

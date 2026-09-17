@@ -1,0 +1,7 @@
+[
+  {
+    "type": "replace",
+    "script": "we\u2019ll",
+    "asr": "will"
+  }
+]
