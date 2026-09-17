@@ -1,5 +1,6 @@
 import type { GraphicComponent } from "../edl/schema";
 import { ThreeZoneDiagram } from "./ThreeZoneDiagram";
+import { LeadershipCompassDiagram } from "./LeadershipCompassDiagram";
 import { KeyStatement } from "./KeyStatement";
 import { ScenarioSequence } from "./ScenarioSequence";
 import { DefinitionCard } from "./DefinitionCard";
@@ -26,6 +27,7 @@ import { PhotoGridSlide } from "../slides/PhotoGridSlide";
  */
 export const COMPONENT_REGISTRY: Partial<Record<GraphicComponent, React.ComponentType<any>>> = {
   ThreeZoneDiagram,
+  LeadershipCompassDiagram,
   FourStepJourney,
   KeyStatement,
   ScenarioSequence,

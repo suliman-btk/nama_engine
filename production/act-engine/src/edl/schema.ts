@@ -68,6 +68,7 @@ export type MotionPreset = z.infer<typeof MotionPreset>;
 // The reusable component vocabulary from rule 4 + rule 5's KeyStatement cards.
 export const GraphicComponent = z.enum([
   "ThreeZoneDiagram",
+  "LeadershipCompassDiagram",
   "FourStepJourney",
   "Timeline",
   "ProcessFlow",
