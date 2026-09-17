@@ -7,7 +7,12 @@
  * strings resolved against the same word-timing track) — if the EDL's scene list changes,
  * update this list to match.
  *
- * Run from the repo root: node lessons/lesson-05/generated/render-scene-stills.mjs
+ * Run from the repo root: node production/act-engine/scripts/render-lesson-05-stills.mjs
+ *
+ * Optional: pass one or more scene ids (the first column below, e.g. s3-north) as CLI args to
+ * re-render only those stills instead of all 17 — useful after a component tweak, so you don't
+ * have to wait through a full re-render just to check one fix. The contact sheet is always
+ * rebuilt from whatever stills currently exist in qa/scene-stills/, whichever ids were rendered.
  */
 import { bundle } from "@remotion/bundler";
 import { renderStill, selectComposition } from "@remotion/renderer";
@@ -16,15 +21,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-function findRepoRoot(start) {
-  let dir = start;
-  for (let i = 0; i < 8; i++) {
-    if (fs.existsSync(path.join(dir, "AGENTS.md"))) return dir;
-    dir = path.dirname(dir);
-  }
-  throw new Error("Could not locate repo root (AGENTS.md not found above " + start + ")");
-}
-const repo = findRepoRoot(process.cwd());
+const here = path.dirname(fileURLToPath(import.meta.url));
+const repo = path.resolve(here, "..", "..", "..");
 const engineRoot = path.join(repo, "production", "act-engine");
 const lessonDir = path.join(repo, "lessons", "lesson-05");
 const outDir = path.join(lessonDir, "qa", "scene-stills");
@@ -54,6 +52,22 @@ const FULL_BLEED_SPOT_CHECKS = [
   ["s2-beat2", 85.3],
 ];
 
+const ALL_SHOTS = [
+  ...CONTENT_SCENES.map(([id, start, end], i) => [`${String(i + 1).padStart(2, "0")}-${id}`, (start + end) / 2]),
+  ...FULL_BLEED_SPOT_CHECKS.map(([id, at], i) => [`fb${i + 1}-${id}`, at]),
+];
+
+const requestedIds = process.argv.slice(2);
+const shots = requestedIds.length === 0
+  ? ALL_SHOTS
+  : ALL_SHOTS.filter(([name]) => requestedIds.some((id) => name === id || name.endsWith(`-${id}`)));
+
+if (requestedIds.length > 0 && shots.length === 0) {
+  console.error(`No matching scenes for: ${requestedIds.join(", ")}`);
+  console.error(`Known ids: ${ALL_SHOTS.map(([n]) => n.replace(/^(\d\d-|fb\d-)/, "")).join(", ")}`);
+  process.exit(1);
+}
+
 fs.mkdirSync(outDir, { recursive: true });
 
 console.log("Bundling once...");
@@ -65,15 +79,6 @@ console.log("\nBundled.");
 
 const composition = await selectComposition({ serveUrl, id: "Lesson05" });
 
-const shots = [];
-CONTENT_SCENES.forEach(([id, start, end], i) => {
-  const n = String(i + 1).padStart(2, "0");
-  shots.push([`${n}-${id}`, (start + end) / 2]);
-});
-FULL_BLEED_SPOT_CHECKS.forEach(([id, at], i) => {
-  shots.push([`fb${i + 1}-${id}`, at]);
-});
-
 let i = 0;
 for (const [name, seconds] of shots) {
   i++;
@@ -82,20 +87,45 @@ for (const [name, seconds] of shots) {
   process.stdout.write(`\r  [${i}/${shots.length}] ${name} @ ${seconds.toFixed(2)}s    `);
   await renderStill({ composition, serveUrl, frame, output, imageFormat: "jpeg", jpegQuality: 90 });
 }
-console.log(`\nWrote ${shots.length} stills to ${path.relative(repo, outDir)}`);
+console.log(`\nWrote ${shots.length} still(s) to ${path.relative(repo, outDir)}`);
 
 // Contact sheet: 5 columns x 3 rows for the 15 content scenes (the 2 full-bleed spot checks
-// are reviewed individually, not tiled in).
-const files = CONTENT_SCENES.map((_, i) => path.join(outDir, `${String(i + 1).padStart(2, "0")}-${CONTENT_SCENES[i][0]}.jpg`));
-const montage = spawnSync("ffmpeg", [
-  "-y",
-  ...files.flatMap((f) => ["-i", f]),
-  "-filter_complex",
-  "scale=384:216,tile=5x3",
-  contactSheet,
-], { stdio: "inherit" });
-if (montage.status === 0) {
-  console.log(`Wrote contact sheet: ${path.relative(repo, contactSheet)}`);
+// are reviewed individually, not tiled in). Built from whatever files currently exist on disk,
+// so a partial re-render still produces an up-to-date sheet as long as all 15 have been
+// rendered at least once. Each input gets its own labelled stream ([0:v]..[14:v]) scaled
+// individually, then hstack'd into rows and vstack'd into the grid — `tile` only tiles frames
+// of a single stream, which is why the original version of this script silently produced a
+// mostly-black sheet with only the first image visible.
+const files = CONTENT_SCENES.map((_, idx) => path.join(outDir, `${String(idx + 1).padStart(2, "0")}-${CONTENT_SCENES[idx][0]}.jpg`));
+const missing = files.filter((f) => !fs.existsSync(f));
+if (missing.length > 0) {
+  console.error(`Skipping contact sheet — missing stills: ${missing.map((f) => path.basename(f)).join(", ")}`);
 } else {
-  console.error("Contact sheet generation failed; individual stills are still in", outDir);
+  const cols = 5;
+  const rows = 3;
+  const cellW = 384;
+  const cellH = 216;
+  const scaleLabels = files.map((_, idx) => `[${idx}:v]scale=${cellW}:${cellH}[s${idx}]`);
+  const rowLabels = [];
+  for (let r = 0; r < rows; r++) {
+    const inputs = Array.from({ length: cols }, (_, c) => `[s${r * cols + c}]`).join("");
+    rowLabels.push(`${inputs}hstack=inputs=${cols}[row${r}]`);
+  }
+  const vstackInputs = Array.from({ length: rows }, (_, r) => `[row${r}]`).join("");
+  const filterComplex = [...scaleLabels, ...rowLabels, `${vstackInputs}vstack=inputs=${rows}[out]`].join(";");
+
+  const montage = spawnSync("ffmpeg", [
+    "-y",
+    ...files.flatMap((f) => ["-i", f]),
+    "-filter_complex",
+    filterComplex,
+    "-map",
+    "[out]",
+    contactSheet,
+  ], { stdio: "inherit" });
+  if (montage.status === 0) {
+  console.log(`Wrote contact sheet: ${path.relative(repo, contactSheet)}`);
+  } else {
+    console.error("Contact sheet generation failed; individual stills are still in", outDir);
+  }
 }
