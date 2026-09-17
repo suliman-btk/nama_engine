@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "video": "/Users/suilman_btk/Desktop/act-video-course/production/act-engine/out/lesson-04.mp4",
+  "duration": "380.224000",
+  "width": 1920,
+  "height": 1080,
+  "hasAudio": true,
+  "fullDecodeExitCode": 0,
+  "decodeErrors": "",
+  "previewApproval": "Explicit user approval",
+  "assessmentHandout": "Complete assessment questionnaire not located; learner handout availability still requires confirmation",
+  "subtitles": "/Users/suilman_btk/Desktop/act-video-course/production/act-engine/out/lesson-04.srt"
+}
