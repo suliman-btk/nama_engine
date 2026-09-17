@@ -109,8 +109,8 @@ export function LeadershipCompassDiagram({
   const arms: { dir: CompassDirection; angle: number; tx: number; ty: number; labelAnchor: "middle" | "start" | "end"; labelDy: number }[] = [
     { dir: directions.find((d) => d.id === "north")!, angle: -90, tx: c, ty: c - armLen, labelAnchor: "middle", labelDy: -14 },
     { dir: directions.find((d) => d.id === "south")!, angle: 90, tx: c, ty: c + armLen, labelAnchor: "middle", labelDy: 30 },
-    { dir: directions.find((d) => d.id === "east")!, angle: 0, tx: c + armLen, ty: c, labelAnchor: "start", labelDy: 5 },
-    { dir: directions.find((d) => d.id === "west")!, angle: 180, tx: c - armLen, ty: c, labelAnchor: "end", labelDy: 5 },
+    { dir: directions.find((d) => d.id === "east")!, angle: 0, tx: c + armLen, ty: c, labelAnchor: "middle", labelDy: 34 },
+    { dir: directions.find((d) => d.id === "west")!, angle: 180, tx: c - armLen, ty: c, labelAnchor: "middle", labelDy: 34 },
   ];
 
   return (
@@ -122,9 +122,10 @@ export function LeadershipCompassDiagram({
             <line x1={c} y1={c - armLen * crossProgress} x2={c} y2={c + armLen * crossProgress} stroke="rgba(250,247,238,0.30)" strokeWidth={3} />
             <line x1={c - armLen * crossProgress} y1={c} x2={c + armLen * crossProgress} y2={c} stroke="rgba(250,247,238,0.30)" strokeWidth={3} />
           </g>
-          {/* faint axis captions, offset from the arms so they never collide with a label */}
-          <text x={c + 14} y={26} fontSize={14} fill="rgba(250,247,238,0.4)" style={{ fontFamily: theme.bodyFamily, letterSpacing: 0.5 }}>{axisLabels.vertical[0]}</text>
-          <text x={c + 14} y={size - 14} fontSize={14} fill="rgba(250,247,238,0.4)" style={{ fontFamily: theme.bodyFamily, letterSpacing: 0.5 }}>{axisLabels.vertical[1]}</text>
+          {/* faint axis captions, placed at the arm midpoints (not the tips) so they never
+              collide with the North/South direction labels sitting at the very top/bottom */}
+          <text x={c + 12} y={c - armLen / 2} fontSize={13} fill="rgba(250,247,238,0.4)" style={{ fontFamily: theme.bodyFamily, letterSpacing: 0.5 }}>{axisLabels.vertical[0]}</text>
+          <text x={c + 12} y={c + armLen / 2} fontSize={13} fill="rgba(250,247,238,0.4)" style={{ fontFamily: theme.bodyFamily, letterSpacing: 0.5 }}>{axisLabels.vertical[1]}</text>
 
           {arms.map(({ dir, tx, ty, labelAnchor, labelDy }, i) => {
             const p = armProgress(dir.id, i);
