@@ -1,0 +1,788 @@
+{
+  "lessonId": "lesson-03",
+  "title": "Knowing Yourself, On Purpose",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-03-master.mp4",
+  "sourceCutSeconds": [
+    28.1,
+    36.93333333333333,
+    38.4,
+    79.73333333333333,
+    121.4,
+    148.33333333333334,
+    160.8,
+    201.5,
+    241,
+    282.3
+  ],
+  "scenes": [
+    {
+      "sceneId": "opening",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atPhrase": "Self-awareness means recognizing"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "self-awareness",
+      "start": {
+        "atPhrase": "Self-awareness means recognizing"
+      },
+      "end": {
+        "atPhrase": "For a community leader"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "self-awareness-visual",
+          "anchor": {
+            "atPhrase": "Self-awareness means recognizing"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Knowing yourself",
+            "title": "Self-awareness",
+            "items": [
+              "Strengths",
+              "Weaknesses",
+              "Abilities",
+              "Habits",
+              "Responses to situations"
+            ],
+            "revealAtSeconds": [
+              8.14,
+              9.46,
+              10.38,
+              11.28,
+              12.34
+            ]
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "leadership-foundation",
+      "start": {
+        "atPhrase": "For a community leader"
+      },
+      "end": {
+        "atPhrase": "Some strengths may come naturally"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "develop-strengths",
+      "start": {
+        "atPhrase": "Some strengths may come naturally"
+      },
+      "end": {
+        "atPhrase": "At the same time"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "develop-strengths-visual",
+          "anchor": {
+            "atPhrase": "Some strengths may come naturally"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Developing abilities",
+            "headline": "Recognize your strengths and develop them",
+            "emphasize": [
+              "strengths",
+              "develop"
+            ],
+            "variant": "bar"
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "no-one-has-every-skill",
+      "start": {
+        "atPhrase": "At the same time"
+      },
+      "end": {
+        "atPhrase": "One person may be strong"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "different-strengths",
+      "start": {
+        "atPhrase": "One person may be strong"
+      },
+      "end": {
+        "atPhrase": "Self-awareness helps you stop"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "different-strengths-visual",
+          "anchor": {
+            "atPhrase": "One person may be strong"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Complementary skills",
+            "title": "Different strengths, one team",
+            "items": [
+              "Organizing",
+              "Listening",
+              "Solving problems",
+              "Communicating"
+            ],
+            "revealAtSeconds": [
+              63.1,
+              64.76,
+              66.3,
+              68.56
+            ]
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "make-it-personal",
+      "start": {
+        "atPhrase": "Self-awareness helps you stop"
+      },
+      "end": {
+        "atPhrase": "Complete these six sentence starters"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "sentences",
+      "start": {
+        "atPhrase": "Complete these six sentence starters"
+      },
+      "end": {
+        "atPhrase": "When you come back"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "sentences-visual",
+          "anchor": {
+            "atPhrase": "Complete these six sentence starters"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Your turn",
+            "title": "Six honest sentences",
+            "items": [
+              "I can…",
+              "I enjoy…",
+              "I believe in…",
+              "I spend my time in…",
+              "I am learning to…",
+              "I feel when…"
+            ],
+            "revealAtSeconds": [
+              84.48,
+              85.46,
+              86.9,
+              88.38,
+              90.18,
+              92.22
+            ]
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "notice-the-pattern",
+      "start": {
+        "atPhrase": "When you come back"
+      },
+      "end": {
+        "atPhrase": "What do they tell you"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "reflect-on-answers",
+      "start": {
+        "atPhrase": "What do they tell you"
+      },
+      "end": {
+        "atPhrase": "This is the real purpose"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "reflect-on-answers-visual",
+          "anchor": {
+            "atPhrase": "What do they tell you"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Your answers",
+            "questions": [
+              "What do your answers reveal about your abilities, interests, values and habits?"
+            ],
+            "askAtSeconds": [
+              104.7
+            ]
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "contribution",
+      "start": {
+        "atPhrase": "This is the real purpose"
+      },
+      "end": {
+        "atPhrase": "A strong team is not"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "team-strengths",
+      "start": {
+        "atPhrase": "A strong team is not"
+      },
+      "end": {
+        "atPhrase": "For a community leader this means"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "team-strengths-visual",
+          "anchor": {
+            "atPhrase": "A strong team is not"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Stronger teams",
+            "headline": "Different abilities understood and combined",
+            "emphasize": [
+              "Different",
+              "combined"
+            ],
+            "variant": "bar"
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "shared-result",
+      "start": {
+        "atPhrase": "For a community leader this means"
+      },
+      "end": {
+        "atPhrase": "The rabbit and turtle example"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "rabbit-watch",
+      "start": {
+        "atPhrase": "The rabbit and turtle example"
+      },
+      "end": {
+        "atPhrase": "As you watch"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "rabbit-watch-visual",
+          "anchor": {
+            "atPhrase": "The rabbit and turtle example"
+          },
+          "action": "show",
+          "component": "VideoLinkSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Curriculum activity",
+            "title": "The Rabbit and the Turtle",
+            "note": "Pause here. Watch the accompanying curriculum clip, then return to this lesson."
+          }
+        }
+      ],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "rabbit-reflection",
+      "start": {
+        "atPhrase": "As you watch"
+      },
+      "end": {
+        "atPhrase": "When you return"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "rabbit-reflection-visual",
+          "anchor": {
+            "atPhrase": "As you watch"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "While you watch",
+            "title": "Abilities and cooperation",
+            "steps": [
+              "What can the rabbit do well?",
+              "What can the turtle do well?",
+              "How do strengths and weaknesses affect them?",
+              "What becomes possible when they cooperate?"
+            ],
+            "pauseNote": "Watch the Rabbit and Turtle companion clip"
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "combine-abilities",
+      "start": {
+        "atPhrase": "When you return"
+      },
+      "end": {
+        "atPhrase": "Once you begin noticing your own"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "understand-others",
+      "start": {
+        "atPhrase": "Once you begin noticing your own"
+      },
+      "end": {
+        "atPhrase": "The source curriculum connects"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "understand-others-visual",
+          "anchor": {
+            "atPhrase": "Once you begin noticing your own"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Understanding others",
+            "headline": "Knowing your patterns helps you understand other people",
+            "emphasize": [
+              "patterns",
+              "understand"
+            ],
+            "variant": "bar"
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "cooperation-foundation",
+      "start": {
+        "atPhrase": "The source curriculum connects"
+      },
+      "end": {
+        "atPhrase": "The bridge video develops"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "bridge-watch",
+      "start": {
+        "atPhrase": "The bridge video develops"
+      },
+      "end": {
+        "atPhrase": "Notice why the first characters fail"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "bridge-watch-visual",
+          "anchor": {
+            "atPhrase": "The bridge video develops"
+          },
+          "action": "show",
+          "component": "VideoLinkSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Curriculum activity",
+            "title": "The Bridge",
+            "note": "Pause here. Watch the accompanying Bridge clip, then return to this lesson."
+          }
+        }
+      ],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "bridge-reflection",
+      "start": {
+        "atPhrase": "Notice why the first characters fail"
+      },
+      "end": {
+        "atPhrase": "The lesson is not that disagreement"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "bridge-reflection-visual",
+          "anchor": {
+            "atPhrase": "Notice why the first characters fail"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "While you watch",
+            "title": "Conflict and cooperation",
+            "steps": [
+              "Why do the first characters fail?",
+              "What does their selfishness create?",
+              "What do the later characters do differently?"
+            ],
+            "pauseNote": "Watch the Bridge companion clip"
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "manage-disagreement",
+      "start": {
+        "atPhrase": "The lesson is not that disagreement"
+      },
+      "end": {
+        "atPhrase": "A successful leader listens"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "leader-response",
+      "start": {
+        "atPhrase": "A successful leader listens"
+      },
+      "end": {
+        "atPhrase": "In a real ACT project"
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "leader-response-visual",
+          "anchor": {
+            "atPhrase": "A successful leader listens"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "A leader’s response",
+            "title": "A way forward",
+            "items": [
+              "Listen",
+              "Understand different points of view",
+              "Help people find a way forward"
+            ],
+            "revealAtSeconds": [
+              264.2,
+              266.08,
+              268.3
+            ]
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "act-project",
+      "start": {
+        "atPhrase": "In a real ACT project"
+      },
+      "end": {
+        "atPhrase": "Self-awareness is not just"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "use-self-awareness",
+      "start": {
+        "atPhrase": "Self-awareness is not just"
+      },
+      "end": {
+        "atPhrase": "You learned that strengths"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "use-self-awareness-visual",
+          "anchor": {
+            "atPhrase": "Self-awareness is not just"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "What you learned",
+            "headline": "Self-awareness becomes useful through action",
+            "emphasize": [
+              "useful",
+              "action"
+            ],
+            "variant": "bar"
+          }
+        }
+      ],
+      "transitionOut": "soft-push-left"
+    },
+    {
+      "sceneId": "takeaways",
+      "start": {
+        "atPhrase": "You learned that strengths"
+      },
+      "end": {
+        "atPhrase": "That is why self-awareness"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "takeaways-visual",
+          "anchor": {
+            "atPhrase": "You learned that strengths"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Lesson recap",
+            "title": "What you bring to a team",
+            "items": [
+              "Develop your strengths",
+              "Work on weaknesses or seek support",
+              "Combine different abilities",
+              "Understand and work with others"
+            ],
+            "revealAtSeconds": [
+              296.12,
+              298.16,
+              302.36,
+              306.16
+            ]
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "community-leader",
+      "start": {
+        "atPhrase": "That is why self-awareness"
+      },
+      "end": {
+        "atPhrase": "Keep your six sentences"
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": [],
+      "transitionOut": "soft-push-right"
+    },
+    {
+      "sceneId": "keep-your-work",
+      "start": {
+        "atPhrase": "Keep your six sentences"
+      },
+      "end": {
+        "atPhrase": "In the next lesson"
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "medium"
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "keep-your-work-visual",
+          "anchor": {
+            "atPhrase": "Keep your six sentences"
+          },
+          "action": "show",
+          "component": "OutroSlide",
+          "animation": "fade-rise",
+          "props": {
+            "kicker": "Keep building",
+            "title": "Your contribution to a team",
+            "points": [
+              "Keep your six sentences",
+              "Keep your Personal Identity Wheel"
+            ],
+            "next": "What leadership actually means"
+          }
+        }
+      ],
+      "transitionOut": "crossfade"
+    },
+    {
+      "sceneId": "closing",
+      "start": {
+        "atPhrase": "In the next lesson"
+      },
+      "end": {
+        "atSeconds": 330.814694
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide"
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    }
+  ]
+}

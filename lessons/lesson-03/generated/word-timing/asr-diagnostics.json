@@ -1,0 +1,14 @@
+[
+  {
+    "passFile": "lesson03-asr-words.json",
+    "type": "insert",
+    "script": "",
+    "recognized": "skill"
+  },
+  {
+    "passFile": "lesson03-asr-words.json",
+    "type": "insert",
+    "script": "",
+    "recognized": "point"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "lesson": "lesson-03",
+  "master": {"file": "avatar/master.mp4", "width": 1920, "height": 1080, "durationSeconds": 330.814694, "sha256": "837ecfe6dfe687c5e93e92d3f1486819c3e6ef34bc259f8536790b8578189d98", "source": "User-supplied ACT- lesson 3.mp4"},
+  "officialReview": {
+    "deck": "ACT Lessons Updated Logo.pptx",
+    "slidesInspected": [52,53,54,55,56,57,58,59,60,61],
+    "selection": "Slide 54's sentence-starter framework is represented with native editable typography using the actual spoken labels. Dice, flying-napkin and benefits-paper visuals are not included because they do not reinforce this spoken version. Slides 57 and 59 contain embedded videos, not usable photographic posters or web links. Their clips are retained as companion activity files, not inserted over the locked presenter audio.",
+    "framework": {"slide":54,"scene":"sentences","anchorPhrase":"Complete these six sentence starters","renderer":"ChecklistSlide","adaptation":"Six actual spoken labels: I can, I enjoy, I believe in, I spend my time in, I am learning to, I feel when"}
+  },
+  "assets": [
+    {"file":"assets/rabbit-and-turtle.mp4","sourceDeck":"ACT Lessons Updated Logo.pptx","slide":57,"embeddedFile":"ppt/media/media2.mp4","width":600,"height":480,"durationSeconds":261.201202,"intendedScene":"rabbit-watch","anchorPhrase":"The rabbit and turtle example","treatment":"Companion clip at native resolution; pause-and-watch instruction in the edited lesson","rights":"User-supplied curriculum asset; no independent external licence asserted"},
+    {"file":"assets/bridge.mp4","sourceDeck":"ACT Lessons Updated Logo.pptx","slide":59,"embeddedFile":"ppt/media/media3.mp4","width":640,"height":360,"durationSeconds":165.256417,"intendedScene":"bridge-watch","anchorPhrase":"The bridge video develops","treatment":"Companion clip at native resolution; pause-and-watch instruction in the edited lesson","rights":"User-supplied curriculum asset; no independent external licence asserted"}
+  ],
+  "externalAssets": [],
+  "visualTreatment": "Established shared ACT typography, purple surface, gold emphasis, phrase-timed activity prompts and lists. No decorative or visibly enlarged low-resolution photo was added."
+}

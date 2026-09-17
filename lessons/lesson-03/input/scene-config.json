@@ -1,0 +1,9 @@
+{
+  "lessonLabel": "ACT · Lesson 3",
+  "narrationAuthority": "User explicitly approved following the supplied video's spoken narration",
+  "officialFramework": {"deck": "ACT Lessons Updated Logo.pptx", "slide": 54, "scene": "sentences", "adaptation": "Native editable sentence starters, using the actual spoken labels"},
+  "companionClips": [
+    {"deck": "ACT Lessons Updated Logo.pptx", "slide": 57, "file": "rabbit-and-turtle.mp4", "scene": "rabbit-watch"},
+    {"deck": "ACT Lessons Updated Logo.pptx", "slide": 59, "file": "bridge.mp4", "scene": "bridge-watch"}
+  ]
+}

@@ -1,0 +1,52 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const lesson=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),engine=path.resolve(lesson,'../../production/act-engine');
+const track=JSON.parse(fs.readFileSync(lesson+'/generated/word-timing/lesson-03-word-timing.json'));
+const norm=s=>s.toLowerCase().replace(/[‘’“”"'.,!?;:()\[\]]/g,'').split(/\s+/).filter(Boolean);
+const at=p=>{const n=norm(p),i=track.words.findIndex((w,i)=>n.every((x,j)=>norm(track.words[i+j]?.w||'')[0]===x));if(i<0)throw Error(p);return track.words[i].t0;};
+const phrase=atPhrase=>({atPhrase}),sec=atSeconds=>({atSeconds});
+const scenes=[];
+function add(id,start,end,layout,component,props){
+ const transitionIn=layout==='PresenterLeft'?'soft-push-right':layout==='PresenterRight'?'soft-push-left':'crossfade';
+ scenes.push({sceneId:id,start:typeof start==='number'?sec(start):phrase(start),end:typeof end==='number'?sec(end):phrase(end),avatar:{layout,camera:layout==='PresenterFull'?'wide':'medium'},transitionIn,events:component?[{id:id+'-visual',anchor:typeof start==='number'?sec(start):phrase(start),action:'show',component,animation:'fade-rise',props}]:[]});
+}
+const full=(id,start,end)=>add(id,start,end,'PresenterFull');
+const check=(kicker,title,items,phrases)=>({kicker,title,items,...(phrases?{revealAtSeconds:phrases.map(at)}:{})});
+const statement=(kicker,headline,emphasize=[])=>({kicker,headline,emphasize,variant:'bar'});
+full('opening',0,'Self-awareness means recognizing');
+add('self-awareness','Self-awareness means recognizing','For a community leader','PresenterRight','ChecklistSlide',check('Knowing yourself','Self-awareness',['Strengths','Weaknesses','Abilities','Habits','Responses to situations'],['your strengths','weaknesses abilities','abilities habits','habits and','the way you usually respond']));
+full('leadership-foundation','For a community leader','Some strengths may come naturally');
+add('develop-strengths','Some strengths may come naturally','At the same time','PresenterLeft','StatementSlide',statement('Developing abilities','Recognize your strengths and develop them',['strengths','develop']));
+full('no-one-has-every-skill','At the same time','One person may be strong');
+add('different-strengths','One person may be strong','Self-awareness helps you stop','PresenterLeft','ChecklistSlide',check('Complementary skills','Different strengths, one team',['Organizing','Listening','Solving problems','Communicating'],['strong at organizing','another at listening','another at solving problems','another at communicating']));
+full('make-it-personal','Self-awareness helps you stop','Complete these six sentence starters');
+add('sentences','Complete these six sentence starters','When you come back','PresenterRight','ChecklistSlide',check('Your turn','Six honest sentences',['I can…','I enjoy…','I believe in…','I spend my time in…','I am learning to…','I feel when…'],['I can I enjoy','I enjoy I believe','I believe in I spend','I spend my time in','I am learning to','I feel when']));
+full('notice-the-pattern','When you come back','What do they tell you');
+add('reflect-on-answers','What do they tell you','This is the real purpose','PresenterRight','QuestionSlide',{kicker:'Your answers',questions:['What do your answers reveal about your abilities, interests, values and habits?'],askAtSeconds:[at('What do they tell you')]});
+full('contribution','This is the real purpose','A strong team is not');
+add('team-strengths','A strong team is not','For a community leader this means','PresenterLeft','StatementSlide',statement('Stronger teams','Different abilities understood and combined',['Different','combined']));
+full('shared-result','For a community leader this means','The rabbit and turtle example');
+add('rabbit-watch','The rabbit and turtle example','As you watch','PresenterRight','VideoLinkSlide',{kicker:'Curriculum activity',title:'The Rabbit and the Turtle',note:'Pause here. Watch the accompanying curriculum clip, then return to this lesson.'});
+add('rabbit-reflection','As you watch','When you return','PresenterRight','ActivitySlide',{kicker:'While you watch',title:'Abilities and cooperation',steps:['What can the rabbit do well?','What can the turtle do well?','How do strengths and weaknesses affect them?','What becomes possible when they cooperate?'],pauseNote:'Watch the Rabbit and Turtle companion clip'});
+full('combine-abilities','When you return','Once you begin noticing your own');
+add('understand-others','Once you begin noticing your own','The source curriculum connects','PresenterLeft','StatementSlide',statement('Understanding others','Knowing your patterns helps you understand other people',['patterns','understand']));
+full('cooperation-foundation','The source curriculum connects','The bridge video develops');
+add('bridge-watch','The bridge video develops','Notice why the first characters fail','PresenterRight','VideoLinkSlide',{kicker:'Curriculum activity',title:'The Bridge',note:'Pause here. Watch the accompanying Bridge clip, then return to this lesson.'});
+add('bridge-reflection','Notice why the first characters fail','The lesson is not that disagreement','PresenterRight','ActivitySlide',{kicker:'While you watch',title:'Conflict and cooperation',steps:['Why do the first characters fail?','What does their selfishness create?','What do the later characters do differently?'],pauseNote:'Watch the Bridge companion clip'});
+full('manage-disagreement','The lesson is not that disagreement','A successful leader listens');
+add('leader-response','A successful leader listens','In a real ACT project','PresenterRight','ChecklistSlide',check('A leader’s response','A way forward',['Listen','Understand different points of view','Help people find a way forward'],['A successful leader listens','understands different points of view','helps people find a way forward']));
+full('act-project','In a real ACT project','Self-awareness is not just');
+add('use-self-awareness','Self-awareness is not just','You learned that strengths','PresenterLeft','StatementSlide',statement('What you learned','Self-awareness becomes useful through action',['useful','action']));
+add('takeaways','You learned that strengths','That is why self-awareness','PresenterLeft','ChecklistSlide',check('Lesson recap','What you bring to a team',['Develop your strengths','Work on weaknesses or seek support','Combine different abilities','Understand and work with others'],['strengths should be developed','weaknesses should be worked on','different abilities make teams stronger','understanding yourself helps you']));
+full('community-leader','That is why self-awareness','Keep your six sentences');
+add('keep-your-work','Keep your six sentences','In the next lesson','PresenterLeft','OutroSlide',{kicker:'Keep building',title:'Your contribution to a team',points:['Keep your six sentences','Keep your Personal Identity Wheel'],next:'What leadership actually means'});
+full('closing','In the next lesson',330.814694);
+for(let i=0;i<scenes.length;i++){
+ if(i && scenes[i].transitionIn===scenes[i-1].transitionIn)scenes[i].transitionIn=scenes[i].transitionIn==='soft-push-right'?'soft-push-left':'soft-push-right';
+ if(i)scenes[i-1].transitionOut=scenes[i].transitionIn;
+}
+const edl={lessonId:'lesson-03',title:'Knowing Yourself, On Purpose',fps:30,width:1920,height:1080,avatarVideoSrc:'avatar/lesson-03-master.mp4',sourceCutSeconds:[28.1,36.93333333333333,38.4,79.73333333333333,121.4,148.33333333333334,160.8,201.5,241,282.3],scenes};
+fs.mkdirSync(engine+'/public/lesson-assets/lesson-03',{recursive:true});
+for(const file of [lesson+'/generated/edl.json',engine+'/public/lesson-assets/lesson-03/edl.json'])fs.writeFileSync(file,JSON.stringify(edl,null,2)+'\n');
+console.log('Wrote',scenes.length,'phrase-anchored editorial beats.');

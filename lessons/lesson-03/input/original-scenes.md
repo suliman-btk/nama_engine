@@ -1,0 +1,33 @@
+# Lesson 3 — Knowing Yourself, On Purpose
+
+Target length: ~9–10 min | 10 scenes | max 800 characters per scene Pronunciation: ACT is written “ACT” and spoken as the word “Act” (rhymes with “fact”). No Arabic phrases appear in this lesson’s source content.
+
+Paste each scene below into its own Google Vids scene, in order.
+
+## Scene 1: Here’s a strange fact: you’ve spent more time with yourself than anyone alive — yet most people could describe their best friend’s personality faster than their own. Today, we’re fixing that. It’s not enough to describe your identity — this lesson is about using it.
+
+You’ve already put your identity into words once, in writing. This time, say it — there’s a real difference between privately knowing something and actually declaring it, out loud, in your own words.
+
+Six ways to finish a sentence about yourself: “I can” — something you’re capable of. “I enjoy” — something that genuinely lights you up. “I believe in” — a real conviction. “I spend my time in” — where your hours go. “I learn to” — something you’re working on. “I feel, when” — an honest pattern, not the answer that sounds best.
+
+## Scene 2: Pause the video here. Take each of the six starters — I can, I enjoy, I believe in, I spend my time in, I learn to, I feel when — and finish every single one, out loud if you can, or written down if you can’t. Don’t overthink any of them. The first honest answer is almost always the right one. Take about five minutes. Come back when all six are done. [Group option — on screen, not spoken: stand by six papers, one per sentence starter, and rotate between them while the group claps — when the clapping stops, whoever’s standing on the number called has to finish that sentence out loud to the room.]
+
+## Scene 3: However you did that — six honest sentences is more self-description than most people manage in a week. Here’s the question worth sitting with: did those six answers feel like you? Probably more than a single word ever could — because identity isn’t one fact, it’s a pattern across a lot of small, specific truths.
+
+And here’s the part that matters just as much: if you compared answers with anyone else, some of theirs almost certainly didn’t match yours. That’s not a gap to close. That’s the whole point. There’s no such thing as a good identity and a bad one — only different ones, each one worth respecting.
+
+## Scene 4: Here’s a question underneath everything we’ve covered so far: why does any of this matter? Why spend time just getting to know yourself? Because knowing your identity isn’t the finish line. It’s the tool. Once you actually know your own strengths, you can lean into them on purpose instead of by accident. And once you know your weaknesses, you can either work on them, or — just as importantly — get better at asking for help in exactly the areas where you need it.
+
+## Scene 5: Here’s something worth remembering: not every skill you have was earned the same way. Some things you’re simply given — a natural ear for music, a sharp memory, a calm way with people. Others you only get by putting in the work, long after it stopped being fun. Different people are handed different starting points; what’s actually unfair is refusing to develop what you were given. Here’s a claim worth testing: no meaningful project has ever been built by exactly one person. A school needs more than students — guidance counselors, administrators, people running things behind the scenes. A house needs an engineer to design it and a contractor to manage it, each bringing a different skill to the same result.
+
+## Scene 6: That’s the real reason self-awareness matters for a leader specifically: once you know what you’re actually good at, you also know, honestly, what you’re not — and that’s exactly the gap someone else on your team is standing in. No single skill outranks another. The project doesn’t get finished by the person who’s best at everything. It gets finished by people who know exactly what they bring, and trust each other with the rest. You’re going to be working on real projects together throughout this program — and this is exactly why.
+
+## Scene 7: Here’s where this lesson actually turns a corner. Everything so far has been about you. But this program keeps circling back to self-awareness before it lets you move on to anything else, for a real reason: once you genuinely understand your own identity, you gain something you didn’t have before — the ability to actually read other people’s identity too.
+
+Think about it this way. The habits, the reactions, the things that frustrate you in someone else — a lot of the time, you only find those confusing because you’ve never sat down and mapped the same kind of thing in yourself. Once you have, other people’s behavior stops looking random. It starts looking like a pattern you already recognize, just wearing a different face.
+
+## Scene 8: That’s the whole difference between a group that falls apart under pressure and one that doesn’t. The person who knows themselves is the one who can actually absorb someone else’s frustration instead of matching it — the one who can sit with two people in conflict, understand both sides honestly, and find a way through instead of picking one. That’s not a soft skill. That’s the specific skill that keeps a real project from collapsing the first time two people disagree about how to run it. You’re going to hit exactly this moment, for real, later in this program. This is where you start preparing for it.
+
+## Scene 9: One honest question before we wrap up: think of the last time someone’s behavior genuinely confused or frustrated you. Was it actually random, or a version of something you already understand, because you’ve felt it too? Just notice that the question makes sense in a way it might not have before this lesson. Today, you moved from describing your identity to actually declaring it — six honest sentences, out loud. You learned that self-awareness isn’t the finish line, it’s the tool: it lets you lean into your strengths on purpose, and makes you honest about the skills you still need from someone else. You saw that no real project gets finished by one person alone, and that knowing yourself is what finally lets you understand — and work with — everyone else too.
+
+## Scene 10: Hold onto your six sentences the same way you’re holding onto your Personal Identity Wheel — you’ll keep building on both. And start paying attention, for real, to the people around you: not to judge them, but to notice how much of what confuses you about someone else is really just a version of something you’ve already learned about yourself. In the next lesson, we keep building on exactly that. I’ll see you there.
