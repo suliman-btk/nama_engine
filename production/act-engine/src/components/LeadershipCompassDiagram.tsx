@@ -58,18 +58,37 @@ export function LeadershipCompassDiagram({
   window,
   directions = DEFAULT_COMPASS_DIRECTIONS,
   activeId,
+  sequence,
+  fps: fpsProp,
   eyebrow = "The leadership compass",
   axisLabels = { vertical: ["Fast", "Patient"], horizontal: ["Task-focused", "People-focused"] },
 }: {
   window: GraphicWindow;
   directions?: CompassDirection[];
+  /** Static: hold on one direction for the whole event window. */
   activeId?: CompassDirection["id"];
+  /** Dynamic: the narration moves through several directions inside ONE continuous "show"
+   * event (one CardShell mount, no re-triggered enter animation) — each entry's `atSeconds`
+   * is the real timestamp (from the word-timing track) where the narration starts naming
+   * that direction. Takes priority over `activeId` once playback reaches its first entry. */
+  sequence?: { id: CompassDirection["id"]; atSeconds: number }[];
+  fps?: number;
   eyebrow?: string;
   axisLabels?: { vertical: [string, string]; horizontal: [string, string] };
 }) {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const { fps: configFps } = useVideoConfig();
+  const fps = fpsProp ?? configFps;
   const local = frame - window.startFrame;
+
+  const sequenceActiveId = sequence
+    ? (() => {
+        const now = frame / fps;
+        const reached = sequence.filter((s) => now >= s.atSeconds);
+        return reached.length > 0 ? reached[reached.length - 1].id : undefined;
+      })()
+    : undefined;
+  const effectiveActiveId = sequence ? sequenceActiveId : activeId;
 
   // the cross draws in first, then each arm's label + traits settle in shortly after
   const crossProgress = (() => {
@@ -109,8 +128,8 @@ export function LeadershipCompassDiagram({
 
           {arms.map(({ dir, tx, ty, labelAnchor, labelDy }, i) => {
             const p = armProgress(dir.id, i);
-            const active = activeId ? dir.id === activeId : true;
-            const dim = activeId ? !active : false;
+            const active = effectiveActiveId ? dir.id === effectiveActiveId : true;
+            const dim = effectiveActiveId ? !active : false;
             return (
               <g key={dir.id} opacity={p * (dim ? 0.35 : 1)}>
                 <circle cx={tx} cy={ty} r={active ? 15 : 11} fill={dir.accent} stroke={theme.colors.deep} strokeWidth={active ? 4 : 2} />
@@ -132,7 +151,7 @@ export function LeadershipCompassDiagram({
 
         <div style={{ display: "flex", flexDirection: "column", gap: 10, flex: 1, minWidth: 0 }}>
           {(() => {
-            const shown = activeId ? directions.find((d) => d.id === activeId) : undefined;
+            const shown = effectiveActiveId ? directions.find((d) => d.id === effectiveActiveId) : undefined;
             if (!shown) {
               return (
                 <div style={{ color: theme.colors.inkDim, fontSize: theme.type.body, lineHeight: 1.5 }}>
