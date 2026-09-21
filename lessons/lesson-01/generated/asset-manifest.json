@@ -1,0 +1,113 @@
+{
+  "assets": [
+    {
+      "file": "aircraft.svg",
+      "originalFile": "image30.jpeg",
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 24,
+      "originalDimensions": [
+        1920,
+        1080
+      ],
+      "treatment": "Original photograph contained at preserved aspect ratio inside a vector typeset scenario card; no essential image labels cropped; no raster upscaling.",
+      "intendedScenes": [
+        {
+          "sceneId": "beat-026",
+          "phrase": "First you are on",
+          "startSeconds": 427.32
+        }
+      ]
+    },
+    {
+      "file": "parachute.svg",
+      "originalFile": "image31.jpeg",
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 25,
+      "originalDimensions": [
+        1875,
+        982
+      ],
+      "treatment": "Original photograph contained at preserved aspect ratio inside a vector typeset scenario card; no essential image labels cropped; no raster upscaling.",
+      "intendedScenes": [
+        {
+          "sceneId": "beat-026",
+          "phrase": "First you are on",
+          "startSeconds": 427.32
+        }
+      ]
+    },
+    {
+      "file": "shark.svg",
+      "originalFile": "image32.jpeg",
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 26,
+      "originalDimensions": [
+        1200,
+        800
+      ],
+      "treatment": "Original photograph contained at preserved aspect ratio inside a vector typeset scenario card; no essential image labels cropped; no raster upscaling.",
+      "intendedScenes": [
+        {
+          "sceneId": "beat-027",
+          "phrase": "Second you have",
+          "startSeconds": 436.6
+        }
+      ]
+    },
+    {
+      "file": "meal.svg",
+      "originalFile": "image33.jpeg",
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 27,
+      "originalDimensions": [
+        771,
+        416
+      ],
+      "treatment": "Original photograph contained at preserved aspect ratio inside a vector typeset scenario card; no essential image labels cropped; no raster upscaling.",
+      "intendedScenes": [
+        {
+          "sceneId": "beat-029",
+          "phrase": "Fourth you are",
+          "startSeconds": 447.7
+        }
+      ]
+    },
+    {
+      "file": "lesson-01-panyee.mp4",
+      "source": "ACT Lessons Updated Logo.pptx",
+      "slide": 31,
+      "embeddedPath": "ppt/media/media1.mp4",
+      "treatment": "Unmodified companion activity video, separate from original narration.",
+      "intendedScenes": [
+        {
+          "sceneId": "beat-044",
+          "phrase": "Pause the video now and watch",
+          "startSeconds": 609.44
+        }
+      ]
+    }
+  ],
+  "licence": "Provided official curriculum; no separate licence claimed",
+  "religiousText": [
+    {
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "transliteration": "Bismillāhi r-raḥmāni r-raḥīm",
+      "source": "shared/pronunciation/lexicon.json: basmala",
+      "displayPhrase": "Lets start the way"
+    },
+    {
+      "arabic": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+      "transliteration": "Ṣallā llāhu ʿalayhi wa-sallam",
+      "source": "shared/pronunciation/lexicon.json: salawat-on-the-prophet",
+      "displayPhrase": "The Prophet"
+    },
+    {
+      "arabic": "حُفَّتِ الْجَنَّةُ بِالْمَكَارِهِ",
+      "transliteration": "Ḥuffati al-jannatu bi-l-makārih",
+      "source": "Sahih Muslim 2822",
+      "sourceUrl": "https://sunnah.com/muslim:2822",
+      "displayPhrase": "Paradise is surrounded",
+      "treatment": "Only the first clause, matching the narrated English excerpt; no additional unspoken religious text."
+    }
+  ]
+}

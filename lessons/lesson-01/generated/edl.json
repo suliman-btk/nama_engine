@@ -1,0 +1,1540 @@
+{
+  "lessonId": "lesson-01",
+  "title": "Finding your challenge zone",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-01-master.mp4",
+  "sourceCutSeconds": [
+    26.266667,
+    50.466667,
+    77.1,
+    97.1,
+    98.7,
+    142.833333,
+    191.533333,
+    288.433333,
+    376.233333,
+    427.066667,
+    475.4,
+    525.266667,
+    570.833333,
+    609.333333,
+    628.1,
+    656.6,
+    701.8
+  ],
+  "scenes": [
+    {
+      "sceneId": "beat-001",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atSeconds": 14.38
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-002",
+      "start": {
+        "atSeconds": 14.38
+      },
+      "end": {
+        "atSeconds": 28.14
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-2",
+          "anchor": {
+            "atPhrase": "That feeling that mix"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "A new beginning",
+            "headline": "Nervous and excited?",
+            "variant": "bar",
+            "emphasize": [
+              "Nervous",
+              "excited"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-003",
+      "start": {
+        "atSeconds": 28.14
+      },
+      "end": {
+        "atSeconds": 32.66
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-004",
+      "start": {
+        "atSeconds": 32.66
+      },
+      "end": {
+        "atSeconds": 38.62
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-4",
+          "anchor": {
+            "atPhrase": "Lets start the way"
+          },
+          "action": "show",
+          "component": "QuoteCard",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "quote": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "attribution": "Bismillāhi r-raḥmāni r-raḥīm"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-005",
+      "start": {
+        "atSeconds": 38.62
+      },
+      "end": {
+        "atSeconds": 45.64
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-006",
+      "start": {
+        "atSeconds": 45.64
+      },
+      "end": {
+        "atSeconds": 55.78
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-6",
+          "anchor": {
+            "atPhrase": "It is casual"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Welcome to ACT",
+            "headline": "A space to be yourself",
+            "variant": "bar",
+            "emphasize": [
+              "yourself"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-007",
+      "start": {
+        "atSeconds": 55.78
+      },
+      "end": {
+        "atSeconds": 60.82
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-008",
+      "start": {
+        "atSeconds": 60.82
+      },
+      "end": {
+        "atSeconds": 75.38
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-8",
+          "anchor": {
+            "atPhrase": "This program is called"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "ACT",
+            "headline": "Attitude Cultivates Transformation",
+            "variant": "bar",
+            "emphasize": [
+              "Attitude",
+              "Transformation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-009",
+      "start": {
+        "atSeconds": 75.38
+      },
+      "end": {
+        "atSeconds": 76.82
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-9",
+          "anchor": {
+            "atPhrase": "ACT is designed to"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Real-world skills",
+            "headline": "Social and voluntary work",
+            "variant": "bar",
+            "emphasize": [
+              "Social",
+              "voluntary"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-010",
+      "start": {
+        "atSeconds": 76.82
+      },
+      "end": {
+        "atSeconds": 83.72
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-011",
+      "start": {
+        "atSeconds": 83.72
+      },
+      "end": {
+        "atSeconds": 99.02
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-012",
+      "start": {
+        "atSeconds": 99.02
+      },
+      "end": {
+        "atSeconds": 104.64
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-12",
+          "anchor": {
+            "atPhrase": "Act is a global"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "The programme",
+            "headline": "A global initiative by NAMA Foundation",
+            "variant": "bar",
+            "emphasize": [
+              "NAMA",
+              "Foundation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-013",
+      "start": {
+        "atSeconds": 104.64
+      },
+      "end": {
+        "atSeconds": 123
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-014",
+      "start": {
+        "atSeconds": 123
+      },
+      "end": {
+        "atSeconds": 183.56
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-14",
+          "anchor": {
+            "atPhrase": "Act is built from"
+          },
+          "action": "show",
+          "component": "FourStepJourney",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "eyebrow": "The four-unit journey",
+            "steps": [
+              {
+                "n": 1,
+                "title": "Self-awareness",
+                "question": "Who am I?"
+              },
+              {
+                "n": 2,
+                "title": "Social awareness",
+                "question": "Who are others?"
+              },
+              {
+                "n": 3,
+                "title": "Awareness of social issues",
+                "question": "What do others struggle with?"
+              },
+              {
+                "n": 4,
+                "title": "Social initiatives",
+                "question": "What can I offer?"
+              }
+            ],
+            "revealAtSeconds": [
+              129.46,
+              140.2,
+              153.44,
+              168.02
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-015",
+      "start": {
+        "atSeconds": 183.56
+      },
+      "end": {
+        "atSeconds": 209.66
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-016",
+      "start": {
+        "atSeconds": 209.66
+      },
+      "end": {
+        "atSeconds": 217.06
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-16",
+          "anchor": {
+            "atPhrase": "Think of two true"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "An introduction",
+            "title": "Two truths and a lie",
+            "steps": [
+              "Think of two true things about yourself.",
+              "Add one believable lie."
+            ],
+            "pauseNote": "Try this with someone in your life today."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-017",
+      "start": {
+        "atSeconds": 217.06
+      },
+      "end": {
+        "atSeconds": 245.54
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-018",
+      "start": {
+        "atSeconds": 245.54
+      },
+      "end": {
+        "atSeconds": 270.82
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-18",
+          "anchor": {
+            "atPhrase": "Grab a piece of paper"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Your turn",
+            "title": "Three things about yourself",
+            "steps": [
+              "Make three small pieces of paper.",
+              "Write one hobby, skill or personal trait on each.",
+              "Pause, write your three things, then return."
+            ],
+            "pauseNote": "Keep your three papers."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-019",
+      "start": {
+        "atSeconds": 270.82
+      },
+      "end": {
+        "atSeconds": 300.66
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-020",
+      "start": {
+        "atSeconds": 300.66
+      },
+      "end": {
+        "atSeconds": 318.96
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-20",
+          "anchor": {
+            "atPhrase": "A few things that usually"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "A safe space",
+            "title": "Your own ground rules",
+            "items": [
+              "Give your real attention",
+              "Be honest, even when uncomfortable",
+              "Give your ideas a chance",
+              "Write two or three personal commitments"
+            ],
+            "revealAtSeconds": [
+              302.76,
+              304.84,
+              307.76,
+              311.94
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-021",
+      "start": {
+        "atSeconds": 318.96
+      },
+      "end": {
+        "atSeconds": 350.48
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-022",
+      "start": {
+        "atSeconds": 350.48
+      },
+      "end": {
+        "atSeconds": 371.54
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-22",
+          "anchor": {
+            "atPhrase": "How well do you understand"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Before you begin",
+            "title": "Capture where you stand",
+            "items": [
+              "What is ACT for?",
+              "Can you name one of the four units?",
+              "What does the challenge zone mean?",
+              "How confident are you outside your comfort zone?",
+              "How excited are you to begin?"
+            ],
+            "revealAtSeconds": [
+              350.48,
+              354.42,
+              356.74,
+              359.48,
+              363
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-023",
+      "start": {
+        "atSeconds": 371.54
+      },
+      "end": {
+        "atSeconds": 382.88
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-024",
+      "start": {
+        "atSeconds": 382.88
+      },
+      "end": {
+        "atSeconds": 417.02
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-24",
+          "anchor": {
+            "atPhrase": "Picture three circles"
+          },
+          "action": "show",
+          "component": "ThreeZoneDiagram",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "zones": [
+              {
+                "id": "comfort",
+                "label": "Comfort zone",
+                "tag": "Easy",
+                "description": "You can do it without much effort.",
+                "accent": "#9ACBEE"
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge zone",
+                "tag": "Let’s go",
+                "description": "You have an idea how, but need experience.",
+                "accent": "#E4C862"
+              },
+              {
+                "id": "pain",
+                "label": "Pain zone",
+                "tag": "No way",
+                "description": "You do not know how to tackle it.",
+                "accent": "#F5A0A0"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-025",
+      "start": {
+        "atSeconds": 417.02
+      },
+      "end": {
+        "atSeconds": 427.32
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-026",
+      "start": {
+        "atSeconds": 427.32
+      },
+      "end": {
+        "atSeconds": 436.6
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-26",
+          "anchor": {
+            "atPhrase": "First you are on"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Imagine the situation",
+            "title": "A parachute jump",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-01/aircraft.svg",
+                "label": "The trip"
+              },
+              {
+                "src": "lesson-assets/lesson-01/parachute.svg",
+                "label": "The unexpected challenge"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-027",
+      "start": {
+        "atSeconds": 436.6
+      },
+      "end": {
+        "atSeconds": 443.74
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-27",
+          "anchor": {
+            "atPhrase": "Second you have"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Imagine the situation",
+            "title": "Diving where there are sharks",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-01/shark.svg",
+                "label": "Your reaction"
+              },
+              {
+                "src": "lesson-assets/lesson-01/zones-question.svg",
+                "label": "Your zone"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-028",
+      "start": {
+        "atSeconds": 443.74
+      },
+      "end": {
+        "atSeconds": 447.7
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-28",
+          "anchor": {
+            "atPhrase": "Third you have"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Imagine the situation",
+            "headline": "Speak in front of 700 people",
+            "variant": "bar",
+            "emphasize": [
+              "700"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-029",
+      "start": {
+        "atSeconds": 447.7
+      },
+      "end": {
+        "atSeconds": 452.04
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-29",
+          "anchor": {
+            "atPhrase": "Fourth you are"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Imagine the situation",
+            "title": "An unfamiliar meal",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-01/meal.svg",
+                "label": "Unknown ingredients"
+              },
+              {
+                "src": "lesson-assets/lesson-01/zones-question.svg",
+                "label": "Your zone"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-030",
+      "start": {
+        "atSeconds": 452.04
+      },
+      "end": {
+        "atSeconds": 457.46
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-30",
+          "anchor": {
+            "atPhrase": "Fifth you have"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Imagine the situation",
+            "headline": "Voice an honest opinion when others disagree",
+            "variant": "bar",
+            "emphasize": [
+              "honest"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-031",
+      "start": {
+        "atSeconds": 457.46
+      },
+      "end": {
+        "atSeconds": 464.52
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-31",
+          "anchor": {
+            "atPhrase": "Pause the video and decide"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Pause and reflect",
+            "title": "Which zone for each situation?",
+            "steps": [
+              "Choose comfort, challenge or pain for each of the five.",
+              "Think about why you chose it."
+            ],
+            "pauseNote": "Decide honestly, then return."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-032",
+      "start": {
+        "atSeconds": 464.52
+      },
+      "end": {
+        "atSeconds": 470.68
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-033",
+      "start": {
+        "atSeconds": 470.68
+      },
+      "end": {
+        "atSeconds": 488.68
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-33",
+          "anchor": {
+            "atPhrase": "What is the real difference"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Your experience",
+            "questions": [
+              "How does each zone feel to you?",
+              "Could someone else feel differently?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-034",
+      "start": {
+        "atSeconds": 488.68
+      },
+      "end": {
+        "atSeconds": 513.46
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-035",
+      "start": {
+        "atSeconds": 513.46
+      },
+      "end": {
+        "atSeconds": 521.82
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-35",
+          "anchor": {
+            "atPhrase": "But the zone that actually"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Growing and learning",
+            "headline": "Growth in the challenge zone",
+            "variant": "bar",
+            "emphasize": [
+              "Growth",
+              "challenge"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-036",
+      "start": {
+        "atSeconds": 521.82
+      },
+      "end": {
+        "atSeconds": 535.26
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-037",
+      "start": {
+        "atSeconds": 535.26
+      },
+      "end": {
+        "atSeconds": 538.36
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-37",
+          "anchor": {
+            "atPhrase": "The Prophet"
+          },
+          "action": "show",
+          "component": "QuoteCard",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "quote": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+            "attribution": "Ṣallā llāhu ʿalayhi wa-sallam"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-038",
+      "start": {
+        "atSeconds": 538.36
+      },
+      "end": {
+        "atSeconds": 548.36
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-38",
+          "anchor": {
+            "atPhrase": "Paradise is surrounded"
+          },
+          "action": "show",
+          "component": "QuoteCard",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "quote": "حُفَّتِ الْجَنَّةُ بِالْمَكَارِهِ",
+            "attribution": "Ḥuffati al-jannatu bi-l-makārih · Sahih Muslim 2822"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-039",
+      "start": {
+        "atSeconds": 548.36
+      },
+      "end": {
+        "atSeconds": 556.1
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-040",
+      "start": {
+        "atSeconds": 556.1
+      },
+      "end": {
+        "atSeconds": 570.1
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-40",
+          "anchor": {
+            "atPhrase": "Youth the stage"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "A time to grow",
+            "headline": "Learn, face challenges and serve your community",
+            "variant": "bar",
+            "emphasize": [
+              "Learn",
+              "serve"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-041",
+      "start": {
+        "atSeconds": 570.1
+      },
+      "end": {
+        "atSeconds": 578.06
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-042",
+      "start": {
+        "atSeconds": 578.06
+      },
+      "end": {
+        "atSeconds": 586
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-42",
+          "anchor": {
+            "atPhrase": "Children think enjoyment"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Giving",
+            "headline": "The pleasure of giving",
+            "variant": "bar",
+            "emphasize": [
+              "giving"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-043",
+      "start": {
+        "atSeconds": 586
+      },
+      "end": {
+        "atSeconds": 609.44
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-044",
+      "start": {
+        "atSeconds": 609.44
+      },
+      "end": {
+        "atSeconds": 619.35
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-44",
+          "anchor": {
+            "atPhrase": "Pause the video now and watch"
+          },
+          "action": "show",
+          "component": "VideoLinkSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Pause and watch",
+            "title": "The Koh Panyee Island soccer team",
+            "note": "Watch the accompanying official curriculum film, then return to this lesson."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-045",
+      "start": {
+        "atSeconds": 619.35
+      },
+      "end": {
+        "atSeconds": 635.35
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-45",
+          "anchor": {
+            "atPhrase": "What did you see happen"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Reflect on the film",
+            "questions": [
+              "Why did people’s reactions change?",
+              "What helped the team keep playing?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-046",
+      "start": {
+        "atSeconds": 635.35
+      },
+      "end": {
+        "atSeconds": 647.24
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-047",
+      "start": {
+        "atSeconds": 647.24
+      },
+      "end": {
+        "atSeconds": 660.94
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-47",
+          "anchor": {
+            "atPhrase": "Hardship is what builds"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Facing a challenge",
+            "headline": "Hardship can build strength",
+            "variant": "bar",
+            "emphasize": [
+              "strength"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-048",
+      "start": {
+        "atSeconds": 660.94
+      },
+      "end": {
+        "atSeconds": 681.22
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-049",
+      "start": {
+        "atSeconds": 681.22
+      },
+      "end": {
+        "atSeconds": 695.16
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-49",
+          "anchor": {
+            "atPhrase": "Whenever a challenge comes"
+          },
+          "action": "show",
+          "component": "QuestionSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Your mindset",
+            "questions": [
+              "What can I learn from this?",
+              "What skill comes out the other side?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-050",
+      "start": {
+        "atSeconds": 695.16
+      },
+      "end": {
+        "atSeconds": 718.24
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-051",
+      "start": {
+        "atSeconds": 718.24
+      },
+      "end": {
+        "atSeconds": 729.02
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-51",
+          "anchor": {
+            "atPhrase": "And you were introduced"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Lesson recap",
+            "title": "Three learning zones",
+            "items": [
+              "Comfort: familiar and easy",
+              "Challenge: a chance to stretch",
+              "Pain: you feel stuck"
+            ],
+            "revealAtSeconds": [
+              721.38,
+              722.38,
+              722.98
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-052",
+      "start": {
+        "atSeconds": 729.02
+      },
+      "end": {
+        "atSeconds": 734.56
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-053",
+      "start": {
+        "atSeconds": 734.56
+      },
+      "end": {
+        "atSeconds": 738.38
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-53",
+          "anchor": {
+            "atPhrase": "I am a change maker"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Your affirmation",
+            "headline": "I am a change maker. I live in the challenge zone.",
+            "variant": "bar",
+            "emphasize": [
+              "change",
+              "maker",
+              "challenge"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-054",
+      "start": {
+        "atSeconds": 738.38
+      },
+      "end": {
+        "atSeconds": 746.567982
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "transitionOut": "crossfade",
+      "events": []
+    }
+  ]
+}

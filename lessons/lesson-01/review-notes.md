@@ -1,5 +1,11 @@
 # Review Notes — Lesson 01
 
+## New supplied avatar master
+
+Names use the official orthography ACT, NAMA and Koh Panyee. Local recognition rendered the island name phonetically as “Kopen Yee”; only text spelling is normalized to the supplied curriculum name, with the original audio and recognized timestamps untouched. This does not certify or change the presenter's pronunciation. Source recognition files are retained. The new edit balances 48% full-frame presenter with 52% supporting graphics, keeps side changes through full-frame beats, and uses coordinated transitions without mirrored footage. All 30 graphic states and 54 source-scene pictures are retained for explicit user review. Final render remains blocked pending preview approval.
+
+See input/verification-notes.md for the current 12:26 native-HD master. The following production logs describe legacy renders, not this new edit. The supplied scene document omits the last ~45 seconds; actual spoken text was recovered by local recognition. The user explicitly instructed “follow spoken one.” The working pure-script.md records that approved narration, including the ending. Two local recognition passes confirmed removal of ten recognition artefacts; no source audio was edited. User requested Arabic plus transliteration for religious passages, with original audio preserved. Basmala and salawat use the existing verified lexicon; the hadith excerpt is verified as Sahih Muslim 2822. No new preview or final render has been approved.
+
 ## Production log v10 — current cut
 
 Output: `production/lesson-01-render-out/lesson-01-v10.mp4`, ~15:24, CRF 16.
