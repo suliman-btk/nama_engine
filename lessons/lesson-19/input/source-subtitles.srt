@@ -1,0 +1,812 @@
+1
+00:00:00,240 --> 00:00:03,159
+Hi,  and  welcome  back  to  act.  When
+
+2
+00:00:03,159 --> 00:00:04,680
+an  initiative  is  finished,  the
+
+3
+00:00:04,680 --> 00:00:06,759
+experience  can  still  be  useful  if
+
+4
+00:00:06,759 --> 00:00:08,920
+it  is  explained  clearly.  You  may
+
+5
+00:00:08,920 --> 00:00:10,000
+need  to  describe  it  to  a
+
+6
+00:00:10,000 --> 00:00:12,200
+colleague,  a  community  member,  an
+
+7
+00:00:12,200 --> 00:00:14,440
+organization,  or  simply  someone  who
+
+8
+00:00:14,440 --> 00:00:16,960
+wants  to  understand  what  happened.
+
+9
+00:00:16,960 --> 00:00:18,840
+Good  communication  is  not  about
+
+10
+00:00:18,840 --> 00:00:20,920
+making  the  project  sound  perfect.
+
+11
+00:00:20,920 --> 00:00:22,600
+It  is  about  helping  another  person
+
+12
+00:00:22,600 --> 00:00:24,320
+follow  the  story  from  the  original
+
+13
+00:00:24,320 --> 00:00:26,599
+problem  to  the  lesson  learned.
+
+14
+00:00:26,599 --> 00:00:28,400
+Clear  communication  allows  the
+
+15
+00:00:28,400 --> 00:00:30,519
+experience  to  become  useful.  beyond
+
+16
+00:00:30,519 --> 00:00:31,720
+the  moment  when  the  activity
+
+17
+00:00:31,720 --> 00:00:33,920
+itself  ended.  It  can  also  help
+
+18
+00:00:33,920 --> 00:00:35,680
+others  learn  from  what  worked  and
+
+19
+00:00:35,680 --> 00:00:36,666
+what  did  not.
+
+20
+00:00:36,946 --> 00:00:38,666
+A  simple  structure  makes  that
+
+21
+00:00:38,666 --> 00:00:41,306
+easier.  Start  with  the  problem.
+
+22
+00:00:41,306 --> 00:00:42,746
+What  was  happening  and  who  was
+
+23
+00:00:42,746 --> 00:00:45,305
+affected?  Then  explain  the  need
+
+24
+00:00:45,305 --> 00:00:46,986
+you  identified  and  the  response
+
+25
+00:00:46,986 --> 00:00:48,225
+you  chose.
+
+26
+00:00:48,225 --> 00:00:50,225
+After  that,  describe  what  happened
+
+27
+00:00:50,225 --> 00:00:52,185
+when  the  idea  was  carried  out.
+
+28
+00:00:52,185 --> 00:00:54,346
+Share  the  important  result,  then
+
+29
+00:00:54,346 --> 00:00:56,626
+finish  with  the  main  lesson.
+
+30
+00:00:56,626 --> 00:00:58,826
+This  creates  a  clear  path  instead
+
+31
+00:00:58,826 --> 00:01:00,306
+of  a  collection  of  disconnected
+
+32
+00:01:00,306 --> 00:01:01,506
+details.
+
+33
+00:01:01,506 --> 00:01:02,986
+You  do  not  need  to  include
+
+34
+00:01:02,986 --> 00:01:05,226
+everything.  Include  the  information
+
+35
+00:01:05,226 --> 00:01:06,705
+that  helps  another  person
+
+36
+00:01:06,705 --> 00:01:08,185
+understand  why  the  initiative
+
+37
+00:01:08,185 --> 00:01:10,026
+mattered,  and  what  the  experience
+
+38
+00:01:10,026 --> 00:01:11,225
+taught  you.
+
+39
+00:01:11,225 --> 00:01:12,946
+Clear  structure  helps  the  listeners
+
+40
+00:01:12,946 --> 00:01:14,466
+stay  with  you  from  start  to
+
+41
+00:01:14,466 --> 00:01:15,374
+finish.
+
+42
+00:01:15,614 --> 00:01:16,854
+There  are  different  ways  to
+
+43
+00:01:16,854 --> 00:01:19,134
+communicate  the  same  experience.
+
+44
+00:01:19,134 --> 00:01:20,733
+You  might  use  a  short  spoken
+
+45
+00:01:20,733 --> 00:01:23,213
+explanation,  a  few  slides,  a
+
+46
+00:01:23,213 --> 00:01:25,654
+sequence  of  photos,  a  drawing,  a
+
+47
+00:01:25,654 --> 00:01:28,294
+video,  or  a  simple  story.  The
+
+48
+00:01:28,294 --> 00:01:30,654
+format  is  not  the  goal.
+
+49
+00:01:30,654 --> 00:01:31,974
+Choose  the  format  that  makes  the
+
+50
+00:01:31,974 --> 00:01:34,614
+experience  easiest  to  understand.  A
+
+51
+00:01:34,614 --> 00:01:36,294
+complex  format  does  not
+
+52
+00:01:36,294 --> 00:01:37,534
+automatically  make  the  message
+
+53
+00:01:37,534 --> 00:01:39,934
+stronger.  A  simple  format  is  not
+
+54
+00:01:39,934 --> 00:01:41,294
+weak  if  it  communicates  the
+
+55
+00:01:41,294 --> 00:01:42,934
+important  points  well.
+
+56
+00:01:42,934 --> 00:01:44,733
+The  right  question  is  not  which
+
+57
+00:01:44,733 --> 00:01:47,133
+format  looks most  impressive,  but
+
+58
+00:01:47,133 --> 00:01:48,773
+which  format  makes  this  message
+
+59
+00:01:48,773 --> 00:01:51,014
+clearer?  Clarity  should  guide  the
+
+60
+00:01:51,014 --> 00:01:52,415
+choice  every  time.
+
+61
+00:01:52,655 --> 00:01:54,895
+Storytelling  can  be  useful  because
+
+62
+00:01:54,895 --> 00:01:56,815
+it  gives  information  a  natural
+
+63
+00:01:56,815 --> 00:01:58,655
+order.  You  might  begin  with  the
+
+64
+00:01:58,655 --> 00:02:00,735
+moment  the  problem  became  visible,
+
+65
+00:02:00,735 --> 00:02:02,295
+then  explain  the  decision  that  was
+
+66
+00:02:02,295 --> 00:02:03,775
+made,  what  happened  during  the
+
+67
+00:02:03,775 --> 00:02:05,655
+response,  and  what  changed
+
+68
+00:02:05,655 --> 00:02:06,974
+afterward.
+
+69
+00:02:06,974 --> 00:02:08,534
+Visuals  can  support  the  story,
+
+70
+00:02:08,534 --> 00:02:10,335
+too.  A  before  and  after
+
+71
+00:02:10,335 --> 00:02:13,175
+comparison,  a  short  timeline,  one
+
+72
+00:02:13,175 --> 00:02:15,614
+meaningful  photo,  or  a  few  numbers
+
+73
+00:02:15,614 --> 00:02:17,014
+may  communicate  more  than  a
+
+74
+00:02:17,014 --> 00:02:19,735
+crowded  slide.  Use  visuals  to  make
+
+75
+00:02:19,735 --> 00:02:22,055
+the  message  easier  to  understand.
+
+76
+00:02:22,055 --> 00:02:23,934
+Not to  decorate  it.
+
+77
+00:02:23,934 --> 00:02:26,015
+If  a  visual  adds  noise,  it  is
+
+78
+00:02:26,015 --> 00:02:28,535
+probably  unnecessary.  The  message
+
+79
+00:02:28,535 --> 00:02:30,015
+should  always  remain  the  main
+
+80
+00:02:30,015 --> 00:02:30,873
+focus.
+
+81
+00:02:30,873 --> 00:02:33,512
+When  speaking,  clarity  matters  more
+
+82
+00:02:33,512 --> 00:02:34,913
+than  performance.
+
+83
+00:02:34,913 --> 00:02:37,073
+Use  a  natural  posture,  clear
+
+84
+00:02:37,073 --> 00:02:39,153
+gestures  and  facial  expressions
+
+85
+00:02:39,153 --> 00:02:41,073
+that  fit  what  you  are  saying.
+
+86
+00:02:41,073 --> 00:02:42,592
+Vary  your  tone  enough  that  the
+
+87
+00:02:42,592 --> 00:02:44,833
+explanation  does  not  become  flat
+
+88
+00:02:44,833 --> 00:02:46,592
+and  try  to  reduce  distracting
+
+89
+00:02:46,592 --> 00:02:48,193
+filler  words.
+
+90
+00:02:48,193 --> 00:02:50,033
+A  strong  opening  helps  people
+
+91
+00:02:50,033 --> 00:02:52,232
+understand  why  they  should  listen
+
+92
+00:02:52,232 --> 00:02:53,753
+and  a  strong  ending  helps  them
+
+93
+00:02:53,753 --> 00:02:55,953
+remember  what  mattered  most.
+
+94
+00:02:55,953 --> 00:02:58,392
+In  between,  repeat  only  the  ideas
+
+95
+00:02:58,392 --> 00:03:00,912
+that  genuinely  deserve  emphasis.
+
+96
+00:03:00,912 --> 00:03:02,193
+The  goal  is  not  constant
+
+97
+00:03:02,193 --> 00:03:04,272
+entertainment.  It  is  clear,
+
+98
+00:03:04,272 --> 00:03:06,353
+memorable  communication.
+
+99
+00:03:06,353 --> 00:03:08,393
+Simple  delivery  can  still  be  very
+
+100
+00:03:08,393 --> 00:03:09,289
+effective.
+
+101
+00:03:09,289 --> 00:03:12,609
+Try  a  short  individual  exercise.
+
+102
+00:03:12,609 --> 00:03:14,449
+Imagine  you  have  only  five
+
+103
+00:03:14,449 --> 00:03:16,449
+sentences  to  explain  a  small
+
+104
+00:03:16,449 --> 00:03:17,729
+initiative.
+
+105
+00:03:17,729 --> 00:03:19,289
+Sentence  one,  what  was  the
+
+106
+00:03:19,289 --> 00:03:22,209
+problem?  Sentence  two,  what  need
+
+107
+00:03:22,209 --> 00:03:24,729
+did  you  identify?  Sentence  three,
+
+108
+00:03:24,729 --> 00:03:27,049
+what  response  was  used?  Sentence
+
+109
+00:03:27,049 --> 00:03:30,249
+four,  what  happened?  Sentence  five,
+
+110
+00:03:30,249 --> 00:03:31,689
+what  was  learned?
+
+111
+00:03:31,689 --> 00:03:33,849
+If  those  five  sentences  are  clear,
+
+112
+00:03:33,849 --> 00:03:35,689
+you  already  have  the  core  of  a
+
+113
+00:03:35,689 --> 00:03:38,209
+strong  explanation.  Everything  else
+
+114
+00:03:38,209 --> 00:03:40,249
+should  support  that
+
+115
+00:03:40,249 --> 00:03:41,848
+This  is  a  useful  test  because  it
+
+116
+00:03:41,848 --> 00:03:43,609
+forces  you  to  separate  the  most
+
+117
+00:03:43,609 --> 00:03:45,368
+important  information  from  the
+
+118
+00:03:45,368 --> 00:03:47,289
+details  that  can  be  left  out.  It
+
+119
+00:03:47,289 --> 00:03:49,049
+also  shows  whether  the  main  idea
+
+120
+00:03:49,049 --> 00:03:50,414
+is  truly  clear.
+
+121
+00:03:50,414 --> 00:03:52,694
+Before  we  close,  let's  look  back
+
+122
+00:03:52,694 --> 00:03:54,894
+at  the  whole  journey  of  act.  It
+
+123
+00:03:54,894 --> 00:03:56,894
+started  with  you.  In  the  first
+
+124
+00:03:56,894 --> 00:03:59,454
+unit,  the  focus  was  self-awareness,
+
+125
+00:03:59,454 --> 00:04:01,214
+understanding  your  identity,  your
+
+126
+00:04:01,214 --> 00:04:03,053
+strengths,  your  habits,  and  the
+
+127
+00:04:03,053 --> 00:04:04,694
+way  you  naturally  respond  to
+
+128
+00:04:04,694 --> 00:04:06,854
+different  situations.
+
+129
+00:04:06,854 --> 00:04:09,174
+Then,  the  focus  moved  outward.  You
+
+130
+00:04:09,174 --> 00:04:10,773
+looked  at  the  people  around  you,
+
+131
+00:04:10,773 --> 00:04:12,054
+the  roles  you  have,  the
+
+132
+00:04:12,054 --> 00:04:13,773
+responsibilities  connected  to  those
+
+133
+00:04:13,773 --> 00:04:15,494
+roles,  and  the  communities  you  are
+
+134
+00:04:15,494 --> 00:04:16,693
+part  of.
+
+135
+00:04:16,693 --> 00:04:17,814
+The  goal  was  to  see  that
+
+136
+00:04:17,814 --> 00:04:19,693
+understanding  yourself  is  only  the
+
+137
+00:04:19,693 --> 00:04:21,853
+beginning.  Awareness  becomes  more
+
+138
+00:04:21,853 --> 00:04:23,054
+useful  when  it  helps  you
+
+139
+00:04:23,054 --> 00:04:24,614
+understand  other  people  and  the
+
+140
+00:04:24,614 --> 00:04:26,164
+environment  around  you.
+
+141
+00:04:26,164 --> 00:04:28,604
+From  there,  act  moved  into  social
+
+142
+00:04:28,604 --> 00:04:30,564
+issues.  You  learn  to  choose  a
+
+143
+00:04:30,564 --> 00:04:33,003
+real  problem.  Define  it  clearly,
+
+144
+00:04:33,003 --> 00:04:35,084
+identify  who  is  affected  and  look
+
+145
+00:04:35,084 --> 00:04:37,044
+for  useful  information  instead  of
+
+146
+00:04:37,044 --> 00:04:39,084
+jumping  straight  to  a  solution.
+
+147
+00:04:39,084 --> 00:04:40,883
+Then  you  separated  the  problem
+
+148
+00:04:40,883 --> 00:04:43,084
+from  the  actual  need,  generated
+
+149
+00:04:43,084 --> 00:04:44,884
+different  ideas,  compared  those
+
+150
+00:04:44,884 --> 00:04:46,924
+ideas  and  chose  the  one  that  fit
+
+151
+00:04:46,924 --> 00:04:48,084
+best.
+
+152
+00:04:48,084 --> 00:04:49,283
+You  also  learned  how  to  make  a
+
+153
+00:04:49,283 --> 00:04:51,324
+solution  smart,  so  it  becomes
+
+154
+00:04:51,324 --> 00:04:53,924
+specific,  measurable,  attainable,
+
+155
+00:04:53,924 --> 00:04:55,884
+relevant,  and  timely.
+
+156
+00:04:55,884 --> 00:04:58,004
+The  important  lesson  was  simple.
+
+157
+00:04:58,004 --> 00:05:00,004
+Better  solutions  usually  begin  with
+
+158
+00:05:00,004 --> 00:05:02,164
+better  understanding,  not  faster
+
+159
+00:05:02,164 --> 00:05:02,997
+action.
+
+160
+00:05:02,997 --> 00:05:04,956
+In  the  final  unit,  the  question
+
+161
+00:05:04,956 --> 00:05:07,197
+became  how  could  a  good  solution
+
+162
+00:05:07,197 --> 00:05:09,437
+become  practical?  You  learn  to
+
+163
+00:05:09,437 --> 00:05:11,197
+break  a  project  into  manageable
+
+164
+00:05:11,197 --> 00:05:14,037
+tasks,  think  about  resources,  cost,
+
+165
+00:05:14,037 --> 00:05:16,676
+responsibility,  time  and  place,
+
+166
+00:05:16,676 --> 00:05:18,596
+then  review  the  plan  instead  of
+
+167
+00:05:18,596 --> 00:05:19,957
+assuming  the  first  version  is
+
+168
+00:05:19,957 --> 00:05:21,157
+perfect.
+
+169
+00:05:21,157 --> 00:05:23,077
+You  also  saw  how  experience  can
+
+170
+00:05:23,077 --> 00:05:25,317
+improve  planning,  how  execution  may
+
+171
+00:05:25,317 --> 00:05:27,196
+require  adaptation,  why
+
+172
+00:05:27,196 --> 00:05:29,196
+documentation  matters,  and  how
+
+173
+00:05:29,196 --> 00:05:31,196
+reflection  turns  activity  into
+
+174
+00:05:31,196 --> 00:05:32,436
+learning.
+
+175
+00:05:32,436 --> 00:05:33,877
+Finally,  You  learned  how  to
+
+176
+00:05:33,877 --> 00:05:36,517
+explain  the  experience  clearly.
+
+177
+00:05:36,517 --> 00:05:38,637
+Put  together,  the  full  path  is
+
+178
+00:05:38,637 --> 00:05:41,076
+understand,  identify  the  need,
+
+179
+00:05:41,076 --> 00:05:45,757
+choose,  plan,  act,  adapt,  document,
+
+180
+00:05:45,757 --> 00:05:46,622
+and  learn.
+
+181
+00:05:46,622 --> 00:05:49,182
+And  that  brings  us  to  the  end  of
+
+182
+00:05:49,182 --> 00:05:50,341
+act.
+
+183
+00:05:50,341 --> 00:05:52,622
+You  do  not  need  to  remember  every
+
+184
+00:05:52,622 --> 00:05:55,662
+example,  every  diagram  or  every
+
+185
+00:05:55,662 --> 00:05:57,742
+phrase  from  the  course.
+
+186
+00:05:57,742 --> 00:05:59,662
+Keep  the  way  of  thinking  with
+
+187
+00:05:59,662 --> 00:06:00,662
+you.
+
+188
+00:06:00,662 --> 00:06:03,661
+Understand  before  you  decide.
+
+189
+00:06:03,661 --> 00:06:06,262
+Listen  before  you  assume.
+
+190
+00:06:06,262 --> 00:06:07,942
+Choose  carefully,
+
+191
+00:06:07,942 --> 00:06:09,862
+plan  clearly,
+
+192
+00:06:09,862 --> 00:06:12,782
+stay  flexible  when  reality  changes
+
+193
+00:06:12,782 --> 00:06:15,661
+and  learn  from  what  happens.
+
+194
+00:06:15,661 --> 00:06:17,061
+Thank  you  for  spend ending  this
+
+195
+00:06:17,061 --> 00:06:18,662
+journey  with  us.
+
+196
+00:06:18,662 --> 00:06:20,181
+From  all  of  us  at  Nama
+
+197
+00:06:20,181 --> 00:06:22,822
+Foundation,  we  hope  act  leaves  you
+
+198
+00:06:22,822 --> 00:06:24,662
+with  ideas  you  can  use  in  your
+
+199
+00:06:24,662 --> 00:06:27,822
+studies,  your  work,  your  community,
+
+200
+00:06:27,822 --> 00:06:29,462
+and  the  choices  you  make  every
+
+201
+00:06:29,462 --> 00:06:30,822
+day.
+
+202
+00:06:30,822 --> 00:06:33,542
+Take  care,  keep  learning,  and  we
+
+203
+00:06:33,542 --> 00:06:35,038
+hope  to  see  you  again.
+

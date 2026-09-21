@@ -1,0 +1,816 @@
+{
+  "lessonId": "lesson-19",
+  "title": "Communicate the Experience and Complete the ACT Journey",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "avatarVideoSrc": "avatar/lesson-19-master.mp4",
+  "sourceCutSeconds": [
+    36.666667,
+    75.366667,
+    112.399989,
+    150.866656,
+    189.266656,
+    227.199989,
+    230.399989,
+    273.099989,
+    302.999989,
+    329.433322
+  ],
+  "scenes": [
+    {
+      "sceneId": "beat-001",
+      "start": {
+        "atSeconds": 0
+      },
+      "end": {
+        "atSeconds": 2.742
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-002",
+      "start": {
+        "atSeconds": 2.742
+      },
+      "end": {
+        "atSeconds": 16.96
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-2",
+          "anchor": {
+            "atPhrase": "When an initiative is finished"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Lessons 19–20",
+            "headline": "Communicate the experience",
+            "variant": "bar",
+            "emphasize": [
+              "Communicate",
+              "experience"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-003",
+      "start": {
+        "atSeconds": 16.96
+      },
+      "end": {
+        "atSeconds": 36.946
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-3",
+          "anchor": {
+            "atPhrase": "Good communication is not about"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "A useful explanation",
+            "title": "A simple story with a clear message",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/story-arc.svg",
+                "label": "Problem, response, lesson"
+              },
+              {
+                "src": "lesson-assets/lesson-19/message-filter.svg",
+                "label": "Details become a clear message"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-004",
+      "start": {
+        "atSeconds": 36.946
+      },
+      "end": {
+        "atSeconds": 56.626
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-4",
+          "anchor": {
+            "atPhrase": "A simple structure makes"
+          },
+          "action": "show",
+          "component": "ScenarioSequence",
+          "animation": "diagram-build",
+          "position": "full",
+          "props": {
+            "eyebrow": "The story structure",
+            "items": [
+              {
+                "n": 1,
+                "text": "Problem"
+              },
+              {
+                "n": 2,
+                "text": "Need"
+              },
+              {
+                "n": 3,
+                "text": "Response"
+              },
+              {
+                "n": 4,
+                "text": "Result"
+              },
+              {
+                "n": 5,
+                "text": "Lesson"
+              }
+            ],
+            "revealAtSeconds": [
+              39.194,
+              43.258,
+              46.65,
+              52.185,
+              54.346
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-005",
+      "start": {
+        "atSeconds": 56.626
+      },
+      "end": {
+        "atSeconds": 71.225
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-5",
+          "anchor": {
+            "atPhrase": "This creates a clear path"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Clear structure",
+            "headline": "A path, not disconnected details",
+            "variant": "bar",
+            "emphasize": [
+              "path",
+              "details"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-006",
+      "start": {
+        "atSeconds": 71.225
+      },
+      "end": {
+        "atSeconds": 75.614
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-007",
+      "start": {
+        "atSeconds": 75.614
+      },
+      "end": {
+        "atSeconds": 112.655
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-7",
+          "anchor": {
+            "atPhrase": "There are different ways"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Choose for clarity",
+            "title": "The format serves the message",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/format-map.svg",
+                "label": "Six possible formats"
+              },
+              {
+                "src": "lesson-assets/lesson-19/clarity-scale.svg",
+                "label": "Clarity guides the choice"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-008",
+      "start": {
+        "atSeconds": 112.655
+      },
+      "end": {
+        "atSeconds": 147.275
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-8",
+          "anchor": {
+            "atPhrase": "Storytelling can be useful"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Story and evidence",
+            "title": "Visuals clarify what changed",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/before-after.svg",
+                "label": "Before and after"
+              },
+              {
+                "src": "lesson-assets/lesson-19/evidence-timeline.svg",
+                "label": "Evidence in sequence"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-009",
+      "start": {
+        "atSeconds": 147.275
+      },
+      "end": {
+        "atSeconds": 150.873
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-010",
+      "start": {
+        "atSeconds": 150.873
+      },
+      "end": {
+        "atSeconds": 168.193
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-10",
+          "anchor": {
+            "atPhrase": "When speaking clarity matters"
+          },
+          "action": "show",
+          "component": "ChecklistSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Clear delivery",
+            "title": "What supports the message",
+            "items": [
+              "Natural posture",
+              "Clear gestures",
+              "Fitting facial expression",
+              "Varied tone",
+              "Fewer filler words"
+            ],
+            "revealAtSeconds": [
+              155.777,
+              156.641,
+              158.113,
+              161.073,
+              165.888
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-011",
+      "start": {
+        "atSeconds": 168.193
+      },
+      "end": {
+        "atSeconds": 189.289
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-11",
+          "anchor": {
+            "atPhrase": "A strong opening helps"
+          },
+          "action": "show",
+          "component": "ScenarioSequence",
+          "animation": "diagram-build",
+          "position": "full",
+          "props": {
+            "eyebrow": "A memorable explanation",
+            "items": [
+              {
+                "n": 1,
+                "text": "Opening: why listen?"
+              },
+              {
+                "n": 2,
+                "text": "Middle: what matters?"
+              },
+              {
+                "n": 3,
+                "text": "Ending: what stays?"
+              }
+            ],
+            "revealAtSeconds": [
+              168.561,
+              175.953,
+              172.739
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-012",
+      "start": {
+        "atSeconds": 189.289
+      },
+      "end": {
+        "atSeconds": 197.729
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-12",
+          "anchor": {
+            "atPhrase": "Try a short individual exercise"
+          },
+          "action": "show",
+          "component": "ActivitySlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Five-sentence test",
+            "title": "Explain a small initiative",
+            "steps": [
+              "Keep only the information another person needs.",
+              "Build the explanation in five sentences."
+            ],
+            "pauseNote": "Clarity comes from choosing what matters."
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-013",
+      "start": {
+        "atSeconds": 197.729
+      },
+      "end": {
+        "atSeconds": 227.015
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-13",
+          "anchor": {
+            "atPhrase": "Sentence one"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Five-sentence test",
+            "title": "Five sentences, one clear explanation",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/five-step-stair.svg",
+                "label": "Sentences 1–3"
+              },
+              {
+                "src": "lesson-assets/lesson-19/core-target.svg",
+                "label": "Sentences 4–5"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-014",
+      "start": {
+        "atSeconds": 227.015
+      },
+      "end": {
+        "atSeconds": 230.414
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-015",
+      "start": {
+        "atSeconds": 230.414
+      },
+      "end": {
+        "atSeconds": 256.693
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-15",
+          "anchor": {
+            "atPhrase": "Before we close"
+          },
+          "action": "show",
+          "component": "FourStepJourney",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "eyebrow": "The complete ACT journey",
+            "steps": [
+              {
+                "n": 1,
+                "title": "Self-awareness",
+                "question": "Understand yourself"
+              },
+              {
+                "n": 2,
+                "title": "Social awareness",
+                "question": "Understand people and roles"
+              },
+              {
+                "n": 3,
+                "title": "Social issues",
+                "question": "Understand the real need"
+              },
+              {
+                "n": 4,
+                "title": "Social initiatives",
+                "question": "Turn understanding into action"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-016",
+      "start": {
+        "atSeconds": 256.693
+      },
+      "end": {
+        "atSeconds": 266.164
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-16",
+          "anchor": {
+            "atPhrase": "The goal was to see"
+          },
+          "action": "show",
+          "component": "StatementSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Awareness grows outward",
+            "headline": "Self-awareness is the beginning",
+            "variant": "bar",
+            "emphasize": [
+              "Self-awareness",
+              "beginning"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-017",
+      "start": {
+        "atSeconds": 266.164
+      },
+      "end": {
+        "atSeconds": 300.004
+      },
+      "avatar": {
+        "layout": "PresenterRight",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-17",
+          "anchor": {
+            "atPhrase": "From there Act moved"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "From issue to solution",
+            "title": "Understanding shapes a SMART response",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/problem-funnel.svg",
+                "label": "Find the actual need"
+              },
+              {
+                "src": "lesson-assets/lesson-19/smart-wheel.svg",
+                "label": "Make the solution SMART"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-018",
+      "start": {
+        "atSeconds": 300.004
+      },
+      "end": {
+        "atSeconds": 302.997
+      },
+      "avatar": {
+        "layout": "PresenterFull",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "crossfade",
+      "events": []
+    },
+    {
+      "sceneId": "beat-019",
+      "start": {
+        "atSeconds": 302.997
+      },
+      "end": {
+        "atSeconds": 336.517
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-19",
+          "anchor": {
+            "atPhrase": "In the final unit"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Making ideas practical",
+            "title": "A plan becomes stronger through experience",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/planning-matrix.svg",
+                "label": "The planning matrix"
+              },
+              {
+                "src": "lesson-assets/lesson-19/action-cycle.svg",
+                "label": "Plan, act, adapt, learn"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-020",
+      "start": {
+        "atSeconds": 336.517
+      },
+      "end": {
+        "atSeconds": 346.622
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "events": [
+        {
+          "id": "graphic-20",
+          "anchor": {
+            "atPhrase": "Put together the full path"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "The complete ACT path",
+            "title": "Eight connected stages",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/journey-roadmap.svg",
+                "label": "The full roadmap"
+              },
+              {
+                "src": "lesson-assets/lesson-19/unit-stack.svg",
+                "label": "Four units, one journey"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-021",
+      "start": {
+        "atSeconds": 346.622
+      },
+      "end": {
+        "atSeconds": 375.661
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-right",
+      "events": [
+        {
+          "id": "graphic-21",
+          "anchor": {
+            "atPhrase": "And that brings us"
+          },
+          "action": "show",
+          "component": "PhotoGridSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "Beyond the course",
+            "title": "Keep the way of thinking",
+            "images": [
+              {
+                "src": "lesson-assets/lesson-19/thinking-compass.svg",
+                "label": "Understand, listen, plan, adapt"
+              },
+              {
+                "src": "lesson-assets/lesson-19/course-map.svg",
+                "label": "Carry the journey forward"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "beat-022",
+      "start": {
+        "atSeconds": 375.661
+      },
+      "end": {
+        "atSeconds": 395.087528
+      },
+      "avatar": {
+        "layout": "PresenterLeft",
+        "camera": "wide",
+        "mirror": false
+      },
+      "transitionIn": "soft-push-left",
+      "transitionOut": "crossfade",
+      "events": [
+        {
+          "id": "graphic-22",
+          "anchor": {
+            "atPhrase": "Thank you for spend"
+          },
+          "action": "show",
+          "component": "OutroSlide",
+          "animation": "fade-rise",
+          "position": "full",
+          "props": {
+            "kicker": "The ACT journey",
+            "title": "Thank you for learning with us",
+            "points": [
+              "Use these ideas in your studies and work.",
+              "Use them in your community and daily choices."
+            ],
+            "next": "Keep learning"
+          }
+        }
+      ]
+    }
+  ]
+}
