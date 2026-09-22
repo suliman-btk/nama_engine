@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000"><rect width="800" height="1000" rx="36" fill="#1B1E4A"/><style>text{font-family:Arial,sans-serif} .h{font-weight:800;fill:#FAF7EE} .b{fill:#D8D3C7} .g{fill:#E4C862} .line{stroke:#CFAD3A;stroke-width:8;fill:none;stroke-linecap:round;stroke-linejoin:round}</style><text class="g" x="70" y="90" font-size="28" font-weight="700">THE CHOICE</text><path d="M400 220 V760 M170 360 H630" class="line"/><path d="M170 360 L90 610 H250 Z M630 360 L550 610 H710 Z" fill="#2B2F72" stroke="#CFAD3A" stroke-width="7"/><text class="h" x="170" y="500" font-size="31" text-anchor="middle">Impressive</text><text class="h" x="630" y="500" font-size="31" text-anchor="middle">Clear</text><circle cx="400" cy="785" r="75" fill="#CFAD3A"/><text x="400" y="800" font-size="32" font-weight="800" text-anchor="middle" fill="#1B1E4A">MESSAGE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="800" viewBox="0 0 1040 800"><rect width="1040" height="800" rx="44" fill="#1B1E4A"/><style>text{font-family:Arial,Helvetica,sans-serif} .title{fill:#E4C862;font-weight:800;letter-spacing:1px} .h{fill:#FAF7EE;font-weight:800} .b{fill:#FAF7EE}</style><text class="title" x="60" y="72" font-size="30">THE CHOICE</text>
+<line x1="520" y1="190" x2="520" y2="330" stroke="#CFAD3A" stroke-width="10" stroke-linecap="round"/>
+<line x1="300" y1="330" x2="740" y2="330" stroke="#CFAD3A" stroke-width="10" stroke-linecap="round"/>
+<circle cx="520" cy="190" r="10" fill="#E4C862"/>
+<path d="M 210 460 Q 300 360 390 460" fill="none" stroke="#CFAD3A" stroke-width="8" stroke-linecap="round"/>
+<line x1="300" y1="330" x2="300" y2="370" stroke="#CFAD3A" stroke-width="6"/>
+<path d="M 650 460 Q 740 360 830 460" fill="none" stroke="#CFAD3A" stroke-width="8" stroke-linecap="round"/>
+<line x1="740" y1="330" x2="740" y2="370" stroke="#CFAD3A" stroke-width="6"/>
+<circle cx="520" cy="480" r="70" fill="#E4C862"/>
+<text x="520" y="488" text-anchor="middle" font-size="26" font-weight="800" fill="#1B1E4A">MESSAGE</text>
+<text x="300" y="518" text-anchor="middle" class="h" font-size="34">Impressive</text>
+<text x="740" y="518" text-anchor="middle" class="h" font-size="34" fill="#E4C862">Clear</text>
+</svg>
