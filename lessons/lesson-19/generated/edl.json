@@ -6,16 +6,16 @@
   "height": 1080,
   "avatarVideoSrc": "avatar/lesson-19-master.mp4",
   "sourceCutSeconds": [
-    36.666667,
-    75.366667,
-    112.399989,
-    150.866656,
-    189.266656,
-    227.199989,
-    230.399989,
-    273.099989,
-    302.999989,
-    329.433322
+    37.375667,
+    76.075667,
+    113.108989,
+    151.575656,
+    189.975656,
+    227.908989,
+    231.108989,
+    273.808989,
+    303.708989,
+    330.142322
   ],
   "scenes": [
     {
@@ -24,7 +24,7 @@
         "atSeconds": 0
       },
       "end": {
-        "atSeconds": 2.742
+        "atSeconds": 3.451
       },
       "avatar": {
         "layout": "PresenterFull",
@@ -37,10 +37,10 @@
     {
       "sceneId": "beat-002",
       "start": {
-        "atSeconds": 2.742
+        "atSeconds": 3.451
       },
       "end": {
-        "atSeconds": 16.96
+        "atSeconds": 17.669
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -59,7 +59,7 @@
           "animation": "fade-rise",
           "position": "full",
           "props": {
-            "kicker": "Lessons 19\u201320",
+            "kicker": "Lessons 19–20",
             "headline": "Communicate the experience",
             "variant": "bar",
             "emphasize": [
@@ -73,10 +73,10 @@
     {
       "sceneId": "beat-003",
       "start": {
-        "atSeconds": 16.96
+        "atSeconds": 17.669
       },
       "end": {
-        "atSeconds": 36.946
+        "atSeconds": 37.655
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -114,10 +114,10 @@
     {
       "sceneId": "beat-004",
       "start": {
-        "atSeconds": 36.946
+        "atSeconds": 37.655
       },
       "end": {
-        "atSeconds": 56.626
+        "atSeconds": 57.335
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -160,11 +160,11 @@
               }
             ],
             "revealAtSeconds": [
-              39.194,
-              43.258,
-              46.65,
-              52.185,
-              54.346
+              39.903,
+              43.967,
+              47.359,
+              52.894,
+              55.055
             ]
           }
         }
@@ -173,10 +173,10 @@
     {
       "sceneId": "beat-005",
       "start": {
-        "atSeconds": 56.626
+        "atSeconds": 57.335
       },
       "end": {
-        "atSeconds": 71.225
+        "atSeconds": 71.934
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -209,10 +209,10 @@
     {
       "sceneId": "beat-006",
       "start": {
-        "atSeconds": 71.225
+        "atSeconds": 71.934
       },
       "end": {
-        "atSeconds": 75.614
+        "atSeconds": 76.323
       },
       "avatar": {
         "layout": "PresenterFull",
@@ -225,10 +225,10 @@
     {
       "sceneId": "beat-007",
       "start": {
-        "atSeconds": 75.614
+        "atSeconds": 76.323
       },
       "end": {
-        "atSeconds": 112.655
+        "atSeconds": 113.364
       },
       "avatar": {
         "layout": "PresenterRight",
@@ -266,10 +266,10 @@
     {
       "sceneId": "beat-008",
       "start": {
-        "atSeconds": 112.655
+        "atSeconds": 113.364
       },
       "end": {
-        "atSeconds": 147.275
+        "atSeconds": 147.984
       },
       "avatar": {
         "layout": "PresenterRight",
@@ -307,10 +307,10 @@
     {
       "sceneId": "beat-009",
       "start": {
-        "atSeconds": 147.275
+        "atSeconds": 147.984
       },
       "end": {
-        "atSeconds": 150.873
+        "atSeconds": 151.582
       },
       "avatar": {
         "layout": "PresenterFull",
@@ -323,10 +323,10 @@
     {
       "sceneId": "beat-010",
       "start": {
-        "atSeconds": 150.873
+        "atSeconds": 151.582
       },
       "end": {
-        "atSeconds": 168.193
+        "atSeconds": 168.902
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -355,11 +355,11 @@
               "Fewer filler words"
             ],
             "revealAtSeconds": [
-              155.777,
-              156.641,
-              158.113,
-              161.073,
-              165.888
+              156.486,
+              157.35,
+              158.822,
+              161.782,
+              166.597
             ]
           }
         }
@@ -368,10 +368,10 @@
     {
       "sceneId": "beat-011",
       "start": {
-        "atSeconds": 168.193
+        "atSeconds": 168.902
       },
       "end": {
-        "atSeconds": 189.289
+        "atSeconds": 189.998
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -406,9 +406,9 @@
               }
             ],
             "revealAtSeconds": [
-              168.561,
-              175.953,
-              172.739
+              169.27,
+              176.662,
+              173.448
             ]
           }
         }
@@ -417,10 +417,10 @@
     {
       "sceneId": "beat-012",
       "start": {
-        "atSeconds": 189.289
+        "atSeconds": 189.998
       },
       "end": {
-        "atSeconds": 197.729
+        "atSeconds": 198.438
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -453,10 +453,10 @@
     {
       "sceneId": "beat-013",
       "start": {
-        "atSeconds": 197.729
+        "atSeconds": 198.438
       },
       "end": {
-        "atSeconds": 227.015
+        "atSeconds": 227.724
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -480,11 +480,11 @@
             "images": [
               {
                 "src": "lesson-assets/lesson-19/five-step-stair.svg",
-                "label": "Sentences 1\u20133"
+                "label": "Sentences 1–3"
               },
               {
                 "src": "lesson-assets/lesson-19/core-target.svg",
-                "label": "Sentences 4\u20135"
+                "label": "Sentences 4–5"
               }
             ]
           }
@@ -494,10 +494,10 @@
     {
       "sceneId": "beat-014",
       "start": {
-        "atSeconds": 227.015
+        "atSeconds": 227.724
       },
       "end": {
-        "atSeconds": 230.414
+        "atSeconds": 231.123
       },
       "avatar": {
         "layout": "PresenterFull",
@@ -510,10 +510,10 @@
     {
       "sceneId": "beat-015",
       "start": {
-        "atSeconds": 230.414
+        "atSeconds": 231.123
       },
       "end": {
-        "atSeconds": 256.693
+        "atSeconds": 257.402
       },
       "avatar": {
         "layout": "PresenterRight",
@@ -562,10 +562,10 @@
     {
       "sceneId": "beat-016",
       "start": {
-        "atSeconds": 256.693
+        "atSeconds": 257.402
       },
       "end": {
-        "atSeconds": 266.164
+        "atSeconds": 266.873
       },
       "avatar": {
         "layout": "PresenterRight",
@@ -598,10 +598,10 @@
     {
       "sceneId": "beat-017",
       "start": {
-        "atSeconds": 266.164
+        "atSeconds": 266.873
       },
       "end": {
-        "atSeconds": 300.004
+        "atSeconds": 300.713
       },
       "avatar": {
         "layout": "PresenterRight",
@@ -639,10 +639,10 @@
     {
       "sceneId": "beat-018",
       "start": {
-        "atSeconds": 300.004
+        "atSeconds": 300.713
       },
       "end": {
-        "atSeconds": 302.997
+        "atSeconds": 303.706
       },
       "avatar": {
         "layout": "PresenterFull",
@@ -655,10 +655,10 @@
     {
       "sceneId": "beat-019",
       "start": {
-        "atSeconds": 302.997
+        "atSeconds": 303.706
       },
       "end": {
-        "atSeconds": 336.517
+        "atSeconds": 337.226
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -696,10 +696,10 @@
     {
       "sceneId": "beat-020",
       "start": {
-        "atSeconds": 336.517
+        "atSeconds": 337.226
       },
       "end": {
-        "atSeconds": 346.622
+        "atSeconds": 347.331
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -737,10 +737,10 @@
     {
       "sceneId": "beat-021",
       "start": {
-        "atSeconds": 346.622
+        "atSeconds": 347.331
       },
       "end": {
-        "atSeconds": 375.661
+        "atSeconds": 376.37
       },
       "avatar": {
         "layout": "PresenterLeft",
@@ -765,6 +765,10 @@
               {
                 "src": "lesson-assets/lesson-19/thinking-compass.svg",
                 "label": "Understand, listen, plan, adapt"
+              },
+              {
+                "src": "lesson-assets/lesson-19/course-map.svg",
+                "label": "Carry the journey forward"
               }
             ]
           }
@@ -774,10 +778,10 @@
     {
       "sceneId": "beat-022",
       "start": {
-        "atSeconds": 375.661
+        "atSeconds": 376.37
       },
       "end": {
-        "atSeconds": 395.087528
+        "atSeconds": 395.784127
       },
       "avatar": {
         "layout": "PresenterLeft",

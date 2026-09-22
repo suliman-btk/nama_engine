@@ -7,8 +7,8 @@ const input=path.resolve(here,'../input/source-subtitles.srt');
 const outDir=path.join(here,'word-timing');
 fs.mkdirSync(outDir,{recursive:true});
 
-const sceneStarts=[0,36.666667,75.366667,112.399989,150.866656,189.266656,227.199989,273.099989,302.999989,329.433322];
-const sourceCuts=[0,36.666667,75.366667,112.399989,150.866656,189.266656,227.199989,230.399989,273.099989,302.999989,329.433322];
+const sceneStarts=[0,37.375667,76.075667,113.108989,151.575656,189.975656,227.908989,273.808989,303.708989,330.142322];
+const sourceCuts=[0,37.375667,76.075667,113.108989,151.575656,189.975656,227.908989,231.108989,273.808989,303.708989,330.142322];
 const toSeconds=(stamp)=>{const [h,m,rest]=stamp.split(':');const [s,ms]=rest.split(',');return +h*3600 + +m*60 + +s + +ms/1000;};
 const blocks=fs.readFileSync(input,'utf8').trim().split(/\r?\n\r?\n/);
 const words=[];
@@ -22,7 +22,7 @@ for(const block of blocks){
 }
 
 sceneStarts.forEach((start,i)=>{
-  const end=sceneStarts[i+1]??395.087528;
+  const end=sceneStarts[i+1]??395.784127;
   const rows=words.filter(w=>w.t0>=start&&w.t0<end).map(w=>({t:+(w.t0-start).toFixed(3),d:+Math.max(.001,w.t1-w.t0).toFixed(3),w:w.w}));
   fs.writeFileSync(path.join(outDir,`scene-${String(i+1).padStart(3,'0')}.json`),JSON.stringify(rows,null,2));
 });
