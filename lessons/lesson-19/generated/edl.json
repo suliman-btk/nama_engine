@@ -59,7 +59,7 @@
           "animation": "fade-rise",
           "position": "full",
           "props": {
-            "kicker": "Lessons 19–20",
+            "kicker": "Lessons 19\u201320",
             "headline": "Communicate the experience",
             "variant": "bar",
             "emphasize": [
@@ -480,11 +480,11 @@
             "images": [
               {
                 "src": "lesson-assets/lesson-19/five-step-stair.svg",
-                "label": "Sentences 1–3"
+                "label": "Sentences 1\u20133"
               },
               {
                 "src": "lesson-assets/lesson-19/core-target.svg",
-                "label": "Sentences 4–5"
+                "label": "Sentences 4\u20135"
               }
             ]
           }
@@ -765,10 +765,6 @@
               {
                 "src": "lesson-assets/lesson-19/thinking-compass.svg",
                 "label": "Understand, listen, plan, adapt"
-              },
-              {
-                "src": "lesson-assets/lesson-19/course-map.svg",
-                "label": "Carry the journey forward"
               }
             ]
           }
