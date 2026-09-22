@@ -34,7 +34,7 @@ export function PhotoGridSlide({
           <div style={{ ...fadeUp(local, 0, 12), color: theme.colors.cream, fontFamily: theme.headingFamily, fontWeight: theme.headingWeight, fontSize: 38, lineHeight: 1.1, marginBottom: 60, paddingRight: 230 }}>
             {title}
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, height: 650 }}>
+          <div style={{ display: "grid", gridTemplateColumns: images.length === 1 ? "1fr" : "1fr 1fr", gap: 16, height: 650 }}>
             {images.slice(0, 4).map((image, index) => {
               const arrive = fadeUp(local, 8 + index * 7, 12);
               // Diagram SVGs are exact, precise content (labels, numbers, drawn edges) with
