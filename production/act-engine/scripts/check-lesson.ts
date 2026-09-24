@@ -25,10 +25,23 @@ const LESSON = (process.argv[2] ?? "08").padStart(2, "0");
 const BUILT = path.join(__dirname, "..", "src");
 const SRC = path.join(__dirname, "..", "..", "src");
 
+/* ---------- load course config for grammar rules ---------- */
+const CONFIG_PATH = path.join(__dirname, "..", "..", "..", "..", "course-config.json");
+let courseGrammar = { minTurnSeconds: 2.0, fullBleedTarget: 0.45, requireFullBleedBetweenSides: true };
+try {
+  const raw = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"));
+  if (raw.presenterGrammar) {
+    courseGrammar = { ...courseGrammar, ...raw.presenterGrammar };
+  }
+  console.log(`  config  loaded course config (${raw.courseId ?? "unknown"})`);
+} catch {
+  console.log("  config  no course-config.json found, using ACT defaults");
+}
+
 const FULL_BLEED = ["PresenterFull", "PresenterMedium", "PresenterClose"];
 const SPLIT = ["PresenterLeft", "PresenterRight"];
 /** A full-bleed beat shorter than this cannot read: the layout spring alone is 0.85s each way. */
-const MIN_TURN_SECONDS = 2.0;
+const MIN_TURN_SECONDS = courseGrammar.minTurnSeconds;
 
 let errors = 0;
 let warnings = 0;
@@ -121,18 +134,22 @@ for (let i = 1; i < wins.length; i++)
 if (!overlaps) ok("no two slides are ever on screen together");
 
 // ------------------------- 5. the presenter must never slide across the frame to change sides
-const sideOf = (l: string) => (l === "PresenterRight" ? "right" : l === "PresenterLeft" ? "left" : "full");
-let lastSide = "", lastIdx = -1, directs = 0;
-sc.forEach((s, i) => {
-  const side = sideOf(s.layout);
-  if (side === "full") return;
-  if (lastSide && side !== lastSide && i === lastIdx + 1) {
-    fail(`${sc[lastIdx].id} -> ${s.id}: side change with no full-bleed beat between them; the panel will slide across the frame`);
-    directs++;
-  }
-  lastSide = side; lastIdx = i;
-});
-if (!directs) ok("every side change routes through a full-bleed beat");
+if (courseGrammar.requireFullBleedBetweenSides) {
+  const sideOf = (l: string) => (l === "PresenterRight" ? "right" : l === "PresenterLeft" ? "left" : "full");
+  let lastSide = "", lastIdx = -1, directs = 0;
+  sc.forEach((s, i) => {
+    const side = sideOf(s.layout);
+    if (side === "full") return;
+    if (lastSide && side !== lastSide && i === lastIdx + 1) {
+      fail(`${sc[lastIdx].id} -> ${s.id}: side change with no full-bleed beat between them; the panel will slide across the frame`);
+      directs++;
+    }
+    lastSide = side; lastIdx = i;
+  });
+  if (!directs) ok("every side change routes through a full-bleed beat");
+} else {
+  ok("side-change rule skipped (requireFullBleedBetweenSides = false)");
+}
 
 // --------------------------- 6. every component used must paint its own background
 const used = new Set<string>();

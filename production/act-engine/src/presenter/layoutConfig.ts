@@ -54,106 +54,120 @@ const fullBleed = {
   featherRight: 0,
 };
 
-export const LAYOUTS: Record<PresenterLayout, LayoutBox> = {
-  // --- full-bleed family: the default state of the video, and where it spends most of its time
-  PresenterFull: { ...fullBleed, objectScale: 1 },
-  PresenterMedium: { ...fullBleed, objectScale: 1.14, objectPosY: 42 },
-  PresenterClose: { ...fullBleed, objectScale: 1.4, objectPosY: 34 },
+/**
+ * Build the layout table from a configurable split width. Different courses
+ * can use different split ratios (ACT = 40%, PRIME might use 45%, etc.)
+ * without editing engine code.
+ */
+export function buildLayouts(splitWidthPct = 40): Record<PresenterLayout, LayoutBox> {
+  return {
+    // --- full-bleed family: the default state of the video, and where it spends most of its time
+    PresenterFull: { ...fullBleed, objectScale: 1 },
+    PresenterMedium: { ...fullBleed, objectScale: 1.14, objectPosY: 42 },
+    PresenterClose: { ...fullBleed, objectScale: 1.4, objectPosY: 34 },
 
-  // --- split family: video fills its half edge-to-edge, content panel takes the other half
-  // ~30% of frame, full height. Client asked for the speaker smaller than the half-frame
-  // split but still a real presence (the old corner box was 28%x43% = 12% of screen; this is
-  // 32%x100% = 32%). objectScale sits at 1.0: the box is TALLER than the source aspect, so
-  // "cover" already fills the height, and any extra zoom only crops him tighter.
-  PresenterLeft: {
-    ...fullBleed,
-    wPct: 40,
-    objectScale: 1.0,
-    objectPosY: 46,
-    stageIntensity: 1,
-    fullBleed: false,
-    // No feather. The soft gradient edge read as a blur rather than a deliberate split; the
-    // client asked for a sharp border, so the video ends on a clean vertical line.
-    featherRight: 0,
-  },
-  PresenterRight: {
-    ...fullBleed,
-    xPct: 60,
-    wPct: 40,
-    objectScale: 1.0,
-    objectPosY: 46,
-    stageIntensity: 1,
-    fullBleed: false,
-    featherLeft: 0,
-  },
+    // --- split family: video fills its half edge-to-edge, content panel takes the other half
+    // objectScale sits at 1.0: the box is TALLER than the source aspect, so "cover" already
+    // fills the height, and any extra zoom only crops him tighter.
+    PresenterLeft: {
+      ...fullBleed,
+      wPct: splitWidthPct,
+      objectScale: 1.0,
+      objectPosY: 46,
+      stageIntensity: 1,
+      fullBleed: false,
+      // No feather. The soft gradient edge read as a blur rather than a deliberate split; the
+      // client asked for a sharp border, so the video ends on a clean vertical line.
+      featherRight: 0,
+    },
+    PresenterRight: {
+      ...fullBleed,
+      xPct: 100 - splitWidthPct,
+      wPct: splitWidthPct,
+      objectScale: 1.0,
+      objectPosY: 46,
+      stageIntensity: 1,
+      fullBleed: false,
+      featherLeft: 0,
+    },
 
-  // --- corner family: only legal with a graphic on screen
-  PresenterCornerLeft: {
-    xPct: 5,
-    yPct: 18,
-    wPct: 30,
-    hPct: 64,
-    objectScale: 1.15,
-    objectPosY: 38,
-    hidden: false,
-    radiusPx: 20,
-    shadow: true,
-    stageIntensity: 1,
-    fullBleed: false,
-    featherLeft: 0,
-    featherRight: 0,
-  },
-  PresenterCornerRight: {
-    xPct: 65,
-    yPct: 18,
-    wPct: 30,
-    hPct: 64,
-    objectScale: 1.15,
-    objectPosY: 38,
-    hidden: false,
-    radiusPx: 20,
-    shadow: true,
-    stageIntensity: 1,
-    fullBleed: false,
-    featherLeft: 0,
-    featherRight: 0,
-  },
-  PresenterPictureInPicture: {
-    xPct: 74,
-    yPct: 64,
-    wPct: 21,
-    hPct: 31,
-    objectScale: 1.12,
-    objectPosY: 36,
-    hidden: false,
-    radiusPx: 16,
-    shadow: true,
-    stageIntensity: 1,
-    fullBleed: false,
-    featherLeft: 0,
-    featherRight: 0,
-  },
-  WorksheetFocus: {
-    xPct: 4.5,
-    yPct: 58,
-    wPct: 23,
-    hPct: 36,
-    objectScale: 1.12,
-    objectPosY: 36,
-    hidden: false,
-    radiusPx: 18,
-    shadow: true,
-    stageIntensity: 1,
-    fullBleed: false,
-    featherLeft: 0,
-    featherRight: 0,
-  },
+    // --- corner family: only legal with a graphic on screen
+    PresenterCornerLeft: {
+      xPct: 5,
+      yPct: 18,
+      wPct: 30,
+      hPct: 64,
+      objectScale: 1.15,
+      objectPosY: 38,
+      hidden: false,
+      radiusPx: 20,
+      shadow: true,
+      stageIntensity: 1,
+      fullBleed: false,
+      featherLeft: 0,
+      featherRight: 0,
+    },
+    PresenterCornerRight: {
+      xPct: 65,
+      yPct: 18,
+      wPct: 30,
+      hPct: 64,
+      objectScale: 1.15,
+      objectPosY: 38,
+      hidden: false,
+      radiusPx: 20,
+      shadow: true,
+      stageIntensity: 1,
+      fullBleed: false,
+      featherLeft: 0,
+      featherRight: 0,
+    },
+    PresenterPictureInPicture: {
+      xPct: 74,
+      yPct: 64,
+      wPct: 21,
+      hPct: 31,
+      objectScale: 1.12,
+      objectPosY: 36,
+      hidden: false,
+      radiusPx: 16,
+      shadow: true,
+      stageIntensity: 1,
+      fullBleed: false,
+      featherLeft: 0,
+      featherRight: 0,
+    },
+    WorksheetFocus: {
+      xPct: 4.5,
+      yPct: 58,
+      wPct: 23,
+      hPct: 36,
+      objectScale: 1.12,
+      objectPosY: 36,
+      hidden: false,
+      radiusPx: 18,
+      shadow: true,
+      stageIntensity: 1,
+      fullBleed: false,
+      featherLeft: 0,
+      featherRight: 0,
+    },
 
-  // --- presenter off screen: the graphic owns the frame
-  PresenterHidden: { ...fullBleed, objectScale: 1, hidden: true, stageIntensity: 1, fullBleed: false },
-  GraphicFull: { ...fullBleed, objectScale: 1, hidden: true, stageIntensity: 1, fullBleed: false },
-  KeyStatementFocus: { ...fullBleed, objectScale: 1, hidden: true, stageIntensity: 1, fullBleed: false },
-};
+    // --- presenter off screen: the graphic owns the frame
+    PresenterHidden: { ...fullBleed, objectScale: 1, hidden: true, stageIntensity: 1, fullBleed: false },
+    GraphicFull: { ...fullBleed, objectScale: 1, hidden: true, stageIntensity: 1, fullBleed: false },
+    KeyStatementFocus: { ...fullBleed, objectScale: 1, hidden: true, stageIntensity: 1, fullBleed: false },
+  };
+}
+
+/**
+ * Default layout table (ACT split width = 40%).
+ *
+ * Components that cannot receive the course config as a parameter import
+ * this directly. Components inside a React tree should use buildLayouts()
+ * with the config's splitWidthPct.
+ */
+export const LAYOUTS: Record<PresenterLayout, LayoutBox> = buildLayouts(40);
 
 /** Layouts that leave the frame with no presenter and no obvious subject. Only valid while
  * a graphic is actually on screen — see enforceLayoutRules(). */
