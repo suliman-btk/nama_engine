@@ -1,5 +1,5 @@
 import React from "react";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { CardShell } from "./CardShell";
 import type { GraphicWindow } from "./useWindow";
 
@@ -14,6 +14,7 @@ export function DefinitionCard({
   definition: string;
   side?: "left" | "right" | "center";
 }) {
+  const theme = useTheme();
   return (
     <CardShell window={window} side={side} animation="fade-rise" eyebrow="What it means" title={term}>
       <div style={{ color: theme.colors.inkDim, fontSize: theme.type.body, lineHeight: 1.5 }}>

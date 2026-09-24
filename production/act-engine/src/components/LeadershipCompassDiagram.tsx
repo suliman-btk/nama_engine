@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { CardShell } from "./CardShell";
 import type { GraphicWindow } from "./useWindow";
 
@@ -76,6 +76,7 @@ export function LeadershipCompassDiagram({
   eyebrow?: string;
   axisLabels?: { vertical: [string, string]; horizontal: [string, string] };
 }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const { fps: configFps } = useVideoConfig();
   const fps = fpsProp ?? configFps;

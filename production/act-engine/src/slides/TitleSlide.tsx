@@ -1,15 +1,19 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
+import { useBrand } from "../course/CourseContext";
 import { useWindowPhase, type GraphicWindow } from "../components/useWindow";
 
 /**
  * The opening title. The lesson previously started cold on a talking head — no branding, no
  * title, nothing to say what this is.
  *
- * Built as a sequence rather than a static card: the gold column wipes in, the ACT mark
+ * Built as a sequence rather than a static card: the gold column wipes in, the course mark
  * lands, the title and unit line follow, and the whole thing lifts away into the lesson. It
  * runs over the first seconds of narration, so nothing is added to the runtime.
+ *
+ * The logo filename is read from the course config (`brand.titleLogo`), so different courses
+ * can use different logos without editing engine code.
  */
 export function TitleSlide({
   window,
@@ -22,6 +26,8 @@ export function TitleSlide({
   unitLabel?: string;
   lessonLabel?: string;
 }) {
+  const theme = useTheme();
+  const brand = useBrand();
   const { phase, progress } = useWindowPhase(window);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -42,6 +48,8 @@ export function TitleSlide({
 
   const columnW = interpolate(e(0, 18), [0, 1], [0, 46]);
 
+  const logoFile = brand.titleLogo ?? brand.watermarkLogo;
+
   return (
     <AbsoluteFill
       style={{
@@ -52,7 +60,7 @@ export function TitleSlide({
         overflow: "hidden",
       }}
     >
-      {/* gold column wipes in from the left */}
+      {/* accent column wipes in from the left */}
       <div
         style={{
           position: "absolute",
@@ -64,7 +72,7 @@ export function TitleSlide({
         }}
       />
 
-      {/* mark sits on the gold */}
+      {/* mark sits on the accent column */}
       <div
         style={{
           position: "absolute",
@@ -79,7 +87,7 @@ export function TitleSlide({
           boxShadow: "0 22px 60px rgba(0,0,0,0.26)",
         }}
       >
-        <Img src={staticFile("brand/nama-logo.png")} style={{ width: "100%", display: "block" }} />
+        <Img src={staticFile(`brand/${logoFile}`)} style={{ width: "100%", display: "block" }} />
       </div>
 
       {/* title block on the navy */}

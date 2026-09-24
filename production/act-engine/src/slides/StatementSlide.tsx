@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame } from "remotion";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 import { useWindowPhase, type GraphicWindow } from "../components/useWindow";
 import { SlideFrame, SlideBody, fadeUp, AccentEdge, useContentEdges } from "./SlideFrame";
 
@@ -30,6 +30,7 @@ export function StatementSlide({
   variant?: "bar" | "split" | "centred";
   emphasize?: string[];
 }) {
+  const theme = useTheme();
   const { phase, progress } = useWindowPhase(window);
   const frame = useCurrentFrame();
   const edges = useContentEdges();

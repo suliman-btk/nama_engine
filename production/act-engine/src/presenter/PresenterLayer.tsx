@@ -3,7 +3,7 @@ import { AbsoluteFill, OffthreadVideo, interpolate, spring, useCurrentFrame, use
 import type { EdlScene } from "../edl/schema";
 import { LAYOUTS, type LayoutBox } from "./layoutConfig";
 import { Stage } from "./Stage";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 
 /**
  * The avatar footage as ONE continuous video layer spanning the whole lesson — never re-cut
@@ -58,6 +58,7 @@ export function PresenterLayer({
 }
 
 function PresenterVideoBox({ box, videoSrc }: { box: AnimatedBox; videoSrc: string }) {
+  const theme = useTheme();
   return (
     <div
       style={{

@@ -1,6 +1,6 @@
 import React from "react";
 import { Img, interpolate, staticFile, useCurrentFrame } from "remotion";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 import { useWindowPhase, type GraphicWindow } from "../components/useWindow";
 import { SlideFrame, fadeUp, useContentEdges } from "./SlideFrame";
 
@@ -20,6 +20,7 @@ export function PhotoGridSlide({
   kicker?: string;
   lessonLabel?: string;
 }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const { phase, progress } = useWindowPhase(window);
   const edges = useContentEdges();

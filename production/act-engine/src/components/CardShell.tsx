@@ -2,7 +2,7 @@ import React from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import type { MotionPreset } from "../edl/schema";
 import { useWindowPhase, type GraphicWindow } from "./useWindow";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { SlideFrame, SlideBody } from "../slides/SlideFrame";
 
 /**
@@ -32,6 +32,7 @@ export function CardShell({
   bg?: string;
   children: React.ReactNode;
 }) {
+  const theme = useTheme();
   const { phase, progress } = useWindowPhase(window);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

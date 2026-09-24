@@ -1,5 +1,5 @@
 import React from "react";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 
 /**
  * A small persistent identifier — programme name and lesson title — shown whenever the
@@ -12,6 +12,7 @@ import { theme } from "./theme";
  * presenter's face.
  */
 export function LessonBug({ title, opacity }: { title: string; opacity: number }) {
+  const theme = useTheme();
   if (opacity < 0.02) return null;
   return (
     <div

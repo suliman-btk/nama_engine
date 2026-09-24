@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { CardShell } from "./CardShell";
 import type { GraphicWindow } from "./useWindow";
 
@@ -33,6 +33,7 @@ export function ThreeZoneDiagram({
   zones?: Zone[];
   activeZoneId?: string;
 }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const local = frame - window.startFrame;

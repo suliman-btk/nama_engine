@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { useWindowPhase, type GraphicWindow } from "./useWindow";
 import { motionStyle } from "../motion/presets";
 import { useContentEdges } from "../slides/SlideFrame";
@@ -23,6 +23,7 @@ export function KeyStatement({
   text: string;
   emphasize?: string[];
 }) {
+  const theme = useTheme();
   const { phase, progress } = useWindowPhase(window);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

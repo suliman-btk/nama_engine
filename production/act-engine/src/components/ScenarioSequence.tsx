@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame } from "remotion";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { CardShell } from "./CardShell";
 import type { GraphicWindow } from "./useWindow";
 
@@ -32,6 +32,7 @@ export function ScenarioSequence({
   side?: "left" | "right" | "center";
   eyebrow?: string;
 }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const nowSeconds = frame / fps;
   const effectiveActiveIndex = revealAtSeconds

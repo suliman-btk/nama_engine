@@ -1,5 +1,5 @@
 import React from "react";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { CardShell } from "./CardShell";
 import type { GraphicWindow } from "./useWindow";
 
@@ -21,6 +21,7 @@ export function QuoteCard({
    * the learner sees. */
   reviewFlag?: boolean;
 }) {
+  const theme = useTheme();
   return (
     <CardShell window={window} side={side} animation="fade" eyebrow="Worth holding on to">
       <div

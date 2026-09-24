@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame } from "remotion";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 import { useWindowPhase, type GraphicWindow } from "../components/useWindow";
 import { SlideFrame, SlideBody, fadeUp } from "./SlideFrame";
 
@@ -26,6 +26,7 @@ export function ChecklistSlide({
   /** Renders a 1-5 scale beside each row — used for the self-rating survey. */
   rating?: boolean;
 }) {
+  const theme = useTheme();
   const { phase, progress } = useWindowPhase(window);
   const frame = useCurrentFrame();
   if (phase === "before" || phase === "after") return null;

@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, OffthreadVideo, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 
 /**
  * The stage the whole lesson sits on. Its job is that the frame is NEVER empty black:
@@ -17,6 +17,7 @@ import { theme } from "../components/theme";
  * video covers it anyway), 1 once the presenter has moved aside.
  */
 export function Stage({ videoSrc, intensity }: { videoSrc: string; intensity: number }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 

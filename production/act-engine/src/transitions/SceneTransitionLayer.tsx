@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Edl, TransitionPreset } from "../edl/schema";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 
 /**
  * Draws the transition that sits ON a cut. This is the layer the first pass was missing:
@@ -25,6 +25,7 @@ import { theme } from "../components/theme";
  * lands under the busiest part of the effect.
  */
 export function SceneTransitionLayer({ edl }: { edl: Edl }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -72,6 +73,7 @@ function Transition({
   frame: number;
   fps: number;
 }) {
+  const theme = useTheme();
   const durationFrames = DURATIONS[preset] * fps;
   if (durationFrames <= 0) return null;
 

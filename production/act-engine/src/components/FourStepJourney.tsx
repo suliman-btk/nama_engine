@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame } from "remotion";
-import { theme } from "./theme";
+import { useTheme } from "../course/CourseContext";
 import { CardShell } from "./CardShell";
 import type { GraphicWindow } from "./useWindow";
 
@@ -31,6 +31,7 @@ export function FourStepJourney({
   side?: "left" | "right" | "center";
   eyebrow?: string;
 }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const now = frame / fps;
   const reachedIndex = revealAtSeconds

@@ -1,6 +1,6 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 import { useWindowPhase, type GraphicWindow } from "../components/useWindow";
 import { SlideFrame, SlideBody, fadeUp } from "./SlideFrame";
 
@@ -27,6 +27,7 @@ export function ActivitySlide({
   kicker?: string;
   lessonLabel?: string;
 }) {
+  const theme = useTheme();
   const { phase, progress } = useWindowPhase(window);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

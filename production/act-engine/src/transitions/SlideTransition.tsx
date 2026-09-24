@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, useVideoConfig, useCurrentFrame } from "remotion";
 import type { TransitionPreset } from "../edl/schema";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
 
 /**
  * How a slide ENTERS and LEAVES the frame.
@@ -30,6 +30,7 @@ export function SlideTransition({
   durationInFrames: number;
   children: React.ReactNode;
 }) {
+  const theme = useTheme();
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -55,7 +56,7 @@ export function SlideTransition({
     // entry evenly is what finally flattens the spike at the join.
     const p = easeInOut(clamp01(local / inFrames));
     style = enterStyle(preset, p);
-    accent = enterAccent(preset, p);
+    accent = enterAccent(preset, p, theme);
   } else if (toEnd < outFrames) {
     const p = easeInOut(clamp01(1 - toEnd / outFrames));
     style = exitStyle(outPreset ?? preset, p);
@@ -125,7 +126,7 @@ function exitStyle(preset: TransitionPreset, p: number): React.CSSProperties {
 
 /** A single travelling gold edge on the moves that have a direction. It rides with the slide
  * rather than sitting over the whole frame, which is what stops these reading as a veil. */
-function enterAccent(preset: TransitionPreset, p: number): React.ReactNode {
+function enterAccent(preset: TransitionPreset, p: number, theme: ReturnType<typeof useTheme>): React.ReactNode {
   if (p >= 0.999) return null;
 
   if (preset === "soft-push-left" || preset === "soft-push-right") {

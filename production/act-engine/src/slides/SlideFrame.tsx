@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
-import { theme } from "../components/theme";
+import { useTheme } from "../course/CourseContext";
+import type { EngineTheme } from "../course/buildTheme";
 
 /**
  * The chrome every slide shares: a flat background, the kicker, the lesson label and the gold
@@ -67,6 +68,7 @@ export function SlideFrame({
   children: React.ReactNode;
   hideChrome?: boolean;
 }) {
+  const theme = useTheme();
   const contextLabel = React.useContext(LessonLabelContext);
   const edges = useContentEdges();
   const label = lessonLabel ?? contextLabel;
@@ -79,7 +81,7 @@ export function SlideFrame({
 
       {!hideChrome ? (
         <>
-          {kicker ? <Kicker text={kicker} light={light} left={edges.left} /> : null}
+          {kicker ? <Kicker text={kicker} light={light} left={edges.left} theme={theme} /> : null}
           {label ? (
             <div
               style={{
@@ -103,6 +105,7 @@ export function SlideFrame({
 /** The gold edge stripe. Sits on whichever screen edge the CONTENT is against, so it frames the
  * text rather than running down the seam between the text and the presenter. */
 export function AccentEdge() {
+  const theme = useTheme();
   const { side } = useContentEdges();
   const onLeft = side !== "left"; // presenter right (or absent) -> content is on the left
   return (
@@ -119,7 +122,9 @@ export function AccentEdge() {
   );
 }
 
-export function Kicker({ text, light, left = "4.4%" }: { text: string; light?: boolean; left?: string }) {
+export function Kicker({ text, light, left = "4.4%", theme: themeOverride }: { text: string; light?: boolean; left?: string; theme?: EngineTheme }) {
+  const contextTheme = useTheme();
+  const theme = themeOverride ?? contextTheme;
   const frame = useCurrentFrame();
   const o = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });
   const x = interpolate(frame, [0, 14], [-14, 0], { extrapolateRight: "clamp", extrapolateLeft: "clamp" });

@@ -1,8 +1,30 @@
-/** Brand tokens, from shared/production-guidelines.md (see video-editing-engine-spec.md
- * "Brand" section). Heading font: guidelines call for Arial Black; the render environment
- * here has neither Arial nor the project's Lato Black installed, so this falls back to a
- * heavy system stack. Swap `headingFamily` for a loaded "Lato Black" (or true Arial Black)
- * when rendering with the project's font files available. */
+/**
+ * Engine theme tokens.
+ *
+ * MIGRATION NOTE: This file used to be the ONLY source of theme values,
+ * with everything hard-coded for ACT. It now re-exports `useTheme()` from
+ * the course config system, which is the correct way to read theme values
+ * in React components.
+ *
+ * The hard-coded `theme` constant is RETAINED as a fallback for:
+ *   1. Non-React code that cannot use hooks (transition presets, etc.)
+ *   2. Backward compatibility during migration
+ *
+ * New code should always use `useTheme()` inside React components.
+ * Non-React code should receive the theme as a parameter.
+ */
+
+// Re-export the context-based hook — the preferred way to read theme in components.
+export { useTheme } from "../course/CourseContext";
+export type { EngineTheme } from "../course/buildTheme";
+
+/**
+ * Hard-coded ACT theme — the legacy default.
+ *
+ * @deprecated Use `useTheme()` in React components, or accept theme as a
+ * parameter in non-React utility functions. This export exists only for
+ * backward compatibility and will be removed once all consumers are migrated.
+ */
 export const theme = {
   colors: {
     navy: "#1B1E4A",
