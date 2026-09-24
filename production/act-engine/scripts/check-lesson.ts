@@ -52,10 +52,18 @@ const ok = (m: string) => console.log("  ok    " + m);
 console.log(`\nChecking lesson ${LESSON}\n`);
 
 // ---------------------------------------------------------------- load
-const edlMod = require(path.join(BUILT, "data", `lesson-${LESSON}-edl.js`));
+// Lesson data lives in lessons/lesson-NN/generated/ (the canonical location).
+// Fall back to src/data/ for lessons not yet migrated.
+const REPO_ROOT = path.join(__dirname, "..", "..", "..", "..");
+const LESSON_DIR = path.join(REPO_ROOT, "lessons", `lesson-${LESSON}`, "generated");
+const edlPathNew = path.join(LESSON_DIR, `lesson-${LESSON}-edl.js`);
+const edlPathOld = path.join(BUILT, "data", `lesson-${LESSON}-edl.js`);
+const edlMod = require(fs.existsSync(edlPathNew) ? edlPathNew : edlPathOld);
 const raw: Edl = edlMod[`lesson${LESSON}Edl`] ?? Object.values(edlMod)[0];
+const timingPathNew = path.join(LESSON_DIR, "word-timing", `lesson-${LESSON}-word-timing.json`);
+const timingPathOld = path.join(SRC, "data", `lesson-${LESSON}-word-timing.json`);
 const track = JSON.parse(
-  fs.readFileSync(path.join(SRC, "data", `lesson-${LESSON}-word-timing.json`), "utf8")
+  fs.readFileSync(fs.existsSync(timingPathNew) ? timingPathNew : timingPathOld, "utf8")
 );
 
 // ------------------------------------------------- 1. anchors + layout rules
