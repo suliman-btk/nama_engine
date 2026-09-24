@@ -46,3 +46,5 @@ _golden/*/assets/scene-renders/
 production/remotion-engine/public/lessons/
 production/remotion-engine/src/data/render-manifest.json
 lessons/*/presenter/
+# Large avatar video files - tracked outside git
+production/act-engine/public/avatar/*.mp4
