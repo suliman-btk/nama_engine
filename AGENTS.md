@@ -69,10 +69,16 @@ The engine is course-agnostic infrastructure. A second course must be possible b
 The engine predates these rules. Until each item is fixed, treat it as known debt and do not
 add more of the same:
 
-- `src/brand/BrandWatermark.tsx` and `src/slides/TitleSlide.tsx` hard-code NAMA logo filenames.
-- `src/compositions/Lesson01.tsx` and `Lesson08.tsx` hard-code the `"ACT - Lesson N"` label.
-- `src/components/theme.ts` holds ACT brand colours directly.
-- Lesson EDLs and word-timing files sit in `production/act-engine/src/data/`, inside the engine.
+- ~~`src/brand/BrandWatermark.tsx` and `src/slides/TitleSlide.tsx` hard-code NAMA logo filenames.~~
+  **FIXED** — logos now read from `course-config.json` via `useBrand()`.
+- ~~`src/compositions/Lesson01.tsx` and `Lesson08.tsx` hard-code the `"ACT - Lesson N"` label.~~
+  **FIXED** — label derived from `courseConfig.lessonLabelTemplate`.
+- ~~`src/components/theme.ts` holds ACT brand colours directly.~~
+  **FIXED** — all components read from `useTheme()` via `CourseConfigContext`. The hard-coded
+  `theme` export is retained as a deprecated fallback only.
+- ~~Lesson EDLs and word-timing files sit in `production/act-engine/src/data/`, inside the engine.~~
+  **PARTIALLY FIXED** — lesson-08 data moved to `lessons/lesson-08/generated/`. Old copies
+  in `src/data/` retained until all lesson branches are rebased.
 - `production/remotion-engine/` is the superseded avatar-scenes pipeline and still present.
 
 ## Non-negotiable content rules
