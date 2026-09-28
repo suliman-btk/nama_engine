@@ -3,26 +3,27 @@
   "lessonLabelTemplate": "PRIME · Lesson {lesson}",
 
   "brand": {
-    "watermarkLogo": "nama-logo.png",
+    "watermarkLogo": "nama-logo-white.png",
+    "watermarkLogoColored": "nama-logo.png",
     "titleLogo": "prime-logo.png",
     "accentElement": "baseline"
   },
 
   "theme": {
     "colors": {
-      "navy": "#1A1B3D",
-      "deep": "#2D3060",
-      "mid": "#3A3D70",
-      "surface": "#FAF5F0",
-      "accent": "#A02828",
-      "accentLight": "#C44040",
+      "navy": "#020181",
+      "deep": "#01005F",
+      "mid": "#25258F",
+      "surface": "#F7F7FB",
+      "accent": "#CDAC3B",
+      "accentLight": "#E4C862",
       "cream": "#FFFFFF",
-      "sand": "#F0E8E0",
+      "sand": "#F4F1DF",
       "panel": "rgba(255,255,255,0.92)",
-      "panelEdge": "rgba(160,40,40,0.20)",
-      "inkDim": "rgba(26,27,61,0.65)",
-      "plumSafe": "#F5F0F8",
-      "tealSafe": "#F0F5F5"
+      "panelEdge": "rgba(2,1,129,0.18)",
+      "inkDim": "rgba(1,0,95,0.68)",
+      "plumSafe": "#EEEEFA",
+      "tealSafe": "#F7F2DF"
     },
     "headingFamily": "\"Inter\", \"Segoe UI\", Helvetica, Arial, sans-serif",
     "bodyFamily": "\"Inter\", \"Segoe UI\", Helvetica, Arial, sans-serif",
