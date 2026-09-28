@@ -243,3 +243,91 @@ _golden/lesson-01/   frozen reference — do not modify
 Rosetta** on this machine. Build from source for arm64 (`brew install cmake boost`,
 then CMake). The working binary is kept at `production/tools/rhubarb/` and is
 gitignored (large) — rebuild if missing.
+
+---
+
+## 12. Approved visual theme (Lesson 01 baseline)
+
+**This section is the locked visual standard.** All PRIME lessons must follow
+these rules to maintain consistency across the course. Approved via Lesson 01
+preview render.
+
+### 12.1 Typography minimums (at 1920×1080)
+
+| Element | Minimum size |
+|---------|-------------|
+| Slide title | 48 px |
+| Card title | 28–34 px (variant-dependent) |
+| Body / description | 24 px |
+| Tag / kicker label | 18 px |
+| Diagram node label | 22 px (7+ items) · 26 px (≤5 items) |
+| Diagram detail text | 18 px (7+ items) · 20 px (≤5 items) |
+| Diagram numbering | 15 px |
+
+### 12.2 Card variant palette
+
+Use these 6 variants to keep slides visually diverse. Never use the same
+variant on two consecutive card scenes.
+
+| Variant | Best for | Key visual |
+|---------|----------|------------|
+| `default` | Multi-step explanations, numbered items | Header band + icon square |
+| `pill` | Audience/target lists, vertical lists | Horizontal pill with circle icon |
+| `icon-top` | Sector grids, category overviews | Centered circle + label below |
+| `glass` | Definitions, key concepts on brand-red bg | Frosted glass on dark |
+| `accent` | Challenges, realities, problems | Left colour strip |
+| `comparison` | Side-by-side contrasts, dual concepts | Top accent bar, dual columns |
+
+### 12.3 Card content rules
+
+- **No highlight badges.** Each card shows only: icon + title + body.
+  One clear message per card. No secondary tags, dots, or sub-labels.
+- **Simple words.** Body text must use short, plain language. Maximum 10
+  words per body line. Examples of required simplification:
+  - ✗ "Civil society organizations seeking proven PM methodologies"
+  - ✓ "Organizations that need clear project methods"
+  - ✗ "Resource Volatility" → ✓ "Money Changes"
+  - ✗ "Context Uncertainty" → ✓ "Surprises Happen"
+
+### 12.4 Layout
+
+- All slide content is **vertically centered** (`SlideBody align="center"`).
+  No empty space at the bottom of slides.
+- Maximum 2 columns for cards. 4 columns only for `icon-top` sector grids.
+- A third card in a 2-column grid is centered below.
+
+### 12.5 Diagram row layout
+
+- Circles: 110 px (7+ items) · 150 px (≤5 items)
+- Icons inside circles: 38 px (7+ items) · 46 px (≤5 items)
+- Connection line passes through the **exact centre** of each circle
+  (both positioned at `top: 50%` with `marginTop: -(nodeSize/2)`)
+- Connection line renders **behind** circles (z-index 0 vs 2)
+- Circles spread edge-to-edge (4% margin, evenly distributed)
+
+### 12.6 Animation — anti-jitter rules
+
+Remotion renders frame-by-frame. Any fractional CSS value causes text to
+jitter/vibrate between frames.
+
+**Mandatory:**
+- **No `scale()` transforms** on text-containing elements. Use opacity only.
+- **Round `translateY` to whole pixels** (`Math.round()`).
+- **Snap opacity** — round to 2 decimal places, snap ≥0.99 to 1.0.
+- **No CSS `transition` properties** anywhere. All motion must be computed
+  mathematically per frame via `interpolate()`.
+- Card reveal uses **opacity only** (0.32 → 1.0), not scale.
+
+### 12.7 Presenter grammar
+
+- Alternate between `PresenterCircle` and `PresenterFull` across scenes.
+- Full-frame transitions are for genuine section changes only.
+- Avatar-to-circle and circle-to-full transitions happen with zoom.
+- Never leave the avatar filling the screen for consecutive scenes when
+  slides would add value.
+
+### 12.8 Transitions
+
+- Vary transitions between scenes — never repeat the same transition
+  consecutively when alternatives exist.
+- Slide-to-slide and avatar-to-slide transitions must use different styles.

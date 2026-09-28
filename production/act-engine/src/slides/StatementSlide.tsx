@@ -22,6 +22,8 @@ export function StatementSlide({
   lessonLabel,
   variant = "bar",
   emphasize = [],
+  themeMode = "light",
+  bg,
 }: {
   window: GraphicWindow;
   headline: string;
@@ -29,6 +31,8 @@ export function StatementSlide({
   lessonLabel?: string;
   variant?: "bar" | "split" | "centred";
   emphasize?: string[];
+  themeMode?: "light" | "brand";
+  bg?: string;
 }) {
   const theme = useTheme();
   const { phase, progress } = useWindowPhase(window);
@@ -37,6 +41,12 @@ export function StatementSlide({
   if (phase === "before" || phase === "after") return null;
   const local = frame - window.startFrame;
   const slideOpacity = phase === "enter" ? progress : phase === "exit" ? 1 - progress : 1;
+
+  const isBrand = themeMode === "brand" || bg === "#A02828" || bg === theme.colors.accent;
+  const slideBg = isBrand ? (bg || theme.colors.accent || "#A02828") : undefined;
+  const primeRed = theme.colors.accent || "#A02828";
+  const headlineColor = isBrand ? "#FFFFFF" : theme.colors.navy;
+  const highlightColor = isBrand ? "#FFF8F0" : primeRed;
 
   const words = headline.split(" ");
   const hot = new Set(emphasize.map((w) => w.toLowerCase().replace(/[.,!?—]/g, "")));
@@ -47,8 +57,8 @@ export function StatementSlide({
         fontFamily: theme.headingFamily,
         fontWeight: theme.headingWeight,
         fontSize: variant === "centred" ? 66 : 58,
-        lineHeight: 1.2,
-        color: theme.colors.cream,
+        lineHeight: 1.22,
+        color: headlineColor,
         textAlign: variant === "centred" ? "center" : "left",
       }}
     >
@@ -58,7 +68,13 @@ export function StatementSlide({
         return (
           <span
             key={i}
-            style={{ ...st, display: "inline-block", marginRight: "0.28em", color: hot.has(bare) ? theme.colors.goldLight : undefined }}
+            style={{
+              ...st,
+              display: "inline-block",
+              marginRight: "0.28em",
+              color: hot.has(bare) ? highlightColor : undefined,
+              textDecoration: hot.has(bare) && isBrand ? "underline 3px rgba(255,255,255,0.6)" : undefined,
+            }}
           >
             {w}
           </span>
@@ -125,7 +141,7 @@ export function StatementSlide({
   if (variant === "centred") {
     return (
       <div style={{ opacity: slideOpacity }}>
-        <SlideFrame kicker={kicker} lessonLabel={lessonLabel}>
+        <SlideFrame kicker={kicker} bg={slideBg} light={!isBrand} lessonLabel={lessonLabel}>
           <div
             style={{
               position: "absolute",
@@ -142,7 +158,7 @@ export function StatementSlide({
               style={{
                 width: 96,
                 height: 6,
-                background: theme.colors.gold,
+                background: isBrand ? "#FFFFFF" : primeRed,
                 marginBottom: 40,
                 transform: `scaleX(${Math.min(1, Math.max(0, local / 12))})`,
               }}
@@ -156,7 +172,7 @@ export function StatementSlide({
 
   return (
     <div style={{ opacity: slideOpacity }}>
-      <SlideFrame kicker={kicker} lessonLabel={lessonLabel}>
+      <SlideFrame kicker={kicker} bg={slideBg} light={!isBrand} lessonLabel={lessonLabel}>
         <AccentEdge />
         <SlideBody>{headlineEl}</SlideBody>
       </SlideFrame>

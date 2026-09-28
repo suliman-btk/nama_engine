@@ -139,7 +139,7 @@ export function Kicker({ text, light, left = "4.4%", theme: themeOverride }: { t
         fontSize: 25,
         fontWeight: 700,
         letterSpacing: 4,
-        color: light ? theme.colors.mid : theme.colors.gold,
+        color: light ? theme.colors.mid : "#FFFFFF",
         textTransform: "uppercase",
       }}
     >
@@ -151,7 +151,7 @@ export function Kicker({ text, light, left = "4.4%", theme: themeOverride }: { t
 /** Shared content column. Sits on whichever side the presenter is not using. */
 export function SlideBody({
   children,
-  align = "center",
+  align = "top",
 }: {
   children: React.ReactNode;
   align?: "center" | "top";
@@ -163,8 +163,8 @@ export function SlideBody({
         position: "absolute",
         left: edges.left,
         right: edges.right,
-        top: 132,
-        bottom: 116,
+        top: 104,
+        bottom: 84,
         display: "flex",
         flexDirection: "column",
         justifyContent: align === "center" ? "center" : "flex-start",
@@ -182,5 +182,8 @@ export function fadeUp(frame: number, delay = 0, dur = 12) {
     extrapolateRight: "clamp",
   });
   const eased = 1 - Math.pow(1 - p, 3);
-  return { opacity: eased, transform: `translateY(${(1 - eased) * 22}px)` };
+  // Round translateY to whole pixels to prevent sub-pixel text jitter.
+  const y = Math.round((1 - eased) * 22);
+  const op = eased >= 0.99 ? 1 : Math.round(eased * 100) / 100;
+  return { opacity: op, transform: `translateY(${y}px)` };
 }
