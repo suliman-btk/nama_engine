@@ -55,7 +55,7 @@ export function TitleSlide({
   return (
     <AbsoluteFill
       style={{
-        background: "#FFFFFF",
+        background: theme.colors.surface,
         opacity: 1 - outEase,
         transform: `translateY(${-outEase * 40}px)`,
         fontFamily: theme.bodyFamily,
@@ -70,7 +70,7 @@ export function TitleSlide({
           top: 0,
           bottom: 0,
           width: `${columnW}%`,
-          background: `linear-gradient(160deg, ${theme.colors.gold} 0%, ${theme.colors.goldLight} 100%)`,
+          background: `linear-gradient(160deg, ${theme.colors.mid} 0%, ${theme.colors.navy} 100%)`,
         }}
       />
 

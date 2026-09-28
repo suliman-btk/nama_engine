@@ -56,9 +56,9 @@ export function CardGridSlide({
   const local = frame - window.startFrame;
   const slideOpacity = phase === "enter" ? progress : phase === "exit" ? 1 - progress : 1;
 
-  const isBrand = themeMode === "brand" || variant === "glass" || (Boolean(bg) && (bg === "#A02828" || bg === theme.colors.mid || bg === theme.colors.gold));
-  const slideBg = isBrand ? (bg || "#A02828") : undefined;
-  const primeRed = "#A02828";
+  const isBrand = themeMode === "brand" || variant === "glass" || (Boolean(bg) && (bg === "#A02828" || bg === theme.colors.navy || bg === theme.colors.mid || bg === theme.colors.gold));
+  const slideBg = isBrand ? (bg === "#A02828" ? theme.colors.navy : (bg || theme.colors.navy)) : undefined;
+  const primeRed = isBrand ? theme.colors.gold : theme.colors.navy;
 
   const titleColor = isBrand ? "#FFFFFF" : theme.colors.navy;
   const subtitleColor = isBrand ? "rgba(255, 255, 255, 0.92)" : theme.colors.inkDim;
@@ -213,7 +213,7 @@ function DefaultCard({
     ? isBrand ? "1.5px solid rgba(255,255,255,0.6)" : `1.5px solid ${primeRed}`
     : `1.5px solid ${edgeColor}`;
   const shadow = timing.isCurrent
-    ? isBrand ? "0 20px 48px rgba(0,0,0,0.40)" : "0 14px 36px rgba(160,40,40,0.18)"
+    ? isBrand ? "0 20px 48px rgba(0,0,0,0.40)" : "0 14px 36px rgba(2,1,129,0.18)"
     : cardShadow;
 
   return (
@@ -241,7 +241,7 @@ function DefaultCard({
       <div
         style={{
           background: timing.isCurrent
-            ? isBrand ? "rgba(160,40,40,0.08)" : "rgba(160,40,40,0.07)"
+            ? isBrand ? "rgba(205,172,59,0.12)" : "rgba(2,1,129,0.07)"
             : "rgba(26,27,61,0.04)",
           borderBottom: `1px solid ${edgeColor}`,
           padding: "16px 26px",
@@ -283,7 +283,7 @@ function PillCard({
   const border = timing.isCurrent
     ? `1.5px solid ${isBrand ? "rgba(255,255,255,0.5)" : primeRed}`
     : `1.5px solid ${isBrand ? "rgba(255,255,255,0.15)" : "rgba(26,27,61,0.10)"}`;
-  const shadow = timing.isCurrent ? "0 8px 28px rgba(160,40,40,0.14)" : "0 2px 10px rgba(0,0,0,0.04)";
+  const shadow = timing.isCurrent ? "0 8px 28px rgba(2,1,129,0.14)" : "0 2px 10px rgba(0,0,0,0.04)";
   const textColor = isBrand ? "#FFFFFF" : theme.colors.navy;
   const bodyColor = isBrand ? "rgba(255,255,255,0.82)" : "rgba(26,27,61,0.72)";
 
@@ -315,7 +315,7 @@ function PillCard({
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          boxShadow: timing.isCurrent ? "0 4px 16px rgba(160,40,40,0.25)" : "0 2px 8px rgba(0,0,0,0.06)",
+          boxShadow: timing.isCurrent ? "0 4px 16px rgba(2,1,129,0.25)" : "0 2px 8px rgba(0,0,0,0.06)",
         }}
       >
         {card.icon ? <FormalIcon name={card.icon} size={44} color={timing.isCurrent ? "#FFFFFF" : primeRed} /> : null}
@@ -355,7 +355,7 @@ function IconTopCard({
         background: bg,
         borderRadius: 20,
         border: timing.isCurrent ? `1.5px solid ${primeRed}` : "1.5px solid rgba(26,27,61,0.08)",
-        boxShadow: timing.isCurrent ? "0 10px 30px rgba(160,40,40,0.15)" : "0 3px 14px rgba(0,0,0,0.04)",
+        boxShadow: timing.isCurrent ? "0 10px 30px rgba(2,1,129,0.15)" : "0 3px 14px rgba(0,0,0,0.04)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -371,7 +371,7 @@ function IconTopCard({
           borderRadius: "50%",
           background: timing.isCurrent ? primeRed : "#FFFFFF",
           border: `1.5px solid ${timing.isCurrent ? primeRed : "rgba(26,27,61,0.10)"}`,
-          boxShadow: timing.isCurrent ? "0 6px 20px rgba(160,40,40,0.22)" : "0 3px 12px rgba(0,0,0,0.06)",
+          boxShadow: timing.isCurrent ? "0 6px 20px rgba(2,1,129,0.22)" : "0 3px 12px rgba(0,0,0,0.06)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -474,7 +474,7 @@ function AccentCard({
   card: CardItem; i: number; timing: Timing; theme: any; primeRed: string; totalCards: number; effectiveColumns: number;
 }) {
   const isCenteredThird = effectiveColumns === 2 && totalCards === 3 && i === 2;
-  const accentColors = [primeRed, "#1B6B93", "#C87941", "#2E7D32"];
+  const accentColors = [theme.colors.gold, theme.colors.navy, theme.colors.goldLight, theme.colors.mid];
   const accent = timing.isCurrent ? primeRed : accentColors[i % accentColors.length];
 
   return (
@@ -486,7 +486,7 @@ function AccentCard({
         background: "#FFFFFF",
         borderRadius: 16,
         border: timing.isCurrent ? `1.5px solid ${primeRed}` : "1.5px solid rgba(26,27,61,0.08)",
-        boxShadow: timing.isCurrent ? "0 10px 32px rgba(160,40,40,0.15)" : "0 3px 14px rgba(0,0,0,0.04)",
+        boxShadow: timing.isCurrent ? "0 10px 32px rgba(2,1,129,0.15)" : "0 3px 14px rgba(0,0,0,0.04)",
         display: "flex",
         overflow: "hidden",
         boxSizing: "border-box",

@@ -44,7 +44,7 @@ export function DiagramSlide({
   const conns = connections ?? getDefaultConnections(layout, cards.length);
   const cardBg = "#EEF2F7";
   const edgeColor = "rgba(26,27,61,0.12)";
-  const primeRed = "#A02828";
+  const primeRed = theme.colors.navy;
 
   return (
     <div style={{ opacity: slideOpacity }}>
@@ -173,7 +173,7 @@ export function DiagramSlide({
 
               const itemBorder = isCurrent ? `1.5px solid ${primeRed}` : `1.5px solid ${edgeColor}`;
               const itemShadow = isCurrent
-                ? "0 8px 28px rgba(160, 40, 40, 0.18)"
+                ? "0 8px 28px rgba(2, 1, 129, 0.18)"
                 : "0 4px 14px rgba(0,0,0,0.04)";
 
               const cardTag = card.tag || `0${i + 1}`;
@@ -414,4 +414,3 @@ function getDefaultConnections(layout: string, count: number): [number, number][
   }
   return [[0, 1], [2, 3], [0, 2], [1, 3]].filter(([a, b]) => a < count && b < count) as [number, number][];
 }
-

@@ -45,7 +45,7 @@ export function IconListSlide({
 
   const cardBg = "#EEF2F7";
   const edgeColor = "rgba(26,27,61,0.12)";
-  const primeRed = "#A02828";
+  const primeRed = theme.colors.navy;
 
   return (
     <div style={{ opacity: slideOpacity }}>
@@ -92,7 +92,7 @@ export function IconListSlide({
                 top: 24,
                 bottom: 24,
                 width: 3,
-                background: "rgba(160, 40, 40, 0.20)",
+                background: "rgba(2, 1, 129, 0.20)",
                 zIndex: 0,
               }}
             />
@@ -150,7 +150,7 @@ export function IconListSlide({
                       background: isCurrent ? primeRed : "#FFFFFF",
                       border: isCurrent ? `3px solid #FFFFFF` : `3px solid ${edgeColor}`,
                       boxShadow: isCurrent
-                        ? "0 4px 16px rgba(160, 40, 40, 0.35)"
+                        ? "0 4px 16px rgba(2, 1, 129, 0.35)"
                         : "0 2px 8px rgba(0,0,0,0.06)",
                       display: "flex",
                       alignItems: "center",
@@ -175,7 +175,7 @@ export function IconListSlide({
                       borderRadius: 16,
                       border: isCurrent ? `2.5px solid ${primeRed}` : `1.5px solid ${edgeColor}`,
                       boxShadow: isCurrent
-                        ? "0 12px 30px rgba(160, 40, 40, 0.16)"
+                        ? "0 12px 30px rgba(2, 1, 129, 0.16)"
                         : "0 2px 8px rgba(0,0,0,0.04)",
                       padding: "18px 26px",
                       display: "flex",
@@ -219,7 +219,7 @@ export function IconListSlide({
                         fontWeight: 800,
                         letterSpacing: 2,
                         color: isCurrent ? "#FFFFFF" : primeRed,
-                        background: isCurrent ? primeRed : "rgba(160, 40, 40, 0.08)",
+                        background: isCurrent ? primeRed : "rgba(2, 1, 129, 0.08)",
                         padding: "6px 14px",
                         borderRadius: 20,
                         textTransform: "uppercase",

@@ -42,9 +42,9 @@ export function StatementSlide({
   const local = frame - window.startFrame;
   const slideOpacity = phase === "enter" ? progress : phase === "exit" ? 1 - progress : 1;
 
-  const isBrand = themeMode === "brand" || bg === "#A02828" || bg === theme.colors.accent;
-  const slideBg = isBrand ? (bg || theme.colors.accent || "#A02828") : undefined;
-  const primeRed = theme.colors.accent || "#A02828";
+  const isBrand = themeMode === "brand" || bg === "#A02828" || bg === theme.colors.navy;
+  const slideBg = isBrand ? (bg === "#A02828" ? theme.colors.navy : (bg || theme.colors.navy)) : undefined;
+  const primeRed = isBrand ? theme.colors.gold : theme.colors.navy;
   const headlineColor = isBrand ? "#FFFFFF" : theme.colors.navy;
   const highlightColor = isBrand ? "#FFF8F0" : primeRed;
 
