@@ -16,6 +16,8 @@ import { z } from "zod";
 export const BrandConfig = z.object({
   /** Watermark logo filename, relative to `public/brand/`. */
   watermarkLogo: z.string(),
+  /** Colored watermark logo filename for light backgrounds. */
+  watermarkLogoColored: z.string().optional(),
   /** Title-slide logo filename, relative to `public/brand/`. */
   titleLogo: z.string().optional(),
   /** Frame accent element drawn at the bottom of every frame. */

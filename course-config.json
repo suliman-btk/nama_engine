@@ -3,7 +3,8 @@
   "lessonLabelTemplate": "PRIME · Lesson {lesson}",
 
   "brand": {
-    "watermarkLogo": "nama-logo.png",
+    "watermarkLogo": "nama-logo-white.png",
+    "watermarkLogoColored": "nama-logo.png",
     "titleLogo": "prime-logo.png",
     "accentElement": "baseline"
   },
