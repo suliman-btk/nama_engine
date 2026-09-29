@@ -15,6 +15,9 @@ import { QuestionSlide } from "../slides/QuestionSlide";
 import { VideoLinkSlide } from "../slides/VideoLinkSlide";
 import { OutroSlide } from "../slides/OutroSlide";
 import { PhotoGridSlide } from "../slides/PhotoGridSlide";
+import { DiagramSlide } from "../slides/DiagramSlide";
+import { CardGridSlide } from "../slides/CardGridSlide";
+import { IconListSlide } from "../slides/IconListSlide";
 
 /**
  * Maps the rule-4 component vocabulary to implementations. Only a first slice is built
@@ -42,6 +45,9 @@ export const COMPONENT_REGISTRY: Partial<Record<GraphicComponent, React.Componen
   VideoLinkSlide,
   OutroSlide,
   PhotoGridSlide,
+  DiagramSlide,
+  CardGridSlide,
+  IconListSlide,
 };
 
 export function getComponent(name: GraphicComponent) {
@@ -53,3 +59,4 @@ export function getComponent(name: GraphicComponent) {
   }
   return C;
 }
+

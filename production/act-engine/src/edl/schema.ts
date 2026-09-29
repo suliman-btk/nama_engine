@@ -29,6 +29,7 @@ export const PresenterLayout = z.enum([
   "PresenterPictureInPicture",
   "PresenterHidden",
   "GraphicFull",
+  "PresenterCircle",
   "WorksheetFocus",
   "KeyStatementFocus",
 ]);
@@ -97,6 +98,10 @@ export const GraphicComponent = z.enum([
   "VideoLinkSlide",
   "OutroSlide",
   "PhotoGridSlide",
+  // Content-led slide vocabulary for PRIME and similar courses.
+  "DiagramSlide",
+  "CardGridSlide",
+  "IconListSlide",
 ]);
 export type GraphicComponent = z.infer<typeof GraphicComponent>;
 

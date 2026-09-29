@@ -22,6 +22,8 @@ export const BrandConfig = z.object({
   titleLogo: z.string().optional(),
   /** Frame accent element drawn at the bottom of every frame. */
   accentElement: z.enum(["baseline", "none"]).default("baseline"),
+  /** Optional style for watermark: 'default' | 'badge'. */
+  watermarkStyle: z.string().optional(),
 });
 
 /* ------------------------------------------------------------------ theme */

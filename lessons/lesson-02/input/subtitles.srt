@@ -1,0 +1,976 @@
+1
+00:00:00,320 --> 00:00:01,959
+Assalamu  alaikum  wa  rahmatullahi  wa
+
+2
+00:00:01,959 --> 00:00:03,159
+barakatuh.
+
+3
+00:00:03,159 --> 00:00:05,080
+Welcome  back  to  Prime.  In  the
+
+4
+00:00:05,080 --> 00:00:06,560
+first  lesson,  we  looked  at  why
+
+5
+00:00:06,560 --> 00:00:08,480
+project  management  matters  and  why
+
+6
+00:00:08,480 --> 00:00:10,120
+development  projects  need  more  than
+
+7
+00:00:10,120 --> 00:00:12,360
+good  intentions.  Now,  we  need  the
+
+8
+00:00:12,360 --> 00:00:13,960
+bigger  picture.
+
+9
+00:00:13,960 --> 00:00:15,599
+A  project  is  not  simply  a  list
+
+10
+00:00:15,599 --> 00:00:17,240
+of  activities  completed  one  after
+
+11
+00:00:17,240 --> 00:00:19,080
+another.  We  need  to  understand  the
+
+12
+00:00:19,080 --> 00:00:21,039
+need,  prepare  the  project,  plan
+
+13
+00:00:21,039 --> 00:00:23,279
+the  work,  manage  implementation  and
+
+14
+00:00:23,279 --> 00:00:25,000
+eventually  close  or  hand  over  the
+
+15
+00:00:25,000 --> 00:00:27,439
+project.  Project  DPro  gives  us  a
+
+16
+00:00:27,439 --> 00:00:29,519
+structure  for  doing  this  alongside
+
+17
+00:00:29,519 --> 00:00:31,400
+principle  and  decision  points  that
+
+18
+00:00:31,400 --> 00:00:32,840
+guide  how  we  think  throughout  the
+
+19
+00:00:32,840 --> 00:00:33,879
+journey.
+
+20
+00:00:33,879 --> 00:00:35,200
+Each  phase  also  gives  us  a
+
+21
+00:00:35,200 --> 00:00:36,800
+question  to  answer  before  moving
+
+22
+00:00:36,800 --> 00:00:37,416
+ahead.
+
+23
+00:00:37,496 --> 00:00:39,896
+Project  DPro  organizes  project
+
+24
+00:00:39,896 --> 00:00:41,576
+management  into  five  connected
+
+25
+00:00:41,576 --> 00:00:42,735
+phases.
+
+26
+00:00:42,735 --> 00:00:44,456
+Identification  and  definition  is
+
+27
+00:00:44,456 --> 00:00:45,935
+where  we  understand  the  need  and
+
+28
+00:00:45,935 --> 00:00:47,616
+define  the  project.
+
+29
+00:00:47,616 --> 00:00:49,576
+Project  setup  establishes  its
+
+30
+00:00:49,576 --> 00:00:50,856
+authorization  and  management
+
+31
+00:00:50,856 --> 00:00:52,055
+structure.
+
+32
+00:00:52,055 --> 00:00:53,496
+Project  planning  turns  that
+
+33
+00:00:53,496 --> 00:00:55,096
+direction  into  an  implementation
+
+34
+00:00:55,096 --> 00:00:56,615
+plan.
+
+35
+00:00:56,615 --> 00:00:58,256
+Project  implementation  involves
+
+36
+00:00:58,256 --> 00:01:00,976
+managing  work,  people,  resources,
+
+37
+00:01:00,976 --> 00:01:03,015
+issues  and  changes.
+
+38
+00:01:03,015 --> 00:01:05,056
+Finally,  project  closure  helps  the
+
+39
+00:01:05,056 --> 00:01:07,136
+team  finish  responsibly,  including
+
+40
+00:01:07,136 --> 00:01:09,936
+hand over,  reporting,  evaluation,
+
+41
+00:01:09,936 --> 00:01:12,336
+and  learning.  These  phases  give  us
+
+42
+00:01:12,336 --> 00:01:14,207
+a  map  for  the  decisions  ahead.
+
+43
+00:01:14,406 --> 00:01:16,647
+These  phases  are  not  five  separate
+
+44
+00:01:16,647 --> 00:01:18,687
+boxes.  We  do  not  always  finish
+
+45
+00:01:18,687 --> 00:01:20,367
+one,  forget  it  and  move  to  the
+
+46
+00:01:20,367 --> 00:01:21,566
+next.
+
+47
+00:01:21,566 --> 00:01:23,607
+Project  D-Pro  explains  that  they
+
+48
+00:01:23,607 --> 00:01:25,047
+interact.
+
+49
+00:01:25,047 --> 00:01:26,607
+You  may  think  about  sustainability
+
+50
+00:01:26,607 --> 00:01:28,167
+and  closure  while  designing  the
+
+51
+00:01:28,167 --> 00:01:30,647
+project.  During  implementation,  new
+
+52
+00:01:30,647 --> 00:01:32,646
+information  may  make  you  revisit  a
+
+53
+00:01:32,646 --> 00:01:34,767
+risk  or  change  the  plan.
+
+54
+00:01:34,767 --> 00:01:36,447
+Planning  can  continue  as  better
+
+55
+00:01:36,447 --> 00:01:38,646
+information  becomes  available.
+
+56
+00:01:38,646 --> 00:01:41,246
+The  life  cycle  gives  direction,
+
+57
+00:01:41,246 --> 00:01:42,927
+but  the  work  has  to  respond  to
+
+58
+00:01:42,927 --> 00:01:44,246
+the  reality  of  the  project.
+
+59
+00:01:44,246 --> 00:01:45,207
+object.
+
+60
+00:01:45,207 --> 00:01:46,687
+That  is  why  the  information  from
+
+61
+00:01:46,687 --> 00:01:48,967
+one  phase  must  remain  available  to
+
+62
+00:01:48,967 --> 00:01:50,847
+the  team  in  another.
+
+63
+00:01:50,847 --> 00:01:52,727
+A  plan  is  useful  only  while  it
+
+64
+00:01:52,727 --> 00:01:54,498
+reflects  what  the  team  now  knows.
+
+65
+00:01:54,498 --> 00:01:56,498
+The  phases  show  where  we  are  in  a
+
+66
+00:01:56,498 --> 00:01:58,658
+project.  Project  D  Pro's  five
+
+67
+00:01:58,658 --> 00:02:00,578
+principles  guide  how  we  manage  it
+
+68
+00:02:00,578 --> 00:02:02,858
+in  every  phase.  Well-governed,
+
+69
+00:02:02,858 --> 00:02:05,137
+participatory,  comprehensive,
+
+70
+00:02:05,137 --> 00:02:07,498
+integrated,  and  adaptive.
+
+71
+00:02:07,498 --> 00:02:09,177
+Think  of  these  as  habits,  not
+
+72
+00:02:09,177 --> 00:02:11,498
+another  five  steps  to  complete.
+
+73
+00:02:11,498 --> 00:02:13,058
+You  do  not  finish  being
+
+74
+00:02:13,058 --> 00:02:15,338
+participatory  after  one  meeting.
+
+75
+00:02:15,338 --> 00:02:16,658
+You  involve  the  right  people  when
+
+76
+00:02:16,658 --> 00:02:18,537
+you  identify  a  need,  design  the
+
+77
+00:02:18,537 --> 00:02:20,617
+work,  implement  activities,  and
+
+78
+00:02:20,617 --> 00:02:22,298
+close  the  project.  The  same
+
+79
+00:02:22,298 --> 00:02:23,258
+applies  to  the  other  four
+
+80
+00:02:23,258 --> 00:02:24,498
+principles.
+
+81
+00:02:24,498 --> 00:02:26,097
+The  principles  stay  relevant  even
+
+82
+00:02:26,097 --> 00:02:27,897
+when  the  team  moves  from  analysis
+
+83
+00:02:27,897 --> 00:02:29,737
+to  delivery.  They  shape  both  a
+
+84
+00:02:29,737 --> 00:02:31,698
+small  choice  and  a  major  project
+
+85
+00:02:31,698 --> 00:02:32,456
+decision.
+
+86
+00:02:32,456 --> 00:02:34,656
+Well  governed  means  there  is
+
+87
+00:02:34,656 --> 00:02:36,735
+clarity  about  decisions.  Who  has
+
+88
+00:02:36,735 --> 00:02:38,936
+authority?  Who  is  accountable?  What
+
+89
+00:02:38,936 --> 00:02:40,576
+can  the  project  manager  decide?
+
+90
+00:02:40,576 --> 00:02:42,536
+And  when  must  a  decision  go  to  a
+
+91
+00:02:42,536 --> 00:02:44,656
+sponsor  or  board?
+
+92
+00:02:44,656 --> 00:02:46,416
+Without  that  clarity,  even  a  small
+
+93
+00:02:46,416 --> 00:02:48,856
+change  can  cause  confusion.
+
+94
+00:02:48,856 --> 00:02:50,416
+People  may  not  know  who  makes  the
+
+95
+00:02:50,416 --> 00:02:52,296
+final  call  or  the  manager  may
+
+96
+00:02:52,296 --> 00:02:55,056
+seek  approval  for  every  detail.
+
+97
+00:02:55,056 --> 00:02:55,895
+Governance  sets  out
+
+98
+00:02:55,895 --> 00:02:57,936
+responsibilities,  authority,
+
+99
+00:02:57,936 --> 00:03:00,256
+tolerances  and  decision  making  so
+
+100
+00:03:00,256 --> 00:03:01,655
+the  project  can  move  while
+
+101
+00:03:01,655 --> 00:03:03,176
+remaining  accountable.
+
+102
+00:03:03,176 --> 00:03:04,616
+If  an  issue  crosses  in  agreed
+
+103
+00:03:04,616 --> 00:03:06,535
+tolerance,  the  manager  knows  when
+
+104
+00:03:06,535 --> 00:03:07,736
+to  bring  it  to  the  right  decision
+
+105
+00:03:07,736 --> 00:03:08,456
+makers.
+
+106
+00:03:08,736 --> 00:03:10,376
+Participatory  means  giving  the
+
+107
+00:03:10,376 --> 00:03:12,095
+right  stakeholders  meaningful
+
+108
+00:03:12,095 --> 00:03:14,376
+opportunities  to  contribute.
+
+109
+00:03:14,376 --> 00:03:16,295
+Development  projects  affect  people.
+
+110
+00:03:16,295 --> 00:03:17,336
+They  should  not  be  designed
+
+111
+00:03:17,336 --> 00:03:19,536
+entirely  from  an  office.
+
+112
+00:03:19,536 --> 00:03:21,175
+Participation  can  improve  the
+
+113
+00:03:21,175 --> 00:03:23,175
+information  we  collect,  strengthen
+
+114
+00:03:23,175 --> 00:03:25,575
+design,  manage  expectations,  and
+
+115
+00:03:25,575 --> 00:03:28,096
+build  ownership.  But  it  does  not
+
+116
+00:03:28,096 --> 00:03:29,895
+mean  every  person  attends  every
+
+117
+00:03:29,895 --> 00:03:33,016
+meeting  or  approves  every  decision.
+
+118
+00:03:33,016 --> 00:03:34,416
+The  team  needs  to  consider  whose
+
+119
+00:03:34,416 --> 00:03:35,655
+perspective  matters  for  a
+
+120
+00:03:35,655 --> 00:03:37,655
+particular  choice  and  involve  them
+
+121
+00:03:37,655 --> 00:03:39,096
+appropriately.
+
+122
+00:03:39,096 --> 00:03:40,816
+We  will  explore  that  more  closely
+
+123
+00:03:40,816 --> 00:03:42,414
+when  we  study  stakeholders.
+
+124
+00:03:42,574 --> 00:03:43,934
+Two  principles  are  easy  to
+
+125
+00:03:43,934 --> 00:03:46,614
+confuse.  Comprehensive  means
+
+126
+00:03:46,614 --> 00:03:48,654
+considering  the  whole  project.
+
+127
+00:03:48,654 --> 00:03:50,654
+Activities,  stakeholders,  risks,
+
+128
+00:03:50,654 --> 00:03:52,254
+resources,  communication,
+
+129
+00:03:52,254 --> 00:03:54,013
+sustainability,  monitoring,  and
+
+130
+00:03:54,013 --> 00:03:55,133
+more.
+
+131
+00:03:55,133 --> 00:03:57,173
+Integrated  means  these  parts  work
+
+132
+00:03:57,173 --> 00:03:58,414
+together.
+
+133
+00:03:58,414 --> 00:04:00,894
+A  schedule  affects  resources.  Risks
+
+134
+00:04:00,894 --> 00:04:02,374
+may  affect  the  schedule.
+
+135
+00:04:02,374 --> 00:04:03,814
+Stakeholder  decisions  can  affect
+
+136
+00:04:03,814 --> 00:04:06,054
+scope.  Monitoring  may  show  that  a
+
+137
+00:04:06,054 --> 00:04:07,734
+plan  needs  to  change.
+
+138
+00:04:07,734 --> 00:04:09,254
+These  are  not  separate  documents
+
+139
+00:04:09,254 --> 00:04:11,294
+prepared  only  to  fill  a  folder.
+
+140
+00:04:11,294 --> 00:04:12,853
+They  are  connected  parts  of  one
+
+141
+00:04:12,853 --> 00:04:15,334
+project  and  one  set  of  decisions.
+
+142
+00:04:15,334 --> 00:04:17,254
+In  the  Delta  River  case,  a  choice
+
+143
+00:04:17,254 --> 00:04:18,774
+about  sanitation  would  affect
+
+144
+00:04:18,774 --> 00:04:21,133
+community  engagement,  costs  and  the
+
+145
+00:04:21,133 --> 00:04:22,455
+way  success  is  measured.
+
+146
+00:04:22,575 --> 00:04:25,894
+The  fifth  principle  is  adaptive.
+
+147
+00:04:25,894 --> 00:04:27,695
+A  carefully  planned  project  will
+
+148
+00:04:27,695 --> 00:04:29,854
+still  face  changes.  A  risk  may
+
+149
+00:04:29,854 --> 00:04:31,775
+become  an  issue,  a  stakeholder
+
+150
+00:04:31,775 --> 00:04:34,054
+need  may  shift,  or  an  assumption
+
+151
+00:04:34,054 --> 00:04:36,134
+may  turn  out  to  be  wrong.
+
+152
+00:04:36,134 --> 00:04:37,815
+Being  adaptive  does  not  mean
+
+153
+00:04:37,815 --> 00:04:39,415
+changing  direction  whenever  someone
+
+154
+00:04:39,415 --> 00:04:42,015
+has  a  new  idea.  It  means  using
+
+155
+00:04:42,015 --> 00:04:44,135
+information  to  decide  whether
+
+156
+00:04:44,135 --> 00:04:46,535
+change  is  needed,  then  managing  it
+
+157
+00:04:46,535 --> 00:04:48,455
+in  a  controlled  way.
+
+158
+00:04:48,455 --> 00:04:50,574
+Plans  and  other  project  documents
+
+159
+00:04:50,574 --> 00:04:52,974
+can  be  updated  as  the  team  turns
+
+160
+00:04:52,974 --> 00:04:55,375
+and  the  context  changes.
+
+161
+00:04:55,375 --> 00:04:57,255
+A  team  may  keep  its  goal  while
+
+162
+00:04:57,255 --> 00:04:59,935
+changing  a  method  or  schedule  when
+
+163
+00:04:59,935 --> 00:05:01,135
+evidence  shows  the  original
+
+164
+00:05:01,135 --> 00:05:03,038
+approach  is  no  longer  suitable.
+
+165
+00:05:03,038 --> 00:05:05,518
+Project  Dpro  also  uses  decision
+
+166
+00:05:05,518 --> 00:05:07,078
+gates,  points  where  the  right
+
+167
+00:05:07,078 --> 00:05:08,917
+people  review  current  information
+
+168
+00:05:08,917 --> 00:05:10,678
+and  ask,  "Are  we  still  doing  the
+
+169
+00:05:10,678 --> 00:05:12,998
+right  project  in  the  right  way?"
+
+170
+00:05:12,998 --> 00:05:14,998
+The  decision  might  be  to  continue,
+
+171
+00:05:14,998 --> 00:05:17,398
+modify  the  project  or  stop  it.
+
+172
+00:05:17,398 --> 00:05:18,917
+Stopping  is  not  automatically
+
+173
+00:05:18,917 --> 00:05:21,198
+failure.  If  a  need  has  changed  or
+
+174
+00:05:21,198 --> 00:05:22,438
+the  intervention  is  no  longer
+
+175
+00:05:22,438 --> 00:05:24,557
+appropriate,  continuing  only  because
+
+176
+00:05:24,557 --> 00:05:25,958
+work  is  already  started  could  make
+
+177
+00:05:25,958 --> 00:05:27,438
+things  worse.
+
+178
+00:05:27,438 --> 00:05:28,637
+A  gate  gives  the  project  a
+
+179
+00:05:28,637 --> 00:05:30,038
+deliberate  moment  to  check  its
+
+180
+00:05:30,038 --> 00:05:31,317
+direction.
+
+181
+00:05:31,317 --> 00:05:32,797
+The  review  needs  current  evidence
+
+182
+00:05:32,797 --> 00:05:34,118
+and  people  with  the  authority  to
+
+183
+00:05:34,118 --> 00:05:36,038
+make  or  approve  the  next  decision.
+
+184
+00:05:36,278 --> 00:05:37,997
+Here  is  governance  in  the  Delta
+
+185
+00:05:37,997 --> 00:05:40,397
+River  Latrine  project.  Rain  is
+
+186
+00:05:40,397 --> 00:05:42,158
+identified  as  a  risk  that  could
+
+187
+00:05:42,158 --> 00:05:44,118
+delay  digging  the  holes.
+
+188
+00:05:44,118 --> 00:05:45,878
+Imagine  that  it  rains  for  five
+
+189
+00:05:45,878 --> 00:05:47,438
+straight  days.
+
+190
+00:05:47,438 --> 00:05:48,797
+The  project  manager  can  make
+
+191
+00:05:48,797 --> 00:05:50,557
+decisions  about  delays  of  up  to
+
+192
+00:05:50,557 --> 00:05:51,877
+three  days.
+
+193
+00:05:51,877 --> 00:05:53,438
+Five  days  is  beyond  that
+
+194
+00:05:53,438 --> 00:05:55,838
+tolerance.  So  the  manager  escalates
+
+195
+00:05:55,838 --> 00:05:57,758
+the  issue  to  the  project  board.
+
+196
+00:05:57,758 --> 00:05:59,397
+The  board  reviews  the  situation
+
+197
+00:05:59,397 --> 00:06:01,358
+and  the  proposed  response  then
+
+198
+00:06:01,358 --> 00:06:03,678
+decides  how  to  proceed.
+
+199
+00:06:03,678 --> 00:06:05,358
+The  example  shows  why  authority
+
+200
+00:06:05,358 --> 00:06:07,118
+limits  matter  when  a  real  issue
+
+201
+00:06:07,118 --> 00:06:09,238
+appears.  It  also  gives  the  manager
+
+202
+00:06:09,238 --> 00:06:10,917
+a  clear  path  when  the  original
+
+203
+00:06:10,917 --> 00:06:13,121
+response  is  beyond  their  authority.
+
+204
+00:06:13,121 --> 00:06:14,960
+One  more  idea  runs  through  the
+
+205
+00:06:14,960 --> 00:06:18,001
+whole  journey.  Meal,  meaning
+
+206
+00:06:18,001 --> 00:06:19,801
+monitoring,  evaluation,
+
+207
+00:06:19,801 --> 00:06:22,201
+accountability,  and  learning.
+
+208
+00:06:22,201 --> 00:06:23,720
+It  is  not  something  the  team  adds
+
+209
+00:06:23,720 --> 00:06:26,161
+at  the  end  to  write  a  report.
+
+210
+00:06:26,161 --> 00:06:28,000
+Early  on,  evidence  helps  us
+
+211
+00:06:28,000 --> 00:06:29,681
+understand  the  need  and  decide
+
+212
+00:06:29,681 --> 00:06:31,320
+what  to  measure.
+
+213
+00:06:31,320 --> 00:06:33,240
+During  implementation,  monitoring
+
+214
+00:06:33,240 --> 00:06:35,361
+shows  progress  and  problems.
+
+215
+00:06:35,361 --> 00:06:36,640
+Feedback  helps  us  remain
+
+216
+00:06:36,640 --> 00:06:38,881
+accountable  to  the  people  affected.
+
+217
+00:06:38,881 --> 00:06:40,881
+Evaluation  and  learning  help  us
+
+218
+00:06:40,881 --> 00:06:42,240
+judge  results  and  improve
+
+219
+00:06:42,240 --> 00:06:43,880
+decisions.
+
+220
+00:06:43,880 --> 00:06:45,680
+Think  of  meal  as  information
+
+221
+00:06:45,680 --> 00:06:47,481
+flowing  through  the  project,
+
+222
+00:06:47,481 --> 00:06:50,041
+helping  the  team  act  and  adapt.
+
+223
+00:06:50,041 --> 00:06:51,641
+We  will  return  to  meal  as  each
+
+224
+00:06:51,641 --> 00:06:53,329
+project  decision  takes  shape.
+
+225
+00:06:53,329 --> 00:06:55,769
+Now,  you  have  the  map.  Five
+
+226
+00:06:55,769 --> 00:06:57,569
+connected  phases  to  guide  where
+
+227
+00:06:57,569 --> 00:06:59,569
+the  project  is  going,  five
+
+228
+00:06:59,569 --> 00:07:01,449
+principles  to  guide  how  it  is
+
+229
+00:07:01,449 --> 00:07:04,169
+managed,  decision  gates  to  check
+
+230
+00:07:04,169 --> 00:07:06,649
+whether  to  continue,  and  meal  to
+
+231
+00:07:06,649 --> 00:07:08,809
+support  decisions  with  evidence  and
+
+232
+00:07:08,809 --> 00:07:09,969
+learning.
+
+233
+00:07:09,969 --> 00:07:12,089
+Keep  the  Delta  River  in  mind.
+
+234
+00:07:12,089 --> 00:07:13,528
+Before  a  team  commits  to  a
+
+235
+00:07:13,528 --> 00:07:15,129
+solution,  what  does  it  need  to
+
+236
+00:07:15,129 --> 00:07:17,969
+know  about  the  people,  the  river,
+
+237
+00:07:17,969 --> 00:07:19,889
+and  the  available  services?
+
+238
+00:07:19,889 --> 00:07:21,809
+That  question  takes  us  into  lesson
+
+239
+00:07:21,809 --> 00:07:24,249
+three.  Understand  standing  needs
+
+240
+00:07:24,249 --> 00:07:26,969
+and  collecting  useful  evidence.
+
+241
+00:07:26,969 --> 00:07:28,769
+You  can  use  that  map  to  locate
+
+242
+00:07:28,769 --> 00:07:30,809
+any  new  question  we  meet.
+
+243
+00:07:30,809 --> 00:07:32,449
+That's  it  for  today.  I'll  see  you
+
+244
+00:07:32,449 --> 00:07:33,495
+in  the  next  lesson.
+

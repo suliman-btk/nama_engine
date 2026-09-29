@@ -137,6 +137,26 @@ export function buildLayouts(splitWidthPct = 40): Record<PresenterLayout, Layout
       featherLeft: 0,
       featherRight: 0,
     },
+    // --- circle family: small round avatar, content-led scenes
+    // The large radiusPx forces a fully circular mask. The spring interpolation
+    // in PresenterLayer animates both the position and the border-radius, so a
+    // PresenterFull → PresenterCircle transition smoothly shrinks the full-bleed
+    // rectangle into a circle in the corner.
+    PresenterCircle: {
+      xPct: 75,
+      yPct: 56.5,
+      wPct: 20.5,
+      hPct: 36.44,
+      objectScale: 1.0,
+      objectPosY: 35,
+      hidden: false,
+      radiusPx: 9999,
+      shadow: false,
+      stageIntensity: 1,
+      fullBleed: false,
+      featherLeft: 0,
+      featherRight: 0,
+    },
     WorksheetFocus: {
       xPct: 4.5,
       yPct: 58,
@@ -177,6 +197,7 @@ export const REQUIRES_GRAPHIC: PresenterLayout[] = [
   "PresenterCornerLeft",
   "PresenterCornerRight",
   "PresenterPictureInPicture",
+  "PresenterCircle",
   "PresenterHidden",
   "GraphicFull",
   "WorksheetFocus",
@@ -199,7 +220,7 @@ export const REQUIRES_GRAPHIC: PresenterLayout[] = [
 
 /** Which side of frame the presenter occupies, so cards lay out on the opposite side. */
 export function presenterSide(layout: PresenterLayout): "left" | "right" | "none" {
-  if (layout === "PresenterCornerRight" || layout === "PresenterRight" || layout === "PresenterPictureInPicture") {
+  if (layout === "PresenterCornerRight" || layout === "PresenterRight" || layout === "PresenterPictureInPicture" || layout === "PresenterCircle") {
     return "right";
   }
   if (layout === "PresenterCornerLeft" || layout === "PresenterLeft" || layout === "WorksheetFocus") {
