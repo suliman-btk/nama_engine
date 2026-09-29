@@ -35,7 +35,7 @@ export function BrandWatermark({
   const t = frame / fps;
 
   let isFullBleed = false;
-  let isRedSlide = false;
+  let isDarkSlide = false;
   if (scenes && scenes.length > 0) {
     const idx = findSceneIndex(scenes, t);
     const scene = scenes[idx];
@@ -45,22 +45,36 @@ export function BrandWatermark({
       for (const ev of scene.events) {
         const props = (ev as any).props;
         if (props) {
+          const bgVal = props.bg;
+          const isExplicitDarkBg =
+            Boolean(bgVal) &&
+            (bgVal === theme.colors.navy ||
+              bgVal === theme.colors.deep ||
+              bgVal === theme.colors.mid ||
+              bgVal === theme.colors.gold ||
+              bgVal === "#A02828" ||
+              (!bgVal.toLowerCase().startsWith("#f") && !bgVal.toLowerCase().startsWith("#fff")));
+
           if (
             props.themeMode === "brand" ||
             props.themeMode === "dark" ||
             props.variant === "brand" ||
+            props.variant === "glass" ||
             props.redBg === true ||
-            (Boolean(props.bg) && (props.bg === "#A02828" || props.bg === theme.colors.mid || props.bg === theme.colors.gold))
+            isExplicitDarkBg
           ) {
-            isRedSlide = true;
+            isDarkSlide = true;
           }
         }
       }
     }
   }
 
-  // When not full bleed, not a red slide, and the surface is white/light, use the colored logo
-  const isLightBg = !isFullBleed && !isRedSlide && (theme.colors.surface === "#FFFFFF" || theme.colors.surface.startsWith("#F"));
+  // When not full bleed, not a dark slide, and the surface is white/light, use the colored logo
+  const isLightBg =
+    !isFullBleed &&
+    !isDarkSlide &&
+    (theme.colors.surface === "#FFFFFF" || theme.colors.surface.startsWith("#F"));
   const logoFile = isLightBg
     ? (brand.watermarkLogoColored || "nama-logo.png")
     : (brand.watermarkLogo || "nama-logo-white.png");
