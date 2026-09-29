@@ -158,15 +158,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 002 — What PRIME Is (Project DPro Core) ─────────────────────────
     {
-      sceneId: "s02-what-prime-is",
+      sceneId: "s02a-prime-introduction",
       start: { atPhrase: "practical course for understanding" },
+      end: { atPhrase: "does not focus only on schedules" },
+      avatar: { layout: "PresenterClose", camera: "close" },
+      transitionIn: "section-reveal",
+      events: [],
+    },
+    {
+      sceneId: "s02-what-prime-is",
+      start: { atPhrase: "does not focus only on schedules" },
       end: { atPhrase: "Think about the kind of work" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "mask-wipe",
       events: [
         {
           id: "s02-pillars",
-          anchor: { atPhrase: "practical course for understanding" },
+          anchor: { atPhrase: "does not focus only on schedules" },
           action: "show",
           component: "CardGridSlide",
           props: {
@@ -254,15 +262,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 004 — So, What Is a Project? (Brand Red Background) ────────────
     {
-      sceneId: "s04-what-is-project",
+      sceneId: "s04a-project-definition-intro",
       start: { atPhrase: "Before going further" },
+      end: { atPhrase: "Project management means" },
+      avatar: { layout: "PresenterFull", camera: "medium" },
+      transitionIn: "scale-through",
+      events: [],
+    },
+    {
+      sceneId: "s04-what-is-project",
+      start: { atPhrase: "Project management means" },
       end: { atPhrase: "Managing a development project" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "dip-to-brand",
       events: [
         {
           id: "s04-definition-cards",
-          anchor: { atPhrase: "Before going further" },
+          anchor: { atPhrase: "Project management means" },
           action: "show",
           component: "CardGridSlide",
           props: {
@@ -300,15 +316,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 005 — Why Development Projects Are Different (Added Visual Slide)
     {
-      sceneId: "s05-why-different",
+      sceneId: "s05a-development-reality",
       start: { atPhrase: "Managing a development project" },
+      end: { atPhrase: "And development projects often aim" },
+      avatar: { layout: "PresenterMedium", camera: "medium" },
+      transitionIn: "mask-wipe",
+      events: [],
+    },
+    {
+      sceneId: "s05-why-different",
+      start: { atPhrase: "And development projects often aim" },
       end: { atPhrase: "For practical examples throughout" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "scale-through",
       events: [
         {
           id: "s05-complexities",
-          anchor: { atPhrase: "Managing a development project" },
+          anchor: { atPhrase: "And development projects often aim" },
           action: "show",
           component: "CardGridSlide",
           props: {
@@ -351,15 +375,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 006 — A Case From Project DPro (Delta River Case Study) ─────────
     {
-      sceneId: "s06-delta-river",
+      sceneId: "s06a-case-introduction",
       start: { atPhrase: "For practical examples throughout" },
+      end: { atPhrase: "One recurring case is the Delta River" },
+      avatar: { layout: "PresenterClose", camera: "close" },
+      transitionIn: "soft-push-right",
+      events: [],
+    },
+    {
+      sceneId: "s06-delta-river",
+      start: { atPhrase: "One recurring case is the Delta River" },
       end: { atPhrase: "Delta River case shows" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "soft-push-right",
       events: [
         {
           id: "s06-case",
-          anchor: { atPhrase: "For practical examples throughout" },
+          anchor: { atPhrase: "One recurring case is the Delta River" },
           action: "show",
           component: "CardGridSlide",
           props: {
@@ -402,15 +434,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 007 — Do Not Start With the Solution (Brand Red Statement) ──────
     {
-      sceneId: "s07-dont-start-solution",
+      sceneId: "s07a-ask-first",
       start: { atPhrase: "Delta River case shows" },
+      end: { atPhrase: "Waste disposal, sanitation" },
+      avatar: { layout: "PresenterFull", camera: "medium" },
+      transitionIn: "dip-to-brand",
+      events: [],
+    },
+    {
+      sceneId: "s07-dont-start-solution",
+      start: { atPhrase: "Waste disposal, sanitation" },
       end: { atPhrase: "Projects also have limits" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "dip-to-brand",
       events: [
         {
           id: "s07-questions",
-          anchor: { atPhrase: "Delta River case shows" },
+          anchor: { atPhrase: "Waste disposal, sanitation" },
           action: "show",
           component: "IconListSlide",
           props: {
@@ -446,15 +486,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 008 — Project Management Is About Balance (The Triangle) ───────
     {
-      sceneId: "s08-about-balance",
+      sceneId: "s08a-project-limits",
       start: { atPhrase: "Projects also have limits" },
+      end: { atPhrase: "Project D Pro connects" },
+      avatar: { layout: "PresenterMedium", camera: "medium" },
+      transitionIn: "section-reveal",
+      events: [],
+    },
+    {
+      sceneId: "s08-about-balance",
+      start: { atPhrase: "Project D Pro connects" },
       end: { atPhrase: "You will learn tools in" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "section-reveal",
       events: [
         {
           id: "s08-triple",
-          anchor: { atPhrase: "Projects also have limits" },
+          anchor: { atPhrase: "Project D Pro connects" },
           action: "show",
           component: "DiagramSlide",
           props: {
@@ -476,15 +524,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 009 — Tools Are Only Half of the Job (Science vs Art) ──────────
     {
-      sceneId: "s09-art-and-science",
+      sceneId: "s09a-tools-and-people",
       start: { atPhrase: "You will learn tools in" },
+      end: { atPhrase: "The science includes" },
+      avatar: { layout: "PresenterClose", camera: "close" },
+      transitionIn: "scale-through",
+      events: [],
+    },
+    {
+      sceneId: "s09-art-and-science",
+      start: { atPhrase: "The science includes" },
       end: { atPhrase: "The guide offers an example" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "mask-wipe",
       events: [
         {
           id: "s09-art-science",
-          anchor: { atPhrase: "You will learn tools in" },
+          anchor: { atPhrase: "The science includes" },
           action: "show",
           component: "CardGridSlide",
           props: {
@@ -516,15 +572,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 010 — An Education Example (David's Leadership Lesson) ─────────
     {
-      sceneId: "s10-david-example",
+      sceneId: "s10a-david-introduction",
       start: { atPhrase: "The guide offers an example" },
+      end: { atPhrase: "His technical work is strong" },
+      avatar: { layout: "PresenterFull", camera: "medium" },
+      transitionIn: "soft-push-left",
+      events: [],
+    },
+    {
+      sceneId: "s10-david-example",
+      start: { atPhrase: "His technical work is strong" },
       end: { atPhrase: "14 connected lessons" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "soft-push-left",
       events: [
         {
           id: "s10-leadership-balance",
-          anchor: { atPhrase: "The guide offers an example" },
+          anchor: { atPhrase: "His technical work is strong" },
           action: "show",
           component: "CardGridSlide",
           props: {
@@ -555,15 +619,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 011 — Your 14-Lesson Journey (4 Curriculum Phases) ─────────────
     {
-      sceneId: "s11-journey",
+      sceneId: "s11a-course-journey-intro",
       start: { atPhrase: "14 connected lessons" },
+      end: { atPhrase: "help you understand the approach" },
+      avatar: { layout: "PresenterMedium", camera: "medium" },
+      transitionIn: "mask-wipe",
+      events: [],
+    },
+    {
+      sceneId: "s11-journey",
+      start: { atPhrase: "help you understand the approach" },
       end: { atPhrase: "By the end of" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "section-reveal",
       events: [
         {
           id: "s11-roadmap",
-          anchor: { atPhrase: "14 connected lessons" },
+          anchor: { atPhrase: "help you understand the approach" },
           action: "show",
           component: "IconListSlide",
           props: {
@@ -605,15 +677,23 @@ const lesson01EdlInput: EdlInput = {
 
     // ── Scene 012 — What You Should Take From PRIME (Tools & Closing) ────────
     {
-      sceneId: "s12-takeaway",
+      sceneId: "s12a-course-takeaway-intro",
       start: { atPhrase: "By the end of" },
-      end: { atSeconds: 490 },
+      end: { atPhrase: "Is it addressing the right need" },
+      avatar: { layout: "PresenterClose", camera: "close" },
+      transitionIn: "section-reveal",
+      events: [],
+    },
+    {
+      sceneId: "s12-takeaway",
+      start: { atPhrase: "Is it addressing the right need" },
+      end: { atPhrase: "In lesson 2" },
       avatar: { layout: "PresenterCircle", camera: "medium" },
       transitionIn: "dip-to-brand",
       events: [
         {
           id: "s12-tools",
-          anchor: { atPhrase: "By the end of" },
+          anchor: { atPhrase: "Is it addressing the right need" },
           action: "show",
           component: "IconListSlide",
           props: {
@@ -632,6 +712,14 @@ const lesson01EdlInput: EdlInput = {
           },
         },
       ],
+    },
+    {
+      sceneId: "s12b-closing",
+      start: { atPhrase: "In lesson 2" },
+      end: { atSeconds: 490 },
+      avatar: { layout: "PresenterFull", camera: "medium" },
+      transitionIn: "scale-through",
+      events: [],
     },
   ],
 };
